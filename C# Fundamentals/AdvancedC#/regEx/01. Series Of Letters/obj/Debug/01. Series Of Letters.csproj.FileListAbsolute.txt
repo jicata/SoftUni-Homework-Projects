@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2013\Projects\regEx\01. Series Of Letters\bin\Debug\_01.Series_Of_Letters.exe.config
+c:\users\maika\documents\visual studio 2013\Projects\regEx\01. Series Of Letters\bin\Debug\_01.Series_Of_Letters.exe
+c:\users\maika\documents\visual studio 2013\Projects\regEx\01. Series Of Letters\bin\Debug\_01.Series_Of_Letters.pdb
+c:\users\maika\documents\visual studio 2013\Projects\regEx\01. Series Of Letters\obj\Debug\01. Series Of Letters.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2013\Projects\regEx\01. Series Of Letters\obj\Debug\_01.Series_Of_Letters.exe
+c:\users\maika\documents\visual studio 2013\Projects\regEx\01. Series Of Letters\obj\Debug\_01.Series_Of_Letters.pdb

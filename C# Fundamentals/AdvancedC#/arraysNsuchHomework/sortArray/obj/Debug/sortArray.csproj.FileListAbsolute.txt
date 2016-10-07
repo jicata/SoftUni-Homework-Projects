@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2013\Projects\arraysNsuchHomework\sortArray\bin\Debug\sortArray.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\arraysNsuchHomework\sortArray\bin\Debug\sortArray.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\arraysNsuchHomework\sortArray\bin\Debug\sortArray.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\arraysNsuchHomework\sortArray\obj\Debug\sortArray.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\arraysNsuchHomework\sortArray\obj\Debug\sortArray.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\arraysNsuchHomework\sortArray\obj\Debug\sortArray.pdb

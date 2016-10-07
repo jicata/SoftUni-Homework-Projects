@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\multiDimenstionArraysNshit\collectTheCoins\bin\Debug\collectTheCoins.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\multiDimenstionArraysNshit\collectTheCoins\bin\Debug\collectTheCoins.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\multiDimenstionArraysNshit\collectTheCoins\bin\Debug\collectTheCoins.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\multiDimenstionArraysNshit\collectTheCoins\obj\Debug\collectTheCoins.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2013\Projects\multiDimenstionArraysNshit\collectTheCoins\obj\Debug\collectTheCoins.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\multiDimenstionArraysNshit\collectTheCoins\obj\Debug\collectTheCoins.pdb

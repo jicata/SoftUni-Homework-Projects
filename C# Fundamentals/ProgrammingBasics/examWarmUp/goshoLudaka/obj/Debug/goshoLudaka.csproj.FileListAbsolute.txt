@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmUp\goshoLudaka\bin\Debug\goshoLudaka.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmUp\goshoLudaka\bin\Debug\goshoLudaka.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmUp\goshoLudaka\bin\Debug\goshoLudaka.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmUp\goshoLudaka\obj\Debug\goshoLudaka.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmUp\goshoLudaka\obj\Debug\goshoLudaka.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmUp\goshoLudaka\obj\Debug\goshoLudaka.pdb

@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2015\Projects\GreedyAlgos\01_FractionalKnapsack\bin\Debug\01_FractionalKnapsack.exe.config
+c:\users\maika\documents\visual studio 2015\Projects\GreedyAlgos\01_FractionalKnapsack\bin\Debug\01_FractionalKnapsack.exe
+c:\users\maika\documents\visual studio 2015\Projects\GreedyAlgos\01_FractionalKnapsack\bin\Debug\01_FractionalKnapsack.pdb
+c:\users\maika\documents\visual studio 2015\Projects\GreedyAlgos\01_FractionalKnapsack\obj\Debug\01_FractionalKnapsack.exe
+c:\users\maika\documents\visual studio 2015\Projects\GreedyAlgos\01_FractionalKnapsack\obj\Debug\01_FractionalKnapsack.pdb
+c:\users\maika\documents\visual studio 2015\Projects\GreedyAlgos\01_FractionalKnapsack\obj\Debug\01_FractionalKnapsack.csprojResolveAssemblyReference.cache

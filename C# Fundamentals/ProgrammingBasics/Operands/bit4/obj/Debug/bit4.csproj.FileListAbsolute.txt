@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OperandsNshit\bit4\bin\Debug\bit4.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OperandsNshit\bit4\bin\Debug\bit4.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OperandsNshit\bit4\bin\Debug\bit4.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OperandsNshit\bit4\obj\Debug\bit4.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OperandsNshit\bit4\obj\Debug\bit4.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OperandsNshit\bit4\obj\Debug\bit4.pdb

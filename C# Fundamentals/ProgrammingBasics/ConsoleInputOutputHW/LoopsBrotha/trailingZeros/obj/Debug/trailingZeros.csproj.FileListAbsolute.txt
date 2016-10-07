@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\trailingZeros\bin\Debug\trailingZeros.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\trailingZeros\bin\Debug\trailingZeros.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\trailingZeros\bin\Debug\trailingZeros.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\trailingZeros\obj\Debug\trailingZeros.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\trailingZeros\obj\Debug\trailingZeros.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\trailingZeros\obj\Debug\trailingZeros.pdb

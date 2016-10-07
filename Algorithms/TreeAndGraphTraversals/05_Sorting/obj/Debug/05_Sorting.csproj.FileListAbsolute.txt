@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2015\Projects\TreeAndGraphTraversals\05_Sorting\bin\Debug\05_Sorting.exe.config
+C:\Users\Maika\documents\visual studio 2015\Projects\TreeAndGraphTraversals\05_Sorting\bin\Debug\05_Sorting.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\TreeAndGraphTraversals\05_Sorting\bin\Debug\05_Sorting.pdb
+C:\Users\Maika\documents\visual studio 2015\Projects\TreeAndGraphTraversals\05_Sorting\obj\Debug\05_Sorting.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2015\Projects\TreeAndGraphTraversals\05_Sorting\obj\Debug\05_Sorting.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\TreeAndGraphTraversals\05_Sorting\obj\Debug\05_Sorting.pdb

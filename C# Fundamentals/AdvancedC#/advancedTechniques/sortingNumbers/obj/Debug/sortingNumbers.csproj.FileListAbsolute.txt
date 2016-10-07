@@ -1,0 +1,5 @@
+c:\users\maika\documents\visual studio 2013\Projects\advancedTechniques\sortingNumbers\bin\Debug\sortingNumbers.exe.config
+c:\users\maika\documents\visual studio 2013\Projects\advancedTechniques\sortingNumbers\bin\Debug\sortingNumbers.exe
+c:\users\maika\documents\visual studio 2013\Projects\advancedTechniques\sortingNumbers\bin\Debug\sortingNumbers.pdb
+c:\users\maika\documents\visual studio 2013\Projects\advancedTechniques\sortingNumbers\obj\Debug\sortingNumbers.exe
+c:\users\maika\documents\visual studio 2013\Projects\advancedTechniques\sortingNumbers\obj\Debug\sortingNumbers.pdb

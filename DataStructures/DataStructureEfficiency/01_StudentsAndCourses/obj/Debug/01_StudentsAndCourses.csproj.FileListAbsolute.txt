@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2015\Projects\DataStructureEfficiency\01_StudentsAndCourses\bin\Debug\01_StudentsAndCourses.exe.config
+c:\users\maika\documents\visual studio 2015\Projects\DataStructureEfficiency\01_StudentsAndCourses\bin\Debug\01_StudentsAndCourses.exe
+c:\users\maika\documents\visual studio 2015\Projects\DataStructureEfficiency\01_StudentsAndCourses\bin\Debug\01_StudentsAndCourses.pdb
+c:\users\maika\documents\visual studio 2015\Projects\DataStructureEfficiency\01_StudentsAndCourses\obj\Debug\01_StudentsAndCourses.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2015\Projects\DataStructureEfficiency\01_StudentsAndCourses\obj\Debug\01_StudentsAndCourses.exe
+c:\users\maika\documents\visual studio 2015\Projects\DataStructureEfficiency\01_StudentsAndCourses\obj\Debug\01_StudentsAndCourses.pdb

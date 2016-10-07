@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2013\Projects\Exercise\StringsChars\bin\Debug\StringsChars.exe.config
+c:\users\maika\documents\visual studio 2013\Projects\Exercise\StringsChars\bin\Debug\StringsChars.exe
+c:\users\maika\documents\visual studio 2013\Projects\Exercise\StringsChars\bin\Debug\StringsChars.pdb
+c:\users\maika\documents\visual studio 2013\Projects\Exercise\StringsChars\obj\Debug\StringsChars.exe
+c:\users\maika\documents\visual studio 2013\Projects\Exercise\StringsChars\obj\Debug\StringsChars.pdb
+c:\users\maika\documents\visual studio 2013\Projects\Exercise\StringsChars\obj\Debug\StringsChars.csprojResolveAssemblyReference.cache

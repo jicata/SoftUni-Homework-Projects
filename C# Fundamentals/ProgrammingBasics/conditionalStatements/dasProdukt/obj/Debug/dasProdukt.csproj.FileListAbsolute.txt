@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\conditionalStatements\dasProdukt\bin\Debug\dasProdukt.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\conditionalStatements\dasProdukt\bin\Debug\dasProdukt.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\conditionalStatements\dasProdukt\bin\Debug\dasProdukt.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\conditionalStatements\dasProdukt\obj\Debug\dasProdukt.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2013\Projects\conditionalStatements\dasProdukt\obj\Debug\dasProdukt.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\conditionalStatements\dasProdukt\obj\Debug\dasProdukt.pdb

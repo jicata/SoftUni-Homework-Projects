@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2015\Projects\Empire\Empire\bin\Debug\Empire.exe.config
+C:\Users\Maika\documents\visual studio 2015\Projects\Empire\Empire\bin\Debug\Empire.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\Empire\Empire\bin\Debug\Empire.pdb
+C:\Users\Maika\documents\visual studio 2015\Projects\Empire\Empire\obj\Debug\Empire.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2015\Projects\Empire\Empire\obj\Debug\Empire.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\Empire\Empire\obj\Debug\Empire.pdb

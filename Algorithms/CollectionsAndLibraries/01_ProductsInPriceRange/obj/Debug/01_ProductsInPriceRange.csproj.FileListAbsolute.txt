@@ -1,0 +1,7 @@
+c:\users\maika\documents\visual studio 2015\Projects\CollectionsAndLibraries\01_ProductsInPriceRange\bin\Debug\01_ProductsInPriceRange.exe.config
+c:\users\maika\documents\visual studio 2015\Projects\CollectionsAndLibraries\01_ProductsInPriceRange\bin\Debug\01_ProductsInPriceRange.exe
+c:\users\maika\documents\visual studio 2015\Projects\CollectionsAndLibraries\01_ProductsInPriceRange\bin\Debug\01_ProductsInPriceRange.pdb
+c:\users\maika\documents\visual studio 2015\Projects\CollectionsAndLibraries\01_ProductsInPriceRange\bin\Debug\PowerCollections.dll
+c:\users\maika\documents\visual studio 2015\Projects\CollectionsAndLibraries\01_ProductsInPriceRange\bin\Debug\PowerCollections.xml
+c:\users\maika\documents\visual studio 2015\Projects\CollectionsAndLibraries\01_ProductsInPriceRange\obj\Debug\01_ProductsInPriceRange.exe
+c:\users\maika\documents\visual studio 2015\Projects\CollectionsAndLibraries\01_ProductsInPriceRange\obj\Debug\01_ProductsInPriceRange.pdb

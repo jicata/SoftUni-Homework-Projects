@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2013\Projects\ConsoleInputOutputHW\threeNumbers\bin\Debug\threeNumbers.exe.config
+c:\users\maika\documents\visual studio 2013\Projects\ConsoleInputOutputHW\threeNumbers\obj\Debug\threeNumbers.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2013\Projects\ConsoleInputOutputHW\threeNumbers\bin\Debug\threeNumbers.exe
+c:\users\maika\documents\visual studio 2013\Projects\ConsoleInputOutputHW\threeNumbers\bin\Debug\threeNumbers.pdb
+c:\users\maika\documents\visual studio 2013\Projects\ConsoleInputOutputHW\threeNumbers\obj\Debug\threeNumbers.exe
+c:\users\maika\documents\visual studio 2013\Projects\ConsoleInputOutputHW\threeNumbers\obj\Debug\threeNumbers.pdb

@@ -1,0 +1,5 @@
+C:\Users\Maika\documents\visual studio 2015\Projects\Algorithms\05_CombinationsWithoutRepetitions\bin\Debug\05_CombinationsWithoutRepetitions.exe.config
+C:\Users\Maika\documents\visual studio 2015\Projects\Algorithms\05_CombinationsWithoutRepetitions\bin\Debug\05_CombinationsWithoutRepetitions.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\Algorithms\05_CombinationsWithoutRepetitions\bin\Debug\05_CombinationsWithoutRepetitions.pdb
+C:\Users\Maika\documents\visual studio 2015\Projects\Algorithms\05_CombinationsWithoutRepetitions\obj\Debug\05_CombinationsWithoutRepetitions.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\Algorithms\05_CombinationsWithoutRepetitions\obj\Debug\05_CombinationsWithoutRepetitions.pdb

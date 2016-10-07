@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\DictionariesHashSetsAndTables\09_UserLogs\bin\Debug\09_UserLogs.exe.config
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\DictionariesHashSetsAndTables\09_UserLogs\bin\Debug\09_UserLogs.exe
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\DictionariesHashSetsAndTables\09_UserLogs\bin\Debug\09_UserLogs.pdb
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\DictionariesHashSetsAndTables\09_UserLogs\obj\Debug\09_UserLogs.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\DictionariesHashSetsAndTables\09_UserLogs\obj\Debug\09_UserLogs.exe
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\DictionariesHashSetsAndTables\09_UserLogs\obj\Debug\09_UserLogs.pdb

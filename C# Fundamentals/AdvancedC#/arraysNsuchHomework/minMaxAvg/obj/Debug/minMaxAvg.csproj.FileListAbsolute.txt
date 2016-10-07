@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\arraysNsuchHomework\minMaxAvg\bin\Debug\minMaxAvg.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\arraysNsuchHomework\minMaxAvg\bin\Debug\minMaxAvg.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\arraysNsuchHomework\minMaxAvg\bin\Debug\minMaxAvg.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\arraysNsuchHomework\minMaxAvg\obj\Debug\minMaxAvg.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\arraysNsuchHomework\minMaxAvg\obj\Debug\minMaxAvg.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\arraysNsuchHomework\minMaxAvg\obj\Debug\minMaxAvg.pdb

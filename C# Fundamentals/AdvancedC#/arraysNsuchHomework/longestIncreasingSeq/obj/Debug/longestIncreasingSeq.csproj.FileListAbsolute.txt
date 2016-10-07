@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\arraysNsuchHomework\longestIncreasingSeq\bin\Debug\longestIncreasingSeq.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\arraysNsuchHomework\longestIncreasingSeq\bin\Debug\longestIncreasingSeq.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\arraysNsuchHomework\longestIncreasingSeq\bin\Debug\longestIncreasingSeq.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\arraysNsuchHomework\longestIncreasingSeq\obj\Debug\longestIncreasingSeq.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\arraysNsuchHomework\longestIncreasingSeq\obj\Debug\longestIncreasingSeq.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\arraysNsuchHomework\longestIncreasingSeq\obj\Debug\longestIncreasingSeq.csprojResolveAssemblyReference.cache

@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\ExamProblems\haralampi\bin\Debug\haralampi.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\ExamProblems\haralampi\bin\Debug\haralampi.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\ExamProblems\haralampi\bin\Debug\haralampi.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\ExamProblems\haralampi\obj\Debug\haralampi.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\ExamProblems\haralampi\obj\Debug\haralampi.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\ExamProblems\haralampi\obj\Debug\haralampi.csprojResolveAssemblyReference.cache

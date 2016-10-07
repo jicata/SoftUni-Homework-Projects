@@ -1,0 +1,9 @@
+﻿  stdafx.cpp
+  Teacher.cpp
+  Student.cpp
+  SoftUniTeacher.cpp
+  SoftUniPerson.cpp
+  01. SoftUniPersonell.cpp
+  Generating Code...
+c:\users\maika\documents\visual studio 2015\projects\inheritanceinc++\01. softunipersonell\student.cpp(26): warning C4715: 'Student::getAverageMark': not all control paths return a value
+  01. SoftUniPersonell.vcxproj -> C:\Users\Maika\Documents\Visual Studio 2015\Projects\InheritanceInC++\Debug\01. SoftUniPersonell.exe

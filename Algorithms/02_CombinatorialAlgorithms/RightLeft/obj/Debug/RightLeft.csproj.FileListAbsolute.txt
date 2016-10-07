@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2015\Projects\02_CombinatorialAlgorithms\RightLeft\bin\Debug\RightLeft.exe.config
+C:\Users\Maika\documents\visual studio 2015\Projects\02_CombinatorialAlgorithms\RightLeft\bin\Debug\RightLeft.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\02_CombinatorialAlgorithms\RightLeft\bin\Debug\RightLeft.pdb
+C:\Users\Maika\documents\visual studio 2015\Projects\02_CombinatorialAlgorithms\RightLeft\obj\Debug\RightLeft.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2015\Projects\02_CombinatorialAlgorithms\RightLeft\obj\Debug\RightLeft.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\02_CombinatorialAlgorithms\RightLeft\obj\Debug\RightLeft.pdb

@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\BitsUP\bin\Debug\BitsUP.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\BitsUP\bin\Debug\BitsUP.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\BitsUP\bin\Debug\BitsUP.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\BitsUP\obj\Debug\BitsUP.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\BitsUP\obj\Debug\BitsUP.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\BitsUP\obj\Debug\BitsUP.csprojResolveAssemblyReference.cache

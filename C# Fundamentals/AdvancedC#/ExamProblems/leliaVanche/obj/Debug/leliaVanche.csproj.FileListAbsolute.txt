@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\leliaVanche\bin\Debug\leliaVanche.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\leliaVanche\bin\Debug\leliaVanche.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\leliaVanche\bin\Debug\leliaVanche.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\leliaVanche\obj\Debug\leliaVanche.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\leliaVanche\obj\Debug\leliaVanche.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\leliaVanche\obj\Debug\leliaVanche.pdb

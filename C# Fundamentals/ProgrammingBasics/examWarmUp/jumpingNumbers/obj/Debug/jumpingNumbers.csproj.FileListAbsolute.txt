@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmUp\jumpingNumbers\bin\Debug\jumpingNumbers.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmUp\jumpingNumbers\bin\Debug\jumpingNumbers.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmUp\jumpingNumbers\bin\Debug\jumpingNumbers.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmUp\jumpingNumbers\obj\Debug\jumpingNumbers.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmUp\jumpingNumbers\obj\Debug\jumpingNumbers.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmUp\jumpingNumbers\obj\Debug\jumpingNumbers.pdb

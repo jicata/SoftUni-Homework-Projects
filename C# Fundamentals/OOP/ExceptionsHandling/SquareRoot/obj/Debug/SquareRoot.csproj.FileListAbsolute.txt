@@ -1,0 +1,5 @@
+c:\users\maika\documents\visual studio 2013\Projects\ExceptionsHandling\SquareRoot\bin\Debug\SquareRoot.exe.config
+c:\users\maika\documents\visual studio 2013\Projects\ExceptionsHandling\SquareRoot\bin\Debug\SquareRoot.exe
+c:\users\maika\documents\visual studio 2013\Projects\ExceptionsHandling\SquareRoot\bin\Debug\SquareRoot.pdb
+c:\users\maika\documents\visual studio 2013\Projects\ExceptionsHandling\SquareRoot\obj\Debug\SquareRoot.exe
+c:\users\maika\documents\visual studio 2013\Projects\ExceptionsHandling\SquareRoot\obj\Debug\SquareRoot.pdb

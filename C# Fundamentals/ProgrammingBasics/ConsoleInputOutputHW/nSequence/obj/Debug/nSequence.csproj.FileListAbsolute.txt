@@ -1,0 +1,5 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ConsoleInputOutputHW\nSequence\bin\Debug\nSequence.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ConsoleInputOutputHW\nSequence\bin\Debug\nSequence.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ConsoleInputOutputHW\nSequence\bin\Debug\nSequence.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ConsoleInputOutputHW\nSequence\obj\Debug\nSequence.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ConsoleInputOutputHW\nSequence\obj\Debug\nSequence.pdb

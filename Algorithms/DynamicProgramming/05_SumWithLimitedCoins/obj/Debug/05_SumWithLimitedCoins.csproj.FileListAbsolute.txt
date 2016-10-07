@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2015\Projects\DynamicProgramming\05_SumWithLimitedCoins\bin\Debug\05_SumWithLimitedCoins.exe.config
+C:\Users\Maika\documents\visual studio 2015\Projects\DynamicProgramming\05_SumWithLimitedCoins\bin\Debug\05_SumWithLimitedCoins.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\DynamicProgramming\05_SumWithLimitedCoins\bin\Debug\05_SumWithLimitedCoins.pdb
+C:\Users\Maika\documents\visual studio 2015\Projects\DynamicProgramming\05_SumWithLimitedCoins\obj\Debug\05_SumWithLimitedCoins.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2015\Projects\DynamicProgramming\05_SumWithLimitedCoins\obj\Debug\05_SumWithLimitedCoins.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\DynamicProgramming\05_SumWithLimitedCoins\obj\Debug\05_SumWithLimitedCoins.pdb

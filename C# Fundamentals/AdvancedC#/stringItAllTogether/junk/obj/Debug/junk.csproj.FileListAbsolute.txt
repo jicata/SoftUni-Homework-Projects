@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\stringItAllTogether\junk\bin\Debug\junk.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\stringItAllTogether\junk\bin\Debug\junk.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\stringItAllTogether\junk\bin\Debug\junk.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\stringItAllTogether\junk\obj\Debug\junk.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2013\Projects\stringItAllTogether\junk\obj\Debug\junk.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\stringItAllTogether\junk\obj\Debug\junk.pdb

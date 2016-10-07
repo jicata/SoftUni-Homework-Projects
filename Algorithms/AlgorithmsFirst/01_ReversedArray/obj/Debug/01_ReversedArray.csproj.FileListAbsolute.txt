@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2015\Projects\Algorithms\01_ReversedArray\bin\Debug\01_ReversedArray.exe.config
+C:\Users\Maika\documents\visual studio 2015\Projects\Algorithms\01_ReversedArray\bin\Debug\01_ReversedArray.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\Algorithms\01_ReversedArray\bin\Debug\01_ReversedArray.pdb
+C:\Users\Maika\documents\visual studio 2015\Projects\Algorithms\01_ReversedArray\obj\Debug\01_ReversedArray.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2015\Projects\Algorithms\01_ReversedArray\obj\Debug\01_ReversedArray.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\Algorithms\01_ReversedArray\obj\Debug\01_ReversedArray.pdb

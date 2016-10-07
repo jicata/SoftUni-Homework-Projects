@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\StaticMembersAndNamespace\EuclidWasACoolDude\bin\Debug\EuclidWasACoolDude.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\StaticMembersAndNamespace\EuclidWasACoolDude\obj\Debug\EuclidWasACoolDude.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\StaticMembersAndNamespace\EuclidWasACoolDude\obj\Debug\EuclidWasACoolDude.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\StaticMembersAndNamespace\EuclidWasACoolDude\bin\Debug\EuclidWasACoolDude.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\StaticMembersAndNamespace\EuclidWasACoolDude\bin\Debug\EuclidWasACoolDude.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\StaticMembersAndNamespace\EuclidWasACoolDude\obj\Debug\EuclidWasACoolDude(prob 1-3).csprojResolveAssemblyReference.cache

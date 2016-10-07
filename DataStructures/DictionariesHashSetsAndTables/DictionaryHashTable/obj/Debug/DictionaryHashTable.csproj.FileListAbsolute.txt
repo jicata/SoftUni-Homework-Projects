@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2015\Projects\DictionariesHashSetsAndTables\DictionaryHashTable\bin\Debug\DictionaryHashTable.exe.config
+c:\users\maika\documents\visual studio 2015\Projects\DictionariesHashSetsAndTables\DictionaryHashTable\bin\Debug\DictionaryHashTable.exe
+c:\users\maika\documents\visual studio 2015\Projects\DictionariesHashSetsAndTables\DictionaryHashTable\bin\Debug\DictionaryHashTable.pdb
+c:\users\maika\documents\visual studio 2015\Projects\DictionariesHashSetsAndTables\DictionaryHashTable\obj\Debug\DictionaryHashTable.exe
+c:\users\maika\documents\visual studio 2015\Projects\DictionariesHashSetsAndTables\DictionaryHashTable\obj\Debug\DictionaryHashTable.pdb
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\DictionariesHashSetsAndTables\DictionaryHashTable\obj\Debug\DictionaryHashTable.csprojResolveAssemblyReference.cache

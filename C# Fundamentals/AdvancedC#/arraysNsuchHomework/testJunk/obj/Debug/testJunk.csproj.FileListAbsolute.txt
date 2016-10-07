@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\arraysNsuchHomework\testJunk\bin\Debug\testJunk.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\arraysNsuchHomework\testJunk\obj\Debug\testJunk.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2013\Projects\arraysNsuchHomework\testJunk\bin\Debug\testJunk.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\arraysNsuchHomework\testJunk\bin\Debug\testJunk.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\arraysNsuchHomework\testJunk\obj\Debug\testJunk.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\arraysNsuchHomework\testJunk\obj\Debug\testJunk.pdb

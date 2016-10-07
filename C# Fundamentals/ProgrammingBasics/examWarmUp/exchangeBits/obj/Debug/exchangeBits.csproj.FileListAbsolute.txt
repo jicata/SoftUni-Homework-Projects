@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmUp\exchangeBits\bin\Debug\exchangeBits.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmUp\exchangeBits\bin\Debug\exchangeBits.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmUp\exchangeBits\bin\Debug\exchangeBits.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmUp\exchangeBits\obj\Debug\exchangeBits.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmUp\exchangeBits\obj\Debug\exchangeBits.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmUp\exchangeBits\obj\Debug\exchangeBits.pdb

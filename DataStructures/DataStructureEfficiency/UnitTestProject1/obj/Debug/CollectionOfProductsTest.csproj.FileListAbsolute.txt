@@ -1,0 +1,10 @@
+C:\Users\Maika\documents\visual studio 2015\Projects\DataStructureEfficiency\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+C:\Users\Maika\documents\visual studio 2015\Projects\DataStructureEfficiency\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+C:\Users\Maika\documents\visual studio 2015\Projects\DataStructureEfficiency\UnitTestProject1\bin\Debug\03_CollectionOfProducts.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\DataStructureEfficiency\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Maika\documents\visual studio 2015\Projects\DataStructureEfficiency\UnitTestProject1\bin\Debug\PowerCollections.dll
+C:\Users\Maika\documents\visual studio 2015\Projects\DataStructureEfficiency\UnitTestProject1\bin\Debug\03_CollectionOfProducts.pdb
+C:\Users\Maika\documents\visual studio 2015\Projects\DataStructureEfficiency\UnitTestProject1\bin\Debug\PowerCollections.xml
+C:\Users\Maika\documents\visual studio 2015\Projects\DataStructureEfficiency\UnitTestProject1\obj\Debug\CollectionOfProductsTest.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2015\Projects\DataStructureEfficiency\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+C:\Users\Maika\documents\visual studio 2015\Projects\DataStructureEfficiency\UnitTestProject1\obj\Debug\UnitTestProject1.pdb

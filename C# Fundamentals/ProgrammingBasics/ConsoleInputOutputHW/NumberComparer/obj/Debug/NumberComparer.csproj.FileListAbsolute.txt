@@ -1,0 +1,5 @@
+c:\users\maika\documents\visual studio 2013\Projects\ConsoleInputOutputHW\NumberComparer\bin\Debug\NumberComparer.exe.config
+c:\users\maika\documents\visual studio 2013\Projects\ConsoleInputOutputHW\NumberComparer\bin\Debug\NumberComparer.exe
+c:\users\maika\documents\visual studio 2013\Projects\ConsoleInputOutputHW\NumberComparer\bin\Debug\NumberComparer.pdb
+c:\users\maika\documents\visual studio 2013\Projects\ConsoleInputOutputHW\NumberComparer\obj\Debug\NumberComparer.exe
+c:\users\maika\documents\visual studio 2013\Projects\ConsoleInputOutputHW\NumberComparer\obj\Debug\NumberComparer.pdb

@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\streamsNFiles\05. Slicing Files\bin\Debug\_05.Slicing_Files.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\streamsNFiles\05. Slicing Files\bin\Debug\_05.Slicing_Files.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\streamsNFiles\05. Slicing Files\bin\Debug\_05.Slicing_Files.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\streamsNFiles\05. Slicing Files\obj\Debug\_05.Slicing_Files.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\streamsNFiles\05. Slicing Files\obj\Debug\_05.Slicing_Files.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\streamsNFiles\05. Slicing Files\obj\Debug\05. Slicing Files.csprojResolveAssemblyReference.cache

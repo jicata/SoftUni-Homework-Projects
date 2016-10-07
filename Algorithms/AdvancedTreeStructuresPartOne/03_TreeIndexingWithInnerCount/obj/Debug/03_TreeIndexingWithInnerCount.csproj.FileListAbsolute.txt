@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2015\Projects\AdvancedTreeStructuresPartOne\03_TreeIndexingWithInnerCount\bin\Debug\03_TreeIndexingWithInnerCount.exe.config
+C:\Users\Maika\documents\visual studio 2015\Projects\AdvancedTreeStructuresPartOne\03_TreeIndexingWithInnerCount\bin\Debug\03_TreeIndexingWithInnerCount.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\AdvancedTreeStructuresPartOne\03_TreeIndexingWithInnerCount\bin\Debug\03_TreeIndexingWithInnerCount.pdb
+C:\Users\Maika\documents\visual studio 2015\Projects\AdvancedTreeStructuresPartOne\03_TreeIndexingWithInnerCount\obj\Debug\03_TreeIndexingWithInnerCount.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2015\Projects\AdvancedTreeStructuresPartOne\03_TreeIndexingWithInnerCount\obj\Debug\03_TreeIndexingWithInnerCount.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\AdvancedTreeStructuresPartOne\03_TreeIndexingWithInnerCount\obj\Debug\03_TreeIndexingWithInnerCount.pdb

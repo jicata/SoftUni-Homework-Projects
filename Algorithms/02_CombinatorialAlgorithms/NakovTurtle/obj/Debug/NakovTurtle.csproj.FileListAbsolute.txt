@@ -1,0 +1,10 @@
+C:\Users\Maika\documents\visual studio 2015\Projects\02_CombinatorialAlgorithms\NakovTurtle\bin\Debug\NakovTurtle.exe.config
+C:\Users\Maika\documents\visual studio 2015\Projects\02_CombinatorialAlgorithms\NakovTurtle\bin\Debug\NakovTurtle.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\02_CombinatorialAlgorithms\NakovTurtle\bin\Debug\NakovTurtle.pdb
+C:\Users\Maika\documents\visual studio 2015\Projects\02_CombinatorialAlgorithms\NakovTurtle\bin\Debug\Nakov.TurtleGraphics.dll
+C:\Users\Maika\documents\visual studio 2015\Projects\02_CombinatorialAlgorithms\NakovTurtle\obj\Debug\NakovTurtle.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2015\Projects\02_CombinatorialAlgorithms\NakovTurtle\obj\Debug\NakovTurtle.Form1.resources
+C:\Users\Maika\documents\visual studio 2015\Projects\02_CombinatorialAlgorithms\NakovTurtle\obj\Debug\NakovTurtle.Properties.Resources.resources
+C:\Users\Maika\documents\visual studio 2015\Projects\02_CombinatorialAlgorithms\NakovTurtle\obj\Debug\NakovTurtle.csproj.GenerateResource.Cache
+C:\Users\Maika\documents\visual studio 2015\Projects\02_CombinatorialAlgorithms\NakovTurtle\obj\Debug\NakovTurtle.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\02_CombinatorialAlgorithms\NakovTurtle\obj\Debug\NakovTurtle.pdb

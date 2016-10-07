@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\fallingRocksBaby\battleShipsDemo\bin\Debug\battleShipsDemo.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\fallingRocksBaby\battleShipsDemo\bin\Debug\battleShipsDemo.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\fallingRocksBaby\battleShipsDemo\bin\Debug\battleShipsDemo.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\fallingRocksBaby\battleShipsDemo\obj\Debug\battleShipsDemo.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\fallingRocksBaby\battleShipsDemo\obj\Debug\battleShipsDemo.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\fallingRocksBaby\battleShipsDemo\obj\Debug\battleShipsDemo.pdb

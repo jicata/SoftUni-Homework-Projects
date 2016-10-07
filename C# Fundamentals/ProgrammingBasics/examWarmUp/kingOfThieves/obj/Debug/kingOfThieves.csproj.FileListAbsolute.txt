@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmUp\kingOfThieves\bin\Debug\kingOfThieves.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmUp\kingOfThieves\bin\Debug\kingOfThieves.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmUp\kingOfThieves\bin\Debug\kingOfThieves.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmUp\kingOfThieves\obj\Debug\kingOfThieves.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmUp\kingOfThieves\obj\Debug\kingOfThieves.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmUp\kingOfThieves\obj\Debug\kingOfThieves.csprojResolveAssemblyReference.cache

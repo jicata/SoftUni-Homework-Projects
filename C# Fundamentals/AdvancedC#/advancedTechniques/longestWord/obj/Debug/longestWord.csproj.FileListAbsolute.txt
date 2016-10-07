@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\advancedTechniques\longestWord\bin\Debug\longestWord.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\advancedTechniques\longestWord\bin\Debug\longestWord.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\advancedTechniques\longestWord\bin\Debug\longestWord.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\advancedTechniques\longestWord\obj\Debug\longestWord.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2013\Projects\advancedTechniques\longestWord\obj\Debug\longestWord.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\advancedTechniques\longestWord\obj\Debug\longestWord.pdb

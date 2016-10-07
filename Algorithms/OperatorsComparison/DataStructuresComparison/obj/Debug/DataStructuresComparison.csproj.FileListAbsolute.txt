@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2015\Projects\OperatorsComparison\DataStructuresComparison\bin\Debug\DataStructuresComparison.exe.config
+C:\Users\Maika\documents\visual studio 2015\Projects\OperatorsComparison\DataStructuresComparison\bin\Debug\DataStructuresComparison.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\OperatorsComparison\DataStructuresComparison\bin\Debug\DataStructuresComparison.pdb
+C:\Users\Maika\documents\visual studio 2015\Projects\OperatorsComparison\DataStructuresComparison\obj\Debug\DataStructuresComparison.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2015\Projects\OperatorsComparison\DataStructuresComparison\obj\Debug\DataStructuresComparison.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\OperatorsComparison\DataStructuresComparison\obj\Debug\DataStructuresComparison.pdb

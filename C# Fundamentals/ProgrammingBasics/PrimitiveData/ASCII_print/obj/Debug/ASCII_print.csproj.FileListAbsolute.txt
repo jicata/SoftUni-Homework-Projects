@@ -1,0 +1,5 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\PrimitiveData\ASCII_print\bin\Debug\ASCII_print.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\PrimitiveData\ASCII_print\bin\Debug\ASCII_print.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\PrimitiveData\ASCII_print\bin\Debug\ASCII_print.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\PrimitiveData\ASCII_print\obj\Debug\ASCII_print.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\PrimitiveData\ASCII_print\obj\Debug\ASCII_print.pdb

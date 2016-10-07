@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmUp\winningNumbers\bin\Debug\winningNumbers.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmUp\winningNumbers\bin\Debug\winningNumbers.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmUp\winningNumbers\bin\Debug\winningNumbers.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmUp\winningNumbers\obj\Debug\winningNumbers.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmUp\winningNumbers\obj\Debug\winningNumbers.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmUp\winningNumbers\obj\Debug\winningNumbers.pdb

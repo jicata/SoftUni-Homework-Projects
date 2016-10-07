@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2015\Projects\TicTacToe\Main\bin\Debug\Main.exe.config
+c:\users\maika\documents\visual studio 2015\Projects\TicTacToe\Main\bin\Debug\Main.exe
+c:\users\maika\documents\visual studio 2015\Projects\TicTacToe\Main\bin\Debug\Main.pdb
+c:\users\maika\documents\visual studio 2015\Projects\TicTacToe\Main\obj\Debug\Main.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2015\Projects\TicTacToe\Main\obj\Debug\Main.exe
+c:\users\maika\documents\visual studio 2015\Projects\TicTacToe\Main\obj\Debug\Main.pdb

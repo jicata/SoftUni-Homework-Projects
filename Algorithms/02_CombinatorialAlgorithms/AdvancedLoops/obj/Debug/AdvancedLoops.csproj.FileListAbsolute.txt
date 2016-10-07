@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\02_CombinatorialAlgorithms\AdvancedLoops\bin\Debug\AdvancedLoops.exe.config
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\02_CombinatorialAlgorithms\AdvancedLoops\bin\Debug\AdvancedLoops.exe
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\02_CombinatorialAlgorithms\AdvancedLoops\bin\Debug\AdvancedLoops.pdb
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\02_CombinatorialAlgorithms\AdvancedLoops\obj\Debug\AdvancedLoops.exe
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\02_CombinatorialAlgorithms\AdvancedLoops\obj\Debug\AdvancedLoops.pdb
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\02_CombinatorialAlgorithms\AdvancedLoops\obj\Debug\AdvancedLoops.csprojResolveAssemblyReference.cache

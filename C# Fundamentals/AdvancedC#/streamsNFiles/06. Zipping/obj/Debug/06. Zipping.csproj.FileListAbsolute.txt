@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\streamsNFiles\06. Zipping\bin\Debug\_06.Zipping.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\streamsNFiles\06. Zipping\bin\Debug\_06.Zipping.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\streamsNFiles\06. Zipping\bin\Debug\_06.Zipping.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\streamsNFiles\06. Zipping\obj\Debug\06. Zipping.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2013\Projects\streamsNFiles\06. Zipping\obj\Debug\_06.Zipping.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\streamsNFiles\06. Zipping\obj\Debug\_06.Zipping.pdb

@@ -1,0 +1,5 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\decimalToBinary\bin\Debug\decimalToBinary.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\decimalToBinary\bin\Debug\decimalToBinary.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\decimalToBinary\bin\Debug\decimalToBinary.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\decimalToBinary\obj\Debug\decimalToBinary.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\decimalToBinary\obj\Debug\decimalToBinary.pdb

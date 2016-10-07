@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\gcdBrat\bin\Debug\gcdBrat.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\gcdBrat\bin\Debug\gcdBrat.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\gcdBrat\bin\Debug\gcdBrat.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\gcdBrat\obj\Debug\gcdBrat.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\gcdBrat\obj\Debug\gcdBrat.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\gcdBrat\obj\Debug\gcdBrat.pdb

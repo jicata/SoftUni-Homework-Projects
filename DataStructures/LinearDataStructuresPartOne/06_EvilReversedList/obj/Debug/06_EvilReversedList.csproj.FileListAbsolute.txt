@@ -1,0 +1,5 @@
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\LinearDataStructures\06_EvilReversedList\bin\Debug\06_EvilReversedList.exe.config
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\LinearDataStructures\06_EvilReversedList\bin\Debug\06_EvilReversedList.exe
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\LinearDataStructures\06_EvilReversedList\bin\Debug\06_EvilReversedList.pdb
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\LinearDataStructures\06_EvilReversedList\obj\Debug\06_EvilReversedList.exe
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\LinearDataStructures\06_EvilReversedList\obj\Debug\06_EvilReversedList.pdb

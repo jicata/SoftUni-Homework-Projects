@@ -1,0 +1,3 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OOP\PC-Catalog\bin\Debug\PC-Catalog.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OOP\PC-Catalog\obj\Debug\PC-Catalog.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OOP\PC-Catalog\obj\Debug\PC-Catalog.pdb

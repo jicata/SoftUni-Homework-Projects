@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ConsoleInputOutputHW\QuadraticEquation\bin\Debug\QuadraticEquation.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ConsoleInputOutputHW\QuadraticEquation\bin\Debug\QuadraticEquation.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ConsoleInputOutputHW\QuadraticEquation\bin\Debug\QuadraticEquation.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ConsoleInputOutputHW\QuadraticEquation\obj\Debug\QuadraticEquation.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ConsoleInputOutputHW\QuadraticEquation\obj\Debug\QuadraticEquation.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ConsoleInputOutputHW\QuadraticEquation\obj\Debug\QuadraticEquation.pdb

@@ -1,0 +1,3 @@
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\BUnnyBunnyBunBun\Heigan'sDance\bin\Debug\Heigan'sDance.exe.config
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\BUnnyBunnyBunBun\Heigan'sDance\obj\Debug\Heigan'sDance.exe
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\BUnnyBunnyBunBun\Heigan'sDance\obj\Debug\Heigan'sDance.pdb

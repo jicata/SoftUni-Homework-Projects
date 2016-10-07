@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\fiveMagicLetters\bin\Debug\fiveMagicLetters.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\fiveMagicLetters\obj\Debug\fiveMagicLetters.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\fiveMagicLetters\bin\Debug\fiveMagicLetters.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\fiveMagicLetters\bin\Debug\fiveMagicLetters.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\fiveMagicLetters\obj\Debug\fiveMagicLetters.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\fiveMagicLetters\obj\Debug\fiveMagicLetters.pdb

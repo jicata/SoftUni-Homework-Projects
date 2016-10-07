@@ -1,0 +1,5 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\stringItAllTogether\stringLength\bin\Debug\stringLength.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\stringItAllTogether\stringLength\bin\Debug\stringLength.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\stringItAllTogether\stringLength\bin\Debug\stringLength.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\stringItAllTogether\stringLength\obj\Debug\stringLength.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\stringItAllTogether\stringLength\obj\Debug\stringLength.pdb

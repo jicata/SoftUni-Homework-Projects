@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmp\02. Target Practise\bin\Debug\_02.Target_Practise.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmp\02. Target Practise\obj\Debug\02. Target Practise.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmp\02. Target Practise\bin\Debug\_02.Target_Practise.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmp\02. Target Practise\bin\Debug\_02.Target_Practise.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmp\02. Target Practise\obj\Debug\_02.Target_Practise.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmp\02. Target Practise\obj\Debug\_02.Target_Practise.pdb

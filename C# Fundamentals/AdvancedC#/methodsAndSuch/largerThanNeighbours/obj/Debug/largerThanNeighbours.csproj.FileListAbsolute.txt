@@ -1,0 +1,5 @@
+c:\users\maika\documents\visual studio 2013\Projects\methodsAndSuch\largerThanNeighbours\bin\Debug\largerThanNeighbours.exe.config
+c:\users\maika\documents\visual studio 2013\Projects\methodsAndSuch\largerThanNeighbours\bin\Debug\largerThanNeighbours.exe
+c:\users\maika\documents\visual studio 2013\Projects\methodsAndSuch\largerThanNeighbours\bin\Debug\largerThanNeighbours.pdb
+c:\users\maika\documents\visual studio 2013\Projects\methodsAndSuch\largerThanNeighbours\obj\Debug\largerThanNeighbours.exe
+c:\users\maika\documents\visual studio 2013\Projects\methodsAndSuch\largerThanNeighbours\obj\Debug\largerThanNeighbours.pdb

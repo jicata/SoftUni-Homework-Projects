@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\AlgorithmsExamPrep\Town\bin\Debug\Town.exe.config
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\AlgorithmsExamPrep\Town\bin\Debug\Town.exe
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\AlgorithmsExamPrep\Town\bin\Debug\Town.pdb
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\AlgorithmsExamPrep\Town\obj\Debug\Town.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\AlgorithmsExamPrep\Town\obj\Debug\Town.exe
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\AlgorithmsExamPrep\Town\obj\Debug\Town.pdb

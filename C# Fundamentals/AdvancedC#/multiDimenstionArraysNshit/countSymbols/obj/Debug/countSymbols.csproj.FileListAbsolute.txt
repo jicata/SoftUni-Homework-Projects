@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\multiDimenstionArraysNshit\countSymbols\bin\Debug\countSymbols.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\multiDimenstionArraysNshit\countSymbols\bin\Debug\countSymbols.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\multiDimenstionArraysNshit\countSymbols\bin\Debug\countSymbols.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\multiDimenstionArraysNshit\countSymbols\obj\Debug\countSymbols.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2013\Projects\multiDimenstionArraysNshit\countSymbols\obj\Debug\countSymbols.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\multiDimenstionArraysNshit\countSymbols\obj\Debug\countSymbols.pdb

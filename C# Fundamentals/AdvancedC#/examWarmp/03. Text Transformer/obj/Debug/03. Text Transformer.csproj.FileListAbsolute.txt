@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmp\03. Text Transformer\bin\Debug\_03.Text_Transformer.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmp\03. Text Transformer\bin\Debug\_03.Text_Transformer.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmp\03. Text Transformer\bin\Debug\_03.Text_Transformer.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmp\03. Text Transformer\obj\Debug\03. Text Transformer.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmp\03. Text Transformer\obj\Debug\_03.Text_Transformer.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmp\03. Text Transformer\obj\Debug\_03.Text_Transformer.pdb

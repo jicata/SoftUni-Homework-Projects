@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2013\Projects\examWarmUp\BitGame\bin\Debug\BitGame.exe.config
+c:\users\maika\documents\visual studio 2013\Projects\examWarmUp\BitGame\bin\Debug\BitGame.exe
+c:\users\maika\documents\visual studio 2013\Projects\examWarmUp\BitGame\bin\Debug\BitGame.pdb
+c:\users\maika\documents\visual studio 2013\Projects\examWarmUp\BitGame\obj\Debug\BitGame.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2013\Projects\examWarmUp\BitGame\obj\Debug\BitGame.exe
+c:\users\maika\documents\visual studio 2013\Projects\examWarmUp\BitGame\obj\Debug\BitGame.pdb

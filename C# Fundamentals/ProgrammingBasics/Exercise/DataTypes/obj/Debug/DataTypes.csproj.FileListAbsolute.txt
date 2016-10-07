@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2013\Projects\Exercise\DataTypes\bin\Debug\DataTypes.exe.config
+c:\users\maika\documents\visual studio 2013\Projects\Exercise\DataTypes\obj\Debug\DataTypes.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2013\Projects\Exercise\DataTypes\bin\Debug\DataTypes.exe
+c:\users\maika\documents\visual studio 2013\Projects\Exercise\DataTypes\bin\Debug\DataTypes.pdb
+c:\users\maika\documents\visual studio 2013\Projects\Exercise\DataTypes\obj\Debug\DataTypes.exe
+c:\users\maika\documents\visual studio 2013\Projects\Exercise\DataTypes\obj\Debug\DataTypes.pdb

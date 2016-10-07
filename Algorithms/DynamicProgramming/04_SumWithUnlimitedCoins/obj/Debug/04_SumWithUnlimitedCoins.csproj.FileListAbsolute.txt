@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\DynamicProgramming\04_SumWithUnlimitedCoins\bin\Debug\04_SumWithUnlimitedCoins.exe.config
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\DynamicProgramming\04_SumWithUnlimitedCoins\bin\Debug\04_SumWithUnlimitedCoins.exe
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\DynamicProgramming\04_SumWithUnlimitedCoins\bin\Debug\04_SumWithUnlimitedCoins.pdb
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\DynamicProgramming\04_SumWithUnlimitedCoins\obj\Debug\04_SumWithUnlimitedCoins.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\DynamicProgramming\04_SumWithUnlimitedCoins\obj\Debug\04_SumWithUnlimitedCoins.exe
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\DynamicProgramming\04_SumWithUnlimitedCoins\obj\Debug\04_SumWithUnlimitedCoins.pdb

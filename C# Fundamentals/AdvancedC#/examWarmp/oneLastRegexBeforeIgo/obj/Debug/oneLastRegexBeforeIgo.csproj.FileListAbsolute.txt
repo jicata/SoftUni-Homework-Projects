@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmp\oneLastRegexBeforeIgo\bin\Debug\oneLastRegexBeforeIgo.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmp\oneLastRegexBeforeIgo\bin\Debug\oneLastRegexBeforeIgo.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmp\oneLastRegexBeforeIgo\bin\Debug\oneLastRegexBeforeIgo.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmp\oneLastRegexBeforeIgo\obj\Debug\oneLastRegexBeforeIgo.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmp\oneLastRegexBeforeIgo\obj\Debug\oneLastRegexBeforeIgo.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmp\oneLastRegexBeforeIgo\obj\Debug\oneLastRegexBeforeIgo.pdb

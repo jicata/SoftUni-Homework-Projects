@@ -1,0 +1,5 @@
+c:\users\maika\documents\visual studio 2013\Projects\conditionalStatements\bonusScore\bin\Debug\bonusScore.exe.config
+c:\users\maika\documents\visual studio 2013\Projects\conditionalStatements\bonusScore\bin\Debug\bonusScore.exe
+c:\users\maika\documents\visual studio 2013\Projects\conditionalStatements\bonusScore\bin\Debug\bonusScore.pdb
+c:\users\maika\documents\visual studio 2013\Projects\conditionalStatements\bonusScore\obj\Debug\bonusScore.exe
+c:\users\maika\documents\visual studio 2013\Projects\conditionalStatements\bonusScore\obj\Debug\bonusScore.pdb

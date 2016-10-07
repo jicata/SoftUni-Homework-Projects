@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2015\Projects\AlgorithmsExamPrep\SequenceWithLimitedSum\bin\Debug\SequenceWithLimitedSum.exe.config
+C:\Users\Maika\documents\visual studio 2015\Projects\AlgorithmsExamPrep\SequenceWithLimitedSum\bin\Debug\SequenceWithLimitedSum.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\AlgorithmsExamPrep\SequenceWithLimitedSum\bin\Debug\SequenceWithLimitedSum.pdb
+C:\Users\Maika\documents\visual studio 2015\Projects\AlgorithmsExamPrep\SequenceWithLimitedSum\obj\Debug\SequenceWithLimitedSum.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2015\Projects\AlgorithmsExamPrep\SequenceWithLimitedSum\obj\Debug\SequenceWithLimitedSum.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\AlgorithmsExamPrep\SequenceWithLimitedSum\obj\Debug\SequenceWithLimitedSum.pdb

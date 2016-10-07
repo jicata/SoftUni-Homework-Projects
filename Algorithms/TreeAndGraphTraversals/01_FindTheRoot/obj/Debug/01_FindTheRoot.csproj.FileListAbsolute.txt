@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2015\Projects\TreeAndGraphTraversals\01_FindTheRoot\bin\Debug\01_FindTheRoot.exe.config
+c:\users\maika\documents\visual studio 2015\Projects\TreeAndGraphTraversals\01_FindTheRoot\bin\Debug\01_FindTheRoot.exe
+c:\users\maika\documents\visual studio 2015\Projects\TreeAndGraphTraversals\01_FindTheRoot\bin\Debug\01_FindTheRoot.pdb
+c:\users\maika\documents\visual studio 2015\Projects\TreeAndGraphTraversals\01_FindTheRoot\obj\Debug\01_FindTheRoot.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2015\Projects\TreeAndGraphTraversals\01_FindTheRoot\obj\Debug\01_FindTheRoot.exe
+c:\users\maika\documents\visual studio 2015\Projects\TreeAndGraphTraversals\01_FindTheRoot\obj\Debug\01_FindTheRoot.pdb

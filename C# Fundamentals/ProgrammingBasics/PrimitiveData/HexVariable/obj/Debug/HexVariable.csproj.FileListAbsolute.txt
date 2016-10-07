@@ -1,0 +1,5 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\PrimitiveData\HexVariable\bin\Debug\HexVariable.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\PrimitiveData\HexVariable\bin\Debug\HexVariable.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\PrimitiveData\HexVariable\bin\Debug\HexVariable.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\PrimitiveData\HexVariable\obj\Debug\HexVariable.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\PrimitiveData\HexVariable\obj\Debug\HexVariable.pdb

@@ -1,0 +1,5 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmUp\starrr\bin\Debug\starrr.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmUp\starrr\bin\Debug\starrr.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmUp\starrr\bin\Debug\starrr.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmUp\starrr\obj\Debug\starrr.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmUp\starrr\obj\Debug\starrr.pdb

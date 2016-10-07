@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\ExamProblems\petyaEKurva\bin\Debug\petyaEKurva.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\ExamProblems\petyaEKurva\bin\Debug\petyaEKurva.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\ExamProblems\petyaEKurva\bin\Debug\petyaEKurva.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\ExamProblems\petyaEKurva\obj\Debug\petyaEKurva.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2013\Projects\ExamProblems\petyaEKurva\obj\Debug\petyaEKurva.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\ExamProblems\petyaEKurva\obj\Debug\petyaEKurva.pdb

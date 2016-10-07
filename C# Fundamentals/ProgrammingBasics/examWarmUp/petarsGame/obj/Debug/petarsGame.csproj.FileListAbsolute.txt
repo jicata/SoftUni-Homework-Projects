@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2013\Projects\examWarmUp\petarsGame\bin\Debug\petarsGame.exe.config
+c:\users\maika\documents\visual studio 2013\Projects\examWarmUp\petarsGame\bin\Debug\petarsGame.exe
+c:\users\maika\documents\visual studio 2013\Projects\examWarmUp\petarsGame\bin\Debug\petarsGame.pdb
+c:\users\maika\documents\visual studio 2013\Projects\examWarmUp\petarsGame\obj\Debug\petarsGame.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2013\Projects\examWarmUp\petarsGame\obj\Debug\petarsGame.exe
+c:\users\maika\documents\visual studio 2013\Projects\examWarmUp\petarsGame\obj\Debug\petarsGame.pdb

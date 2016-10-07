@@ -1,0 +1,5 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\PrimitiveData\VariableExchange\bin\Debug\VariableExchange.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\PrimitiveData\VariableExchange\bin\Debug\VariableExchange.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\PrimitiveData\VariableExchange\bin\Debug\VariableExchange.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\PrimitiveData\VariableExchange\obj\Debug\VariableExchange.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\PrimitiveData\VariableExchange\obj\Debug\VariableExchange.pdb

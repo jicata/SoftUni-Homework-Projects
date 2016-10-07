@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\streamsNFiles\02. Line Numbers\bin\Debug\_02.Line_Numbers.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\streamsNFiles\02. Line Numbers\bin\Debug\_02.Line_Numbers.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\streamsNFiles\02. Line Numbers\bin\Debug\_02.Line_Numbers.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\streamsNFiles\02. Line Numbers\obj\Debug\02. Line Numbers.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2013\Projects\streamsNFiles\02. Line Numbers\obj\Debug\_02.Line_Numbers.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\streamsNFiles\02. Line Numbers\obj\Debug\_02.Line_Numbers.pdb

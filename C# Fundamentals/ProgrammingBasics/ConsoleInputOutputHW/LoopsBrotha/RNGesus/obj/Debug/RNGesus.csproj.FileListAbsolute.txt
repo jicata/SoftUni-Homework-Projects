@@ -1,0 +1,5 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\RNGesus\bin\Debug\RNGesus.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\RNGesus\bin\Debug\RNGesus.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\RNGesus\bin\Debug\RNGesus.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\RNGesus\obj\Debug\RNGesus.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\RNGesus\obj\Debug\RNGesus.pdb

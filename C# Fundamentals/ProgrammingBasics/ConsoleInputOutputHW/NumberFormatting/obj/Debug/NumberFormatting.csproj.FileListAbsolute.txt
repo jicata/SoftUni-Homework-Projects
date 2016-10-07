@@ -1,0 +1,5 @@
+c:\users\maika\documents\visual studio 2013\Projects\ConsoleInputOutputHW\NumberFormatting\bin\Debug\NumberFormatting.exe.config
+c:\users\maika\documents\visual studio 2013\Projects\ConsoleInputOutputHW\NumberFormatting\bin\Debug\NumberFormatting.exe
+c:\users\maika\documents\visual studio 2013\Projects\ConsoleInputOutputHW\NumberFormatting\bin\Debug\NumberFormatting.pdb
+c:\users\maika\documents\visual studio 2013\Projects\ConsoleInputOutputHW\NumberFormatting\obj\Debug\NumberFormatting.exe
+c:\users\maika\documents\visual studio 2013\Projects\ConsoleInputOutputHW\NumberFormatting\obj\Debug\NumberFormatting.pdb

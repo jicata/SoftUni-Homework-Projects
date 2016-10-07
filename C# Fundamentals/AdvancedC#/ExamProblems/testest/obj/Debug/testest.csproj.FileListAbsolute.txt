@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\testest\bin\Debug\testest.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\testest\bin\Debug\testest.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\testest\bin\Debug\testest.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\testest\obj\Debug\testest.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\testest\obj\Debug\testest.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\testest\obj\Debug\testest.pdb

@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\multiDimenstionArraysNshit\nightLife\bin\Debug\nightLife.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\multiDimenstionArraysNshit\nightLife\bin\Debug\nightLife.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\multiDimenstionArraysNshit\nightLife\bin\Debug\nightLife.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\multiDimenstionArraysNshit\nightLife\obj\Debug\nightLife.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2013\Projects\multiDimenstionArraysNshit\nightLife\obj\Debug\nightLife.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\multiDimenstionArraysNshit\nightLife\obj\Debug\nightLife.pdb

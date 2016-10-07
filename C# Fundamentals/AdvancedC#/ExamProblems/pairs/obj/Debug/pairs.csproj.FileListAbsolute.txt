@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\pairs\bin\Debug\pairs.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\pairs\bin\Debug\pairs.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\pairs\bin\Debug\pairs.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\pairs\obj\Debug\pairs.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\pairs\obj\Debug\pairs.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\pairs\obj\Debug\pairs.pdb

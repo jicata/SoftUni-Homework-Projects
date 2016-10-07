@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\DynamicProgramming\04_DividingPresents\bin\Debug\04_DividingPresents.exe.config
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\DynamicProgramming\04_DividingPresents\bin\Debug\04_DividingPresents.exe
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\DynamicProgramming\04_DividingPresents\bin\Debug\04_DividingPresents.pdb
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\DynamicProgramming\04_DividingPresents\obj\Debug\04_DividingPresents.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\DynamicProgramming\04_DividingPresents\obj\Debug\04_DividingPresents.exe
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\DynamicProgramming\04_DividingPresents\obj\Debug\04_DividingPresents.pdb

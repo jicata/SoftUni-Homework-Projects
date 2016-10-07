@@ -1,0 +1,5 @@
+C:\Users\Maika\documents\visual studio 2015\Projects\Async\06. ThreadSafety\bin\Debug\_06.ThreadSafety.exe.config
+C:\Users\Maika\documents\visual studio 2015\Projects\Async\06. ThreadSafety\bin\Debug\_06.ThreadSafety.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\Async\06. ThreadSafety\bin\Debug\_06.ThreadSafety.pdb
+C:\Users\Maika\documents\visual studio 2015\Projects\Async\06. ThreadSafety\obj\Debug\_06.ThreadSafety.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\Async\06. ThreadSafety\obj\Debug\_06.ThreadSafety.pdb

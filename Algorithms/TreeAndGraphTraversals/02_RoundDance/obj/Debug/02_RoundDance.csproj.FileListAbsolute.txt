@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2015\Projects\TreeAndGraphTraversals\02_RoundDance\bin\Debug\02_RoundDance.exe.config
+c:\users\maika\documents\visual studio 2015\Projects\TreeAndGraphTraversals\02_RoundDance\bin\Debug\02_RoundDance.exe
+c:\users\maika\documents\visual studio 2015\Projects\TreeAndGraphTraversals\02_RoundDance\bin\Debug\02_RoundDance.pdb
+c:\users\maika\documents\visual studio 2015\Projects\TreeAndGraphTraversals\02_RoundDance\obj\Debug\02_RoundDance.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2015\Projects\TreeAndGraphTraversals\02_RoundDance\obj\Debug\02_RoundDance.exe
+c:\users\maika\documents\visual studio 2015\Projects\TreeAndGraphTraversals\02_RoundDance\obj\Debug\02_RoundDance.pdb

@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\AlgorithmsExamPrep\Plants\bin\Debug\Plants.exe.config
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\AlgorithmsExamPrep\Plants\bin\Debug\Plants.exe
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\AlgorithmsExamPrep\Plants\bin\Debug\Plants.pdb
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\AlgorithmsExamPrep\Plants\obj\Debug\Plants.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\AlgorithmsExamPrep\Plants\obj\Debug\Plants.exe
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\AlgorithmsExamPrep\Plants\obj\Debug\Plants.pdb

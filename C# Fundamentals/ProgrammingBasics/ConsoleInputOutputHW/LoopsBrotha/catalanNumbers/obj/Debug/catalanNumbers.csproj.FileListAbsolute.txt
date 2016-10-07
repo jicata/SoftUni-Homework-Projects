@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\catalanNumbers\bin\Debug\catalanNumbers.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\catalanNumbers\bin\Debug\catalanNumbers.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\catalanNumbers\bin\Debug\catalanNumbers.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\catalanNumbers\obj\Debug\catalanNumbers.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\catalanNumbers\obj\Debug\catalanNumbers.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\catalanNumbers\obj\Debug\catalanNumbers.pdb

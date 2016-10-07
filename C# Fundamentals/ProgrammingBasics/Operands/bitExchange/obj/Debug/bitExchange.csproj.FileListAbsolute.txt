@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OperandsNshit\bitExchange\bin\Debug\bitExchange.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OperandsNshit\bitExchange\bin\Debug\bitExchange.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OperandsNshit\bitExchange\bin\Debug\bitExchange.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OperandsNshit\bitExchange\obj\Debug\bitExchange.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OperandsNshit\bitExchange\obj\Debug\bitExchange.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OperandsNshit\bitExchange\obj\Debug\bitExchange.pdb

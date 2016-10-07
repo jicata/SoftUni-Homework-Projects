@@ -1,0 +1,5 @@
+﻿  03. LowerUpperChars.cpp
+c:\users\maika\documents\visual studio 2015\projects\introtoc++homework\03. lowerupperchars\03. lowerupperchars.cpp(5): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\maika\documents\visual studio 2015\projects\introtoc++homework\03. lowerupperchars\03. lowerupperchars.cpp(6): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\maika\documents\visual studio 2015\projects\introtoc++homework\03. lowerupperchars\03. lowerupperchars.cpp(22): warning C4018: '<': signed/unsigned mismatch
+  03. LowerUpperChars.vcxproj -> c:\users\maika\documents\visual studio 2015\Projects\IntroToC++Homework\Debug\03. LowerUpperChars.exe

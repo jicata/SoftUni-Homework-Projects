@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2013\Projects\InheritanceAndAbstraction\01HumanStudentWorker\bin\Debug\01HumanStudentWorker.exe.config
+c:\users\maika\documents\visual studio 2013\Projects\InheritanceAndAbstraction\01HumanStudentWorker\bin\Debug\01HumanStudentWorker.exe
+c:\users\maika\documents\visual studio 2013\Projects\InheritanceAndAbstraction\01HumanStudentWorker\bin\Debug\01HumanStudentWorker.pdb
+c:\users\maika\documents\visual studio 2013\Projects\InheritanceAndAbstraction\01HumanStudentWorker\obj\Debug\01HumanStudentWorker.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2013\Projects\InheritanceAndAbstraction\01HumanStudentWorker\obj\Debug\01HumanStudentWorker.exe
+c:\users\maika\documents\visual studio 2013\Projects\InheritanceAndAbstraction\01HumanStudentWorker\obj\Debug\01HumanStudentWorker.pdb

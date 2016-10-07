@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2013\Projects\stringItAllTogether\letsGO\bin\Debug\letsGO.exe.config
+c:\users\maika\documents\visual studio 2013\Projects\stringItAllTogether\letsGO\bin\Debug\letsGO.exe
+c:\users\maika\documents\visual studio 2013\Projects\stringItAllTogether\letsGO\bin\Debug\letsGO.pdb
+c:\users\maika\documents\visual studio 2013\Projects\stringItAllTogether\letsGO\obj\Debug\letsGO.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2013\Projects\stringItAllTogether\letsGO\obj\Debug\letsGO.exe
+c:\users\maika\documents\visual studio 2013\Projects\stringItAllTogether\letsGO\obj\Debug\letsGO.pdb

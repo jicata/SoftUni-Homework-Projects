@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\streamsNFiles\03. Word Count\bin\Debug\_03.Word_Count.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\streamsNFiles\03. Word Count\bin\Debug\_03.Word_Count.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\streamsNFiles\03. Word Count\bin\Debug\_03.Word_Count.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\streamsNFiles\03. Word Count\obj\Debug\03. Word Count.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2013\Projects\streamsNFiles\03. Word Count\obj\Debug\_03.Word_Count.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\streamsNFiles\03. Word Count\obj\Debug\_03.Word_Count.pdb

@@ -1,0 +1,8 @@
+c:\users\maika\documents\visual studio 2015\Projects\CollectionsAndLibraries\Exercise_02_TextEdito\bin\Debug\Exercise_02_TextEdito.exe.config
+c:\users\maika\documents\visual studio 2015\Projects\CollectionsAndLibraries\Exercise_02_TextEdito\bin\Debug\Exercise_02_TextEdito.exe
+c:\users\maika\documents\visual studio 2015\Projects\CollectionsAndLibraries\Exercise_02_TextEdito\bin\Debug\Exercise_02_TextEdito.pdb
+c:\users\maika\documents\visual studio 2015\Projects\CollectionsAndLibraries\Exercise_02_TextEdito\bin\Debug\PowerCollections.dll
+c:\users\maika\documents\visual studio 2015\Projects\CollectionsAndLibraries\Exercise_02_TextEdito\bin\Debug\PowerCollections.xml
+c:\users\maika\documents\visual studio 2015\Projects\CollectionsAndLibraries\Exercise_02_TextEdito\obj\Debug\Exercise_02_TextEditor.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2015\Projects\CollectionsAndLibraries\Exercise_02_TextEdito\obj\Debug\Exercise_02_TextEdito.exe
+c:\users\maika\documents\visual studio 2015\Projects\CollectionsAndLibraries\Exercise_02_TextEdito\obj\Debug\Exercise_02_TextEdito.pdb

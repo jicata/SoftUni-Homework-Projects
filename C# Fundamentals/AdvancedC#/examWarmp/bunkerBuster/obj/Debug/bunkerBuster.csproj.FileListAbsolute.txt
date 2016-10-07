@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2013\Projects\examWarmp\bunkerBuster\bin\Debug\bunkerBuster.exe.config
+c:\users\maika\documents\visual studio 2013\Projects\examWarmp\bunkerBuster\bin\Debug\bunkerBuster.exe
+c:\users\maika\documents\visual studio 2013\Projects\examWarmp\bunkerBuster\bin\Debug\bunkerBuster.pdb
+c:\users\maika\documents\visual studio 2013\Projects\examWarmp\bunkerBuster\obj\Debug\bunkerBuster.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2013\Projects\examWarmp\bunkerBuster\obj\Debug\bunkerBuster.exe
+c:\users\maika\documents\visual studio 2013\Projects\examWarmp\bunkerBuster\obj\Debug\bunkerBuster.pdb

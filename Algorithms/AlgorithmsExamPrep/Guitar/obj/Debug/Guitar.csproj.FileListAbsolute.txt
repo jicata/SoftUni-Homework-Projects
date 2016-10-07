@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\AlgorithmsExamPrep\Guitar\bin\Debug\Guitar.exe.config
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\AlgorithmsExamPrep\Guitar\bin\Debug\Guitar.exe
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\AlgorithmsExamPrep\Guitar\bin\Debug\Guitar.pdb
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\AlgorithmsExamPrep\Guitar\obj\Debug\Guitar.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\AlgorithmsExamPrep\Guitar\obj\Debug\Guitar.exe
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\AlgorithmsExamPrep\Guitar\obj\Debug\Guitar.pdb

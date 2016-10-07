@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Exercise\firstBit\bin\Debug\firstBit.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Exercise\firstBit\bin\Debug\firstBit.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Exercise\firstBit\bin\Debug\firstBit.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Exercise\firstBit\obj\Debug\firstBit.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Exercise\firstBit\obj\Debug\firstBit.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Exercise\firstBit\obj\Debug\firstBit.pdb

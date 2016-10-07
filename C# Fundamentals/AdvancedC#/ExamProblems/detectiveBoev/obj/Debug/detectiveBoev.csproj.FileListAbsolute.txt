@@ -1,0 +1,5 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\ExamProblems\detectiveBoev\bin\Debug\detectiveBoev.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\ExamProblems\detectiveBoev\bin\Debug\detectiveBoev.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\ExamProblems\detectiveBoev\bin\Debug\detectiveBoev.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\ExamProblems\detectiveBoev\obj\Debug\detectiveBoev.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\ExamProblems\detectiveBoev\obj\Debug\detectiveBoev.pdb

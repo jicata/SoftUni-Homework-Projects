@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\conditionalStatements\subsetSum\bin\Debug\subsetSum.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\conditionalStatements\subsetSum\bin\Debug\subsetSum.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\conditionalStatements\subsetSum\bin\Debug\subsetSum.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\conditionalStatements\subsetSum\obj\Debug\subsetSum.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2013\Projects\conditionalStatements\subsetSum\obj\Debug\subsetSum.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\conditionalStatements\subsetSum\obj\Debug\subsetSum.pdb

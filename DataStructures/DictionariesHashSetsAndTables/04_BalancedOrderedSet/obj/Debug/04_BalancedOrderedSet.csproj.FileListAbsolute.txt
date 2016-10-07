@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2015\Projects\DictionariesHashSetsAndTables\04_BalancedOrderedSet\bin\Debug\04_BalancedOrderedSet.exe.config
+c:\users\maika\documents\visual studio 2015\Projects\DictionariesHashSetsAndTables\04_BalancedOrderedSet\bin\Debug\04_BalancedOrderedSet.exe
+c:\users\maika\documents\visual studio 2015\Projects\DictionariesHashSetsAndTables\04_BalancedOrderedSet\bin\Debug\04_BalancedOrderedSet.pdb
+c:\users\maika\documents\visual studio 2015\Projects\DictionariesHashSetsAndTables\04_BalancedOrderedSet\obj\Debug\04_BalancedOrderedSet.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2015\Projects\DictionariesHashSetsAndTables\04_BalancedOrderedSet\obj\Debug\04_BalancedOrderedSet.exe
+c:\users\maika\documents\visual studio 2015\Projects\DictionariesHashSetsAndTables\04_BalancedOrderedSet\obj\Debug\04_BalancedOrderedSet.pdb

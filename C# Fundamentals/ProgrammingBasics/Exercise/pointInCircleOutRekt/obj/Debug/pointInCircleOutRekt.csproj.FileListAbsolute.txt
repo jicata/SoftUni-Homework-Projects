@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Exercise\pointInCircleOutRekt\bin\Debug\pointInCircleOutRekt.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Exercise\pointInCircleOutRekt\bin\Debug\pointInCircleOutRekt.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Exercise\pointInCircleOutRekt\bin\Debug\pointInCircleOutRekt.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Exercise\pointInCircleOutRekt\obj\Debug\pointInCircleOutRekt.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Exercise\pointInCircleOutRekt\obj\Debug\pointInCircleOutRekt.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Exercise\pointInCircleOutRekt\obj\Debug\pointInCircleOutRekt.pdb

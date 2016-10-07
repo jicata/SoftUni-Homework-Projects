@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructuresQueuesStax\04_LinkedListBasedStack\bin\Debug\04_LinkedListBasedStack.exe.config
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructuresQueuesStax\04_LinkedListBasedStack\bin\Debug\04_LinkedListBasedStack.exe
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructuresQueuesStax\04_LinkedListBasedStack\bin\Debug\04_LinkedListBasedStack.pdb
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructuresQueuesStax\04_LinkedListBasedStack\obj\Debug\04_LinkedListBasedStack.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructuresQueuesStax\04_LinkedListBasedStack\obj\Debug\04_LinkedListBasedStack.exe
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructuresQueuesStax\04_LinkedListBasedStack\obj\Debug\04_LinkedListBasedStack.pdb

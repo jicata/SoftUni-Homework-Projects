@@ -1,0 +1,5 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OperandsNshit\Rektangles\bin\Debug\Rektangles.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OperandsNshit\Rektangles\bin\Debug\Rektangles.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OperandsNshit\Rektangles\bin\Debug\Rektangles.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OperandsNshit\Rektangles\obj\Debug\Rektangles.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OperandsNshit\Rektangles\obj\Debug\Rektangles.pdb

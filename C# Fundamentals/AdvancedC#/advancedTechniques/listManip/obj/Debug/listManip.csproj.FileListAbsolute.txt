@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\advancedTechniques\listManip\bin\Debug\listManip.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\advancedTechniques\listManip\bin\Debug\listManip.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\advancedTechniques\listManip\bin\Debug\listManip.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\advancedTechniques\listManip\obj\Debug\listManip.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2013\Projects\advancedTechniques\listManip\obj\Debug\listManip.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\advancedTechniques\listManip\obj\Debug\listManip.pdb

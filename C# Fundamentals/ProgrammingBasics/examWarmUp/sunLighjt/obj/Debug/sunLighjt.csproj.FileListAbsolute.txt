@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2013\Projects\examWarmUp\sunLighjt\bin\Debug\sunLighjt.exe.config
+c:\users\maika\documents\visual studio 2013\Projects\examWarmUp\sunLighjt\bin\Debug\sunLighjt.exe
+c:\users\maika\documents\visual studio 2013\Projects\examWarmUp\sunLighjt\bin\Debug\sunLighjt.pdb
+c:\users\maika\documents\visual studio 2013\Projects\examWarmUp\sunLighjt\obj\Debug\sunLighjt.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2013\Projects\examWarmUp\sunLighjt\obj\Debug\sunLighjt.exe
+c:\users\maika\documents\visual studio 2013\Projects\examWarmUp\sunLighjt\obj\Debug\sunLighjt.pdb

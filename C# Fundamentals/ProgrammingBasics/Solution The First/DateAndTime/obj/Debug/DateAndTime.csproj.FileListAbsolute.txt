@@ -1,0 +1,5 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Solution The First\DateAndTime\bin\Debug\DateAndTime.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Solution The First\DateAndTime\bin\Debug\DateAndTime.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Solution The First\DateAndTime\bin\Debug\DateAndTime.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Solution The First\DateAndTime\obj\Debug\DateAndTime.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Solution The First\DateAndTime\obj\Debug\DateAndTime.pdb

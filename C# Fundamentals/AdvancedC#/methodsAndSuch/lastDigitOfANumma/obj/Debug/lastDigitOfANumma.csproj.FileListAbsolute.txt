@@ -1,0 +1,5 @@
+c:\users\maika\documents\visual studio 2013\Projects\methodsAndSuch\lastDigitOfANumma\bin\Debug\lastDigitOfANumma.exe.config
+c:\users\maika\documents\visual studio 2013\Projects\methodsAndSuch\lastDigitOfANumma\bin\Debug\lastDigitOfANumma.exe
+c:\users\maika\documents\visual studio 2013\Projects\methodsAndSuch\lastDigitOfANumma\bin\Debug\lastDigitOfANumma.pdb
+c:\users\maika\documents\visual studio 2013\Projects\methodsAndSuch\lastDigitOfANumma\obj\Debug\lastDigitOfANumma.exe
+c:\users\maika\documents\visual studio 2013\Projects\methodsAndSuch\lastDigitOfANumma\obj\Debug\lastDigitOfANumma.pdb

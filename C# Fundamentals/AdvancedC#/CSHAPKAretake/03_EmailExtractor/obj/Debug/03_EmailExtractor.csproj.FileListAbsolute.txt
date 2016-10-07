@@ -1,0 +1,5 @@
+c:\users\maika\documents\visual studio 2015\Projects\CSHAPKAretake\03_EmailExtractor\bin\Debug\03_EmailExtractor.exe.config
+c:\users\maika\documents\visual studio 2015\Projects\CSHAPKAretake\03_EmailExtractor\bin\Debug\03_EmailExtractor.exe
+c:\users\maika\documents\visual studio 2015\Projects\CSHAPKAretake\03_EmailExtractor\bin\Debug\03_EmailExtractor.pdb
+c:\users\maika\documents\visual studio 2015\Projects\CSHAPKAretake\03_EmailExtractor\obj\Debug\03_EmailExtractor.exe
+c:\users\maika\documents\visual studio 2015\Projects\CSHAPKAretake\03_EmailExtractor\obj\Debug\03_EmailExtractor.pdb

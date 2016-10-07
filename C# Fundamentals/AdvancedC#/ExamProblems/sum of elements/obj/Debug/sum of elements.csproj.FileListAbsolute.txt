@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\sum of elements\bin\Debug\sum of elements.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\sum of elements\bin\Debug\sum of elements.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\sum of elements\bin\Debug\sum of elements.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\sum of elements\obj\Debug\sum of elements.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\sum of elements\obj\Debug\sum of elements.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\sum of elements\obj\Debug\sum of elements.pdb

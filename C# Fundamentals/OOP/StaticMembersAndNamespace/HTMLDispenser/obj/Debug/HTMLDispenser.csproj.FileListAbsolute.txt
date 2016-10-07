@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\StaticMembersAndNamespace\HTMLDispenser\bin\Debug\HTMLDispenser.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\StaticMembersAndNamespace\HTMLDispenser\bin\Debug\HTMLDispenser.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\StaticMembersAndNamespace\HTMLDispenser\bin\Debug\HTMLDispenser.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\StaticMembersAndNamespace\HTMLDispenser\obj\Debug\HTMLDispenser.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\StaticMembersAndNamespace\HTMLDispenser\obj\Debug\HTMLDispenser.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\StaticMembersAndNamespace\HTMLDispenser\obj\Debug\HTMLDispenser.csprojResolveAssemblyReference.cache

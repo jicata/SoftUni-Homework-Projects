@@ -1,0 +1,5 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Exercise\Average\bin\Debug\Average.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Exercise\Average\bin\Debug\Average.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Exercise\Average\bin\Debug\Average.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Exercise\Average\obj\Debug\Average.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Exercise\Average\obj\Debug\Average.pdb

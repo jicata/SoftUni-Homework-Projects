@@ -1,0 +1,3 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmp\asd\bin\Debug\asd.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmp\asd\obj\Debug\asd.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmp\asd\obj\Debug\asd.pdb

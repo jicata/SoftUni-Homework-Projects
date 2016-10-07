@@ -1,0 +1,8 @@
+c:\users\maika\documents\visual studio 2015\Projects\CollectionsAndLibraries\02_StringEditor\bin\Debug\02_StringEditor.exe.config
+c:\users\maika\documents\visual studio 2015\Projects\CollectionsAndLibraries\02_StringEditor\bin\Debug\02_StringEditor.exe
+c:\users\maika\documents\visual studio 2015\Projects\CollectionsAndLibraries\02_StringEditor\bin\Debug\02_StringEditor.pdb
+c:\users\maika\documents\visual studio 2015\Projects\CollectionsAndLibraries\02_StringEditor\bin\Debug\PowerCollections.dll
+c:\users\maika\documents\visual studio 2015\Projects\CollectionsAndLibraries\02_StringEditor\bin\Debug\PowerCollections.xml
+c:\users\maika\documents\visual studio 2015\Projects\CollectionsAndLibraries\02_StringEditor\obj\Debug\02_StringEditor.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2015\Projects\CollectionsAndLibraries\02_StringEditor\obj\Debug\02_StringEditor.exe
+c:\users\maika\documents\visual studio 2015\Projects\CollectionsAndLibraries\02_StringEditor\obj\Debug\02_StringEditor.pdb

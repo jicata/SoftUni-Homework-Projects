@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\advancedTechniques\jointList\bin\Debug\jointList.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\advancedTechniques\jointList\obj\Debug\jointList.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2013\Projects\advancedTechniques\jointList\bin\Debug\jointList.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\advancedTechniques\jointList\bin\Debug\jointList.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\advancedTechniques\jointList\obj\Debug\jointList.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\advancedTechniques\jointList\obj\Debug\jointList.pdb

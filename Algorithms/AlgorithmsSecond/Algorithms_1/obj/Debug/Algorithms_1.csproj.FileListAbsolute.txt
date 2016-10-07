@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2015\Projects\Algorithms_1\Algorithms_1\bin\Debug\Algorithms_1.exe.config
+c:\users\maika\documents\visual studio 2015\Projects\Algorithms_1\Algorithms_1\bin\Debug\Algorithms_1.exe
+c:\users\maika\documents\visual studio 2015\Projects\Algorithms_1\Algorithms_1\bin\Debug\Algorithms_1.pdb
+c:\users\maika\documents\visual studio 2015\Projects\Algorithms_1\Algorithms_1\obj\Debug\Algorithms_1.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2015\Projects\Algorithms_1\Algorithms_1\obj\Debug\Algorithms_1.exe
+c:\users\maika\documents\visual studio 2015\Projects\Algorithms_1\Algorithms_1\obj\Debug\Algorithms_1.pdb

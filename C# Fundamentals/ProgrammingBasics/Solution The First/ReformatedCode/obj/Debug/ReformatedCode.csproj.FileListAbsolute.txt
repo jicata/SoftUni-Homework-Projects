@@ -1,0 +1,5 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Solution The First\ReformatedCode\bin\Debug\ReformatedCode.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Solution The First\ReformatedCode\bin\Debug\ReformatedCode.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Solution The First\ReformatedCode\bin\Debug\ReformatedCode.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Solution The First\ReformatedCode\obj\Debug\ReformatedCode.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Solution The First\ReformatedCode\obj\Debug\ReformatedCode.pdb

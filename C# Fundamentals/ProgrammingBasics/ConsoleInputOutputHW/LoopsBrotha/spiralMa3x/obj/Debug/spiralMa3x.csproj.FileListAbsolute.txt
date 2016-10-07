@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\spiralMa3x\bin\Debug\spiralMa3x.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\spiralMa3x\bin\Debug\spiralMa3x.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\spiralMa3x\bin\Debug\spiralMa3x.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\spiralMa3x\obj\Debug\spiralMa3x.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\spiralMa3x\obj\Debug\spiralMa3x.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\spiralMa3x\obj\Debug\spiralMa3x.csprojResolveAssemblyReference.cache

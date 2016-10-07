@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2015\Projects\Algorithms\07_ConnectedAreasInMatrix\bin\Debug\07_ConnectedAreasInMatrix.exe.config
+C:\Users\Maika\documents\visual studio 2015\Projects\Algorithms\07_ConnectedAreasInMatrix\bin\Debug\07_ConnectedAreasInMatrix.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\Algorithms\07_ConnectedAreasInMatrix\bin\Debug\07_ConnectedAreasInMatrix.pdb
+C:\Users\Maika\documents\visual studio 2015\Projects\Algorithms\07_ConnectedAreasInMatrix\obj\Debug\07_ConnectedAreasInMatrix.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2015\Projects\Algorithms\07_ConnectedAreasInMatrix\obj\Debug\07_ConnectedAreasInMatrix.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\Algorithms\07_ConnectedAreasInMatrix\obj\Debug\07_ConnectedAreasInMatrix.pdb

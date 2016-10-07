@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2015\Projects\GraphsPartOne\01_DistanceBetweenVertices\bin\Debug\01_DistanceBetweenVertices.exe.config
+c:\users\maika\documents\visual studio 2015\Projects\GraphsPartOne\01_DistanceBetweenVertices\bin\Debug\01_DistanceBetweenVertices.exe
+c:\users\maika\documents\visual studio 2015\Projects\GraphsPartOne\01_DistanceBetweenVertices\bin\Debug\01_DistanceBetweenVertices.pdb
+c:\users\maika\documents\visual studio 2015\Projects\GraphsPartOne\01_DistanceBetweenVertices\obj\Debug\01_DistanceBetweenVertices.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2015\Projects\GraphsPartOne\01_DistanceBetweenVertices\obj\Debug\01_DistanceBetweenVertices.exe
+c:\users\maika\documents\visual studio 2015\Projects\GraphsPartOne\01_DistanceBetweenVertices\obj\Debug\01_DistanceBetweenVertices.pdb

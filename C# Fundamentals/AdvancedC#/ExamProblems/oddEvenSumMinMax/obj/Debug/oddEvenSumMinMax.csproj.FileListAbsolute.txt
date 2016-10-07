@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\oddEvenSumMinMax\bin\Debug\oddEvenSumMinMax.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\oddEvenSumMinMax\bin\Debug\oddEvenSumMinMax.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\oddEvenSumMinMax\bin\Debug\oddEvenSumMinMax.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\oddEvenSumMinMax\obj\Debug\oddEvenSumMinMax.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\oddEvenSumMinMax\obj\Debug\oddEvenSumMinMax.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\oddEvenSumMinMax\obj\Debug\oddEvenSumMinMax.pdb

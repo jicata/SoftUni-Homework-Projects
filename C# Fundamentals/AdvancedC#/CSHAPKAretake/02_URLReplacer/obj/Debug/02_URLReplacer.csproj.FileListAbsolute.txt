@@ -1,0 +1,5 @@
+c:\users\maika\documents\visual studio 2015\Projects\CSHAPKAretake\02_URLReplacer\bin\Debug\02_URLReplacer.exe.config
+c:\users\maika\documents\visual studio 2015\Projects\CSHAPKAretake\02_URLReplacer\bin\Debug\02_URLReplacer.exe
+c:\users\maika\documents\visual studio 2015\Projects\CSHAPKAretake\02_URLReplacer\bin\Debug\02_URLReplacer.pdb
+c:\users\maika\documents\visual studio 2015\Projects\CSHAPKAretake\02_URLReplacer\obj\Debug\02_URLReplacer.exe
+c:\users\maika\documents\visual studio 2015\Projects\CSHAPKAretake\02_URLReplacer\obj\Debug\02_URLReplacer.pdb

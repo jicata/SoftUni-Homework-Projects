@@ -1,0 +1,5 @@
+c:\users\maika\documents\visual studio 2013\Projects\OperandsNshit\MoonGrav\bin\Debug\MoonGrav.exe.config
+c:\users\maika\documents\visual studio 2013\Projects\OperandsNshit\MoonGrav\bin\Debug\MoonGrav.exe
+c:\users\maika\documents\visual studio 2013\Projects\OperandsNshit\MoonGrav\bin\Debug\MoonGrav.pdb
+c:\users\maika\documents\visual studio 2013\Projects\OperandsNshit\MoonGrav\obj\Debug\MoonGrav.exe
+c:\users\maika\documents\visual studio 2013\Projects\OperandsNshit\MoonGrav\obj\Debug\MoonGrav.pdb

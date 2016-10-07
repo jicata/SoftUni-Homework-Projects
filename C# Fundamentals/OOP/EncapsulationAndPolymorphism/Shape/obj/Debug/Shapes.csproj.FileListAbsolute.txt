@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2013\Projects\EncapsulationAndPolymorphism\Shape\obj\Debug\Shapes.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2013\Projects\EncapsulationAndPolymorphism\Shape\bin\Debug\Shape.exe.config
+c:\users\maika\documents\visual studio 2013\Projects\EncapsulationAndPolymorphism\Shape\bin\Debug\Shape.exe
+c:\users\maika\documents\visual studio 2013\Projects\EncapsulationAndPolymorphism\Shape\bin\Debug\Shape.pdb
+c:\users\maika\documents\visual studio 2013\Projects\EncapsulationAndPolymorphism\Shape\obj\Debug\Shape.exe
+c:\users\maika\documents\visual studio 2013\Projects\EncapsulationAndPolymorphism\Shape\obj\Debug\Shape.pdb

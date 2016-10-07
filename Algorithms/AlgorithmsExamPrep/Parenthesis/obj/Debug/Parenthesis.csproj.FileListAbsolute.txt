@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\AlgorithmsExamPrep\Parenthesis\bin\Debug\Parenthesis.exe.config
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\AlgorithmsExamPrep\Parenthesis\bin\Debug\Parenthesis.exe
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\AlgorithmsExamPrep\Parenthesis\bin\Debug\Parenthesis.pdb
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\AlgorithmsExamPrep\Parenthesis\obj\Debug\Parenthesis.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\AlgorithmsExamPrep\Parenthesis\obj\Debug\Parenthesis.exe
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\AlgorithmsExamPrep\Parenthesis\obj\Debug\Parenthesis.pdb

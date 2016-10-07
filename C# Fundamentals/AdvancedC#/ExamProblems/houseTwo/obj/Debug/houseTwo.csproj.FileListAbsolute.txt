@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\ExamProblems\houseTwo\bin\Debug\houseTwo.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\ExamProblems\houseTwo\bin\Debug\houseTwo.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\ExamProblems\houseTwo\bin\Debug\houseTwo.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\ExamProblems\houseTwo\obj\Debug\houseTwo.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2013\Projects\ExamProblems\houseTwo\obj\Debug\houseTwo.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\ExamProblems\houseTwo\obj\Debug\houseTwo.pdb

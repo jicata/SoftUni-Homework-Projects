@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\fallingRocksBaby\carsTelerik\bin\Debug\carsTelerik.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\fallingRocksBaby\carsTelerik\bin\Debug\carsTelerik.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\fallingRocksBaby\carsTelerik\bin\Debug\carsTelerik.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\fallingRocksBaby\carsTelerik\obj\Debug\carsTelerik.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2013\Projects\fallingRocksBaby\carsTelerik\obj\Debug\carsTelerik.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\fallingRocksBaby\carsTelerik\obj\Debug\carsTelerik.pdb

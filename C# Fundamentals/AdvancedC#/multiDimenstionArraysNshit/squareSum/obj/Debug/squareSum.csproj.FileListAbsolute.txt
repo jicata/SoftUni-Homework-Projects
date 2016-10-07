@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\multiDimenstionArraysNshit\squareSum\bin\Debug\squareSum.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\multiDimenstionArraysNshit\squareSum\bin\Debug\squareSum.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\multiDimenstionArraysNshit\squareSum\bin\Debug\squareSum.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\multiDimenstionArraysNshit\squareSum\obj\Debug\squareSum.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\multiDimenstionArraysNshit\squareSum\obj\Debug\squareSum.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\multiDimenstionArraysNshit\squareSum\obj\Debug\squareSum.pdb

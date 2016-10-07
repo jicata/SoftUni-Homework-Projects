@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\arraysNsuchHomework\sequenceOfEqualStrings\bin\Debug\sequenceOfEqualStrings.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\arraysNsuchHomework\sequenceOfEqualStrings\bin\Debug\sequenceOfEqualStrings.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\arraysNsuchHomework\sequenceOfEqualStrings\bin\Debug\sequenceOfEqualStrings.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\arraysNsuchHomework\sequenceOfEqualStrings\obj\Debug\sequenceOfEqualStrings.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\arraysNsuchHomework\sequenceOfEqualStrings\obj\Debug\sequenceOfEqualStrings.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\arraysNsuchHomework\sequenceOfEqualStrings\obj\Debug\sequenceOfEqualStrings.csprojResolveAssemblyReference.cache

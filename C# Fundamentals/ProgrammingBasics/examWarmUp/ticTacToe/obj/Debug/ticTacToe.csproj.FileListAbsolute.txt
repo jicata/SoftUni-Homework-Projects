@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmUp\ticTacToe\bin\Debug\ticTacToe.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmUp\ticTacToe\bin\Debug\ticTacToe.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmUp\ticTacToe\bin\Debug\ticTacToe.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmUp\ticTacToe\obj\Debug\ticTacToe.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmUp\ticTacToe\obj\Debug\ticTacToe.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmUp\ticTacToe\obj\Debug\ticTacToe.pdb

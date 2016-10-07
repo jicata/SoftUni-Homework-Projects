@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\LinearDataStructures\07_LinkedList\bin\Debug\07_LinkedList.exe.config
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\LinearDataStructures\07_LinkedList\bin\Debug\07_LinkedList.exe
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\LinearDataStructures\07_LinkedList\bin\Debug\07_LinkedList.pdb
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\LinearDataStructures\07_LinkedList\obj\Debug\07_LinkedList.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\LinearDataStructures\07_LinkedList\obj\Debug\07_LinkedList.exe
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\LinearDataStructures\07_LinkedList\obj\Debug\07_LinkedList.pdb

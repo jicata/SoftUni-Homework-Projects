@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\nakovJichkajiqta\bin\Debug\nakovJichkajiqta.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\nakovJichkajiqta\bin\Debug\nakovJichkajiqta.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\nakovJichkajiqta\bin\Debug\nakovJichkajiqta.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\nakovJichkajiqta\obj\Debug\nakovJichkajiqta.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\nakovJichkajiqta\obj\Debug\nakovJichkajiqta.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\nakovJichkajiqta\obj\Debug\nakovJichkajiqta.pdb

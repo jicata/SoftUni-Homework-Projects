@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\arraysNsuchHomework\subsetSums\bin\Debug\subsetSums.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\arraysNsuchHomework\subsetSums\bin\Debug\subsetSums.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\arraysNsuchHomework\subsetSums\bin\Debug\subsetSums.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\arraysNsuchHomework\subsetSums\obj\Debug\subsetSums.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\arraysNsuchHomework\subsetSums\obj\Debug\subsetSums.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\arraysNsuchHomework\subsetSums\obj\Debug\subsetSums.csprojResolveAssemblyReference.cache

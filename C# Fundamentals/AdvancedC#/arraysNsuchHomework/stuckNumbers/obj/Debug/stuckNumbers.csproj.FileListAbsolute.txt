@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\arraysNsuchHomework\stuckNumbers\bin\Debug\stuckNumbers.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\arraysNsuchHomework\stuckNumbers\bin\Debug\stuckNumbers.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\arraysNsuchHomework\stuckNumbers\bin\Debug\stuckNumbers.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\arraysNsuchHomework\stuckNumbers\obj\Debug\stuckNumbers.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2013\Projects\arraysNsuchHomework\stuckNumbers\obj\Debug\stuckNumbers.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\arraysNsuchHomework\stuckNumbers\obj\Debug\stuckNumbers.pdb

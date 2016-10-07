@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2013\Projects\regEx\02. Replace A tag\bin\Debug\_02.Replace_A_tag.exe.config
+c:\users\maika\documents\visual studio 2013\Projects\regEx\02. Replace A tag\bin\Debug\_02.Replace_A_tag.exe
+c:\users\maika\documents\visual studio 2013\Projects\regEx\02. Replace A tag\bin\Debug\_02.Replace_A_tag.pdb
+c:\users\maika\documents\visual studio 2013\Projects\regEx\02. Replace A tag\obj\Debug\02. Replace A tag.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2013\Projects\regEx\02. Replace A tag\obj\Debug\_02.Replace_A_tag.exe
+c:\users\maika\documents\visual studio 2013\Projects\regEx\02. Replace A tag\obj\Debug\_02.Replace_A_tag.pdb

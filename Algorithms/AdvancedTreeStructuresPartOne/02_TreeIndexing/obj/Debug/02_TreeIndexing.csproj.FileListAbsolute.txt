@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2015\Projects\AdvancedTreeStructuresPartOne\02_TreeIndexing\bin\Debug\02_TreeIndexing.exe.config
+c:\users\maika\documents\visual studio 2015\Projects\AdvancedTreeStructuresPartOne\02_TreeIndexing\bin\Debug\02_TreeIndexing.exe
+c:\users\maika\documents\visual studio 2015\Projects\AdvancedTreeStructuresPartOne\02_TreeIndexing\bin\Debug\02_TreeIndexing.pdb
+c:\users\maika\documents\visual studio 2015\Projects\AdvancedTreeStructuresPartOne\02_TreeIndexing\obj\Debug\02_TreeIndexing.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2015\Projects\AdvancedTreeStructuresPartOne\02_TreeIndexing\obj\Debug\02_TreeIndexing.exe
+c:\users\maika\documents\visual studio 2015\Projects\AdvancedTreeStructuresPartOne\02_TreeIndexing\obj\Debug\02_TreeIndexing.pdb

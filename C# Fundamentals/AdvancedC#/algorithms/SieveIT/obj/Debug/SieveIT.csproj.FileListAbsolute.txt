@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2013\Projects\algorithms\SieveIT\bin\Debug\SieveIT.exe.config
+c:\users\maika\documents\visual studio 2013\Projects\algorithms\SieveIT\bin\Debug\SieveIT.exe
+c:\users\maika\documents\visual studio 2013\Projects\algorithms\SieveIT\bin\Debug\SieveIT.pdb
+c:\users\maika\documents\visual studio 2013\Projects\algorithms\SieveIT\obj\Debug\SieveIT.exe
+c:\users\maika\documents\visual studio 2013\Projects\algorithms\SieveIT\obj\Debug\SieveIT.pdb
+c:\users\maika\documents\visual studio 2013\Projects\algorithms\SieveIT\obj\Debug\SieveIT.csprojResolveAssemblyReference.cache

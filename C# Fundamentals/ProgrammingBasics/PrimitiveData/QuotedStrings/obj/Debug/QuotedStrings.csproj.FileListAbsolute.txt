@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\PrimitiveData\QuotedStrings\bin\Debug\QuotedStrings.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\PrimitiveData\QuotedStrings\obj\Debug\QuotedStrings.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\PrimitiveData\QuotedStrings\bin\Debug\QuotedStrings.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\PrimitiveData\QuotedStrings\bin\Debug\QuotedStrings.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\PrimitiveData\QuotedStrings\obj\Debug\QuotedStrings.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\PrimitiveData\QuotedStrings\obj\Debug\QuotedStrings.pdb

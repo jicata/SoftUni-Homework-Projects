@@ -1,0 +1,6 @@
+﻿  WhaleOnACanvass.cpp
+c:\users\maika\documents\visual studio 2015\projects\friendlyc++\whaleonacanvass\whaleonacanvass.cpp(53): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\maika\documents\visual studio 2015\projects\friendlyc++\whaleonacanvass\whaleonacanvass.cpp(54): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\maika\documents\visual studio 2015\projects\friendlyc++\whaleonacanvass\whaleonacanvass.cpp(70): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\maika\documents\visual studio 2015\projects\friendlyc++\whaleonacanvass\whaleonacanvass.cpp(71): warning C4305: '=': truncation from 'double' to 'float'
+  WhaleOnACanvass.vcxproj -> c:\users\maika\documents\visual studio 2015\Projects\FriendlyC++\Debug\WhaleOnACanvass.exe

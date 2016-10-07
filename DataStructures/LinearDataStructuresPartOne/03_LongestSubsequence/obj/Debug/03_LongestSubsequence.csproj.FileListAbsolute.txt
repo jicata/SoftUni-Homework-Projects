@@ -1,0 +1,5 @@
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructures\03_LongestSubsequence\bin\Debug\03_LongestSubsequence.exe.config
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructures\03_LongestSubsequence\bin\Debug\03_LongestSubsequence.exe
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructures\03_LongestSubsequence\bin\Debug\03_LongestSubsequence.pdb
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructures\03_LongestSubsequence\obj\Debug\03_LongestSubsequence.exe
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructures\03_LongestSubsequence\obj\Debug\03_LongestSubsequence.pdb

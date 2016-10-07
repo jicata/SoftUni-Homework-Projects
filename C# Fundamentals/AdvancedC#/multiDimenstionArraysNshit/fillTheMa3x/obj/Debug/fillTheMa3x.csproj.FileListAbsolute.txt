@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2013\Projects\multiDimenstionArraysNshit\fillTheMa3x\bin\Debug\fillTheMa3x.exe.config
+c:\users\maika\documents\visual studio 2013\Projects\multiDimenstionArraysNshit\fillTheMa3x\bin\Debug\fillTheMa3x.exe
+c:\users\maika\documents\visual studio 2013\Projects\multiDimenstionArraysNshit\fillTheMa3x\bin\Debug\fillTheMa3x.pdb
+c:\users\maika\documents\visual studio 2013\Projects\multiDimenstionArraysNshit\fillTheMa3x\obj\Debug\fillTheMa3x.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2013\Projects\multiDimenstionArraysNshit\fillTheMa3x\obj\Debug\fillTheMa3x.exe
+c:\users\maika\documents\visual studio 2013\Projects\multiDimenstionArraysNshit\fillTheMa3x\obj\Debug\fillTheMa3x.pdb

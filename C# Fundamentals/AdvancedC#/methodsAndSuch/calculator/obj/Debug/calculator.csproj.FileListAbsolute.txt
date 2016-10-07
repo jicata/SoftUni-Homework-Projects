@@ -1,0 +1,5 @@
+c:\users\maika\documents\visual studio 2013\Projects\methodsAndSuch\calculator\bin\Debug\calculator.exe.config
+c:\users\maika\documents\visual studio 2013\Projects\methodsAndSuch\calculator\bin\Debug\calculator.exe
+c:\users\maika\documents\visual studio 2013\Projects\methodsAndSuch\calculator\bin\Debug\calculator.pdb
+c:\users\maika\documents\visual studio 2013\Projects\methodsAndSuch\calculator\obj\Debug\calculator.exe
+c:\users\maika\documents\visual studio 2013\Projects\methodsAndSuch\calculator\obj\Debug\calculator.pdb

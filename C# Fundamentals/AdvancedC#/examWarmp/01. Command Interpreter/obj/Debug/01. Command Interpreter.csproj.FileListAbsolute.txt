@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmp\01. Command Interpreter\bin\Debug\_01.Command_Interpreter.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmp\01. Command Interpreter\bin\Debug\_01.Command_Interpreter.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmp\01. Command Interpreter\bin\Debug\_01.Command_Interpreter.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmp\01. Command Interpreter\obj\Debug\01. Command Interpreter.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmp\01. Command Interpreter\obj\Debug\_01.Command_Interpreter.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmp\01. Command Interpreter\obj\Debug\_01.Command_Interpreter.pdb

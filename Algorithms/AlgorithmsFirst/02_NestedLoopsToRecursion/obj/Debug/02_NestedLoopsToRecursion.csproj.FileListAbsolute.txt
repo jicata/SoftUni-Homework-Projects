@@ -1,0 +1,5 @@
+C:\Users\Maika\documents\visual studio 2015\Projects\Algorithms\02_NestedLoopsToRecursion\bin\Debug\02_NestedLoopsToRecursion.exe.config
+C:\Users\Maika\documents\visual studio 2015\Projects\Algorithms\02_NestedLoopsToRecursion\bin\Debug\02_NestedLoopsToRecursion.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\Algorithms\02_NestedLoopsToRecursion\bin\Debug\02_NestedLoopsToRecursion.pdb
+C:\Users\Maika\documents\visual studio 2015\Projects\Algorithms\02_NestedLoopsToRecursion\obj\Debug\02_NestedLoopsToRecursion.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\Algorithms\02_NestedLoopsToRecursion\obj\Debug\02_NestedLoopsToRecursion.pdb

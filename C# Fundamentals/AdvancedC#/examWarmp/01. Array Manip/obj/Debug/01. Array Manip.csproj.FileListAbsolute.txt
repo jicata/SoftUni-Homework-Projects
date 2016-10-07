@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmp\01. Array Manip\bin\Debug\_01.Array_Manip.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmp\01. Array Manip\bin\Debug\_01.Array_Manip.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmp\01. Array Manip\bin\Debug\_01.Array_Manip.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmp\01. Array Manip\obj\Debug\01. Array Manip.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmp\01. Array Manip\obj\Debug\_01.Array_Manip.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmp\01. Array Manip\obj\Debug\_01.Array_Manip.pdb

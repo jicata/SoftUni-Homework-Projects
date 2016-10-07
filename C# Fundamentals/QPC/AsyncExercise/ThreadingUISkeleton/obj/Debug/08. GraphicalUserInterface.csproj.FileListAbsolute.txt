@@ -1,0 +1,24 @@
+C:\Users\Maika\Desktop\SoftUniStrikeTeam\neshto\8. Advanced-CSharp-Asynchronous-Programming-Demos\ThreadingUI\bin\Debug\ThreadingUI.exe.config
+C:\Users\Maika\Desktop\SoftUniStrikeTeam\neshto\8. Advanced-CSharp-Asynchronous-Programming-Demos\ThreadingUI\obj\Debug\ThreadingUI.exe
+C:\Users\Maika\Desktop\SoftUniStrikeTeam\neshto\8. Advanced-CSharp-Asynchronous-Programming-Demos\ThreadingUI\obj\Debug\ThreadingUI.pdb
+C:\Users\Maika\Desktop\SoftUniStrikeTeam\neshto\8. Advanced-CSharp-Asynchronous-Programming-Demos\ThreadingUI\bin\Debug\ThreadingUI.exe
+C:\Users\Maika\Desktop\SoftUniStrikeTeam\neshto\8. Advanced-CSharp-Asynchronous-Programming-Demos\ThreadingUI\bin\Debug\ThreadingUI.pdb
+C:\Users\Maika\Desktop\SoftUniStrikeTeam\neshto\8. Advanced-CSharp-Asynchronous-Programming-Demos\ThreadingUI\obj\Debug\08. GraphicalUserInterface.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Desktop\SoftUniStrikeTeam\neshto\8. Advanced-CSharp-Asynchronous-Programming-Demos\ThreadingUI\obj\Debug\GraphicalUserInterface.SimpleForm.resources
+C:\Users\Maika\Desktop\SoftUniStrikeTeam\neshto\8. Advanced-CSharp-Asynchronous-Programming-Demos\ThreadingUI\obj\Debug\ThreadingUI.Properties.Resources.resources
+C:\Users\Maika\Desktop\SoftUniStrikeTeam\neshto\8. Advanced-CSharp-Asynchronous-Programming-Demos\ThreadingUI\obj\Debug\08. GraphicalUserInterface.csproj.GenerateResource.Cache
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\Async\ThreadingUI\bin\Debug\ThreadingUI.exe.config
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\Async\ThreadingUI\obj\Debug\ThreadingUI.exe
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\Async\ThreadingUI\obj\Debug\ThreadingUI.pdb
+C:\Users\Maika\Desktop\SoftUniStrikeTeam\neshto\09. CSharp-Advanced-LINQ-Asynchronous-Programming-Demos\ThreadingUI\bin\Debug\ThreadingUI.exe.config
+C:\Users\Maika\Desktop\SoftUniStrikeTeam\neshto\09. CSharp-Advanced-LINQ-Asynchronous-Programming-Demos\ThreadingUI\obj\Debug\ThreadingUI.exe
+C:\Users\Maika\Desktop\SoftUniStrikeTeam\neshto\09. CSharp-Advanced-LINQ-Asynchronous-Programming-Demos\ThreadingUI\obj\Debug\ThreadingUI.pdb
+C:\Users\Maika\Desktop\SoftUniStrikeTeam\neshto\09. CSharp-Advanced-LINQ-Asynchronous-Programming-Demos\ThreadingUI\bin\Debug\ThreadingUI.exe
+C:\Users\Maika\Desktop\SoftUniStrikeTeam\neshto\09. CSharp-Advanced-LINQ-Asynchronous-Programming-Demos\ThreadingUI\bin\Debug\ThreadingUI.pdb
+C:\Users\Maika\Desktop\SoftUniStrikeTeam\neshto\09. CSharp-Advanced-LINQ-Asynchronous-Programming-Demos\ThreadingUI\obj\Debug\08. GraphicalUserInterface.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Desktop\SoftUniStrikeTeam\neshto\09. CSharp-Advanced-LINQ-Asynchronous-Programming-Demos\ThreadingUI\obj\Debug\GraphicalUserInterface.SimpleForm.resources
+C:\Users\Maika\Desktop\SoftUniStrikeTeam\neshto\09. CSharp-Advanced-LINQ-Asynchronous-Programming-Demos\ThreadingUI\obj\Debug\ThreadingUI.Properties.Resources.resources
+C:\Users\Maika\Desktop\SoftUniStrikeTeam\neshto\09. CSharp-Advanced-LINQ-Asynchronous-Programming-Demos\ThreadingUI\obj\Debug\08. GraphicalUserInterface.csproj.GenerateResource.Cache
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\AsyncExercise\ThreadingUISkeleton\bin\Debug\ThreadingUI.exe.config
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\AsyncExercise\ThreadingUISkeleton\obj\Debug\ThreadingUI.exe
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\AsyncExercise\ThreadingUISkeleton\obj\Debug\ThreadingUI.pdb

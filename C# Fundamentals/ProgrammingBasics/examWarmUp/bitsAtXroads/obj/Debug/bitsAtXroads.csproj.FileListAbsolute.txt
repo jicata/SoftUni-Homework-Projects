@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmUp\bitsAtXroads\bin\Debug\bitsAtXroads.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmUp\bitsAtXroads\bin\Debug\bitsAtXroads.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmUp\bitsAtXroads\bin\Debug\bitsAtXroads.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmUp\bitsAtXroads\obj\Debug\bitsAtXroads.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmUp\bitsAtXroads\obj\Debug\bitsAtXroads.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmUp\bitsAtXroads\obj\Debug\bitsAtXroads.pdb

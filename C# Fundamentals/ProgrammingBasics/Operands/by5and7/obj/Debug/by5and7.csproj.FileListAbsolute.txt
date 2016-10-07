@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OperandsNshit\by5and7\bin\Debug\by5and7.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OperandsNshit\by5and7\bin\Debug\by5and7.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OperandsNshit\by5and7\bin\Debug\by5and7.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OperandsNshit\by5and7\obj\Debug\by5and7.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OperandsNshit\by5and7\obj\Debug\by5and7.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OperandsNshit\by5and7\obj\Debug\by5and7.pdb

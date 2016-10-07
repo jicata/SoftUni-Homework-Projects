@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2015\Projects\DynamicProgramming\05_SumWithLimitedCoinsSubsetSum\bin\Debug\05_SumWithLimitedCoinsSubsetSum.exe.config
+C:\Users\Maika\documents\visual studio 2015\Projects\DynamicProgramming\05_SumWithLimitedCoinsSubsetSum\bin\Debug\05_SumWithLimitedCoinsSubsetSum.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\DynamicProgramming\05_SumWithLimitedCoinsSubsetSum\bin\Debug\05_SumWithLimitedCoinsSubsetSum.pdb
+C:\Users\Maika\documents\visual studio 2015\Projects\DynamicProgramming\05_SumWithLimitedCoinsSubsetSum\obj\Debug\05_SumWithLimitedCoinsSubsetSum.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2015\Projects\DynamicProgramming\05_SumWithLimitedCoinsSubsetSum\obj\Debug\05_SumWithLimitedCoinsSubsetSum.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\DynamicProgramming\05_SumWithLimitedCoinsSubsetSum\obj\Debug\05_SumWithLimitedCoinsSubsetSum.pdb

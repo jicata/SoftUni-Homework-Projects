@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\LoopsBrotha\naFacByXFac\bin\Debug\naFacByXFac.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\LoopsBrotha\naFacByXFac\bin\Debug\naFacByXFac.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\LoopsBrotha\naFacByXFac\bin\Debug\naFacByXFac.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\LoopsBrotha\naFacByXFac\obj\Debug\naFacByXFac.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\LoopsBrotha\naFacByXFac\obj\Debug\naFacByXFac.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\LoopsBrotha\naFacByXFac\obj\Debug\naFacByXFac.pdb

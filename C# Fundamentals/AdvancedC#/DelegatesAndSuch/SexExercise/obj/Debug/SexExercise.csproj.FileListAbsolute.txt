@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2013\Projects\DelegatesAndSuch\SexExercise\bin\Debug\SexExercise.exe.config
+c:\users\maika\documents\visual studio 2013\Projects\DelegatesAndSuch\SexExercise\bin\Debug\SexExercise.exe
+c:\users\maika\documents\visual studio 2013\Projects\DelegatesAndSuch\SexExercise\bin\Debug\SexExercise.pdb
+c:\users\maika\documents\visual studio 2013\Projects\DelegatesAndSuch\SexExercise\obj\Debug\SexExercise.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2013\Projects\DelegatesAndSuch\SexExercise\obj\Debug\SexExercise.exe
+c:\users\maika\documents\visual studio 2013\Projects\DelegatesAndSuch\SexExercise\obj\Debug\SexExercise.pdb

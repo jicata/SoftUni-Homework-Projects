@@ -1,0 +1,5 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\PrimitiveData\EmployeeData\bin\Debug\EmployeeData.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\PrimitiveData\EmployeeData\bin\Debug\EmployeeData.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\PrimitiveData\EmployeeData\bin\Debug\EmployeeData.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\PrimitiveData\EmployeeData\obj\Debug\EmployeeData.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\PrimitiveData\EmployeeData\obj\Debug\EmployeeData.pdb

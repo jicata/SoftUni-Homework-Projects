@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2015\Projects\OperatorsComparison\SortingAlgorithmsComparison\bin\Debug\SortingAlgorithmsComparison.exe.config
+C:\Users\Maika\documents\visual studio 2015\Projects\OperatorsComparison\SortingAlgorithmsComparison\bin\Debug\SortingAlgorithmsComparison.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\OperatorsComparison\SortingAlgorithmsComparison\bin\Debug\SortingAlgorithmsComparison.pdb
+C:\Users\Maika\documents\visual studio 2015\Projects\OperatorsComparison\SortingAlgorithmsComparison\obj\Debug\SortingAlgorithmsComparison.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2015\Projects\OperatorsComparison\SortingAlgorithmsComparison\obj\Debug\SortingAlgorithmsComparison.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\OperatorsComparison\SortingAlgorithmsComparison\obj\Debug\SortingAlgorithmsComparison.pdb

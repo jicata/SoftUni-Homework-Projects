@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "arraysAndShit", "arraysAndShit\arraysAndShit.csproj", "{5BE455B3-ABB9-4EFA-980B-7D4B6A60D4AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stax", "stax\stax.csproj", "{5C556B3C-834A-4935-B740-BD3FF8ED67C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultidimensionalArrays", "MultidimensionalArrays\MultidimensionalArrays.csproj", "{5038DF91-7D45-43BC-98B2-5AC188607C6B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BE455B3-ABB9-4EFA-980B-7D4B6A60D4AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BE455B3-ABB9-4EFA-980B-7D4B6A60D4AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BE455B3-ABB9-4EFA-980B-7D4B6A60D4AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BE455B3-ABB9-4EFA-980B-7D4B6A60D4AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C556B3C-834A-4935-B740-BD3FF8ED67C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C556B3C-834A-4935-B740-BD3FF8ED67C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C556B3C-834A-4935-B740-BD3FF8ED67C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C556B3C-834A-4935-B740-BD3FF8ED67C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5038DF91-7D45-43BC-98B2-5AC188607C6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5038DF91-7D45-43BC-98B2-5AC188607C6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5038DF91-7D45-43BC-98B2-5AC188607C6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5038DF91-7D45-43BC-98B2-5AC188607C6B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

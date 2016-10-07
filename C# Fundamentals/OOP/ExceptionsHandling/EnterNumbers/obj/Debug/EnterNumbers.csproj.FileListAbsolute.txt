@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2013\Projects\ExceptionsHandling\EnterNumbers\bin\Debug\EnterNumbers.exe.config
+c:\users\maika\documents\visual studio 2013\Projects\ExceptionsHandling\EnterNumbers\bin\Debug\EnterNumbers.exe
+c:\users\maika\documents\visual studio 2013\Projects\ExceptionsHandling\EnterNumbers\bin\Debug\EnterNumbers.pdb
+c:\users\maika\documents\visual studio 2013\Projects\ExceptionsHandling\EnterNumbers\obj\Debug\EnterNumbers.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2013\Projects\ExceptionsHandling\EnterNumbers\obj\Debug\EnterNumbers.exe
+c:\users\maika\documents\visual studio 2013\Projects\ExceptionsHandling\EnterNumbers\obj\Debug\EnterNumbers.pdb

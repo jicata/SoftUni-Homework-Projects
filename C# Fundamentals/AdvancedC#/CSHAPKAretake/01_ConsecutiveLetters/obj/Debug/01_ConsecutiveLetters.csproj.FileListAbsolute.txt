@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2015\Projects\CSHAPKAretake\01_ConsecutiveLetters\bin\Debug\01_ConsecutiveLetters.exe.config
+c:\users\maika\documents\visual studio 2015\Projects\CSHAPKAretake\01_ConsecutiveLetters\bin\Debug\01_ConsecutiveLetters.exe
+c:\users\maika\documents\visual studio 2015\Projects\CSHAPKAretake\01_ConsecutiveLetters\bin\Debug\01_ConsecutiveLetters.pdb
+c:\users\maika\documents\visual studio 2015\Projects\CSHAPKAretake\01_ConsecutiveLetters\obj\Debug\01_ConsecutiveLetters.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2015\Projects\CSHAPKAretake\01_ConsecutiveLetters\obj\Debug\01_ConsecutiveLetters.exe
+c:\users\maika\documents\visual studio 2015\Projects\CSHAPKAretake\01_ConsecutiveLetters\obj\Debug\01_ConsecutiveLetters.pdb

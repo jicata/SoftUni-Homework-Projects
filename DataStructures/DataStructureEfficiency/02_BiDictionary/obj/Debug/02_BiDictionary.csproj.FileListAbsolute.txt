@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2015\Projects\DataStructureEfficiency\02_BiDictionary\bin\Debug\02_BiDictionary.exe.config
+c:\users\maika\documents\visual studio 2015\Projects\DataStructureEfficiency\02_BiDictionary\bin\Debug\02_BiDictionary.exe
+c:\users\maika\documents\visual studio 2015\Projects\DataStructureEfficiency\02_BiDictionary\bin\Debug\02_BiDictionary.pdb
+c:\users\maika\documents\visual studio 2015\Projects\DataStructureEfficiency\02_BiDictionary\obj\Debug\02_BiDictionary.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2015\Projects\DataStructureEfficiency\02_BiDictionary\obj\Debug\02_BiDictionary.exe
+c:\users\maika\documents\visual studio 2015\Projects\DataStructureEfficiency\02_BiDictionary\obj\Debug\02_BiDictionary.pdb

@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2013\Projects\InheritanceAndAbstraction\CompanyHierarchy\bin\Debug\CompanyHierarchy.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\InheritanceAndAbstraction\CompanyHierarchy\obj\Debug\CompanyHierarchy.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2013\Projects\InheritanceAndAbstraction\CompanyHierarchy\bin\Debug\CompanyHierarchy.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\InheritanceAndAbstraction\CompanyHierarchy\bin\Debug\CompanyHierarchy.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\InheritanceAndAbstraction\CompanyHierarchy\obj\Debug\CompanyHierarchy.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\InheritanceAndAbstraction\CompanyHierarchy\obj\Debug\CompanyHierarchy.pdb

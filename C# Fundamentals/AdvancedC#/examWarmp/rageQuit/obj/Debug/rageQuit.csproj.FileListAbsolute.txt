@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2013\Projects\examWarmp\rageQuit\bin\Debug\rageQuit.exe.config
+c:\users\maika\documents\visual studio 2013\Projects\examWarmp\rageQuit\bin\Debug\rageQuit.exe
+c:\users\maika\documents\visual studio 2013\Projects\examWarmp\rageQuit\bin\Debug\rageQuit.pdb
+c:\users\maika\documents\visual studio 2013\Projects\examWarmp\rageQuit\obj\Debug\rageQuit.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2013\Projects\examWarmp\rageQuit\obj\Debug\rageQuit.exe
+c:\users\maika\documents\visual studio 2013\Projects\examWarmp\rageQuit\obj\Debug\rageQuit.pdb

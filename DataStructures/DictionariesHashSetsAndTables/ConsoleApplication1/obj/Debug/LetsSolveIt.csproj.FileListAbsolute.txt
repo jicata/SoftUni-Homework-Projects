@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2015\Projects\DictionariesHashSetsAndTables\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+c:\users\maika\documents\visual studio 2015\Projects\DictionariesHashSetsAndTables\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+c:\users\maika\documents\visual studio 2015\Projects\DictionariesHashSetsAndTables\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+c:\users\maika\documents\visual studio 2015\Projects\DictionariesHashSetsAndTables\ConsoleApplication1\obj\Debug\LetsSolveIt.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2015\Projects\DictionariesHashSetsAndTables\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+c:\users\maika\documents\visual studio 2015\Projects\DictionariesHashSetsAndTables\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

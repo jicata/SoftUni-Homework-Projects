@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\LinearDataStructures\08_DistanceInLabyrinthBFS\bin\Debug\08_DistanceInLabyrinthBFS.exe.config
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\LinearDataStructures\08_DistanceInLabyrinthBFS\bin\Debug\08_DistanceInLabyrinthBFS.exe
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\LinearDataStructures\08_DistanceInLabyrinthBFS\bin\Debug\08_DistanceInLabyrinthBFS.pdb
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\LinearDataStructures\08_DistanceInLabyrinthBFS\obj\Debug\08_DistanceInLabyrinthBFS.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\LinearDataStructures\08_DistanceInLabyrinthBFS\obj\Debug\08_DistanceInLabyrinthBFS.exe
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\LinearDataStructures\08_DistanceInLabyrinthBFS\obj\Debug\08_DistanceInLabyrinthBFS.pdb

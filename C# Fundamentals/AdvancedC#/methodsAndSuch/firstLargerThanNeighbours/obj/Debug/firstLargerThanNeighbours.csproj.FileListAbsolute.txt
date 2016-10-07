@@ -1,0 +1,5 @@
+c:\users\maika\documents\visual studio 2013\Projects\methodsAndSuch\firstLargerThanNeighbours\bin\Debug\firstLargerThanNeighbours.exe.config
+c:\users\maika\documents\visual studio 2013\Projects\methodsAndSuch\firstLargerThanNeighbours\bin\Debug\firstLargerThanNeighbours.exe
+c:\users\maika\documents\visual studio 2013\Projects\methodsAndSuch\firstLargerThanNeighbours\bin\Debug\firstLargerThanNeighbours.pdb
+c:\users\maika\documents\visual studio 2013\Projects\methodsAndSuch\firstLargerThanNeighbours\obj\Debug\firstLargerThanNeighbours.exe
+c:\users\maika\documents\visual studio 2013\Projects\methodsAndSuch\firstLargerThanNeighbours\obj\Debug\firstLargerThanNeighbours.pdb

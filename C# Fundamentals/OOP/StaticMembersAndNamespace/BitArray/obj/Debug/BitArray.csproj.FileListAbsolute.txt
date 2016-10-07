@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\StaticMembersAndNamespace\BitArray\bin\Debug\BitArray.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\StaticMembersAndNamespace\BitArray\bin\Debug\BitArray.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\StaticMembersAndNamespace\BitArray\bin\Debug\BitArray.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\StaticMembersAndNamespace\BitArray\obj\Debug\BitArray.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2013\Projects\StaticMembersAndNamespace\BitArray\obj\Debug\BitArray.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\StaticMembersAndNamespace\BitArray\obj\Debug\BitArray.pdb

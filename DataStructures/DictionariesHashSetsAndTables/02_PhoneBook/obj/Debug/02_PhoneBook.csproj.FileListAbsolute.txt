@@ -1,0 +1,10 @@
+c:\users\maika\documents\visual studio 2015\Projects\DictionariesHashSetsAndTables\02_PhoneBook\bin\Debug\02_PhoneBook.exe.config
+c:\users\maika\documents\visual studio 2015\Projects\DictionariesHashSetsAndTables\02_PhoneBook\obj\Debug\02_PhoneBook.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2015\Projects\DictionariesHashSetsAndTables\02_PhoneBook\bin\Debug\02_PhoneBook.exe
+c:\users\maika\documents\visual studio 2015\Projects\DictionariesHashSetsAndTables\02_PhoneBook\bin\Debug\02_PhoneBook.pdb
+c:\users\maika\documents\visual studio 2015\Projects\DictionariesHashSetsAndTables\02_PhoneBook\bin\Debug\ConsoleApplication1.exe
+c:\users\maika\documents\visual studio 2015\Projects\DictionariesHashSetsAndTables\02_PhoneBook\bin\Debug\DictionaryHashTable.exe
+c:\users\maika\documents\visual studio 2015\Projects\DictionariesHashSetsAndTables\02_PhoneBook\bin\Debug\ConsoleApplication1.pdb
+c:\users\maika\documents\visual studio 2015\Projects\DictionariesHashSetsAndTables\02_PhoneBook\bin\Debug\DictionaryHashTable.pdb
+c:\users\maika\documents\visual studio 2015\Projects\DictionariesHashSetsAndTables\02_PhoneBook\obj\Debug\02_PhoneBook.exe
+c:\users\maika\documents\visual studio 2015\Projects\DictionariesHashSetsAndTables\02_PhoneBook\obj\Debug\02_PhoneBook.pdb

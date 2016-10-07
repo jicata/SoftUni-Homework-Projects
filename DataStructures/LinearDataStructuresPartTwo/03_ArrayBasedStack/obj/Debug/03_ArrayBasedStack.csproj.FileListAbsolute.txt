@@ -1,0 +1,5 @@
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructuresQueuesStax\03_ArrayBasedStack\bin\Debug\03_ArrayBasedStack.exe.config
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructuresQueuesStax\03_ArrayBasedStack\bin\Debug\03_ArrayBasedStack.exe
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructuresQueuesStax\03_ArrayBasedStack\bin\Debug\03_ArrayBasedStack.pdb
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructuresQueuesStax\03_ArrayBasedStack\obj\Debug\03_ArrayBasedStack.exe
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructuresQueuesStax\03_ArrayBasedStack\obj\Debug\03_ArrayBasedStack.pdb

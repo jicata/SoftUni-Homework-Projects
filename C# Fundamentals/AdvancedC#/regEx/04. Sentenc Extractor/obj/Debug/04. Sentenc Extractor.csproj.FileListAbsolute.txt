@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2013\Projects\regEx\04. Sentenc Extractor\bin\Debug\_04.Sentenc_Extractor.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\regEx\04. Sentenc Extractor\bin\Debug\_04.Sentenc_Extractor.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\regEx\04. Sentenc Extractor\bin\Debug\_04.Sentenc_Extractor.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\regEx\04. Sentenc Extractor\obj\Debug\04. Sentenc Extractor.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\regEx\04. Sentenc Extractor\obj\Debug\_04.Sentenc_Extractor.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\regEx\04. Sentenc Extractor\obj\Debug\_04.Sentenc_Extractor.pdb

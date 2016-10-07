@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\ExamProblems\letsGoo\bin\Debug\letsGoo.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\ExamProblems\letsGoo\bin\Debug\letsGoo.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\ExamProblems\letsGoo\bin\Debug\letsGoo.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\ExamProblems\letsGoo\obj\Debug\letsGoo.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2013\Projects\ExamProblems\letsGoo\obj\Debug\letsGoo.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\ExamProblems\letsGoo\obj\Debug\letsGoo.pdb

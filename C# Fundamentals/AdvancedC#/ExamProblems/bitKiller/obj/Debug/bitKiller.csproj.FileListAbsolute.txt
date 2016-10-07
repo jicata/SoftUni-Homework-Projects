@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\ExamProblems\bitKiller\bin\Debug\bitKiller.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\ExamProblems\bitKiller\bin\Debug\bitKiller.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\ExamProblems\bitKiller\bin\Debug\bitKiller.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\ExamProblems\bitKiller\obj\Debug\bitKiller.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2013\Projects\ExamProblems\bitKiller\obj\Debug\bitKiller.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\ExamProblems\bitKiller\obj\Debug\bitKiller.pdb

@@ -1,0 +1,5 @@
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructures\02_SortWordss\bin\Debug\02_SortWordss.exe.config
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructures\02_SortWordss\bin\Debug\02_SortWordss.exe
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructures\02_SortWordss\bin\Debug\02_SortWordss.pdb
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructures\02_SortWordss\obj\Debug\02_SortWordss.exe
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructures\02_SortWordss\obj\Debug\02_SortWordss.pdb

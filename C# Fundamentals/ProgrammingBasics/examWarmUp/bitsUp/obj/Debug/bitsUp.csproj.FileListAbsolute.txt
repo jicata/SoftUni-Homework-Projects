@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmUp\bitsUp\bin\Debug\bitsUp.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmUp\bitsUp\bin\Debug\bitsUp.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmUp\bitsUp\bin\Debug\bitsUp.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmUp\bitsUp\obj\Debug\bitsUp.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmUp\bitsUp\obj\Debug\bitsUp.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmUp\bitsUp\obj\Debug\bitsUp.pdb

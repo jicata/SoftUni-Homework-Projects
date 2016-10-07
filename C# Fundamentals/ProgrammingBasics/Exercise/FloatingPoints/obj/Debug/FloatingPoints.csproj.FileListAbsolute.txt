@@ -1,0 +1,5 @@
+c:\users\maika\documents\visual studio 2013\Projects\Exercise\FloatingPoints\bin\Debug\FloatingPoints.exe.config
+c:\users\maika\documents\visual studio 2013\Projects\Exercise\FloatingPoints\bin\Debug\FloatingPoints.exe
+c:\users\maika\documents\visual studio 2013\Projects\Exercise\FloatingPoints\bin\Debug\FloatingPoints.pdb
+c:\users\maika\documents\visual studio 2013\Projects\Exercise\FloatingPoints\obj\Debug\FloatingPoints.exe
+c:\users\maika\documents\visual studio 2013\Projects\Exercise\FloatingPoints\obj\Debug\FloatingPoints.pdb

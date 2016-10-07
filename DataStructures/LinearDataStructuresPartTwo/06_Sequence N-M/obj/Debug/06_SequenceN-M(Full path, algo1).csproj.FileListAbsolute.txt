@@ -1,0 +1,3 @@
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructuresQueuesStax\06_Sequence N-M\bin\Debug\06_Sequence N-M.exe.config
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructuresQueuesStax\06_Sequence N-M\obj\Debug\06_Sequence N-M.exe
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructuresQueuesStax\06_Sequence N-M\obj\Debug\06_Sequence N-M.pdb

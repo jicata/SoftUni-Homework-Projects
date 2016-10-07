@@ -1,0 +1,5 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\conditionalStatements\digitAsWord\bin\Debug\digitAsWord.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\conditionalStatements\digitAsWord\bin\Debug\digitAsWord.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\conditionalStatements\digitAsWord\bin\Debug\digitAsWord.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\conditionalStatements\digitAsWord\obj\Debug\digitAsWord.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\conditionalStatements\digitAsWord\obj\Debug\digitAsWord.pdb

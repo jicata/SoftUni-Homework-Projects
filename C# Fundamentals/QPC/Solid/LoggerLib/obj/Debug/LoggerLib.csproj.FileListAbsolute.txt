@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2015\Projects\Solid\LoggerLib\bin\Debug\LoggerLib.exe.config
+c:\Users\Maika\Documents\Visual Studio 2015\Projects\Solid\LoggerLib\bin\Debug\LoggerLib.exe
+c:\Users\Maika\Documents\Visual Studio 2015\Projects\Solid\LoggerLib\bin\Debug\LoggerLib.pdb
+c:\Users\Maika\Documents\Visual Studio 2015\Projects\Solid\LoggerLib\obj\Debug\LoggerLib.csprojResolveAssemblyReference.cache
+c:\Users\Maika\Documents\Visual Studio 2015\Projects\Solid\LoggerLib\obj\Debug\LoggerLib.exe
+c:\Users\Maika\Documents\Visual Studio 2015\Projects\Solid\LoggerLib\obj\Debug\LoggerLib.pdb

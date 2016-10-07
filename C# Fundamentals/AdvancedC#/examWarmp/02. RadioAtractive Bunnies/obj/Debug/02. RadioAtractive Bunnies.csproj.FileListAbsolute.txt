@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmp\02. RadioAtractive Bunnies\bin\Debug\_02.RadioAtractive_Bunnies.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmp\02. RadioAtractive Bunnies\bin\Debug\_02.RadioAtractive_Bunnies.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmp\02. RadioAtractive Bunnies\bin\Debug\_02.RadioAtractive_Bunnies.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmp\02. RadioAtractive Bunnies\obj\Debug\02. RadioAtractive Bunnies.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmp\02. RadioAtractive Bunnies\obj\Debug\_02.RadioAtractive_Bunnies.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmp\02. RadioAtractive Bunnies\obj\Debug\_02.RadioAtractive_Bunnies.pdb

@@ -1,0 +1,7 @@
+c:\users\maika\documents\visual studio 2015\Projects\CodeDocumentation\StringExtension\bin\Debug\StringExtension.exe.config
+C:\Users\Maika\documents\visual studio 2015\Projects\CodeDocumentation\StringExtension\bin\Debug\StringExtension.XML
+C:\Users\Maika\documents\visual studio 2015\Projects\CodeDocumentation\StringExtension\obj\Debug\StringExtension.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2015\Projects\CodeDocumentation\StringExtension\bin\Debug\StringExtension.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\CodeDocumentation\StringExtension\bin\Debug\StringExtension.pdb
+C:\Users\Maika\documents\visual studio 2015\Projects\CodeDocumentation\StringExtension\obj\Debug\StringExtension.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\CodeDocumentation\StringExtension\obj\Debug\StringExtension.pdb

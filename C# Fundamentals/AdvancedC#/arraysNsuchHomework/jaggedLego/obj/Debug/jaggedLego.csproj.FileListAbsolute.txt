@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\arraysNsuchHomework\jaggedLego\bin\Debug\jaggedLego.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\arraysNsuchHomework\jaggedLego\bin\Debug\jaggedLego.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\arraysNsuchHomework\jaggedLego\bin\Debug\jaggedLego.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\arraysNsuchHomework\jaggedLego\obj\Debug\jaggedLego.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2013\Projects\arraysNsuchHomework\jaggedLego\obj\Debug\jaggedLego.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\arraysNsuchHomework\jaggedLego\obj\Debug\jaggedLego.pdb

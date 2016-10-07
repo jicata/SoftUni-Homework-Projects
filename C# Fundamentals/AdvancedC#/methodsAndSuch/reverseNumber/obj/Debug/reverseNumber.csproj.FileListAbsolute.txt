@@ -1,0 +1,5 @@
+c:\users\maika\documents\visual studio 2013\Projects\methodsAndSuch\reverseNumber\bin\Debug\reverseNumber.exe.config
+c:\users\maika\documents\visual studio 2013\Projects\methodsAndSuch\reverseNumber\bin\Debug\reverseNumber.exe
+c:\users\maika\documents\visual studio 2013\Projects\methodsAndSuch\reverseNumber\bin\Debug\reverseNumber.pdb
+c:\users\maika\documents\visual studio 2013\Projects\methodsAndSuch\reverseNumber\obj\Debug\reverseNumber.exe
+c:\users\maika\documents\visual studio 2013\Projects\methodsAndSuch\reverseNumber\obj\Debug\reverseNumber.pdb

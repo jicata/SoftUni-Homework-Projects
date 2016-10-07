@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2015\Projects\AlgorithmsExamPrep\ShortestPath\bin\Debug\ShortestPath.exe.config
+C:\Users\Maika\documents\visual studio 2015\Projects\AlgorithmsExamPrep\ShortestPath\bin\Debug\ShortestPath.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\AlgorithmsExamPrep\ShortestPath\bin\Debug\ShortestPath.pdb
+C:\Users\Maika\documents\visual studio 2015\Projects\AlgorithmsExamPrep\ShortestPath\obj\Debug\ShortestPath.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2015\Projects\AlgorithmsExamPrep\ShortestPath\obj\Debug\ShortestPath.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\AlgorithmsExamPrep\ShortestPath\obj\Debug\ShortestPath.pdb

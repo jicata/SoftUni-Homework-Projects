@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmp\commandInterpreterLegit\bin\Debug\commandInterpreterLegit.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmp\commandInterpreterLegit\bin\Debug\commandInterpreterLegit.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmp\commandInterpreterLegit\bin\Debug\commandInterpreterLegit.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmp\commandInterpreterLegit\obj\Debug\commandInterpreterLegit.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmp\commandInterpreterLegit\obj\Debug\commandInterpreterLegit.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmp\commandInterpreterLegit\obj\Debug\commandInterpreterLegit.pdb

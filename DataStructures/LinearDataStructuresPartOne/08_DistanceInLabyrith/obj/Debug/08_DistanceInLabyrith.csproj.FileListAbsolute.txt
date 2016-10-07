@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\LinearDataStructures\08_DistanceInLabyrith\bin\Debug\08_DistanceInLabyrith.exe.config
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\LinearDataStructures\08_DistanceInLabyrith\bin\Debug\08_DistanceInLabyrith.exe
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\LinearDataStructures\08_DistanceInLabyrith\bin\Debug\08_DistanceInLabyrith.pdb
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\LinearDataStructures\08_DistanceInLabyrith\obj\Debug\08_DistanceInLabyrith.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\LinearDataStructures\08_DistanceInLabyrith\obj\Debug\08_DistanceInLabyrith.exe
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\LinearDataStructures\08_DistanceInLabyrith\obj\Debug\08_DistanceInLabyrith.pdb

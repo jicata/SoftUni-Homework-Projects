@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\advancedCSharp\MultidimensionalArrays\bin\Debug\MultidimensionalArrays.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\advancedCSharp\MultidimensionalArrays\bin\Debug\MultidimensionalArrays.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\advancedCSharp\MultidimensionalArrays\bin\Debug\MultidimensionalArrays.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\advancedCSharp\MultidimensionalArrays\obj\Debug\MultidimensionalArrays.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\advancedCSharp\MultidimensionalArrays\obj\Debug\MultidimensionalArrays.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\advancedCSharp\MultidimensionalArrays\obj\Debug\MultidimensionalArrays.pdb

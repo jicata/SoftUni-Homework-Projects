@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCentre", "ConsoleApplication1\ShoppingCentre.csproj", "{BD8F7E98-9519-47E5-A672-19690DAED1D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scoreboard", "Scoreboard\Scoreboard.csproj", "{4F59398D-A72F-4684-81CF-B7DC79D63A66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionOfPeople", "CollectionOfPeople\CollectionOfPeople.csproj", "{7EEA9645-59C1-4E13-AFD3-530FEFBC9175}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD8F7E98-9519-47E5-A672-19690DAED1D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD8F7E98-9519-47E5-A672-19690DAED1D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD8F7E98-9519-47E5-A672-19690DAED1D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD8F7E98-9519-47E5-A672-19690DAED1D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F59398D-A72F-4684-81CF-B7DC79D63A66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F59398D-A72F-4684-81CF-B7DC79D63A66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F59398D-A72F-4684-81CF-B7DC79D63A66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F59398D-A72F-4684-81CF-B7DC79D63A66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EEA9645-59C1-4E13-AFD3-530FEFBC9175}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EEA9645-59C1-4E13-AFD3-530FEFBC9175}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EEA9645-59C1-4E13-AFD3-530FEFBC9175}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EEA9645-59C1-4E13-AFD3-530FEFBC9175}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

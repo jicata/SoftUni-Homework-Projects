@@ -1,0 +1,5 @@
+c:\users\maika\documents\visual studio 2015\Projects\GreedyAlgos\02_ProcessorScheduling\bin\Debug\02_ProcessorScheduling.exe.config
+c:\users\maika\documents\visual studio 2015\Projects\GreedyAlgos\02_ProcessorScheduling\bin\Debug\02_ProcessorScheduling.exe
+c:\users\maika\documents\visual studio 2015\Projects\GreedyAlgos\02_ProcessorScheduling\bin\Debug\02_ProcessorScheduling.pdb
+c:\users\maika\documents\visual studio 2015\Projects\GreedyAlgos\02_ProcessorScheduling\obj\Debug\02_ProcessorScheduling.exe
+c:\users\maika\documents\visual studio 2015\Projects\GreedyAlgos\02_ProcessorScheduling\obj\Debug\02_ProcessorScheduling.pdb

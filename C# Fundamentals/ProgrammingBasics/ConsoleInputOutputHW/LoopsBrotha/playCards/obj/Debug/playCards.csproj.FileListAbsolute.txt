@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\playCards\bin\Debug\playCards.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\playCards\bin\Debug\playCards.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\playCards\bin\Debug\playCards.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\playCards\obj\Debug\playCards.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\playCards\obj\Debug\playCards.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\playCards\obj\Debug\playCards.pdb

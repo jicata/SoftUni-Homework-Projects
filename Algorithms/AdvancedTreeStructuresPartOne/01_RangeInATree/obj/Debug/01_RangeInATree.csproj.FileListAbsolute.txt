@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2015\Projects\AdvancedTreeStructuresPartOne\01_RangeInATree\bin\Debug\01_RangeInATree.exe.config
+c:\users\maika\documents\visual studio 2015\Projects\AdvancedTreeStructuresPartOne\01_RangeInATree\bin\Debug\01_RangeInATree.exe
+c:\users\maika\documents\visual studio 2015\Projects\AdvancedTreeStructuresPartOne\01_RangeInATree\bin\Debug\01_RangeInATree.pdb
+c:\users\maika\documents\visual studio 2015\Projects\AdvancedTreeStructuresPartOne\01_RangeInATree\obj\Debug\01_RangeInATree.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2015\Projects\AdvancedTreeStructuresPartOne\01_RangeInATree\obj\Debug\01_RangeInATree.exe
+c:\users\maika\documents\visual studio 2015\Projects\AdvancedTreeStructuresPartOne\01_RangeInATree\obj\Debug\01_RangeInATree.pdb

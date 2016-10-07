@@ -1,0 +1,5 @@
+c:\users\maika\documents\visual studio 2015\Projects\TreeAndGraphTraversals\03_RideTheHorse\bin\Debug\03_RideTheHorse.exe.config
+c:\users\maika\documents\visual studio 2015\Projects\TreeAndGraphTraversals\03_RideTheHorse\bin\Debug\03_RideTheHorse.exe
+c:\users\maika\documents\visual studio 2015\Projects\TreeAndGraphTraversals\03_RideTheHorse\bin\Debug\03_RideTheHorse.pdb
+c:\users\maika\documents\visual studio 2015\Projects\TreeAndGraphTraversals\03_RideTheHorse\obj\Debug\03_RideTheHorse.exe
+c:\users\maika\documents\visual studio 2015\Projects\TreeAndGraphTraversals\03_RideTheHorse\obj\Debug\03_RideTheHorse.pdb

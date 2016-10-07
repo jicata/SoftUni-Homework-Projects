@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2015\Projects\Algorithms\04_HanoiTower\bin\Debug\04_HanoiTower.exe.config
+C:\Users\Maika\documents\visual studio 2015\Projects\Algorithms\04_HanoiTower\bin\Debug\04_HanoiTower.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\Algorithms\04_HanoiTower\bin\Debug\04_HanoiTower.pdb
+C:\Users\Maika\documents\visual studio 2015\Projects\Algorithms\04_HanoiTower\obj\Debug\04_HanoiTower.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2015\Projects\Algorithms\04_HanoiTower\obj\Debug\04_HanoiTower.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\Algorithms\04_HanoiTower\obj\Debug\04_HanoiTower.pdb

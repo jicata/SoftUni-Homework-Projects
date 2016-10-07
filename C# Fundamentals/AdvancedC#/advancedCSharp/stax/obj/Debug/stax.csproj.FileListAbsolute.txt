@@ -1,0 +1,5 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\advancedCSharp\stax\bin\Debug\stax.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\advancedCSharp\stax\bin\Debug\stax.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\advancedCSharp\stax\bin\Debug\stax.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\advancedCSharp\stax\obj\Debug\stax.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\advancedCSharp\stax\obj\Debug\stax.pdb

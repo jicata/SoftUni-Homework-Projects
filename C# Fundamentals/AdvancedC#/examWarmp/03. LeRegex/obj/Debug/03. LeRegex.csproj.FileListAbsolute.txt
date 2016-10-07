@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmp\03. LeRegex\bin\Debug\_03.LeRegex.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmp\03. LeRegex\bin\Debug\_03.LeRegex.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmp\03. LeRegex\bin\Debug\_03.LeRegex.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmp\03. LeRegex\obj\Debug\03. LeRegex.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmp\03. LeRegex\obj\Debug\_03.LeRegex.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmp\03. LeRegex\obj\Debug\_03.LeRegex.pdb

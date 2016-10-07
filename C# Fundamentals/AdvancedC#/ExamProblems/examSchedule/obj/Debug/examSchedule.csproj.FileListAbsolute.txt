@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\examSchedule\bin\Debug\examSchedule.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\examSchedule\obj\Debug\examSchedule.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\examSchedule\bin\Debug\examSchedule.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\examSchedule\bin\Debug\examSchedule.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\examSchedule\obj\Debug\examSchedule.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\examSchedule\obj\Debug\examSchedule.pdb

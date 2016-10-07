@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Solution The First\TenYearsFromNow\bin\Debug\TenYearsFromNow.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Solution The First\TenYearsFromNow\bin\Debug\TenYearsFromNow.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Solution The First\TenYearsFromNow\bin\Debug\TenYearsFromNow.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Solution The First\TenYearsFromNow\obj\Debug\TenYearsFromNow.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Solution The First\TenYearsFromNow\obj\Debug\TenYearsFromNow.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Solution The First\TenYearsFromNow\obj\Debug\TenYearsFromNow.csprojResolveAssemblyReference.cache

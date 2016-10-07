@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\02_CombinatorialAlgorithms\03_IterativeCombinations\bin\Debug\03_IterativeCombinations.exe.config
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\02_CombinatorialAlgorithms\03_IterativeCombinations\bin\Debug\03_IterativeCombinations.exe
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\02_CombinatorialAlgorithms\03_IterativeCombinations\bin\Debug\03_IterativeCombinations.pdb
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\02_CombinatorialAlgorithms\03_IterativeCombinations\obj\Debug\03_IterativeCombinations.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\02_CombinatorialAlgorithms\03_IterativeCombinations\obj\Debug\03_IterativeCombinations.exe
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\02_CombinatorialAlgorithms\03_IterativeCombinations\obj\Debug\03_IterativeCombinations.pdb

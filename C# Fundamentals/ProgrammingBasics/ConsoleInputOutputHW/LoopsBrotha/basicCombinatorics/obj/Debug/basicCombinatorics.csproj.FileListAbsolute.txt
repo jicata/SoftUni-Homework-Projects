@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\basicCombinatorics\bin\Debug\basicCombinatorics.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\basicCombinatorics\bin\Debug\basicCombinatorics.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\basicCombinatorics\bin\Debug\basicCombinatorics.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\basicCombinatorics\obj\Debug\basicCombinatorics.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\basicCombinatorics\obj\Debug\basicCombinatorics.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\basicCombinatorics\obj\Debug\basicCombinatorics.pdb

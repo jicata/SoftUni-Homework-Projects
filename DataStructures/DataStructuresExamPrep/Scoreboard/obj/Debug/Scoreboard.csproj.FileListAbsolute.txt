@@ -1,0 +1,8 @@
+c:\users\maika\documents\visual studio 2015\Projects\DataStructuresExamPrep\Scoreboard\bin\Debug\Scoreboard.exe.config
+c:\users\maika\documents\visual studio 2015\Projects\DataStructuresExamPrep\Scoreboard\bin\Debug\Scoreboard.exe
+c:\users\maika\documents\visual studio 2015\Projects\DataStructuresExamPrep\Scoreboard\bin\Debug\Scoreboard.pdb
+c:\users\maika\documents\visual studio 2015\Projects\DataStructuresExamPrep\Scoreboard\obj\Debug\Scoreboard.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2015\Projects\DataStructuresExamPrep\Scoreboard\obj\Debug\Scoreboard.exe
+c:\users\maika\documents\visual studio 2015\Projects\DataStructuresExamPrep\Scoreboard\obj\Debug\Scoreboard.pdb
+C:\Users\Maika\documents\visual studio 2015\Projects\DataStructuresExamPrep\Scoreboard\bin\Debug\SoftUni.Wintellect.PowerCollections.dll
+C:\Users\Maika\documents\visual studio 2015\Projects\DataStructuresExamPrep\Scoreboard\bin\Debug\SoftUni.Wintellect.PowerCollections.xml

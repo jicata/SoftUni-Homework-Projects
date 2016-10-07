@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\multiDimenstionArraysNshit\sequenceOfStrings\bin\Debug\sequenceOfStrings.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\multiDimenstionArraysNshit\sequenceOfStrings\bin\Debug\sequenceOfStrings.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\multiDimenstionArraysNshit\sequenceOfStrings\bin\Debug\sequenceOfStrings.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\multiDimenstionArraysNshit\sequenceOfStrings\obj\Debug\sequenceOfStrings.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\multiDimenstionArraysNshit\sequenceOfStrings\obj\Debug\sequenceOfStrings.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\multiDimenstionArraysNshit\sequenceOfStrings\obj\Debug\sequenceOfStrings.pdb

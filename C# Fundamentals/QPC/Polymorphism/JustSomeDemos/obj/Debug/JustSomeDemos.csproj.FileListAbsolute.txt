@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2015\Projects\Polymorphism\JustSomeDemos\bin\Debug\JustSomeDemos.exe.config
+c:\users\maika\documents\visual studio 2015\Projects\Polymorphism\JustSomeDemos\bin\Debug\JustSomeDemos.exe
+c:\users\maika\documents\visual studio 2015\Projects\Polymorphism\JustSomeDemos\bin\Debug\JustSomeDemos.pdb
+c:\users\maika\documents\visual studio 2015\Projects\Polymorphism\JustSomeDemos\obj\Debug\JustSomeDemos.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2015\Projects\Polymorphism\JustSomeDemos\obj\Debug\JustSomeDemos.exe
+c:\users\maika\documents\visual studio 2015\Projects\Polymorphism\JustSomeDemos\obj\Debug\JustSomeDemos.pdb

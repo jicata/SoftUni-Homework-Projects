@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\hexadecimalToDecimal\bin\Debug\hexadecimalToDecimal.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\hexadecimalToDecimal\bin\Debug\hexadecimalToDecimal.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\hexadecimalToDecimal\bin\Debug\hexadecimalToDecimal.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\hexadecimalToDecimal\obj\Debug\hexadecimalToDecimal.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\hexadecimalToDecimal\obj\Debug\hexadecimalToDecimal.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\hexadecimalToDecimal\obj\Debug\hexadecimalToDecimal.pdb

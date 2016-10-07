@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2013\Projects\OperandsNshit\OddOrEven\bin\Debug\OddOrEven.exe.config
+c:\users\maika\documents\visual studio 2013\Projects\OperandsNshit\OddOrEven\bin\Debug\OddOrEven.exe
+c:\users\maika\documents\visual studio 2013\Projects\OperandsNshit\OddOrEven\bin\Debug\OddOrEven.pdb
+c:\users\maika\documents\visual studio 2013\Projects\OperandsNshit\OddOrEven\obj\Debug\OddOrEven.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2013\Projects\OperandsNshit\OddOrEven\obj\Debug\OddOrEven.exe
+c:\users\maika\documents\visual studio 2013\Projects\OperandsNshit\OddOrEven\obj\Debug\OddOrEven.pdb

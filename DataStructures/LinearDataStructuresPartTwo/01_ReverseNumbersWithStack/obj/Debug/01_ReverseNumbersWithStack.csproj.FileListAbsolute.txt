@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructuresQueuesStax\01_ReverseNumbersWithStack\bin\Debug\01_ReverseNumbersWithStack.exe.config
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructuresQueuesStax\01_ReverseNumbersWithStack\bin\Debug\01_ReverseNumbersWithStack.exe
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructuresQueuesStax\01_ReverseNumbersWithStack\bin\Debug\01_ReverseNumbersWithStack.pdb
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructuresQueuesStax\01_ReverseNumbersWithStack\obj\Debug\01_ReverseNumbersWithStack.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructuresQueuesStax\01_ReverseNumbersWithStack\obj\Debug\01_ReverseNumbersWithStack.exe
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructuresQueuesStax\01_ReverseNumbersWithStack\obj\Debug\01_ReverseNumbersWithStack.pdb

@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ConsoleInputOutputHW\endlessSequence\bin\Debug\endlessSequence.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ConsoleInputOutputHW\endlessSequence\bin\Debug\endlessSequence.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ConsoleInputOutputHW\endlessSequence\bin\Debug\endlessSequence.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ConsoleInputOutputHW\endlessSequence\obj\Debug\endlessSequence.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ConsoleInputOutputHW\endlessSequence\obj\Debug\endlessSequence.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ConsoleInputOutputHW\endlessSequence\obj\Debug\endlessSequence.csprojResolveAssemblyReference.cache

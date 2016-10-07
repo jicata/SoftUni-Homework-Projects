@@ -1,0 +1,8 @@
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructuresQueuesStax\05_DoublyLinkedListBasedQueueTests\bin\Debug\05_DoublyLinkedListBasedQueueTests.dll
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructuresQueuesStax\05_DoublyLinkedListBasedQueueTests\bin\Debug\05_DoublyLinkedListBasedQueueTests.pdb
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructuresQueuesStax\05_DoublyLinkedListBasedQueueTests\bin\Debug\05_DoublyLinkedListBasedStack.exe
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructuresQueuesStax\05_DoublyLinkedListBasedQueueTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructuresQueuesStax\05_DoublyLinkedListBasedQueueTests\bin\Debug\05_DoublyLinkedListBasedStack.pdb
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructuresQueuesStax\05_DoublyLinkedListBasedQueueTests\obj\Debug\05_DoublyLinkedListBasedQueueUnitTests.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructuresQueuesStax\05_DoublyLinkedListBasedQueueTests\obj\Debug\05_DoublyLinkedListBasedQueueTests.dll
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructuresQueuesStax\05_DoublyLinkedListBasedQueueTests\obj\Debug\05_DoublyLinkedListBasedQueueTests.pdb

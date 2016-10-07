@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\OOP\01Person\bin\Debug\01Person.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\OOP\01Person\bin\Debug\01Person.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\OOP\01Person\bin\Debug\01Person.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\OOP\01Person\obj\Debug\01Person.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2013\Projects\OOP\01Person\obj\Debug\01Person.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\OOP\01Person\obj\Debug\01Person.pdb

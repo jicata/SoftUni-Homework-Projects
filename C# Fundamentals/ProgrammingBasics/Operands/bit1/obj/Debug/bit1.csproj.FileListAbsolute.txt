@@ -1,0 +1,5 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OperandsNshit\bit1\bin\Debug\bit1.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OperandsNshit\bit1\bin\Debug\bit1.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OperandsNshit\bit1\bin\Debug\bit1.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OperandsNshit\bit1\obj\Debug\bit1.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OperandsNshit\bit1\obj\Debug\bit1.pdb

@@ -1,0 +1,5 @@
+C:\Users\Maika\documents\visual studio 2015\Projects\02_CombinatorialAlgorithms\OddEvenSum\bin\Debug\OddEvenSum.exe.config
+C:\Users\Maika\documents\visual studio 2015\Projects\02_CombinatorialAlgorithms\OddEvenSum\bin\Debug\OddEvenSum.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\02_CombinatorialAlgorithms\OddEvenSum\bin\Debug\OddEvenSum.pdb
+C:\Users\Maika\documents\visual studio 2015\Projects\02_CombinatorialAlgorithms\OddEvenSum\obj\Debug\OddEvenSum.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\02_CombinatorialAlgorithms\OddEvenSum\obj\Debug\OddEvenSum.pdb

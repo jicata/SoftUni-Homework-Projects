@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\OOP\PC-Catalog\bin\Debug\PC-Catalog.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\OOP\PC-Catalog\bin\Debug\PC-Catalog.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\OOP\PC-Catalog\bin\Debug\PC-Catalog.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\OOP\PC-Catalog\obj\Debug\PC-Catalog.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2013\Projects\OOP\PC-Catalog\obj\Debug\PC-Catalog.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\OOP\PC-Catalog\obj\Debug\PC-Catalog.pdb

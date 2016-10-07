@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\advancedTechniques\urlExtract\bin\Debug\urlExtract.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\advancedTechniques\urlExtract\bin\Debug\urlExtract.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\advancedTechniques\urlExtract\bin\Debug\urlExtract.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\advancedTechniques\urlExtract\obj\Debug\urlExtract.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2013\Projects\advancedTechniques\urlExtract\obj\Debug\urlExtract.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\advancedTechniques\urlExtract\obj\Debug\urlExtract.pdb

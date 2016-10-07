@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2015\Projects\BUnnyBunnyBunBun\kur\bin\Debug\kur.exe.config
+C:\Users\Maika\documents\visual studio 2015\Projects\BUnnyBunnyBunBun\kur\bin\Debug\kur.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\BUnnyBunnyBunBun\kur\bin\Debug\kur.pdb
+C:\Users\Maika\documents\visual studio 2015\Projects\BUnnyBunnyBunBun\kur\obj\Debug\kur.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2015\Projects\BUnnyBunnyBunBun\kur\obj\Debug\kur.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\BUnnyBunnyBunBun\kur\obj\Debug\kur.pdb

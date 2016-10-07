@@ -1,0 +1,5 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\illuminatiTriangle\bin\Debug\illuminatiTriangle.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\illuminatiTriangle\bin\Debug\illuminatiTriangle.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\illuminatiTriangle\bin\Debug\illuminatiTriangle.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\illuminatiTriangle\obj\Debug\illuminatiTriangle.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\illuminatiTriangle\obj\Debug\illuminatiTriangle.pdb

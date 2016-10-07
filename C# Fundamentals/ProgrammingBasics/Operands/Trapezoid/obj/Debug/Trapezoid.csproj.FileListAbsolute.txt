@@ -1,0 +1,5 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OperandsNshit\Trapezoid\bin\Debug\Trapezoid.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OperandsNshit\Trapezoid\bin\Debug\Trapezoid.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OperandsNshit\Trapezoid\bin\Debug\Trapezoid.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OperandsNshit\Trapezoid\obj\Debug\Trapezoid.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OperandsNshit\Trapezoid\obj\Debug\Trapezoid.pdb

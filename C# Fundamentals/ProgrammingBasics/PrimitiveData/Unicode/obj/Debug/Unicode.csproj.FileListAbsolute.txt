@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\PrimitiveData\Unicode\bin\Debug\Unicode.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\PrimitiveData\Unicode\bin\Debug\Unicode.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\PrimitiveData\Unicode\bin\Debug\Unicode.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\PrimitiveData\Unicode\obj\Debug\Unicode.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\PrimitiveData\Unicode\obj\Debug\Unicode.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\PrimitiveData\Unicode\obj\Debug\Unicode.csprojResolveAssemblyReference.cache

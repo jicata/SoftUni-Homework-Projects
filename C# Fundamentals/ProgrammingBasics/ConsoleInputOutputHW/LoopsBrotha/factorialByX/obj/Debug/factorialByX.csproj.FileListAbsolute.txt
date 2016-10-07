@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\factorialByX\bin\Debug\factorialByX.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\LoopsBrotha\factorialByX\bin\Debug\factorialByX.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\LoopsBrotha\factorialByX\bin\Debug\factorialByX.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\LoopsBrotha\factorialByX\obj\Debug\factorialByX.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\LoopsBrotha\factorialByX\obj\Debug\factorialByX.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\LoopsBrotha\factorialByX\obj\Debug\factorialByX.pdb

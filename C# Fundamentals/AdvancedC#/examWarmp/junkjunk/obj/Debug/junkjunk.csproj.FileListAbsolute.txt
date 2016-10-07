@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmp\junkjunk\bin\Debug\junkjunk.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmp\junkjunk\obj\Debug\junkjunk.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmp\junkjunk\bin\Debug\junkjunk.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmp\junkjunk\bin\Debug\junkjunk.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmp\junkjunk\obj\Debug\junkjunk.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmp\junkjunk\obj\Debug\junkjunk.pdb

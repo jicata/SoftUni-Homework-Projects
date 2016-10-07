@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2015\Projects\AlgorithmsExamPrep\03_Stix\bin\Debug\03_Stix.exe.config
+C:\Users\Maika\documents\visual studio 2015\Projects\AlgorithmsExamPrep\03_Stix\bin\Debug\03_Stix.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\AlgorithmsExamPrep\03_Stix\bin\Debug\03_Stix.pdb
+C:\Users\Maika\documents\visual studio 2015\Projects\AlgorithmsExamPrep\03_Stix\obj\Debug\03_Stix.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2015\Projects\AlgorithmsExamPrep\03_Stix\obj\Debug\03_Stix.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\AlgorithmsExamPrep\03_Stix\obj\Debug\03_Stix.pdb

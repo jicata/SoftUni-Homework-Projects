@@ -1,0 +1,5 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\advancedTechniques\longestNonDecreasingSequence\bin\Debug\longestNonDecreasingSequence.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\advancedTechniques\longestNonDecreasingSequence\bin\Debug\longestNonDecreasingSequence.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\advancedTechniques\longestNonDecreasingSequence\bin\Debug\longestNonDecreasingSequence.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\advancedTechniques\longestNonDecreasingSequence\obj\Debug\longestNonDecreasingSequence.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\advancedTechniques\longestNonDecreasingSequence\obj\Debug\longestNonDecreasingSequence.pdb

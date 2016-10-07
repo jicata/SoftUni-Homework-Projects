@@ -1,0 +1,9 @@
+C:\Users\Maika\Desktop\softa we\DataStructures\08_DataStructuresEfficiency\Collection-of-Persons.Tests\bin\Debug\Collection-of-Persons.Tests.dll
+C:\Users\Maika\Desktop\softa we\DataStructures\08_DataStructuresEfficiency\Collection-of-Persons.Tests\bin\Debug\Collection-of-Persons.Tests.pdb
+C:\Users\Maika\Desktop\softa we\DataStructures\08_DataStructuresEfficiency\Collection-of-Persons.Tests\bin\Debug\Collection-of-Persons.exe
+C:\Users\Maika\Desktop\softa we\DataStructures\08_DataStructuresEfficiency\Collection-of-Persons.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Maika\Desktop\softa we\DataStructures\08_DataStructuresEfficiency\Collection-of-Persons.Tests\bin\Debug\Collection-of-Persons.pdb
+C:\Users\Maika\Desktop\softa we\DataStructures\08_DataStructuresEfficiency\Collection-of-Persons.Tests\obj\Debug\Collection-of-Persons.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Desktop\softa we\DataStructures\08_DataStructuresEfficiency\Collection-of-Persons.Tests\obj\Debug\Collection-of-Persons.Tests.dll
+C:\Users\Maika\Desktop\softa we\DataStructures\08_DataStructuresEfficiency\Collection-of-Persons.Tests\obj\Debug\Collection-of-Persons.Tests.pdb
+C:\Users\Maika\Desktop\softa we\DataStructures\08_DataStructuresEfficiency\Collection-of-Persons.Tests\bin\Debug\PowerCollections.dll

@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmUp\bookProblem\bin\Debug\bookProblem.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmUp\bookProblem\bin\Debug\bookProblem.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmUp\bookProblem\bin\Debug\bookProblem.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmUp\bookProblem\obj\Debug\bookProblem.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmUp\bookProblem\obj\Debug\bookProblem.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmUp\bookProblem\obj\Debug\bookProblem.pdb

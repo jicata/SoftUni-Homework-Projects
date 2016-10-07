@@ -1,0 +1,8 @@
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructuresQueuesStax\03_ArrayBasedStackUnitTests\bin\Debug\03_ArrayBasedStackUnitTests.dll
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructuresQueuesStax\03_ArrayBasedStackUnitTests\bin\Debug\03_ArrayBasedStackUnitTests.pdb
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructuresQueuesStax\03_ArrayBasedStackUnitTests\bin\Debug\03_ArrayBasedStack.exe
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructuresQueuesStax\03_ArrayBasedStackUnitTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructuresQueuesStax\03_ArrayBasedStackUnitTests\bin\Debug\03_ArrayBasedStack.pdb
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructuresQueuesStax\03_ArrayBasedStackUnitTests\obj\Debug\03_ArrayBasedStackUnitTests.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructuresQueuesStax\03_ArrayBasedStackUnitTests\obj\Debug\03_ArrayBasedStackUnitTests.dll
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructuresQueuesStax\03_ArrayBasedStackUnitTests\obj\Debug\03_ArrayBasedStackUnitTests.pdb

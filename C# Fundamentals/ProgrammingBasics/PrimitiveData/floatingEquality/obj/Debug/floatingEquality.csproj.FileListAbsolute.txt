@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\PrimitiveData\floatingEquality\bin\Debug\floatingEquality.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\PrimitiveData\floatingEquality\bin\Debug\floatingEquality.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\PrimitiveData\floatingEquality\bin\Debug\floatingEquality.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\PrimitiveData\floatingEquality\obj\Debug\floatingEquality.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\PrimitiveData\floatingEquality\obj\Debug\floatingEquality.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\PrimitiveData\floatingEquality\obj\Debug\floatingEquality.pdb

@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\PrimitiveData\NullableOperations\bin\Debug\NullableOperations.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\PrimitiveData\NullableOperations\bin\Debug\NullableOperations.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\PrimitiveData\NullableOperations\bin\Debug\NullableOperations.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\PrimitiveData\NullableOperations\obj\Debug\NullableOperations.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\PrimitiveData\NullableOperations\obj\Debug\NullableOperations.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\PrimitiveData\NullableOperations\obj\Debug\NullableOperations.pdb

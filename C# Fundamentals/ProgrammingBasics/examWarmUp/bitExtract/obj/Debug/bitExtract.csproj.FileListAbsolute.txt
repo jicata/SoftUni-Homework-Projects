@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmUp\bitExtract\bin\Debug\bitExtract.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmUp\bitExtract\bin\Debug\bitExtract.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmUp\bitExtract\bin\Debug\bitExtract.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmUp\bitExtract\obj\Debug\bitExtract.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmUp\bitExtract\obj\Debug\bitExtract.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmUp\bitExtract\obj\Debug\bitExtract.csprojResolveAssemblyReference.cache

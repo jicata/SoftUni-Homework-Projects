@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\baiVylcho\bin\Debug\baiVylcho.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\baiVylcho\bin\Debug\baiVylcho.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\baiVylcho\bin\Debug\baiVylcho.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\baiVylcho\obj\Debug\baiVylcho.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\baiVylcho\obj\Debug\baiVylcho.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\baiVylcho\obj\Debug\baiVylcho.csprojResolveAssemblyReference.cache

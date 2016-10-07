@@ -1,0 +1,5 @@
+c:\users\maika\documents\visual studio 2013\Projects\ConsoleInputOutputHW\CompanyInfo\bin\Debug\CompanyInfo.exe.config
+c:\users\maika\documents\visual studio 2013\Projects\ConsoleInputOutputHW\CompanyInfo\bin\Debug\CompanyInfo.exe
+c:\users\maika\documents\visual studio 2013\Projects\ConsoleInputOutputHW\CompanyInfo\bin\Debug\CompanyInfo.pdb
+c:\users\maika\documents\visual studio 2013\Projects\ConsoleInputOutputHW\CompanyInfo\obj\Debug\CompanyInfo.exe
+c:\users\maika\documents\visual studio 2013\Projects\ConsoleInputOutputHW\CompanyInfo\obj\Debug\CompanyInfo.pdb

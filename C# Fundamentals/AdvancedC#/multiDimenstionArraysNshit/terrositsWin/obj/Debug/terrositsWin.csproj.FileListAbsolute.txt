@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\multiDimenstionArraysNshit\terrositsWin\bin\Debug\terrositsWin.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\multiDimenstionArraysNshit\terrositsWin\bin\Debug\terrositsWin.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\multiDimenstionArraysNshit\terrositsWin\bin\Debug\terrositsWin.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\multiDimenstionArraysNshit\terrositsWin\obj\Debug\terrositsWin.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\multiDimenstionArraysNshit\terrositsWin\obj\Debug\terrositsWin.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\multiDimenstionArraysNshit\terrositsWin\obj\Debug\terrositsWin.pdb

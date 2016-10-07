@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2013\Projects\advancedTechniques\longestAreaInAnArray\bin\Debug\longestAreaInAnArray.exe.config
+c:\users\maika\documents\visual studio 2013\Projects\advancedTechniques\longestAreaInAnArray\bin\Debug\longestAreaInAnArray.exe
+c:\users\maika\documents\visual studio 2013\Projects\advancedTechniques\longestAreaInAnArray\bin\Debug\longestAreaInAnArray.pdb
+c:\users\maika\documents\visual studio 2013\Projects\advancedTechniques\longestAreaInAnArray\obj\Debug\longestAreaInAnArray.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2013\Projects\advancedTechniques\longestAreaInAnArray\obj\Debug\longestAreaInAnArray.exe
+c:\users\maika\documents\visual studio 2013\Projects\advancedTechniques\longestAreaInAnArray\obj\Debug\longestAreaInAnArray.pdb

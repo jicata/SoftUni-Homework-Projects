@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2015\Projects\AlgorithmsExamPrep\Medenka\bin\Debug\Medenka.exe.config
+C:\Users\Maika\documents\visual studio 2015\Projects\AlgorithmsExamPrep\Medenka\bin\Debug\Medenka.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\AlgorithmsExamPrep\Medenka\bin\Debug\Medenka.pdb
+C:\Users\Maika\documents\visual studio 2015\Projects\AlgorithmsExamPrep\Medenka\obj\Debug\Medenka.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2015\Projects\AlgorithmsExamPrep\Medenka\obj\Debug\Medenka.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\AlgorithmsExamPrep\Medenka\obj\Debug\Medenka.pdb

@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StringExtension</name>
+    </assembly>
+    <members>
+        <member name="T:PoneNamespaceDaImashe.StringExtensions">
+            <summary>
+            Defines methods for dealing with file extensions.
+            </summary>
+        </member>
+        <member name="M:PoneNamespaceDaImashe.StringExtensions.ToMd5Hash(System.String)">
+            <summary>
+            Crypts a string using the MD5Hash algorithm
+            </summary>
+            <param name="input">String to be converted</param>
+            <returns></returns>
+        </member>
+        <member name="M:PoneNamespaceDaImashe.StringExtensions.ToBoolean(System.String)">
+            <summary>
+            Checks whether a given string is a TrueValue
+            </summary>
+            <param name="input">String to check</param>
+            <returns></returns>
+        </member>
+        <member name="M:PoneNamespaceDaImashe.StringExtensions.ToShort(System.String)">
+            <summary>
+            Parses a string to short. Returns 0 if the string is not a number.
+            </summary>
+            <param name="input">String to parse</param>
+            <returns></returns>
+        </member>
+        <member name="M:PoneNamespaceDaImashe.StringExtensions.ToInteger(System.String)">
+            <summary>
+            Parses a string to integer. Returns 0 if the string is not a number.
+            </summary>
+            <param name="input">String to parse</param>
+            <returns></returns>
+        </member>
+        <member name="M:PoneNamespaceDaImashe.StringExtensions.ToLong(System.String)">
+            <summary>
+            Parses a string to long. Returns 0 if the string is not a number.
+            </summary>
+            <param name="input">String to parse</param>
+            <returns></returns>
+        </member>
+        <member name="M:PoneNamespaceDaImashe.StringExtensions.ToDateTime(System.String)">
+            <summary>
+            Parses a string to DateTime. Returns 0 if the string is not a number.
+            </summary>
+            <param name="input">String to parse</param>
+            <returns></returns>
+        </member>
+        <member name="M:PoneNamespaceDaImashe.StringExtensions.CapitalizeFirstLetter(System.String)">
+            <summary>
+            Capitalizes the first letter of a string. Returns the string if it's null or empty.
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PoneNamespaceDaImashe.StringExtensions.GetStringBetween(System.String,System.String,System.String,System.Int32)">
+            <summary>
+            Gets the substring between two specified strings in a given string.
+            </summary>
+            <param name="input">The input string to be substringed</param>
+            <param name="startString">Starting string</param>
+            <param name="endString">Ending string</param>
+            <param name="startFrom"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PoneNamespaceDaImashe.StringExtensions.ConvertCyrillicToLatinLetters(System.String)">
+            <summary>
+            Converts a string in Cyrillic to a string in Latin.
+            </summary>
+            <param name="input">String to be converted</param>
+            <returns></returns>
+        </member>
+        <member name="M:PoneNamespaceDaImashe.StringExtensions.ConvertLatinToCyrillicKeyboard(System.String)">
+            <summary>
+            Converts a string in Lating to a string in Cyrillic.
+            </summary>
+            <param name="input">String to be converted</param>
+            <returns></returns>
+        </member>
+        <member name="M:PoneNamespaceDaImashe.StringExtensions.ToValidUsername(System.String)">
+            <summary>
+            Converts a Cyrillic string to Latin and removes specific illegal chracters from it.
+            </summary>
+            <param name="input">String to verify</param>
+            <returns></returns>
+        </member>
+        <member name="M:PoneNamespaceDaImashe.StringExtensions.ToValidLatinFileName(System.String)">
+            <summary>
+            Replaces whitespace in a string with "-" and converts the string to a Latin string. Then removes specific illegal chracters from it.
+            </summary>
+            <param name="input">String to verify</param>
+            <returns></returns>
+        </member>
+        <member name="M:PoneNamespaceDaImashe.StringExtensions.GetFirstCharacters(System.String,System.Int32)">
+            <summary>
+            Gets the characters in a string from index 0 to specified range
+            </summary>
+            <param name="input">Input string</param>
+            <param name="charsCount">End index</param>
+            <returns></returns>
+        </member>
+        <member name="M:PoneNamespaceDaImashe.StringExtensions.GetFileExtension(System.String)">
+            <summary>
+            Gets the file extension of a filename.
+            </summary>
+            <param name="fileName">String representing full filename</param>
+            <returns></returns>
+        </member>
+        <member name="M:PoneNamespaceDaImashe.StringExtensions.ToContentType(System.String)">
+            <summary>
+            Links a file extension to a pre-defined content type.
+            </summary>
+            <param name="fileExtension"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PoneNamespaceDaImashe.StringExtensions.ToByteArray(System.String)">
+            <summary>
+            Converts a string to its byte array representation
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

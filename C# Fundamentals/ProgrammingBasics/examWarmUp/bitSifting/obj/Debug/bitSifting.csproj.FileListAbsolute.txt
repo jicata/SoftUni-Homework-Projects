@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmUp\bitSifting\bin\Debug\bitSifting.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmUp\bitSifting\bin\Debug\bitSifting.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmUp\bitSifting\bin\Debug\bitSifting.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmUp\bitSifting\obj\Debug\bitSifting.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmUp\bitSifting\obj\Debug\bitSifting.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmUp\bitSifting\obj\Debug\bitSifting.pdb

@@ -1,0 +1,5 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OperandsNshit\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OperandsNshit\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OperandsNshit\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OperandsNshit\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OperandsNshit\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

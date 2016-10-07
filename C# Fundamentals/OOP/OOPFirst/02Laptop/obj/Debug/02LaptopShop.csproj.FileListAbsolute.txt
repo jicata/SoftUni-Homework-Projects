@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\OOP\02Laptop\bin\Debug\02Laptop.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\OOP\02Laptop\obj\Debug\02LaptopShop.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2013\Projects\OOP\02Laptop\bin\Debug\02Laptop.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\OOP\02Laptop\bin\Debug\02Laptop.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\OOP\02Laptop\obj\Debug\02Laptop.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\OOP\02Laptop\obj\Debug\02Laptop.pdb

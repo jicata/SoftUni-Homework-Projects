@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\ershenie\bin\Debug\ershenie.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\ershenie\bin\Debug\ershenie.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\ershenie\bin\Debug\ershenie.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\ershenie\obj\Debug\ershenie.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\ershenie\obj\Debug\ershenie.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\ershenie\obj\Debug\ershenie.csprojResolveAssemblyReference.cache

@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\02_CombinatorialAlgorithms\01_RecursivePermutations\bin\Debug\01_RecursivePermutations.exe.config
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\02_CombinatorialAlgorithms\01_RecursivePermutations\bin\Debug\01_RecursivePermutations.exe
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\02_CombinatorialAlgorithms\01_RecursivePermutations\bin\Debug\01_RecursivePermutations.pdb
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\02_CombinatorialAlgorithms\01_RecursivePermutations\obj\Debug\01_RecursivePermutations.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\02_CombinatorialAlgorithms\01_RecursivePermutations\obj\Debug\01_RecursivePermutations.exe
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\02_CombinatorialAlgorithms\01_RecursivePermutations\obj\Debug\01_RecursivePermutations.pdb

@@ -1,0 +1,5 @@
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructuresQueuesStax\_06_SequenceN-M(ShortestPathAlgo2)\bin\Debug\_06_SequenceN-M(ShortestPathAlgo2).exe.config
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructuresQueuesStax\_06_SequenceN-M(ShortestPathAlgo2)\bin\Debug\_06_SequenceN-M(ShortestPathAlgo2).exe
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructuresQueuesStax\_06_SequenceN-M(ShortestPathAlgo2)\bin\Debug\_06_SequenceN-M(ShortestPathAlgo2).pdb
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructuresQueuesStax\_06_SequenceN-M(ShortestPathAlgo2)\obj\Debug\_06_SequenceN-M(ShortestPathAlgo2).exe
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructuresQueuesStax\_06_SequenceN-M(ShortestPathAlgo2)\obj\Debug\_06_SequenceN-M(ShortestPathAlgo2).pdb

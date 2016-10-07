@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Solution The First\ShortSequence\bin\Debug\ShortSequence.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Solution The First\ShortSequence\obj\Debug\ShortSequence.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Solution The First\ShortSequence\bin\Debug\ShortSequence.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Solution The First\ShortSequence\bin\Debug\ShortSequence.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Solution The First\ShortSequence\obj\Debug\ShortSequence.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Solution The First\ShortSequence\obj\Debug\ShortSequence.pdb

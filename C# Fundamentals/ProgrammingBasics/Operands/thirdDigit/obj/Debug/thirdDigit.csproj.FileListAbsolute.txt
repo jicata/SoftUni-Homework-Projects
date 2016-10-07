@@ -1,0 +1,5 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OperandsNshit\thirdDigit\bin\Debug\thirdDigit.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OperandsNshit\thirdDigit\bin\Debug\thirdDigit.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OperandsNshit\thirdDigit\bin\Debug\thirdDigit.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OperandsNshit\thirdDigit\obj\Debug\thirdDigit.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OperandsNshit\thirdDigit\obj\Debug\thirdDigit.pdb

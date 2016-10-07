@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2015\Projects\OperatorsComparison\OperatorsComparison\bin\Debug\OperatorsComparison.exe.config
+c:\users\maika\documents\visual studio 2015\Projects\OperatorsComparison\OperatorsComparison\bin\Debug\OperatorsComparison.exe
+c:\users\maika\documents\visual studio 2015\Projects\OperatorsComparison\OperatorsComparison\bin\Debug\OperatorsComparison.pdb
+c:\users\maika\documents\visual studio 2015\Projects\OperatorsComparison\OperatorsComparison\obj\Debug\OperatorsComparison.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2015\Projects\OperatorsComparison\OperatorsComparison\obj\Debug\OperatorsComparison.exe
+c:\users\maika\documents\visual studio 2015\Projects\OperatorsComparison\OperatorsComparison\obj\Debug\OperatorsComparison.pdb

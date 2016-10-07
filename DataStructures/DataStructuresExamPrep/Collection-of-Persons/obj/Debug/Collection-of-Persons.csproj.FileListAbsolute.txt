@@ -1,0 +1,6 @@
+C:\Users\Maika\Desktop\softa we\DataStructures\08_DataStructuresEfficiency\Collection-of-Persons\bin\Debug\Collection-of-Persons.exe
+C:\Users\Maika\Desktop\softa we\DataStructures\08_DataStructuresEfficiency\Collection-of-Persons\bin\Debug\Collection-of-Persons.pdb
+C:\Users\Maika\Desktop\softa we\DataStructures\08_DataStructuresEfficiency\Collection-of-Persons\bin\Debug\PowerCollections.dll
+C:\Users\Maika\Desktop\softa we\DataStructures\08_DataStructuresEfficiency\Collection-of-Persons\obj\Debug\Collection-of-Persons.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Desktop\softa we\DataStructures\08_DataStructuresEfficiency\Collection-of-Persons\obj\Debug\Collection-of-Persons.exe
+C:\Users\Maika\Desktop\softa we\DataStructures\08_DataStructuresEfficiency\Collection-of-Persons\obj\Debug\Collection-of-Persons.pdb

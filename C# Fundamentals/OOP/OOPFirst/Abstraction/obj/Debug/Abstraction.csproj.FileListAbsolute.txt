@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\OOP\Abstraction\bin\Debug\Abstraction.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OOP\Abstraction\bin\Debug\Abstraction.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OOP\Abstraction\bin\Debug\Abstraction.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OOP\Abstraction\obj\Debug\Abstraction.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OOP\Abstraction\obj\Debug\Abstraction.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OOP\Abstraction\obj\Debug\Abstraction.pdb

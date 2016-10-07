@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2013\Projects\LoopsBrotha\by3and7\bin\Debug\by3and7.exe.config
+c:\users\maika\documents\visual studio 2013\Projects\LoopsBrotha\by3and7\bin\Debug\by3and7.exe
+c:\users\maika\documents\visual studio 2013\Projects\LoopsBrotha\by3and7\bin\Debug\by3and7.pdb
+c:\users\maika\documents\visual studio 2013\Projects\LoopsBrotha\by3and7\obj\Debug\by3and7.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2013\Projects\LoopsBrotha\by3and7\obj\Debug\by3and7.exe
+c:\users\maika\documents\visual studio 2013\Projects\LoopsBrotha\by3and7\obj\Debug\by3and7.pdb

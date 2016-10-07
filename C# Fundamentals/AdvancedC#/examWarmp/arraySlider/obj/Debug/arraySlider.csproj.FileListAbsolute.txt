@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2013\Projects\examWarmp\arraySlider\bin\Debug\arraySlider.exe.config
+c:\users\maika\documents\visual studio 2013\Projects\examWarmp\arraySlider\bin\Debug\arraySlider.exe
+c:\users\maika\documents\visual studio 2013\Projects\examWarmp\arraySlider\bin\Debug\arraySlider.pdb
+c:\users\maika\documents\visual studio 2013\Projects\examWarmp\arraySlider\obj\Debug\arraySlider.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2013\Projects\examWarmp\arraySlider\obj\Debug\arraySlider.exe
+c:\users\maika\documents\visual studio 2013\Projects\examWarmp\arraySlider\obj\Debug\arraySlider.pdb

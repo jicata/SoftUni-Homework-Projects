@@ -1,0 +1,8 @@
+C:\Users\Maika\documents\visual studio 2015\Projects\CollectionsAndLibraries\03_FastSearchForStringsInFile\bin\Debug\03_FastSearchForStringsInFile.exe.config
+C:\Users\Maika\documents\visual studio 2015\Projects\CollectionsAndLibraries\03_FastSearchForStringsInFile\bin\Debug\03_FastSearchForStringsInFile.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\CollectionsAndLibraries\03_FastSearchForStringsInFile\bin\Debug\03_FastSearchForStringsInFile.pdb
+C:\Users\Maika\documents\visual studio 2015\Projects\CollectionsAndLibraries\03_FastSearchForStringsInFile\bin\Debug\PowerCollections.dll
+C:\Users\Maika\documents\visual studio 2015\Projects\CollectionsAndLibraries\03_FastSearchForStringsInFile\bin\Debug\PowerCollections.xml
+C:\Users\Maika\documents\visual studio 2015\Projects\CollectionsAndLibraries\03_FastSearchForStringsInFile\obj\Debug\03_FastSearchForStringsInFile.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2015\Projects\CollectionsAndLibraries\03_FastSearchForStringsInFile\obj\Debug\03_FastSearchForStringsInFile.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\CollectionsAndLibraries\03_FastSearchForStringsInFile\obj\Debug\03_FastSearchForStringsInFile.pdb

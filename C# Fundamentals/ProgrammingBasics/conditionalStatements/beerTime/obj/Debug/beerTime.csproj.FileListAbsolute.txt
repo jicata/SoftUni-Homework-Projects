@@ -1,0 +1,5 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\conditionalStatements\beerTime\bin\Debug\beerTime.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\conditionalStatements\beerTime\bin\Debug\beerTime.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\conditionalStatements\beerTime\bin\Debug\beerTime.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\conditionalStatements\beerTime\obj\Debug\beerTime.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\conditionalStatements\beerTime\obj\Debug\beerTime.pdb

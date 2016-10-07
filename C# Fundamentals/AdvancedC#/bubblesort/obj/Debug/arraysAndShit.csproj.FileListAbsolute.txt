@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2013\Projects\advancedCSharp\arraysAndShit\bin\Debug\arraysAndShit.exe.config
+c:\users\maika\documents\visual studio 2013\Projects\advancedCSharp\arraysAndShit\bin\Debug\arraysAndShit.exe
+c:\users\maika\documents\visual studio 2013\Projects\advancedCSharp\arraysAndShit\bin\Debug\arraysAndShit.pdb
+c:\users\maika\documents\visual studio 2013\Projects\advancedCSharp\arraysAndShit\obj\Debug\arraysAndShit.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2013\Projects\advancedCSharp\arraysAndShit\obj\Debug\arraysAndShit.exe
+c:\users\maika\documents\visual studio 2013\Projects\advancedCSharp\arraysAndShit\obj\Debug\arraysAndShit.pdb

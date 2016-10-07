@@ -1,0 +1,5 @@
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructures\01_SumAndAverage\bin\Debug\01_SumAndAverage.exe.config
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructures\01_SumAndAverage\bin\Debug\01_SumAndAverage.exe
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructures\01_SumAndAverage\bin\Debug\01_SumAndAverage.pdb
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructures\01_SumAndAverage\obj\Debug\01_SumAndAverage.exe
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructures\01_SumAndAverage\obj\Debug\01_SumAndAverage.pdb

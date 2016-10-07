@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2015\Projects\02_CombinatorialAlgorithms\Loop1\bin\Debug\Loop1.exe.config
+C:\Users\Maika\documents\visual studio 2015\Projects\02_CombinatorialAlgorithms\Loop1\bin\Debug\Loop1.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\02_CombinatorialAlgorithms\Loop1\bin\Debug\Loop1.pdb
+C:\Users\Maika\documents\visual studio 2015\Projects\02_CombinatorialAlgorithms\Loop1\obj\Debug\Loop1.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2015\Projects\02_CombinatorialAlgorithms\Loop1\obj\Debug\Loop1.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\02_CombinatorialAlgorithms\Loop1\obj\Debug\Loop1.pdb

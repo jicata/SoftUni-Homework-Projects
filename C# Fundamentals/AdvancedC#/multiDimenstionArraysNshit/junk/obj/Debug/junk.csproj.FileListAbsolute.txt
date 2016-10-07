@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\multiDimenstionArraysNshit\junk\bin\Debug\junk.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\multiDimenstionArraysNshit\junk\bin\Debug\junk.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\multiDimenstionArraysNshit\junk\bin\Debug\junk.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\multiDimenstionArraysNshit\junk\obj\Debug\junk.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\multiDimenstionArraysNshit\junk\obj\Debug\junk.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\multiDimenstionArraysNshit\junk\obj\Debug\junk.pdb

@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\streamsNFiles\04. Copy Binary FIles\bin\Debug\_04.Copy_Binary_FIles.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\streamsNFiles\04. Copy Binary FIles\bin\Debug\_04.Copy_Binary_FIles.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\streamsNFiles\04. Copy Binary FIles\bin\Debug\_04.Copy_Binary_FIles.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\streamsNFiles\04. Copy Binary FIles\obj\Debug\04. Copy Binary FIles.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\streamsNFiles\04. Copy Binary FIles\obj\Debug\_04.Copy_Binary_FIles.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\streamsNFiles\04. Copy Binary FIles\obj\Debug\_04.Copy_Binary_FIles.pdb

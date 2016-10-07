@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\DictionariesHashSetsAndTables\08_Hands of cards\bin\Debug\08_Hands of cards.exe.config
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\DictionariesHashSetsAndTables\08_Hands of cards\bin\Debug\08_Hands of cards.exe
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\DictionariesHashSetsAndTables\08_Hands of cards\bin\Debug\08_Hands of cards.pdb
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\DictionariesHashSetsAndTables\08_Hands of cards\obj\Debug\08_Hands of cards.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\DictionariesHashSetsAndTables\08_Hands of cards\obj\Debug\08_Hands of cards.exe
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\DictionariesHashSetsAndTables\08_Hands of cards\obj\Debug\08_Hands of cards.pdb

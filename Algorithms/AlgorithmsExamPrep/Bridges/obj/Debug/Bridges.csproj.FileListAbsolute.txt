@@ -1,0 +1,5 @@
+C:\Users\Maika\documents\visual studio 2015\Projects\AlgorithmsExamPrep\Bridges\bin\Debug\Bridges.exe.config
+C:\Users\Maika\documents\visual studio 2015\Projects\AlgorithmsExamPrep\Bridges\bin\Debug\Bridges.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\AlgorithmsExamPrep\Bridges\bin\Debug\Bridges.pdb
+C:\Users\Maika\documents\visual studio 2015\Projects\AlgorithmsExamPrep\Bridges\obj\Debug\Bridges.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\AlgorithmsExamPrep\Bridges\obj\Debug\Bridges.pdb

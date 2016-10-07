@@ -1,0 +1,3 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\PrimitiveData\HelloWorld\bin\Debug\HelloWorld.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\PrimitiveData\HelloWorld\obj\Debug\HelloWorld.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\PrimitiveData\HelloWorld\obj\Debug\HelloWorld.pdb

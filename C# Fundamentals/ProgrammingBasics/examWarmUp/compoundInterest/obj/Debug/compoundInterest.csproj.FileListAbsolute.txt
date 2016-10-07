@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2013\Projects\examWarmUp\compoundInterest\bin\Debug\compoundInterest.exe.config
+c:\users\maika\documents\visual studio 2013\Projects\examWarmUp\compoundInterest\bin\Debug\compoundInterest.exe
+c:\users\maika\documents\visual studio 2013\Projects\examWarmUp\compoundInterest\bin\Debug\compoundInterest.pdb
+c:\users\maika\documents\visual studio 2013\Projects\examWarmUp\compoundInterest\obj\Debug\compoundInterest.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2013\Projects\examWarmUp\compoundInterest\obj\Debug\compoundInterest.exe
+c:\users\maika\documents\visual studio 2013\Projects\examWarmUp\compoundInterest\obj\Debug\compoundInterest.pdb

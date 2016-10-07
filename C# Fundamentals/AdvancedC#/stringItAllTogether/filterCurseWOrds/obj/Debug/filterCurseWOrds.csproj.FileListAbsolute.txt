@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\stringItAllTogether\filterCurseWOrds\bin\Debug\filterCurseWOrds.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\stringItAllTogether\filterCurseWOrds\bin\Debug\filterCurseWOrds.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\stringItAllTogether\filterCurseWOrds\bin\Debug\filterCurseWOrds.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\stringItAllTogether\filterCurseWOrds\obj\Debug\filterCurseWOrds.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2013\Projects\stringItAllTogether\filterCurseWOrds\obj\Debug\filterCurseWOrds.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\stringItAllTogether\filterCurseWOrds\obj\Debug\filterCurseWOrds.pdb

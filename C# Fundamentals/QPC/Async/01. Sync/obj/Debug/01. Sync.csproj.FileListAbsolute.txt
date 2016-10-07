@@ -1,0 +1,12 @@
+c:\users\maika\documents\visual studio 2015\Projects\Async\01. Async\bin\Debug\_01.Async.exe.config
+c:\users\maika\documents\visual studio 2015\Projects\Async\01. Async\bin\Debug\_01.Async.exe
+c:\users\maika\documents\visual studio 2015\Projects\Async\01. Async\bin\Debug\_01.Async.pdb
+c:\users\maika\documents\visual studio 2015\Projects\Async\01. Async\obj\Debug\01. Sync.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2015\Projects\Async\01. Async\obj\Debug\_01.Async.exe
+c:\users\maika\documents\visual studio 2015\Projects\Async\01. Async\obj\Debug\_01.Async.pdb
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\Async\01. Sync\bin\Debug\_01.Async.exe.config
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\Async\01. Sync\obj\Debug\_01.Async.exe
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\Async\01. Sync\obj\Debug\_01.Async.pdb
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\Async\01. Sync\bin\Debug\_01.Async.exe
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\Async\01. Sync\bin\Debug\_01.Async.pdb
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\Async\01. Sync\obj\Debug\01. Sync.csprojResolveAssemblyReference.cache

@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2015\Projects\GraphsPartOne\02_AreasInMatrix\bin\Debug\02_AreasInMatrix.exe.config
+c:\users\maika\documents\visual studio 2015\Projects\GraphsPartOne\02_AreasInMatrix\bin\Debug\02_AreasInMatrix.exe
+c:\users\maika\documents\visual studio 2015\Projects\GraphsPartOne\02_AreasInMatrix\bin\Debug\02_AreasInMatrix.pdb
+c:\users\maika\documents\visual studio 2015\Projects\GraphsPartOne\02_AreasInMatrix\obj\Debug\02_AreasInMatrix.exe
+c:\users\maika\documents\visual studio 2015\Projects\GraphsPartOne\02_AreasInMatrix\obj\Debug\02_AreasInMatrix.pdb
+c:\users\maika\documents\visual studio 2015\Projects\GraphsPartOne\02_AreasInMatrix\obj\Debug\02_AreasInMatrix.csprojResolveAssemblyReference.cache

@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2015\Projects\AlgorithmsExamPrep\02_Cable\bin\Debug\02_Cable.exe.config
+C:\Users\Maika\documents\visual studio 2015\Projects\AlgorithmsExamPrep\02_Cable\bin\Debug\02_Cable.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\AlgorithmsExamPrep\02_Cable\bin\Debug\02_Cable.pdb
+C:\Users\Maika\documents\visual studio 2015\Projects\AlgorithmsExamPrep\02_Cable\obj\Debug\02_Cable.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2015\Projects\AlgorithmsExamPrep\02_Cable\obj\Debug\02_Cable.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\AlgorithmsExamPrep\02_Cable\obj\Debug\02_Cable.pdb

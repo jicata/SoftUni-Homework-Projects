@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\multiDimenstionArraysNshit\phonebookR\bin\Debug\phonebookR.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\multiDimenstionArraysNshit\phonebookR\bin\Debug\phonebookR.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\multiDimenstionArraysNshit\phonebookR\bin\Debug\phonebookR.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\multiDimenstionArraysNshit\phonebookR\obj\Debug\phonebookR.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2013\Projects\multiDimenstionArraysNshit\phonebookR\obj\Debug\phonebookR.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\multiDimenstionArraysNshit\phonebookR\obj\Debug\phonebookR.pdb

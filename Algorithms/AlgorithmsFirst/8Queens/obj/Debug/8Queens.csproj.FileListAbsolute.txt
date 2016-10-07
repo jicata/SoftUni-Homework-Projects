@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2015\Projects\Algorithms\8Queens\bin\Debug\8Queens.exe.config
+c:\users\maika\documents\visual studio 2015\Projects\Algorithms\8Queens\bin\Debug\8Queens.exe
+c:\users\maika\documents\visual studio 2015\Projects\Algorithms\8Queens\bin\Debug\8Queens.pdb
+c:\users\maika\documents\visual studio 2015\Projects\Algorithms\8Queens\obj\Debug\8Queens.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2015\Projects\Algorithms\8Queens\obj\Debug\8Queens.exe
+c:\users\maika\documents\visual studio 2015\Projects\Algorithms\8Queens\obj\Debug\8Queens.pdb

@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2013\Projects\ExamProblems\JoroTheFootballer\bin\Debug\JoroTheFootballer.exe.config
+c:\users\maika\documents\visual studio 2013\Projects\ExamProblems\JoroTheFootballer\obj\Debug\JoroTheFootballer.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2013\Projects\ExamProblems\JoroTheFootballer\bin\Debug\JoroTheFootballer.exe
+c:\users\maika\documents\visual studio 2013\Projects\ExamProblems\JoroTheFootballer\bin\Debug\JoroTheFootballer.pdb
+c:\users\maika\documents\visual studio 2013\Projects\ExamProblems\JoroTheFootballer\obj\Debug\JoroTheFootballer.exe
+c:\users\maika\documents\visual studio 2013\Projects\ExamProblems\JoroTheFootballer\obj\Debug\JoroTheFootballer.pdb

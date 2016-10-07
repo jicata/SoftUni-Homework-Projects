@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\multiDimenstionArraysNshit\shuffleTheMa3x\bin\Debug\shuffleTheMa3x.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\multiDimenstionArraysNshit\shuffleTheMa3x\bin\Debug\shuffleTheMa3x.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\multiDimenstionArraysNshit\shuffleTheMa3x\bin\Debug\shuffleTheMa3x.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\multiDimenstionArraysNshit\shuffleTheMa3x\obj\Debug\shuffleTheMa3x.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\multiDimenstionArraysNshit\shuffleTheMa3x\obj\Debug\shuffleTheMa3x.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\multiDimenstionArraysNshit\shuffleTheMa3x\obj\Debug\shuffleTheMa3x.pdb

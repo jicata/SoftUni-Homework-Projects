@@ -1,0 +1,5 @@
+c:\users\maika\documents\visual studio 2013\Projects\ConsoleInputOutputHW\CirclePerArea\bin\Debug\CirclePerArea.exe.config
+c:\users\maika\documents\visual studio 2013\Projects\ConsoleInputOutputHW\CirclePerArea\bin\Debug\CirclePerArea.exe
+c:\users\maika\documents\visual studio 2013\Projects\ConsoleInputOutputHW\CirclePerArea\bin\Debug\CirclePerArea.pdb
+c:\users\maika\documents\visual studio 2013\Projects\ConsoleInputOutputHW\CirclePerArea\obj\Debug\CirclePerArea.exe
+c:\users\maika\documents\visual studio 2013\Projects\ConsoleInputOutputHW\CirclePerArea\obj\Debug\CirclePerArea.pdb

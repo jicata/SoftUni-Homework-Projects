@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\conditionalStatements\numberPronounciation\bin\Debug\numberPronounciation.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\conditionalStatements\numberPronounciation\obj\Debug\numberPronounciation.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2013\Projects\conditionalStatements\numberPronounciation\bin\Debug\numberPronounciation.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\conditionalStatements\numberPronounciation\bin\Debug\numberPronounciation.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\conditionalStatements\numberPronounciation\obj\Debug\numberPronounciation.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\conditionalStatements\numberPronounciation\obj\Debug\numberPronounciation.pdb

@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\BUnnyBunnyBunBun\quickSortTest\bin\Debug\quickSortTest.exe.config
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\BUnnyBunnyBunBun\quickSortTest\bin\Debug\quickSortTest.exe
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\BUnnyBunnyBunBun\quickSortTest\bin\Debug\quickSortTest.pdb
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\BUnnyBunnyBunBun\quickSortTest\obj\Debug\quickSortTest.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\BUnnyBunnyBunBun\quickSortTest\obj\Debug\quickSortTest.exe
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\BUnnyBunnyBunBun\quickSortTest\obj\Debug\quickSortTest.pdb

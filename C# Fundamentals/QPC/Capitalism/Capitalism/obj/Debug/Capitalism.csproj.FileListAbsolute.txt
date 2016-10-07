@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2015\Projects\Capitalism\Capitalism\bin\Debug\Capitalism.exe.config
+C:\Users\Maika\documents\visual studio 2015\Projects\Capitalism\Capitalism\obj\Debug\Capitalism.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2015\Projects\Capitalism\Capitalism\bin\Debug\Capitalism.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\Capitalism\Capitalism\bin\Debug\Capitalism.pdb
+C:\Users\Maika\documents\visual studio 2015\Projects\Capitalism\Capitalism\obj\Debug\Capitalism.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\Capitalism\Capitalism\obj\Debug\Capitalism.pdb

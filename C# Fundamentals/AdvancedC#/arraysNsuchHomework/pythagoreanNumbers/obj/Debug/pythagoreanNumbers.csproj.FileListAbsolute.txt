@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\arraysNsuchHomework\pythagoreanNumbers\bin\Debug\pythagoreanNumbers.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\arraysNsuchHomework\pythagoreanNumbers\bin\Debug\pythagoreanNumbers.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\arraysNsuchHomework\pythagoreanNumbers\bin\Debug\pythagoreanNumbers.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\arraysNsuchHomework\pythagoreanNumbers\obj\Debug\pythagoreanNumbers.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2013\Projects\arraysNsuchHomework\pythagoreanNumbers\obj\Debug\pythagoreanNumbers.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\arraysNsuchHomework\pythagoreanNumbers\obj\Debug\pythagoreanNumbers.pdb

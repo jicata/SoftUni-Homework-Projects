@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EuclidWasACoolDude(prob 1-3)", "EuclidWasACoolDude\EuclidWasACoolDude(prob 1-3).csproj", "{07DF7959-84E8-4629-A1D8-9B10DF0E2735}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometry", "Geometry\Geometry.csproj", "{607ABAAC-0942-49D8-B8C8-EC3DEB46B31F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTMLDispenser", "HTMLDispenser\HTMLDispenser.csproj", "{576E174B-69A5-4D44-AC3E-25E5C52A12D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitArray", "BitArray\BitArray.csproj", "{47BDDA54-9928-4E9F-9CA0-53DCFCD69157}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07DF7959-84E8-4629-A1D8-9B10DF0E2735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07DF7959-84E8-4629-A1D8-9B10DF0E2735}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07DF7959-84E8-4629-A1D8-9B10DF0E2735}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07DF7959-84E8-4629-A1D8-9B10DF0E2735}.Release|Any CPU.Build.0 = Release|Any CPU
+		{607ABAAC-0942-49D8-B8C8-EC3DEB46B31F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{607ABAAC-0942-49D8-B8C8-EC3DEB46B31F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{607ABAAC-0942-49D8-B8C8-EC3DEB46B31F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{607ABAAC-0942-49D8-B8C8-EC3DEB46B31F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{576E174B-69A5-4D44-AC3E-25E5C52A12D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{576E174B-69A5-4D44-AC3E-25E5C52A12D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{576E174B-69A5-4D44-AC3E-25E5C52A12D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{576E174B-69A5-4D44-AC3E-25E5C52A12D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47BDDA54-9928-4E9F-9CA0-53DCFCD69157}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47BDDA54-9928-4E9F-9CA0-53DCFCD69157}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47BDDA54-9928-4E9F-9CA0-53DCFCD69157}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47BDDA54-9928-4E9F-9CA0-53DCFCD69157}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

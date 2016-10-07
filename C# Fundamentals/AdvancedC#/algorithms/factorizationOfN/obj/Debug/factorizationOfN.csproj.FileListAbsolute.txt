@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2013\Projects\algorithms\factorizationOfN\bin\Debug\factorizationOfN.exe.config
+c:\users\maika\documents\visual studio 2013\Projects\algorithms\factorizationOfN\bin\Debug\factorizationOfN.exe
+c:\users\maika\documents\visual studio 2013\Projects\algorithms\factorizationOfN\bin\Debug\factorizationOfN.pdb
+c:\users\maika\documents\visual studio 2013\Projects\algorithms\factorizationOfN\obj\Debug\factorizationOfN.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2013\Projects\algorithms\factorizationOfN\obj\Debug\factorizationOfN.exe
+c:\users\maika\documents\visual studio 2013\Projects\algorithms\factorizationOfN\obj\Debug\factorizationOfN.pdb

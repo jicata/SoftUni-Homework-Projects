@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2013\Projects\regEx\03. Extract Emails\bin\Debug\_03.Extract_Emails.exe.config
+c:\users\maika\documents\visual studio 2013\Projects\regEx\03. Extract Emails\bin\Debug\_03.Extract_Emails.exe
+c:\users\maika\documents\visual studio 2013\Projects\regEx\03. Extract Emails\bin\Debug\_03.Extract_Emails.pdb
+c:\users\maika\documents\visual studio 2013\Projects\regEx\03. Extract Emails\obj\Debug\03. Extract Emails.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2013\Projects\regEx\03. Extract Emails\obj\Debug\_03.Extract_Emails.exe
+c:\users\maika\documents\visual studio 2013\Projects\regEx\03. Extract Emails\obj\Debug\_03.Extract_Emails.pdb

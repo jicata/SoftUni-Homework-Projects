@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\stringItAllTogether\countSubstrings\bin\Debug\countSubstrings.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\stringItAllTogether\countSubstrings\bin\Debug\countSubstrings.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\stringItAllTogether\countSubstrings\bin\Debug\countSubstrings.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\stringItAllTogether\countSubstrings\obj\Debug\countSubstrings.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2013\Projects\stringItAllTogether\countSubstrings\obj\Debug\countSubstrings.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\stringItAllTogether\countSubstrings\obj\Debug\countSubstrings.pdb

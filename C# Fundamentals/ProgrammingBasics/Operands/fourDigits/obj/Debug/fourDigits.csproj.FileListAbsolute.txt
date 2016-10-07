@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OperandsNshit\fourDigits\bin\Debug\fourDigits.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OperandsNshit\fourDigits\bin\Debug\fourDigits.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OperandsNshit\fourDigits\bin\Debug\fourDigits.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OperandsNshit\fourDigits\obj\Debug\fourDigits.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OperandsNshit\fourDigits\obj\Debug\fourDigits.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\OperandsNshit\fourDigits\obj\Debug\fourDigits.pdb

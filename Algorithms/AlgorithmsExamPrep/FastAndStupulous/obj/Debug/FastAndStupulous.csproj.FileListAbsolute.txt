@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\AlgorithmsExamPrep\FastAndStupulous\bin\Debug\FastAndStupulous.exe.config
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\AlgorithmsExamPrep\FastAndStupulous\bin\Debug\FastAndStupulous.exe
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\AlgorithmsExamPrep\FastAndStupulous\bin\Debug\FastAndStupulous.pdb
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\AlgorithmsExamPrep\FastAndStupulous\obj\Debug\FastAndStupulous.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\AlgorithmsExamPrep\FastAndStupulous\obj\Debug\FastAndStupulous.exe
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\AlgorithmsExamPrep\FastAndStupulous\obj\Debug\FastAndStupulous.pdb

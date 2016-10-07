@@ -1,0 +1,1 @@
+c:\users\maika\documents\visual studio 2015\Projects\SortingAlgos\01_InsertionSort\bin\Debug\01_InsertionSort.exe.config

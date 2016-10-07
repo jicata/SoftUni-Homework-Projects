@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2015\Projects\AlgorithmsExamPrep\Sequences\bin\Debug\Sequences.exe.config
+C:\Users\Maika\documents\visual studio 2015\Projects\AlgorithmsExamPrep\Sequences\bin\Debug\Sequences.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\AlgorithmsExamPrep\Sequences\bin\Debug\Sequences.pdb
+C:\Users\Maika\documents\visual studio 2015\Projects\AlgorithmsExamPrep\Sequences\obj\Debug\Sequences.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2015\Projects\AlgorithmsExamPrep\Sequences\obj\Debug\Sequences.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\AlgorithmsExamPrep\Sequences\obj\Debug\Sequences.pdb

@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\programmerDNA\bin\Debug\programmerDNA.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\programmerDNA\bin\Debug\programmerDNA.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\programmerDNA\bin\Debug\programmerDNA.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\programmerDNA\obj\Debug\programmerDNA.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\programmerDNA\obj\Debug\programmerDNA.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\programmerDNA\obj\Debug\programmerDNA.pdb

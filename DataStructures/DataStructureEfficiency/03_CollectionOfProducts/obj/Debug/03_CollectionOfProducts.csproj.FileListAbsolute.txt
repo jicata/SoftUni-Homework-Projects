@@ -1,0 +1,8 @@
+c:\users\maika\documents\visual studio 2015\Projects\DataStructureEfficiency\03_CollectionOfProducts\bin\Debug\03_CollectionOfProducts.exe.config
+C:\Users\Maika\documents\visual studio 2015\Projects\DataStructureEfficiency\03_CollectionOfProducts\bin\Debug\03_CollectionOfProducts.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\DataStructureEfficiency\03_CollectionOfProducts\bin\Debug\03_CollectionOfProducts.pdb
+C:\Users\Maika\documents\visual studio 2015\Projects\DataStructureEfficiency\03_CollectionOfProducts\bin\Debug\PowerCollections.dll
+C:\Users\Maika\documents\visual studio 2015\Projects\DataStructureEfficiency\03_CollectionOfProducts\bin\Debug\PowerCollections.xml
+C:\Users\Maika\documents\visual studio 2015\Projects\DataStructureEfficiency\03_CollectionOfProducts\obj\Debug\03_CollectionOfProducts.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2015\Projects\DataStructureEfficiency\03_CollectionOfProducts\obj\Debug\03_CollectionOfProducts.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\DataStructureEfficiency\03_CollectionOfProducts\obj\Debug\03_CollectionOfProducts.pdb

@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2013\Projects\fallingRocksBaby\fallingRocksBaby\bin\Debug\fallingRocksBaby.exe.config
+c:\users\maika\documents\visual studio 2013\Projects\fallingRocksBaby\fallingRocksBaby\bin\Debug\fallingRocksBaby.exe
+c:\users\maika\documents\visual studio 2013\Projects\fallingRocksBaby\fallingRocksBaby\bin\Debug\fallingRocksBaby.pdb
+c:\users\maika\documents\visual studio 2013\Projects\fallingRocksBaby\fallingRocksBaby\obj\Debug\fallingRocksBaby.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2013\Projects\fallingRocksBaby\fallingRocksBaby\obj\Debug\fallingRocksBaby.exe
+c:\users\maika\documents\visual studio 2013\Projects\fallingRocksBaby\fallingRocksBaby\obj\Debug\fallingRocksBaby.pdb

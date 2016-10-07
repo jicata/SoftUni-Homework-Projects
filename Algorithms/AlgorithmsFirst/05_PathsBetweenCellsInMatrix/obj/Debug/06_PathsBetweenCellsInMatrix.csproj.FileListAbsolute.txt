@@ -1,0 +1,5 @@
+C:\Users\Maika\documents\visual studio 2015\Projects\Algorithms\05_PathsBetweenCellsInMatrix\bin\Debug\05_PathsBetweenCellsInMatrix.exe.config
+C:\Users\Maika\documents\visual studio 2015\Projects\Algorithms\05_PathsBetweenCellsInMatrix\obj\Debug\05_PathsBetweenCellsInMatrix.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\Algorithms\05_PathsBetweenCellsInMatrix\obj\Debug\05_PathsBetweenCellsInMatrix.pdb
+C:\Users\Maika\documents\visual studio 2015\Projects\Algorithms\05_PathsBetweenCellsInMatrix\bin\Debug\05_PathsBetweenCellsInMatrix.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\Algorithms\05_PathsBetweenCellsInMatrix\bin\Debug\05_PathsBetweenCellsInMatrix.pdb

@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\streamsNFiles\oddLines\bin\Debug\oddLines.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\streamsNFiles\oddLines\bin\Debug\oddLines.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\streamsNFiles\oddLines\bin\Debug\oddLines.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\streamsNFiles\oddLines\obj\Debug\oddLines.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2013\Projects\streamsNFiles\oddLines\obj\Debug\oddLines.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\streamsNFiles\oddLines\obj\Debug\oddLines.pdb

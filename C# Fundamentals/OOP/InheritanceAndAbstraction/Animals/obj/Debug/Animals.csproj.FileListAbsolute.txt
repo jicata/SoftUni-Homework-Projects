@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2013\Projects\InheritanceAndAbstraction\Animals\bin\Debug\Animals.exe.config
+c:\users\maika\documents\visual studio 2013\Projects\InheritanceAndAbstraction\Animals\obj\Debug\Animals.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2013\Projects\InheritanceAndAbstraction\Animals\bin\Debug\Animals.exe
+c:\users\maika\documents\visual studio 2013\Projects\InheritanceAndAbstraction\Animals\bin\Debug\Animals.pdb
+c:\users\maika\documents\visual studio 2013\Projects\InheritanceAndAbstraction\Animals\obj\Debug\Animals.exe
+c:\users\maika\documents\visual studio 2013\Projects\InheritanceAndAbstraction\Animals\obj\Debug\Animals.pdb

@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ConsoleInputOutputHW\sumOfFive\bin\Debug\sumOfFive.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ConsoleInputOutputHW\sumOfFive\bin\Debug\sumOfFive.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ConsoleInputOutputHW\sumOfFive\bin\Debug\sumOfFive.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ConsoleInputOutputHW\sumOfFive\obj\Debug\sumOfFive.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ConsoleInputOutputHW\sumOfFive\obj\Debug\sumOfFive.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ConsoleInputOutputHW\sumOfFive\obj\Debug\sumOfFive.csprojResolveAssemblyReference.cache

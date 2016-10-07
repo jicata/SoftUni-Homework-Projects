@@ -1,0 +1,9 @@
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\AsyncExercise\ThreadingUISkeleton\bin\Debug\ThreadingUI.exe.config
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\AsyncExercise\ThreadingUISkeleton\bin\Debug\ThreadingUI.exe
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\AsyncExercise\ThreadingUISkeleton\bin\Debug\ThreadingUI.pdb
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\AsyncExercise\ThreadingUISkeleton\obj\Debug\GraphicalUserInterface.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\AsyncExercise\ThreadingUISkeleton\obj\Debug\GraphicalUserInterface.SimpleForm.resources
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\AsyncExercise\ThreadingUISkeleton\obj\Debug\ThreadingUI.Properties.Resources.resources
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\AsyncExercise\ThreadingUISkeleton\obj\Debug\GraphicalUserInterface.csproj.GenerateResource.Cache
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\AsyncExercise\ThreadingUISkeleton\obj\Debug\ThreadingUI.exe
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\AsyncExercise\ThreadingUISkeleton\obj\Debug\ThreadingUI.pdb

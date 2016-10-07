@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2013\Projects\fallingRocksBaby\snakeTest\bin\Debug\snakeTest.exe.config
+c:\users\maika\documents\visual studio 2013\Projects\fallingRocksBaby\snakeTest\bin\Debug\snakeTest.exe
+c:\users\maika\documents\visual studio 2013\Projects\fallingRocksBaby\snakeTest\bin\Debug\snakeTest.pdb
+c:\users\maika\documents\visual studio 2013\Projects\fallingRocksBaby\snakeTest\obj\Debug\snakeTest.exe
+c:\users\maika\documents\visual studio 2013\Projects\fallingRocksBaby\snakeTest\obj\Debug\snakeTest.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\fallingRocksBaby\snakeTest\obj\Debug\snakeTest.csprojResolveAssemblyReference.cache

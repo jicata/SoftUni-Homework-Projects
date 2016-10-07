@@ -1,0 +1,5 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\advancedTechniques\pallindromeMa3x\bin\Debug\pallindromeMa3x.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\advancedTechniques\pallindromeMa3x\bin\Debug\pallindromeMa3x.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\advancedTechniques\pallindromeMa3x\bin\Debug\pallindromeMa3x.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\advancedTechniques\pallindromeMa3x\obj\Debug\pallindromeMa3x.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\advancedTechniques\pallindromeMa3x\obj\Debug\pallindromeMa3x.pdb

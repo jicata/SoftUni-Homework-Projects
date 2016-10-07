@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2013\Projects\algorithms\binarySearch\bin\Debug\binarySearch.exe.config
+c:\users\maika\documents\visual studio 2013\Projects\algorithms\binarySearch\bin\Debug\binarySearch.exe
+c:\users\maika\documents\visual studio 2013\Projects\algorithms\binarySearch\bin\Debug\binarySearch.pdb
+c:\users\maika\documents\visual studio 2013\Projects\algorithms\binarySearch\obj\Debug\binarySearch.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2013\Projects\algorithms\binarySearch\obj\Debug\binarySearch.exe
+c:\users\maika\documents\visual studio 2013\Projects\algorithms\binarySearch\obj\Debug\binarySearch.pdb

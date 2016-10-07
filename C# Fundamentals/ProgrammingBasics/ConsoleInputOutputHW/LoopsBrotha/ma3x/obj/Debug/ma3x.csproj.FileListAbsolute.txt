@@ -1,0 +1,5 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\ma3x\bin\Debug\ma3x.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\ma3x\bin\Debug\ma3x.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\ma3x\bin\Debug\ma3x.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\ma3x\obj\Debug\ma3x.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\ma3x\obj\Debug\ma3x.pdb

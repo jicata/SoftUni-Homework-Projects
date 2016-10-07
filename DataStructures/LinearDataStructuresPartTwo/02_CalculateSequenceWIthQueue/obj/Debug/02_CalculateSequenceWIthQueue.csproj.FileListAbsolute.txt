@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructuresQueuesStax\02_CalculateSequenceWIthQueue\bin\Debug\02_CalculateSequenceWIthQueue.exe.config
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructuresQueuesStax\02_CalculateSequenceWIthQueue\bin\Debug\02_CalculateSequenceWIthQueue.exe
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructuresQueuesStax\02_CalculateSequenceWIthQueue\bin\Debug\02_CalculateSequenceWIthQueue.pdb
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructuresQueuesStax\02_CalculateSequenceWIthQueue\obj\Debug\02_CalculateSequenceWIthQueue.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructuresQueuesStax\02_CalculateSequenceWIthQueue\obj\Debug\02_CalculateSequenceWIthQueue.exe
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructuresQueuesStax\02_CalculateSequenceWIthQueue\obj\Debug\02_CalculateSequenceWIthQueue.pdb

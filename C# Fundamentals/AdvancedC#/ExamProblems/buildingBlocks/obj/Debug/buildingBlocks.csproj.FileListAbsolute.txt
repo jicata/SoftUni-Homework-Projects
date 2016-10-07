@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\buildingBlocks\bin\Debug\buildingBlocks.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\buildingBlocks\bin\Debug\buildingBlocks.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\buildingBlocks\bin\Debug\buildingBlocks.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\buildingBlocks\obj\Debug\buildingBlocks.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\buildingBlocks\obj\Debug\buildingBlocks.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\ExamProblems\buildingBlocks\obj\Debug\buildingBlocks.pdb

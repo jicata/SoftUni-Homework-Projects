@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2015\Projects\AlgorithmsExamPrep\01_uhmmyep\bin\Debug\01_uhmmyep.exe.config
+C:\Users\Maika\documents\visual studio 2015\Projects\AlgorithmsExamPrep\01_uhmmyep\bin\Debug\01_uhmmyep.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\AlgorithmsExamPrep\01_uhmmyep\bin\Debug\01_uhmmyep.pdb
+C:\Users\Maika\documents\visual studio 2015\Projects\AlgorithmsExamPrep\01_uhmmyep\obj\Debug\01_uhmmyep.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2015\Projects\AlgorithmsExamPrep\01_uhmmyep\obj\Debug\01_uhmmyep.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\AlgorithmsExamPrep\01_uhmmyep\obj\Debug\01_uhmmyep.pdb

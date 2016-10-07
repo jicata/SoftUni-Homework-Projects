@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2015\Projects\GraphsPartOne\03_CyclesInGraph\bin\Debug\03_CyclesInGraph.exe.config
+c:\users\maika\documents\visual studio 2015\Projects\GraphsPartOne\03_CyclesInGraph\bin\Debug\03_CyclesInGraph.exe
+c:\users\maika\documents\visual studio 2015\Projects\GraphsPartOne\03_CyclesInGraph\bin\Debug\03_CyclesInGraph.pdb
+c:\users\maika\documents\visual studio 2015\Projects\GraphsPartOne\03_CyclesInGraph\obj\Debug\03_CyclesInGraph.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2015\Projects\GraphsPartOne\03_CyclesInGraph\obj\Debug\03_CyclesInGraph.exe
+c:\users\maika\documents\visual studio 2015\Projects\GraphsPartOne\03_CyclesInGraph\obj\Debug\03_CyclesInGraph.pdb

@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2013\Projects\algorithms\insertionSort\bin\Debug\insertionSort.exe.config
+c:\users\maika\documents\visual studio 2013\Projects\algorithms\insertionSort\bin\Debug\insertionSort.exe
+c:\users\maika\documents\visual studio 2013\Projects\algorithms\insertionSort\bin\Debug\insertionSort.pdb
+c:\users\maika\documents\visual studio 2013\Projects\algorithms\insertionSort\obj\Debug\insertionSort.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2013\Projects\algorithms\insertionSort\obj\Debug\insertionSort.exe
+c:\users\maika\documents\visual studio 2013\Projects\algorithms\insertionSort\obj\Debug\insertionSort.pdb

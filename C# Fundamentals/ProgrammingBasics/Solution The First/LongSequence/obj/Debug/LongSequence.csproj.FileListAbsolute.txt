@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Solution The First\LongSequence\bin\Debug\LongSequence.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Solution The First\LongSequence\bin\Debug\LongSequence.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Solution The First\LongSequence\bin\Debug\LongSequence.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Solution The First\LongSequence\obj\Debug\LongSequence.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Solution The First\LongSequence\obj\Debug\LongSequence.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Solution The First\LongSequence\obj\Debug\LongSequence.csprojResolveAssemblyReference.cache

@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Exercise\factorielN\bin\Debug\factorielN.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Exercise\factorielN\bin\Debug\factorielN.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Exercise\factorielN\bin\Debug\factorielN.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Exercise\factorielN\obj\Debug\factorielN.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Exercise\factorielN\obj\Debug\factorielN.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Exercise\factorielN\obj\Debug\factorielN.csprojResolveAssemblyReference.cache

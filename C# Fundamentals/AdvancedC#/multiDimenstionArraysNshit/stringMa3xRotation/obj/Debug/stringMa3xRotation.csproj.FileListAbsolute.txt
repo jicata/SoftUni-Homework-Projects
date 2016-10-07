@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\multiDimenstionArraysNshit\stringMa3xRotation\bin\Debug\stringMa3xRotation.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\multiDimenstionArraysNshit\stringMa3xRotation\bin\Debug\stringMa3xRotation.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\multiDimenstionArraysNshit\stringMa3xRotation\bin\Debug\stringMa3xRotation.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\multiDimenstionArraysNshit\stringMa3xRotation\obj\Debug\stringMa3xRotation.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\multiDimenstionArraysNshit\stringMa3xRotation\obj\Debug\stringMa3xRotation.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\multiDimenstionArraysNshit\stringMa3xRotation\obj\Debug\stringMa3xRotation.pdb

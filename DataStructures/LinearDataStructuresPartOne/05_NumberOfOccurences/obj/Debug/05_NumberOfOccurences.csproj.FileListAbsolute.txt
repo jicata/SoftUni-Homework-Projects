@@ -1,0 +1,5 @@
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\LinearDataStructures\05_NumberOfOccurences\bin\Debug\05_NumberOfOccurences.exe.config
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\LinearDataStructures\05_NumberOfOccurences\bin\Debug\05_NumberOfOccurences.exe
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\LinearDataStructures\05_NumberOfOccurences\bin\Debug\05_NumberOfOccurences.pdb
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\LinearDataStructures\05_NumberOfOccurences\obj\Debug\05_NumberOfOccurences.exe
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\LinearDataStructures\05_NumberOfOccurences\obj\Debug\05_NumberOfOccurences.pdb

@@ -1,0 +1,8 @@
+c:\users\maika\documents\visual studio 2013\Projects\ConsoleApplication1\ConsoleApplication4\bin\Debug\ConsoleApplication4.exe.config
+c:\users\maika\documents\visual studio 2013\Projects\ConsoleApplication1\ConsoleApplication4\bin\Debug\ConsoleApplication4.exe
+c:\users\maika\documents\visual studio 2013\Projects\ConsoleApplication1\ConsoleApplication4\bin\Debug\ConsoleApplication4.pdb
+c:\users\maika\documents\visual studio 2013\Projects\ConsoleApplication1\ConsoleApplication4\obj\Debug\ConsoleApplication4.exe
+c:\users\maika\documents\visual studio 2013\Projects\ConsoleApplication1\ConsoleApplication4\obj\Debug\ConsoleApplication4.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Solution The First\ConsoleApplication4\bin\Debug\ConsoleApplication4.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Solution The First\ConsoleApplication4\obj\Debug\ConsoleApplication4.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Solution The First\ConsoleApplication4\obj\Debug\ConsoleApplication4.pdb

@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\BUnnyBunnyBunBun\ddz\bin\Debug\ddz.exe.config
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\BUnnyBunnyBunBun\ddz\bin\Debug\ddz.exe
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\BUnnyBunnyBunBun\ddz\bin\Debug\ddz.pdb
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\BUnnyBunnyBunBun\ddz\obj\Debug\ddz.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\BUnnyBunnyBunBun\ddz\obj\Debug\ddz.exe
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\BUnnyBunnyBunBun\ddz\obj\Debug\ddz.pdb

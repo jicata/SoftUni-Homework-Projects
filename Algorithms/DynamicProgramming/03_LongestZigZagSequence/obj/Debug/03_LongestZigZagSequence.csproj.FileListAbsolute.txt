@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\DynamicProgramming\03_LongestZigZagSequence\bin\Debug\03_LongestZigZagSequence.exe.config
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\DynamicProgramming\03_LongestZigZagSequence\bin\Debug\03_LongestZigZagSequence.exe
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\DynamicProgramming\03_LongestZigZagSequence\bin\Debug\03_LongestZigZagSequence.pdb
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\DynamicProgramming\03_LongestZigZagSequence\obj\Debug\03_LongestZigZagSequence.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\DynamicProgramming\03_LongestZigZagSequence\obj\Debug\03_LongestZigZagSequence.exe
+C:\Users\Maika\Documents\Visual Studio 2015\Projects\DynamicProgramming\03_LongestZigZagSequence\obj\Debug\03_LongestZigZagSequence.pdb

@@ -1,0 +1,5 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\arraysNsuchHomework\selectionSortAlgorithm\bin\Debug\selectionSortAlgorithm.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\arraysNsuchHomework\selectionSortAlgorithm\bin\Debug\selectionSortAlgorithm.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\arraysNsuchHomework\selectionSortAlgorithm\bin\Debug\selectionSortAlgorithm.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\arraysNsuchHomework\selectionSortAlgorithm\obj\Debug\selectionSortAlgorithm.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\arraysNsuchHomework\selectionSortAlgorithm\obj\Debug\selectionSortAlgorithm.pdb

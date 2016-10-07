@@ -1,0 +1,5 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Exercise\advancedIntegers\bin\Debug\advancedIntegers.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Exercise\advancedIntegers\bin\Debug\advancedIntegers.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Exercise\advancedIntegers\bin\Debug\advancedIntegers.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Exercise\advancedIntegers\obj\Debug\advancedIntegers.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\Exercise\advancedIntegers\obj\Debug\advancedIntegers.pdb

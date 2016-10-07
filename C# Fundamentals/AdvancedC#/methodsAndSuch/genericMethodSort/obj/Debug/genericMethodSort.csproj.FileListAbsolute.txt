@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2013\Projects\methodsAndSuch\genericMethodSort\bin\Debug\genericMethodSort.exe.config
+c:\users\maika\documents\visual studio 2013\Projects\methodsAndSuch\genericMethodSort\bin\Debug\genericMethodSort.exe
+c:\users\maika\documents\visual studio 2013\Projects\methodsAndSuch\genericMethodSort\bin\Debug\genericMethodSort.pdb
+c:\users\maika\documents\visual studio 2013\Projects\methodsAndSuch\genericMethodSort\obj\Debug\genericMethodSort.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2013\Projects\methodsAndSuch\genericMethodSort\obj\Debug\genericMethodSort.exe
+c:\users\maika\documents\visual studio 2013\Projects\methodsAndSuch\genericMethodSort\obj\Debug\genericMethodSort.pdb

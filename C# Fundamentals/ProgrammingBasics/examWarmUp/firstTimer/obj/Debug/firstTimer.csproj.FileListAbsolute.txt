@@ -1,0 +1,5 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmUp\firstTimer\bin\Debug\firstTimer.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmUp\firstTimer\bin\Debug\firstTimer.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmUp\firstTimer\bin\Debug\firstTimer.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmUp\firstTimer\obj\Debug\firstTimer.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\examWarmUp\firstTimer\obj\Debug\firstTimer.pdb

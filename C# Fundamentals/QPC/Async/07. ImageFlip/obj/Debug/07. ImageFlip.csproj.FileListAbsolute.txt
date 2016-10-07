@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2015\Projects\Async\07. ImageFlip\bin\Debug\_07.ImageFlip.exe.config
+C:\Users\Maika\documents\visual studio 2015\Projects\Async\07. ImageFlip\bin\Debug\_07.ImageFlip.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\Async\07. ImageFlip\bin\Debug\_07.ImageFlip.pdb
+C:\Users\Maika\documents\visual studio 2015\Projects\Async\07. ImageFlip\obj\Debug\07. ImageFlip.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2015\Projects\Async\07. ImageFlip\obj\Debug\_07.ImageFlip.exe
+C:\Users\Maika\documents\visual studio 2015\Projects\Async\07. ImageFlip\obj\Debug\_07.ImageFlip.pdb

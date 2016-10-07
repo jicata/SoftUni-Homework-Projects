@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\OOP\04SoftUniLearningSystem\bin\Debug\04SoftUniLearningSystem.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\OOP\04SoftUniLearningSystem\obj\Debug\04SoftUniLearningSystem.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2013\Projects\OOP\04SoftUniLearningSystem\bin\Debug\04SoftUniLearningSystem.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\OOP\04SoftUniLearningSystem\bin\Debug\04SoftUniLearningSystem.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\OOP\04SoftUniLearningSystem\obj\Debug\04SoftUniLearningSystem.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\OOP\04SoftUniLearningSystem\obj\Debug\04SoftUniLearningSystem.pdb

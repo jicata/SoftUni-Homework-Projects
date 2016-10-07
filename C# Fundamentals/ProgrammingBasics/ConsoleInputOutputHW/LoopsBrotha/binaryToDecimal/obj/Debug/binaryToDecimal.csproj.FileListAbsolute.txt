@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\binaryToDecimal\bin\Debug\binaryToDecimal.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\binaryToDecimal\bin\Debug\binaryToDecimal.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\binaryToDecimal\bin\Debug\binaryToDecimal.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\binaryToDecimal\obj\Debug\binaryToDecimal.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\binaryToDecimal\obj\Debug\binaryToDecimal.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\binaryToDecimal\obj\Debug\binaryToDecimal.csprojResolveAssemblyReference.cache

@@ -1,0 +1,6 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\minMax\bin\Debug\minMax.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\minMax\bin\Debug\minMax.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\minMax\bin\Debug\minMax.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\minMax\obj\Debug\minMax.csprojResolveAssemblyReference.cache
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\minMax\obj\Debug\minMax.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\LoopsBrotha\minMax\obj\Debug\minMax.pdb

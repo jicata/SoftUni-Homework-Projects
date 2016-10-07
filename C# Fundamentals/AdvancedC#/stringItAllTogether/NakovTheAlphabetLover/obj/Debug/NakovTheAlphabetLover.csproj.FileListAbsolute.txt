@@ -1,0 +1,5 @@
+C:\Users\Maika\documents\visual studio 2013\Projects\stringItAllTogether\NakovTheAlphabetLover\bin\Debug\NakovTheAlphabetLover.exe.config
+C:\Users\Maika\documents\visual studio 2013\Projects\stringItAllTogether\NakovTheAlphabetLover\bin\Debug\NakovTheAlphabetLover.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\stringItAllTogether\NakovTheAlphabetLover\bin\Debug\NakovTheAlphabetLover.pdb
+C:\Users\Maika\documents\visual studio 2013\Projects\stringItAllTogether\NakovTheAlphabetLover\obj\Debug\NakovTheAlphabetLover.exe
+C:\Users\Maika\documents\visual studio 2013\Projects\stringItAllTogether\NakovTheAlphabetLover\obj\Debug\NakovTheAlphabetLover.pdb

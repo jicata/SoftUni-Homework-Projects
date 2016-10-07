@@ -1,0 +1,6 @@
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructuresQueuesStax\05_DoublyLinkedListBasedStack\bin\Debug\05_DoublyLinkedListBasedStack.exe.config
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructuresQueuesStax\05_DoublyLinkedListBasedStack\bin\Debug\05_DoublyLinkedListBasedStack.exe
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructuresQueuesStax\05_DoublyLinkedListBasedStack\bin\Debug\05_DoublyLinkedListBasedStack.pdb
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructuresQueuesStax\05_DoublyLinkedListBasedStack\obj\Debug\05_DoublyLinkedListBasedQueue.csprojResolveAssemblyReference.cache
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructuresQueuesStax\05_DoublyLinkedListBasedStack\obj\Debug\05_DoublyLinkedListBasedStack.exe
+c:\users\maika\documents\visual studio 2015\Projects\LinearDataStructuresQueuesStax\05_DoublyLinkedListBasedStack\obj\Debug\05_DoublyLinkedListBasedStack.pdb

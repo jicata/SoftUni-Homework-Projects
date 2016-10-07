@@ -1,0 +1,6 @@
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmp\04. Olympics Are Coming\bin\Debug\_04.Olympics_Are_Coming.exe.config
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmp\04. Olympics Are Coming\bin\Debug\_04.Olympics_Are_Coming.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmp\04. Olympics Are Coming\bin\Debug\_04.Olympics_Are_Coming.pdb
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmp\04. Olympics Are Coming\obj\Debug\04. Olympics Are Coming.csprojResolveAssemblyReference.cache
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmp\04. Olympics Are Coming\obj\Debug\_04.Olympics_Are_Coming.exe
+C:\Users\Maika\Documents\Visual Studio 2013\Projects\examWarmp\04. Olympics Are Coming\obj\Debug\_04.Olympics_Are_Coming.pdb
