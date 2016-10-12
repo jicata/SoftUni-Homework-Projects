@@ -1,8 +1,8 @@
-CREATE FUNCTION ufn_CalculateFutureValue(@Sum AS DECIMAL(19,2), @Interest AS FLOAT, @NumberOfYears AS INT)
-RETURNS DECIMAL(19,2)
+CREATE FUNCTION ufn_CalculateFutureValue(@Sum AS MONEY, @Interest AS FLOAT, @NumberOfYears AS INT)
+RETURNS MONEY
 AS
 BEGIN
-	DECLARE @FutureValue AS DECIMAL(19,2)
+	DECLARE @FutureValue AS MONEY
 	SET @FutureValue = @Sum * POWER(1+@Interest, @NumberOfYears) 
 	RETURN @FutureValue
 END

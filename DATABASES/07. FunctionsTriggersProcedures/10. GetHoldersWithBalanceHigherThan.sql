@@ -1,20 +1,17 @@
-ALTER PROC usp_GetHoldersWithBalanceHigherThan(@balance AS INT)
+ALTER PROC usp_GetHoldersWithBalanceHigherThan(@balance AS Money)
 AS
 BEGIN
-	SELECT m.FirstName AS [FirstName],
-		   o.LastName AS [LastName]
+	SELECT fi.FirstName AS [FirstName],
+		   fi.LastName AS [LastName]
 	FROM
 		(SELECT ah.FirstName,
-			   SUM(a.Balance) AS TotalBalance
+				ah.LastName,
+			    SUM(a.Balance) AS TotalBalance
 		FROM AccountHolders AS ah
 			INNER JOIN Accounts AS a
 				ON ah.Id = a.AccountHolderId
-		GROUP BY ah.FirstName) AS m
-			INNER JOIN (SELECT ah.FirstName,
-							   ah.LastName
-					   FROM AccountHolders AS ah) AS o
-				ON m.FirstName = o.FirstName
-	WHERE m.TotalBalance >= @balance
+		GROUP BY ah.FirstName, ah.LastName) AS fi
+	WHERE fi.TotalBalance > @balance
 END
 
-EXEC usp_GetHoldersWithBalanceHigherThan 20
+EXEC usp_GetHoldersWithBalanceHigherThan 4
