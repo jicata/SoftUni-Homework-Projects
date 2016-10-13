@@ -1,4 +1,4 @@
-CREATE TABLE DepositTypes
+	CREATE TABLE DepositTypes
 (
 DepositTypeID INT PRIMARY KEY,
 Name VARCHAR(20)
