@@ -1,56 +1,38 @@
-SELECT mingie.Username,
-		mingie.Game,
-		mingie.Name,
-		mingie.Strength
-FROM
-(SELECT  gts.Username,
-		gts.Game,
-		cs.Name,
-		SUM(gts.Strength) + SUM(cs.Strength) + SUM(gg.Strength) Strength
+SELECT *
 FROM
 (SELECT u.Username,
-	   g.Name AS Game,
-	   ug.CharacterId,
-	   ug.Id AS UserGameId,
-	   s.Strength,
-	   s.Defence,
-	   s.Speed,
-	   s.Mind,
-	   s.Luck
+	   ug.GameId,
+	   SUM(s.Strength) AS [ItemStr],
+	   SUM(s.Defence) AS [ItemDef],
+	   SUM(s.Speed) AS [ItemSpeed],
+	   SUM(s.Mind) AS [ItemMind],
+	   SUM(s.Luck) AS [ItemLuck]
 FROM Users AS u
 	INNER JOIN UsersGames AS ug
-		ON ug.UserId = u.Id
-	INNER JOIN Games AS g
-		ON ug.GameId = g.Id
-	INNER JOIN GameTypes AS gt
-		ON g.GameTypeId = gt.Id
+		ON u.Id = ug.UserId
+	INNER JOIN UserGameItems AS ugi
+		ON ug.Id = ugi.UserGameId
+	INNER JOIN Items AS i
+		ON ugi.ItemId = i.Id
 	INNER JOIN [Statistics] AS s
-		ON gt.BonusStatsId = s.Id) AS gts
-	INNER JOIN (SELECT c.StatisticId,
-					   c.Id,
-					   c.Name,
-					   ss.Strength,
-					   ss.Defence,
-					   ss.Speed,
-					   ss.Mind,
-					   ss.Luck
-				FROM Characters AS c
-					INNER JOIN [Statistics] AS ss
-						ON c.StatisticId = ss.Id) AS cs
-	ON cs.Id = gts.CharacterId
-	INNER JOIN (SELECT ugi.ItemId,
-					   ug.GameId,
-					   sss.Strength
-			   FROM UsersGames AS ug
-					INNER JOIN UserGameItems AS ugi
-						ON ug.GameId = ugi.UserGameId
-					INNER JOIN Items AS i
-						ON ugi.ItemId = i.Id
-					INNER JOIN [Statistics] AS sss
-						ON i.StatisticId = sss.Id) AS gg
-	ON gts.UserGameId = gg.GameId
+		ON i.StatisticId = s.Id
+GROUP BY u.Username, ug.GameId) AS film
+ORDER BY ItemStr DESC
 
-GROUP BY gts.Username,
-		 gts.Game,
-		 cs.Name) AS mingie
-ORDER BY mingie.Strength DESC
+--legit so far, now what? how can we join the Character Table? can't really group by CharacterId. Joining the Games table is EZ since we grouped by GameId but what about the Characters table?
+SELECT 
+	   SUM(s.Strength) AS [ItemStr],
+	   SUM(s.Defence) AS [ItemDef],
+	   SUM(s.Speed) AS [ItemSpeed],
+	   SUM(s.Mind) AS [ItemMind],
+	   SUM(s.Luck) AS [ItemLuck]
+FROM Users AS u
+	INNER JOIN UsersGames AS ug
+		ON u.Id = ug.UserId
+	INNER JOIN UserGameItems AS ugi
+		ON ug.Id = ugi.UserGameId
+	INNER JOIN Items AS i
+		ON ugi.ItemId = i.Id
+	INNER JOIN [Statistics] AS s
+		ON i.StatisticId = s.Id
+WHERE ugi.UserGameId = 97
