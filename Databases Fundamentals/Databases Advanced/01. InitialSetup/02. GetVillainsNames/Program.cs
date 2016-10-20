@@ -1,7 +1,9 @@
 ﻿namespace _02.GetVillainsNames
 {
     using System;
+    using System.Collections.Generic;
     using System.Data.SqlClient;
+    using System.Linq;
 
     class Program
     {
