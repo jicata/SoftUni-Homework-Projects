@@ -34,34 +34,66 @@
 
             FieldInfo primaryKey = GetId(entity.GetType());
             object primaryKeyValue = primaryKey.GetValue(entity);
+         
             if (primaryKeyValue == null || (int) primaryKeyValue <= 0)
             {
                 return this.Insert(entity, primaryKey);
             }
-           return this.Update(entity, primaryKey);
-            return true;
+            return this.Update(entity, primaryKey);
+
 
         }
 
         private bool Update<T>(T entity, FieldInfo primaryKey)
         {
             string updateSqlStatement = this.PrepareUpdateSqlStatement(entity, primaryKey);
+            int rowsAffected = 0;
+            using (SqlConnection con = new SqlConnection(this.connectionString))
+            {
+                con.Open();
+                SqlCommand updateCommand = new SqlCommand(updateSqlStatement, con);
+                rowsAffected = updateCommand.ExecuteNonQuery();
+            }
+            return rowsAffected > 0;
         }
 
         private string PrepareUpdateSqlStatement<T>(T entity, FieldInfo primaryKey)
         {
-            "UPDATE"
+            StringBuilder query = new StringBuilder();
+            FieldInfo[] fields = GetFieldInfoForEntity(entity.GetType());
+            string tableName = this.GetTableName(entity.GetType());
+            query.AppendLine($@"UPDATE {tableName} ");
+            query.Append(@"SET ");
+            foreach (var field in fields)
+            {
+                string sqlString = CreateSqlString(entity, field);
+                query.Append($@"{this.GetFieldName(field)}={sqlString}, ");
+            }
+            query.Remove(query.Length - 2, 2);
+            query.AppendLine();
+            query.Append($@"WHERE {this.GetId(entity.GetType()).Name} = {primaryKey.GetValue(entity)}");
+            return query.ToString();
         }
 
-        public  bool Insert<T>(T entity, FieldInfo primaryKey)
+        private  bool Insert<T>(T entity, FieldInfo primaryKey)
         {
             string insertSqlStatement = this.PrepareInsertSqlStatement(entity, primaryKey);
             int rowsAffected = 0;
             using (SqlConnection con = new SqlConnection(this.connectionString))
             {
                 con.Open();
-                SqlCommand insertCommand = new SqlCommand(insertSqlStatement);
+                SqlCommand insertCommand = new SqlCommand(insertSqlStatement, con);
                 rowsAffected = insertCommand.ExecuteNonQuery();
+            }
+            string retrieveIdForEntityQuery = $@"SELECT MAX(Id) AS LastId FROM {GetTableName(entity.GetType())} AS l";
+            //Console.WriteLine(retrieveIdForEntityQuery);
+            using (SqlConnection con = new SqlConnection(this.connectionString))
+            {
+                con.Open();
+                SqlCommand retrieveIdCommand = new SqlCommand(retrieveIdForEntityQuery, con);
+
+                int entityId = int.Parse(retrieveIdCommand.ExecuteScalar().ToString());
+                primaryKey.SetValue(entity, entityId);
             }
             return rowsAffected > 0;
         }
@@ -75,54 +107,155 @@
             StringBuilder valuesBuilder = new StringBuilder();
             foreach (var fieldInfo in values)
             {
-                if (fieldInfo.FieldType.Name.ToLower() == "string" || fieldInfo.FieldType.Name.ToLower() == "datetime")
-                {
-                    valuesBuilder.Append($@"'{fieldInfo.GetValue(entity)}', ");
-                }
-                else
-                {
-                    valuesBuilder.Append(fieldInfo.GetValue(entity) +", ");
-                }
+                var sqlString = CreateSqlString(entity, fieldInfo);
+                valuesBuilder.Append($"{sqlString}, ");
             }
             valuesBuilder.Remove(valuesBuilder.Length - 2, 2);
 
             string insertQuery = $@"INSERT INTO {GetTableName(entity.GetType())} ({string.Join(", ", columnNames)}) VALUES " +
                                  $@"({valuesBuilder})";
-            //TODO: test
-            string retrieveIdForEntityQuery = $@"SELECT MAX({primaryKey.Name}) FROM {GetTableName(entity.GetType())}";
-            using (SqlConnection con = new SqlConnection(this.connectionString))
-            {
-                con.Open();
-                SqlCommand retrieveIdCommand = new SqlCommand(retrieveIdForEntityQuery, con);
-                int entityId = (int) retrieveIdCommand.ExecuteScalar();
-                primaryKey.SetValue(entity, entityId);
-            }
              return insertQuery;
+        }
+
+        private static string CreateSqlString<T>(T entity, FieldInfo fieldInfo)
+        {
+            string sqlString = string.Empty;
+            if (fieldInfo.FieldType.Name.ToLower() == "string" || fieldInfo.FieldType.Name.ToLower() == "datetime")
+            {
+                sqlString = $@"'{fieldInfo.GetValue(entity)}'";
+            }
+            else if (fieldInfo.FieldType.Name.ToLower() == "boolean")
+            {
+                int boolean = (bool)fieldInfo.GetValue(entity) ? 1 : 0;
+                sqlString = boolean.ToString();
+            }
+            else
+            {
+                sqlString = $@"{fieldInfo.GetValue(entity)}";
+            }
+            return sqlString;
         }
 
         public T FindById<T>(int id)
         {
-            throw new System.NotImplementedException();
+            T result = default(T);
+            string getEntityByIdQuery = $@"SELECT * FROM {this.GetTableName(typeof(T))} WHERE Id = @Id";
+            using (SqlConnection conn = new SqlConnection(this.connectionString))
+            {
+                conn.Open();
+                SqlCommand getByIdCommand = new SqlCommand(getEntityByIdQuery, conn);
+                getByIdCommand.Parameters.AddWithValue("@Id", id);
+                using (SqlDataReader reader = getByIdCommand.ExecuteReader())
+                {
+                    if (!reader.HasRows)
+                    {
+                        throw new ArgumentException($"Entity with Id {id} not found");
+                    }
+                    reader.Read();
+                    result = this.CreateEntity<T>(reader);
+                }
+            }
+            return result;
+        }
+
+        private T CreateEntity<T>(SqlDataReader reader)
+        {
+            object[] values = new object[reader.FieldCount];
+            reader.GetValues(values);
+            
+            Type[] types = new Type[values.Length-1];
+            for (int i = 1; i < values.Length; i++)
+            {
+                types[i - 1] = values[i].GetType();
+            }
+
+            T entity = (T) (typeof(T)).GetConstructor(types).Invoke(values.Skip(1).ToArray());
+            typeof(T).GetFields(BindingFlags.Instance | BindingFlags.NonPublic)
+                     .FirstOrDefault(x=>x.IsDefined(typeof(IdAttribute)))
+                     .SetValue(entity, values[0]);
+
+
+            return entity;
         }
 
         public IEnumerable<T> FindAll<T>()
         {
-            throw new System.NotImplementedException();
+            List<T> entities = new List<T>();
+            string getAllEntities = $@"SELECT * FROM {this.GetTableName(typeof(T))}";
+            using (SqlConnection conn = new SqlConnection(this.connectionString))
+            {
+                conn.Open();
+                SqlCommand getAllCommand = new SqlCommand(getAllEntities, conn);
+                using (SqlDataReader reader = getAllCommand.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        entities.Add(CreateEntity<T>(reader));
+                    }
+                }
+            }
+            return entities;
         }
 
         public IEnumerable<T> FindAll<T>(string where)
         {
-            throw new System.NotImplementedException();
+            List<T> entities = new List<T>();
+            string getAllEntities = $@"SELECT * FROM {this.GetTableName(typeof(T))} {where}";
+            using (SqlConnection conn = new SqlConnection(this.connectionString))
+            {
+                conn.Open();
+                SqlCommand getAllCommand = new SqlCommand(getAllEntities, conn);
+                using (SqlDataReader reader = getAllCommand.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        entities.Add(CreateEntity<T>(reader));
+                    }
+                }
+            }
+            return entities;
         }
 
         public T FindFirst<T>()
         {
-            throw new System.NotImplementedException();
+            T result = default(T);
+            string getEntityByIdQuery = $@"SELECT TOP 1 * FROM {this.GetTableName(typeof(T))}";
+            using (SqlConnection conn = new SqlConnection(this.connectionString))
+            {
+                conn.Open();
+                SqlCommand getByIdCommand = new SqlCommand(getEntityByIdQuery, conn);
+                using (SqlDataReader reader = getByIdCommand.ExecuteReader())
+                {
+                    if (!reader.HasRows)
+                    {
+                        throw new ArgumentException($"Table is empty");
+                    }
+                    reader.Read();
+                    result = this.CreateEntity<T>(reader);
+                }
+            }
+            return result;
         }
 
         public T FindFirst<T>(string where)
         {
-            throw new System.NotImplementedException();
+            T result = default(T);
+            string getEntityByIdQuery = $@"SELECT TOP 1 * FROM {this.GetTableName(typeof(T))} {where}";
+            using (SqlConnection conn = new SqlConnection(this.connectionString))
+            {
+                conn.Open();
+                SqlCommand getByIdCommand = new SqlCommand(getEntityByIdQuery, conn);
+                using (SqlDataReader reader = getByIdCommand.ExecuteReader())
+                {
+                    if (!reader.HasRows)
+                    {
+                        throw new ArgumentException($"Table is empty");
+                    }
+                    reader.Read();
+                    result = this.CreateEntity<T>(reader);
+                }
+            }
+            return result;
         }
 
         public FieldInfo GetId(Type entity)
@@ -180,7 +313,7 @@
         private bool CheckIfTableExists(Type entity)
         {
             int result = 0;
-            string checkIfTableExistsQuery = $@"IF OBJECT_ID(N'dbo.{entity.Name}', N'U') IS NOT NULL " +
+            string checkIfTableExistsQuery = $@"IF OBJECT_ID(N'dbo.{GetTableName(entity)}', N'U') IS NOT NULL " +
                                              "BEGIN " +
                                                 "SELECT 1 " +
                                              "END " +
@@ -212,7 +345,7 @@
 
             for (int i = 0; i < fieldInfo.Length; i++)
             {
-                createTableQuery.AppendLine($@"{columnNames[i]} {this.ToDbType(fieldInfo[i])}, ");
+                createTableQuery.AppendLine($@"{columnNames[i]} {this.ConvertToDbDataType(fieldInfo[i])}, ");
             }
 
             createTableQuery.Remove(createTableQuery.Length - 4, 2);
@@ -222,17 +355,17 @@
             {
                 con.Open();
                 SqlCommand createTableCommand = new SqlCommand(createTableQuery.ToString(),con);
-                createTableCommand.ExecuteNonQuery();
+                    createTableCommand.ExecuteNonQuery();
             }
         }
 
-        private string ToDbType(FieldInfo fieldInfo)
+        private string ConvertToDbDataType(FieldInfo fieldInfo)
         {
             switch (fieldInfo.FieldType.Name.ToLower())
             {
                 case "int32":
                     return "INT";
-                case "bool":
+                case "boolean":
                     return "BIT";
                 case "string":
                     return "VARCHAR(100)";

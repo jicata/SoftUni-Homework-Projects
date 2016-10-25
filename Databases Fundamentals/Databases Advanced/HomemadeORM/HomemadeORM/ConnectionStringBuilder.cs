@@ -10,7 +10,7 @@
         public ConnectionStringBuilder(string databaseName)
         {
             this.builder = new SqlConnectionStringBuilder();
-            this.builder["DataSource"] = "(local)";
+            this.builder["Data Source"] = "6pekIV\\SQLEXPRESS";
             this.builder["Integrated Security"] = true;
             this.builder["Connect Timeout"] = 1000;
             this.builder["Trusted_Connection"] = true;

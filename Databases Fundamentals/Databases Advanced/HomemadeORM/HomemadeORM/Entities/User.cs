@@ -1,6 +1,7 @@
-﻿namespace HomemadeORM.Entities
+﻿    namespace HomemadeORM.Entities
 {
     using System;
+    using System.Text;
     using Attributes;
 
     [Entity("Users")]
@@ -36,7 +37,6 @@
             {
                 return id;
             }
-            set { this.id = value; }
         }
 
         public string Username
@@ -89,6 +89,16 @@
             {
                 registrationDate = value;
             }
+        }
+
+        public override string ToString()
+        {
+            StringBuilder builder = new StringBuilder();
+            builder.AppendLine($"Id: {this.id}");
+            builder.AppendLine($"Name: {this.Username}");
+            builder.AppendLine($"Age: {this.Age}");
+            builder.Append($"RegDate: {this.RegistrationDate}");
+            return builder.ToString();
         }
     }
 }
