@@ -258,6 +258,32 @@
             return result;
         }
 
+        public int DeleteAll<T>()
+        {
+            string tableName = GetTableName(typeof(T));
+            string deleteByIdQuery = $@"DELETE FROM {tableName}";
+
+            using (SqlConnection conn = new SqlConnection(this.connectionString))
+            {
+                conn.Open();
+                SqlCommand deleteCommand = new SqlCommand(deleteByIdQuery, conn);
+                return deleteCommand.ExecuteNonQuery();
+            }
+        }
+
+        public int DeleteAll<T>(string where)
+        {
+            string tableName = GetTableName(typeof(T));
+            string deleteByIdQuery = $@"DELETE FROM {tableName} {where}";
+
+            using (SqlConnection conn = new SqlConnection(this.connectionString))
+            {
+                conn.Open();
+                SqlCommand deleteCommand = new SqlCommand(deleteByIdQuery, conn);
+                return deleteCommand.ExecuteNonQuery();
+            }
+        }
+
         public FieldInfo GetId(Type entity)
         {
             if (entity == null)

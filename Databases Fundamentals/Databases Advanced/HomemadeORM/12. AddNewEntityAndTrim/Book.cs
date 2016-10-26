@@ -1,6 +1,7 @@
 ﻿namespace _12.AddNewEntityAndTrim
 {
     using System;
+    using System.Data;
     using HomemadeORM.Attributes;
 
     [Entity("Books")]
@@ -24,13 +25,17 @@
         [Column("IsHardCovered")]
         private bool isHardCovered;
 
-        public Book(string title, string author, DateTime publishedOn, string language, bool isHardCovered)
+        [Column("Rating")]
+        private int rating;
+
+        public Book(string title, string author, DateTime publishedOn, string language, bool isHardCovered, int rating)
         {
             this.Title = title;
             this.Author = author;
             this.PublishedOn = publishedOn;
             this.Language = language;
             this.IsHardCovered = isHardCovered;
+            this.Rating = rating;
         }
 
         public int Id
@@ -104,6 +109,31 @@
             {
                 isHardCovered = value;
             }
+        }
+
+        public int Rating
+        {
+            get
+            {
+                return this.rating;
+            }
+
+            set
+            {
+                if (value < 0 || value > 10)
+                {
+                    this.rating = 0;
+                }
+                else
+                {
+                    this.rating = value;
+                }
+            }
+        }
+
+        public override string ToString()
+        {
+            return this.Title;
         }
     }
 }

@@ -14,13 +14,13 @@
             string connectionString = builder.ConnectionString;
 
             EntityManager manager = new EntityManager(connectionString, true);
-            Book book1 = new Book("TheBible", "God", DateTime.Parse("330-11-05 16:20:20"), "Ancient Greek", true);
-            Book book2 = new Book("MeinKampf", "Chicho Adi", DateTime.Parse("1925-07-18 10:00:00"), "German", false);
-            Book book3 = new Book(@"Hitchhikers Guide To The Galaxy", "Douglas Adams",DateTime.Parse("1995-04-20 13:38:00"), "English", true);
+            Book book1 = new Book("TheBible", "God", DateTime.Parse("330-11-05 16:20:20"), "Ancient Greek", true,10);
+            Book book2 = new Book("MeinKampf", "Chicho Adi", DateTime.Parse("1925-07-18 10:00:00"), "German", false,7);
+            Book book3 = new Book(@"Hitchhikers Guide To The Galaxy", "Douglas Adams",DateTime.Parse("1995-04-20 13:38:00"), "English", true, 8);
             manager.Persist(book1);
             manager.Persist(book2);
             manager.Persist(book3);
-            TrimTitlesLongerThan(manager, 30);
+            //TrimTitlesLongerThan(manager, 30);
            
         }
 

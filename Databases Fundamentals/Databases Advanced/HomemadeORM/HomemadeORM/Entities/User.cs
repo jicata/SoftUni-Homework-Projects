@@ -23,12 +23,22 @@
         private DateTime registrationDate;
 
 
-        public User(string username, string password, int age, DateTime registrationDate)
+        [Column("IsActive")]
+        private bool isActive;
+
+
+        [Column("LastLoginTime")]
+        private DateTime lastLoginTime;
+
+
+        public User(string username, string password, int age, DateTime registrationDate, bool isActive, DateTime lastLoginTime)
         {
             this.Username = username;
             this.Password = password;
             this.Age = age;
             this.RegistrationDate = registrationDate;
+            this.IsActive = isActive;
+            this.LastLoginTime = lastLoginTime;
         }
 
         public int Id
@@ -88,6 +98,40 @@
             set
             {
                 registrationDate = value;
+            }
+        }
+
+        public DateTime LastLoginTime
+        {
+            get
+            {
+                return lastLoginTime;
+            }
+
+            set
+            {
+                lastLoginTime = value;
+                if ((DateTime.Now - value).Days/365 >= 1)
+                {
+                    this.IsActive = false;
+                }
+                else
+                {
+                    this.IsActive = true;
+                }
+            }
+        }
+
+        public bool IsActive
+        {
+            get
+            {
+                return isActive;
+            }
+
+            set
+            {
+                isActive = value;
             }
         }
 
