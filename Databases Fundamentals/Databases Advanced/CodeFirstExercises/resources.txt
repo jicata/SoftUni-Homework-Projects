@@ -1,0 +1,5 @@
+Name Type Url
+Presentation	Presentation	http:\\softuni.bg
+Lab	Document	http:\\softuni.bg
+VideoOtVchera	Video	http:\\youtube.com
+Cheatsheet	Other	http:\\wikipedia.org
