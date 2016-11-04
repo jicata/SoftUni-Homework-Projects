@@ -76,7 +76,7 @@
 
             context.Students
                 .Where(s=>s.Courses.Any())
-                .OrderByDescending(s => s.Courses.Select(c => c.Price).Sum())
+                .OrderByDescending(s => s.Courses.Sum(c=>c.Price))
                 .ThenByDescending(s => s.Courses.Count)
                 .ThenBy(s => s.Name)
                 .Select(
@@ -86,7 +86,7 @@
                             s.Name,
                             s.Courses.Count,
                             AvgPrice = s.Courses.Select(c => c.Price).Average(),
-                            Total = s.Courses.Select(c => c.Price).Sum()
+                            Total = s.Courses.Sum(c=>c.Price)
                         })
                 .ToList()
                 .ForEach(x => Console.WriteLine($"{x.Name} {x.Count} {x.AvgPrice} {x.Total}"));
