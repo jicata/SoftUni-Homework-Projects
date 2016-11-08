@@ -30,9 +30,9 @@
                 string folderNameTrimmed = folder.Substring(indexOf + 1);
 
                 var files = Directory.EnumerateFiles(folder);
-           
+
                 var topElement = new XElement("dir",
-                    new XAttribute("name", folderNameTrimmed));
+                    new XAttribute("name", folderNameTrimmed));                   ;
                 topElement.Add(from file in files
                                select new XElement("file", new XAttribute("name", file.Substring(file.LastIndexOf("\\") + 1))));
 
