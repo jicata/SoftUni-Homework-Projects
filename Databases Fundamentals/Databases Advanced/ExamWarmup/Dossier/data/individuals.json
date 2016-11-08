@@ -1,0 +1,335 @@
+[
+  {
+    "id": "#eaf",
+    "fullName": "Henry Morales",
+    "alias": "Mitio Pitona",
+    "birthDate": "06/03/1954",
+    "status": 1,
+    "activities": [
+      {
+        "activityType": "WeaponsDealing",
+        "description": "Sold weapons to Serbian separatists.",
+        "activeFrom": "04/01/1998"
+      },
+      {
+        "activityType": "MoneyLaundering",
+        "description": "Laundered terrorist money.",
+        "activeFrom": "15/02/1997"
+      },
+      {
+        "activityType": "WeaponsDealing",
+        "activeFrom": "10/12/1994"
+      },
+      {
+        "activityType": "Racketeering",
+        "activeFrom": "14/08/1997",
+        "activeTo": "10/05/2003"
+      },
+      {
+        "activityType": "DrugTrafficking",
+        "description": "Cocaine and marijuana in great quantities.",
+        "activeFrom": "20/02/1996",
+        "activeTo": "12/12/2010"
+      }
+    ],
+    "locations": [
+      {
+        "city": "Lantian",
+        "lastSeen": "03/04/1998"
+      },
+      {
+        "city": "Jurish",
+        "lastSeen": "06/07/2007"
+      },
+      {
+        "city": "Caringin Lor",
+        "lastSeen": "18/11/2007"
+      },
+      {
+        "city": "Cesson-Sevigne",
+        "lastSeen": "15/10/2011"
+      }
+    ]
+  },
+  {
+    "id": "#284",
+    "fullName": "Brian Hicks",
+    "alias": "The Gun",
+    "birthDate": "04/06/1964",
+    "status": 1,
+    "activities": [
+      {
+        "activityType": "Smuggling",
+        "description": "Started smuggling ancient artifacts and paintings across Europe.",
+        "activeFrom": "11/05/2000",
+        "activeTo": "05/05/2015"
+      },
+      {
+        "activityType": "Smuggling",
+        "description": "Smuggling illegal arms in post-Soviet countries.",
+        "activeFrom": "11/01/1993",
+        "activeTo": "08/12/2001"
+      }
+    ],
+    "locations": [
+      {
+        "city": "Huangchen",
+        "lastSeen": "08/04/1994"
+      },
+      {
+        "city": "Lourido",
+        "lastSeen": "14/05/2004"
+      },
+      {
+        "city": "Coyaima",
+        "lastSeen": "07/12/2011"
+      }
+    ]
+  },
+  {
+    "id": "#fbd",
+    "fullName": "Rachel Diaz",
+    "birthDate": "12/07/1953",
+    "status": 0,
+    "activities": [
+      {
+        "activityType": "WeaponsDealing",
+        "activeFrom": "19/09/1999",
+        "activeTo": "11/12/2005"
+      },
+      {
+        "activityType": "Racketeering",
+        "description": "Offered local stores 'protection'.",
+        "activeFrom": "09/11/1999"
+      }
+    ],
+    "locations": [
+      {
+        "city": "Oslo",
+        "lastSeen": "02/08/2012"
+      },
+      {
+        "city": "Jurish",
+        "lastSeen": "28/03/2002"
+      },
+      {
+        "city": "Pongkor",
+        "lastSeen": "22/10/2002"
+      }
+    ]
+  },
+  {
+    "id": "#59d",
+    "fullName": "Frank Carter",
+    "alias": "Fist",
+    "status": 0,
+    "activities": [
+      {
+        "activityType": "Racketeering",
+        "description": "'Persuaded' Ukrainian authorities to close their eyes for a couple of arm deals.",
+        "activeFrom": "28/06/1998"
+      }
+    ],
+    "locations": [
+      {
+        "city": "Little Rock",
+        "lastSeen": "27/11/1996"
+      },
+      {
+        "city": "Oslo",
+        "lastSeen": "05/03/2014"
+      }
+    ]
+  },
+  {
+    "id": "#497",
+    "fullName": "Cheryl Montgomery",
+    "alias": "The Illusive Man",
+    "birthDate": "18/05/1961",
+    "status": 1,
+    "activities": [
+      {
+        "activityType": "Smuggling",
+        "description": "Smugged several uranium barrels from the Middle East into China.",
+        "activeFrom": "06/06/1996",
+        "activeTo": "07/12/2003"
+      },
+      {
+        "activityType": "Racketeering",
+        "description": "#1 racketeer in town.",
+        "activeFrom": "12/09/1995"
+      }
+    ],
+    "locations": [
+      {
+        "city": "Isaka",
+        "lastSeen": "07/05/2005"
+      },
+      {
+        "city": "Isaka",
+        "lastSeen": "13/10/2003"
+      },
+      {
+        "city": "Little Rock",
+        "lastSeen": "01/05/2008"
+      }
+    ]
+  },
+  {
+    "id": "#964",
+    "fullName": "George Johnston",
+    "alias": "The Wolf",
+    "birthDate": "27/11/1955",
+    "status": 0,
+    "activities": [
+      {
+        "activityType": "DrugTrafficking",
+        "description": "Biggest drug import cartel in South America.",
+        "activeFrom": "05/10/1994",
+        "activeTo": "09/08/2001"
+      },
+      {
+        "activityType": "MoneyLaundering",
+        "description": "Personally laundered money for Pablo Escobar.",
+        "activeFrom": "24/04/2000",
+        "activeTo": "07/06/2013"
+      },
+      {
+        "activityType": "DrugTrafficking",
+        "description": "Founded a huge cocaine production factory in the middle of the Amazon. Worldwide export.",
+        "activeFrom": "31/12/1999",
+        "activeTo": "06/07/2003"
+      },
+      {
+        "activityType": "DrugTrafficking",
+        "description": "Started shipping to Europe and Africa.",
+        "activeFrom": "16/07/1998",
+        "activeTo": "10/09/2005"
+      },
+      {
+        "activityType": "MoneyLaundering",
+        "activeFrom": "11/02/1998"
+      },
+      {
+        "activityType": "MoneyLaundering",
+        "description": "Laundered money for several European Parliament officials.",
+        "activeFrom": "22/02/1992",
+        "activeTo": "07/11/2010"
+      },
+      {
+        "activityType": "MoneyLaundering",
+        "activeFrom": "24/12/1995"
+      },
+      {
+        "activityType": "DrugTrafficking",
+        "description":  "Columnbian drug cartel funded by religious extremists.",
+        "activeFrom": "28/05/1996",
+        "activeTo": "04/10/2001"
+      }
+    ],
+    "locations": [
+      {
+        "city": "Partenit",
+        "lastSeen": "21/01/1999"
+      },
+      {
+        "city": "San Francisco",
+        "lastSeen": "26/07/1991"
+      }
+    ]
+  },
+  {
+    "id": "#ea3",
+    "fullName": "George Graham",
+    "alias": "Joro Kozata",
+    "birthDate": "10/06/1976",
+    "status": 1,
+    "activities": [
+      {
+        "activityType": "DrugTrafficking",
+        "activeFrom": "03/07/1999",
+        "activeTo": "01/03/2010"
+      },
+      {
+        "activityType": "WeaponsDealing",
+        "description": "Weapons selling to terrorist groups.",
+        "activeFrom": "09/04/1995",
+        "activeTo": "05/08/2015"
+      },
+      {
+        "activityType": "WeaponsDealing",
+        "description": "Weapons selling to rebels.",
+        "activeFrom": "07/06/1996"
+      },
+      {
+        "activityType": "Racketeering",
+        "activeFrom": "28/12/1998"
+      }
+    ],
+    "locations": [ ]
+  },
+  {
+    "id": "#41e",
+    "fullName": "Christine Mitchell",
+    "birthDate": "19/10/1959",
+    "status": 2,
+    "activities": [
+      {
+        "activityType": "WeaponsDealing",
+        "activeFrom": "07/02/2000"
+      },
+      {
+        "activityType": "MoneyLaundering",
+        "activeFrom": "02/01/1992",
+        "activeTo": "05/03/2009"
+      }
+    ],
+    "locations": [ ]
+  },
+  {
+    "id": "#46b",
+    "fullName": "Christopher Freeman",
+    "alias": "King Pin",
+    "status": 0,
+    "activities": [
+      {
+        "activityType": "Racketeering",
+        "activeFrom": "30/10/2000",
+        "activeTo": "07/11/2004"
+      },
+      {
+        "activityType": "DrugTrafficking",
+        "description": "Ran a small methamphetamine laboratory on the outskirts of Bogota.",
+        "activeFrom": "06/10/1991",
+        "activeTo": "12/05/2011"
+      }
+    ],
+    "locations": [
+      {
+        "city": "Partenit",
+        "lastSeen": "21/01/1999"
+      },
+      {
+        "city": "San Francisco",
+        "lastSeen": "26/07/1991"
+      }
+    ]
+  },
+  {
+    "id": "#412",
+    "fullName": "Kenneth Cole",
+    "status": 0,
+    "activities": [ ],
+    "locations": [
+      {
+        "city": "Renshan",
+        "lastSeen": "13/12/2007"
+      },
+
+      {
+        "city": "Pongkor",
+        "lastSeen": "26/10/2005"
+      }
+    ]
+  }
+]

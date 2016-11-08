@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+	<album>
+		<name>King of Limbs</name>
+		<artist>Radiohead</artist>
+		<year>2011</year>
+		<producer>Nigel Godrich</producer>
+		<price>20.00</price>
+		<songs>
+			<song title="Bloom" length="5:15"/>
+		    <song title="Morning Mr Magpie" length="4:41"/>
+		    <song title="Little by Little" length="4:27"/>
+		    <song title="Feral" length="3:13"/>
+		    <song title="Lotus Flower" length="5:01"/>
+		    <song title="Codex" length="4:47"/>
+		    <song title="Give Up the Ghost" length="4:50"/>
+		    <song title="Separator" length="5:20"/>
+		</songs>
+	</album>
+	<album>
+		<name>OK Computer</name>
+		<artist>Radiohead</artist>
+		<year>1997</year>
+		<producer>Mc Gevgir</producer>
+		<price>13.00</price>
+		<songs>
+			<song title="Airbag"  length="4:44"/>
+            <song title="Paranoid Android"  length="6:23"/>
+            <song title="Subterranean Homesick Alien"  length="4:27"/>
+            <song title="Exit Music (For a Film)"  length="4:24"/>
+            <song title="Let Down"  length="4:59"/>
+            <song title="Karma Police"  length="4:21"/>
+            <song title="Fitter Happier"  length="1:57"/>
+            <song title="Electioneering"  length="3:50"/>
+            <song title="Climbing Up the Walls"  length="4:45"/>
+            <song title="No Surprises"  length="3:48"/>
+            <song title="Lucky"  length="4:19"/>
+            <song title="The Tourist"  length="5:24"/>
+		</songs>
+	</album>
+	<album>
+		<name>Dummy</name>
+		<artist>Potishead</artist>
+		<year>1994</year>
+		<producer>Dulgiq</producer>
+		<price>25.00</price>
+		<songs>
+			 <song title="Mysterons"  length="5:02"/>
+             <song title="Sour Times"  length="4:11"/>
+             <song title="Strangers"  length="3:55"/>
+             <song title="It Could Be Sweet"  length="4:16"/>
+             <song title="Wandering Star"  length="4:51"/>
+             <song title="It's a Fire"  length="3:49"/>
+             <song title="Numb"  length="3:54"/>
+             <song title="Roads"  length="5:02"/>
+             <song title="Pedestal"  length="3:39"/>
+             <song title="Biscuit"  length="5:01"/>
+             <song title="Glory Box"  length="5:06"/>
+		</songs>
+	</album>
+	<album>
+		<name>Third</name>
+		<artist>Potishead</artist>
+		<year>2008</year>
+		<producer>Island Records</producer>
+		<price>17.00</price>
+		<songs>
+			<song title="Silence"  length="4:58"/>
+            <song title="Hunter"  length="3:57"/>
+            <song title="Nylon Smile"  length="3:16"/>
+            <song title="The Rip"  length="4:29"/>
+            <song title="Plastic"  length="3:27"/>
+            <song title="We Carry On"  length="6:27"/>
+            <song title="Deep Water"  length="1:31"/>
+            <song title="Machine Gun"  length="4:43"/>
+            <song title="Small"  length="6:45"/>
+            <song title="Magic Doors"  length="3:32"/>
+            <song title="Threads"  length="5:45"/>
+		</songs>
+	</album>
+</Catalog>

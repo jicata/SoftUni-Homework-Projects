@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<manufacturers>
+	<manufacturer name="Jazzy">
+		<cameras>
+			<camera model="Praktica" year="2008" megapixels="25"/>
+			<camera model="AgfaPhoto" year="2004" price="652"/>
+			<camera model="Pentax" year="2011" price="464" megapixels="39"/>
+			<camera model="Intova" year="2004" price="1626" megapixels="34"/>
+			<camera model="Kodak" year="2015" price="327"/>
+			<camera model="Olympus " year="2015" price="1347" megapixels="24"/>
+			<camera model="Nikon" year="2011" price="982" megapixels="27"/>
+		</cameras>
+		<lenses>
+			<lens model="Axis" type="Telephoto zoom lens"/>
+			<lens model="Cambo" type="Telephoto zoom lens" price="361"/>
+			<lens model="D-Link" type="Zoom lens" price="182"/>
+		</lenses>
+	</manufacturer>
+	<manufacturer name="Meembee">
+		<cameras>
+			<camera model="Hunten" year="2011" price="982" megapixels="27"/>
+			<camera model="iPUX" year="2014" price="1555" megapixels="27"/>
+			<camera model="Kaiser" year="2002" price="1790"/>
+		</cameras>
+		<lenses>
+			<lens model="Leupold II" type="Zoom lens" price="510"/>
+			<lens model="Mercury A+" type="Zoom lens"/>
+		</lenses>
+	</manufacturer>
+	<manufacturer name="Demivee">
+		<cameras>
+			<camera model="Panoscan" year="2005" megapixels="18"/>
+			<camera model="Primos" year="2015" price="1260" megapixels="38"/>
+			<camera model="HTC" year="2011" price="1335"/>
+		</cameras>
+		<lenses/>
+	</manufacturer>
+</manufacturers>
