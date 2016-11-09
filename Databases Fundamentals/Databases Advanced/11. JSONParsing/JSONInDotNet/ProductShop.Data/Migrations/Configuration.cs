@@ -20,6 +20,10 @@ namespace ProductShop.Data.Migrations
 
         protected override void Seed(ProductsShopContext context)
         {
+            if (context.Products.Any())
+            {
+                return;
+            }
             try
             {
                 this.SeedUsers(context);
