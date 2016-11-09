@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="78e25c7b947948d28dc29bbc7e24a426" Name="Diagram1">
+        <EntityTypeShape EntityType="FootballModel.Country" Width="1.75" PointX="2.875" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FootballModel.InternationalMatch" Width="1.75" PointX="0.5" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="FootballModel.League" Width="1.75" PointX="5.375" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FootballModel.TeamMatch" Width="1.5" PointX="7.875" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FootballModel.Team" Width="1.75" PointX="5.375" PointY="1.25" IsExpanded="true" />
+        <AssociationConnector Association="FootballModel.FK_InternationalMatches_Countries_AwayCountryCode" ManuallyRouted="false" />
+        <AssociationConnector Association="FootballModel.FK_InternationalMatches_Countries_HomeCountryCode" ManuallyRouted="false" />
+        <AssociationConnector Association="FootballModel.FK_Leagues_Countries" ManuallyRouted="false" />
+        <AssociationConnector Association="FootballModel.FK_Teams_Countries" ManuallyRouted="false" />
+        <AssociationConnector Association="FootballModel.FK_InternationalMatches_Leagues" ManuallyRouted="false" />
+        <AssociationConnector Association="FootballModel.FK_TeamMatches_Leagues" ManuallyRouted="false" />
+        <AssociationConnector Association="FootballModel.FK_TeamMatches_Teams_AwayTeam" ManuallyRouted="false" />
+        <AssociationConnector Association="FootballModel.FK_TeamMatches_Teams_HomeTeam" ManuallyRouted="false" />
+        <AssociationConnector Association="FootballModel.Leagues_Teams" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

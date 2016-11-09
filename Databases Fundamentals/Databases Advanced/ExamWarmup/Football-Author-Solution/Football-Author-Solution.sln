@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Football-EF-Data-Model", "Football-EF-Data-Model\1. Football-EF-Data-Model.csproj", "{D5F3654A-B8A3-4CC4-A672-F83EF4A6A990}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Export-Leagues-Teams-as-JSON", "Export-Leagues-Teams-as-JSON\2. Export-Leagues-Teams-as-JSON.csproj", "{2A771D57-27A7-4FF0-AAE2-3C575BE889C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Export-International-Matches-as-XML", "Export-International-Matches-as-XML\3. Export-International-Matches-as-XML.csproj", "{E35E8B15-8A2A-47DC-9D66-0C5A9DFCC5C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. Generate-Random-Matches", "Generate-Random-Matches\5. Generate-Random-Matches.csproj", "{C0CB3A0A-0876-4931-B866-5C1F136B87F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Import-Leagues-and-Teams-From-XML", "Import-Leagues-and-Teams-From-XML\4. Import-Leagues-and-Teams-From-XML.csproj", "{EC550914-AE97-4AB3-857C-336C34F5FE0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. Phonebook-EF-Code-First", "Phonebook-EF-Code-First\6. Phonebook-EF-Code-First.csproj", "{21F30DCC-74F3-42A5-B133-08B768473CDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7. Import-Contacts-from-JSON", "Import-Contacts-from-JSON\7. Import-Contacts-from-JSON.csproj", "{A6ACBC8D-90D9-45ED-8C9E-7C1D0A2D9CA3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5F3654A-B8A3-4CC4-A672-F83EF4A6A990}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5F3654A-B8A3-4CC4-A672-F83EF4A6A990}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5F3654A-B8A3-4CC4-A672-F83EF4A6A990}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5F3654A-B8A3-4CC4-A672-F83EF4A6A990}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A771D57-27A7-4FF0-AAE2-3C575BE889C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A771D57-27A7-4FF0-AAE2-3C575BE889C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A771D57-27A7-4FF0-AAE2-3C575BE889C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A771D57-27A7-4FF0-AAE2-3C575BE889C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E35E8B15-8A2A-47DC-9D66-0C5A9DFCC5C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E35E8B15-8A2A-47DC-9D66-0C5A9DFCC5C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E35E8B15-8A2A-47DC-9D66-0C5A9DFCC5C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E35E8B15-8A2A-47DC-9D66-0C5A9DFCC5C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0CB3A0A-0876-4931-B866-5C1F136B87F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0CB3A0A-0876-4931-B866-5C1F136B87F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0CB3A0A-0876-4931-B866-5C1F136B87F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0CB3A0A-0876-4931-B866-5C1F136B87F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC550914-AE97-4AB3-857C-336C34F5FE0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC550914-AE97-4AB3-857C-336C34F5FE0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC550914-AE97-4AB3-857C-336C34F5FE0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC550914-AE97-4AB3-857C-336C34F5FE0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21F30DCC-74F3-42A5-B133-08B768473CDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21F30DCC-74F3-42A5-B133-08B768473CDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21F30DCC-74F3-42A5-B133-08B768473CDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21F30DCC-74F3-42A5-B133-08B768473CDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6ACBC8D-90D9-45ED-8C9E-7C1D0A2D9CA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6ACBC8D-90D9-45ED-8C9E-7C1D0A2D9CA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6ACBC8D-90D9-45ED-8C9E-7C1D0A2D9CA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6ACBC8D-90D9-45ED-8C9E-7C1D0A2D9CA3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
