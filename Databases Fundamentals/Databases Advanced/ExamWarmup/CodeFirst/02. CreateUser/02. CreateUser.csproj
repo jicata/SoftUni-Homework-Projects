@@ -55,6 +55,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomAttributes\PasswordAttribute.cs" />
     <Compile Include="Migrations\201611101250513_Inital.cs" />
     <Compile Include="Migrations\201611101250513_Inital.Designer.cs">
       <DependentUpon>201611101250513_Inital.cs</DependentUpon>
@@ -62,6 +63,10 @@
     <Compile Include="Migrations\201611101306331_datetime2.cs" />
     <Compile Include="Migrations\201611101306331_datetime2.Designer.cs">
       <DependentUpon>201611101306331_datetime2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611111449242_custAttr.cs" />
+    <Compile Include="Migrations\201611111449242_custAttr.Designer.cs">
+      <DependentUpon>201611111449242_custAttr.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
@@ -79,6 +84,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201611101306331_datetime2.resx">
       <DependentUpon>201611101306331_datetime2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611111449242_custAttr.resx">
+      <DependentUpon>201611111449242_custAttr.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

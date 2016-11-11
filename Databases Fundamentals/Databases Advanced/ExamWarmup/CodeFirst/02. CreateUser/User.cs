@@ -3,6 +3,7 @@
     using System;
     using System.ComponentModel.DataAnnotations;
     using System.Text.RegularExpressions;
+    using _05.HospitalDatabase.Models.CustomAttributes;
 
     public class User
     {
@@ -17,24 +18,24 @@
         public string Username { get; set; }
 
         [Required]
-        [MaxLength(50)]
-        [MinLength(6)]
+        [Password(2, 7)]
         public string Password
         {
             get { return this.password; }
             set
             {
-                string passPattern = @"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[^\da-zA-Z]).{6,50}$";
-                Regex rgx = new Regex(passPattern);
-                if (rgx.IsMatch(value))
-                {
-                    this.password = value;
-                }
-                else
-                {
-                    throw new ArgumentException("Password must contain at least one of the following: lowercase letter, uppercase letter, digit, special symbol");
-                }
-              
+                //string passPattern = @"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[^\da-zA-Z]).{6,50}$";
+                //Regex rgx = new Regex(passPattern);
+                //if (rgx.IsMatch(value))
+                //{
+                //    this.password = value;
+                //}
+                //else
+                //{
+                //    throw new ArgumentException("Password must contain at least one of the following: lowercase letter, uppercase letter, digit, special symbol");
+                //}
+                this.password = value;
+
             }
         }
 
@@ -60,6 +61,7 @@
         [MaxLength(1024)]
         public byte[] Picture { get; set; }
 
+        
         public DateTime? RegisteredOn { get; set; }
 
         public DateTime? LastTimeLoggedIn { get; set; }

@@ -26,7 +26,7 @@ namespace _02.CreateUser.Migrations
                 new User()
                 {
                     Username = "Pesho",
-                    Password = "Kur1234^",
+                    Password = "1234",
                     Age = 20,
                     Email = "pesho@kalofer.bg",
                     LastTimeLoggedIn = new DateTime(2016,10,09)
@@ -34,7 +34,7 @@ namespace _02.CreateUser.Migrations
                 new User()
                 {
                     Username = "Gosho",
-                    Password = "Kur1234^^",
+                    Password = "1244",
                     Age = 37,
                     Email = "gosgo@mursha.bg",
                     LastTimeLoggedIn = new DateTime(2006, 06, 04)
@@ -42,7 +42,7 @@ namespace _02.CreateUser.Migrations
                 new User()
                 {
                     Username = "JIcata",
-                    Password = "EbAsiP@ssAbr1t",
+                    Password = "1245",
                     Age = 18,
                     Email = "jitza@test.bg",
                     LastTimeLoggedIn = new DateTime(2016, 09, 23)
@@ -50,7 +50,7 @@ namespace _02.CreateUser.Migrations
                 new User()
                 {
                     Username = "Munio",
-                    Password = "Sw@gst1k",
+                    Password = "1234",
                     Age = 49,
                     Email = "kaluf@kalufchev.kur",
                     LastTimeLoggedIn = new DateTime(2014, 10, 11)
