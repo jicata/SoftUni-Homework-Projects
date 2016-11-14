@@ -1,5 +1,6 @@
 ﻿namespace BillsPaymentSystem.Models
 {
+    using System.ComponentModel.DataAnnotations.Schema;   
     public class CreditCard : BillingDetail
     {
         public string CardType { get; set; }

@@ -1,5 +1,7 @@
 ﻿namespace BillsPaymentSystem.Models
 {
+    using System.ComponentModel.DataAnnotations.Schema;
+
     public class User
     {
         public int Id { get; set; }
@@ -12,6 +14,8 @@
 
         public string Password { get; set; }
 
-        public BillingDetail BillingDetail { get; set; }
+        public int BillingDetailId { get; set; }
+
+        public virtual BillingDetail BillingDetail { get; set; }
     }
 }

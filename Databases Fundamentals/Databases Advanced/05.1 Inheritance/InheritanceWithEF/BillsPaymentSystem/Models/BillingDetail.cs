@@ -1,17 +1,17 @@
 ﻿namespace BillsPaymentSystem.Models
 {
+    using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
-    using System.Data;
+
 
     public abstract class BillingDetail
     {
-        public int Id { get; set; }
+        [Key, ForeignKey("Owner")]
+        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        public int OwnerId { get; set; }
 
-        public int Number { get; set; }
+        public string Number { get; set; }
 
-        [ForeignKey("Owner")]
-        public int UserId { get; set; }
-        
-        public User Owner { get; set; }
+        public virtual User Owner { get; set; }
     }
 }

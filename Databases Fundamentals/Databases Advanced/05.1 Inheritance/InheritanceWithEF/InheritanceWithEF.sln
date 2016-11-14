@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BillsPaymentSystem", "BillsPaymentSystem\BillsPaymentSystem.csproj", "{3533AB44-54CB-42E6-8261-1CDF0B4C0F09}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniversitySystem", "UniversitySystem\UniversitySystem.csproj", "{6639D40F-03E1-4533-A4A5-870497AADCE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleSystem", "VehicleSystem\VehicleSystem.csproj", "{0A5A3D3B-C5FA-4A26-A98E-CDDE4D157377}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{3533AB44-54CB-42E6-8261-1CDF0B4C0F09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3533AB44-54CB-42E6-8261-1CDF0B4C0F09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3533AB44-54CB-42E6-8261-1CDF0B4C0F09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6639D40F-03E1-4533-A4A5-870497AADCE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6639D40F-03E1-4533-A4A5-870497AADCE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6639D40F-03E1-4533-A4A5-870497AADCE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6639D40F-03E1-4533-A4A5-870497AADCE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A5A3D3B-C5FA-4A26-A98E-CDDE4D157377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A5A3D3B-C5FA-4A26-A98E-CDDE4D157377}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A5A3D3B-C5FA-4A26-A98E-CDDE4D157377}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A5A3D3B-C5FA-4A26-A98E-CDDE4D157377}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
