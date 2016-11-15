@@ -1,0 +1,27 @@
+﻿@using BankSystem.Models
+@model BankSystem.Models.User
+
+@{
+    Layout = null;
+}
+<link rel="stylesheet" href="../../Content/Site.css">
+<body>
+    <div class="container body-content">
+        <h2>User Page</h2>
+        <h4>Details for User: @Model.Username</h4><br />
+        Username: @Model.Username<br />
+        Email: @Model.Email<br />
+
+        <h5>Bank Accounts</h5>
+        @foreach (BankAccount bankAccount in @Model.BankAccounts)
+        {
+            @:Number: @bankAccount.AccountNumber <br />
+            @:Balance: @bankAccount.Balance <br />
+    }
+    </div>
+
+</body>
+
+
+
+
