@@ -1,0 +1,15 @@
+﻿@model _05.HospitalDatabase.Models.Patient
+
+
+
+<h2>Cool Page</h2>
+
+<h3>Patients Details</h3>
+Name: @Model.FirstName @Model.LastName
+Diagnose: @Model.Diagnoses.First().Name
+Medicaments: @Model.Medicaments.First().Name
+<h5>Visitations Details</h5>
+Performed by: @Model.Visitations.First().Doctor.FirstName @Model.Visitations.First().Doctor.LastName (@Model.Visitations.First().Doctor.Specialty)
+Comments: @Model.Visitations.First().Comments
+
+

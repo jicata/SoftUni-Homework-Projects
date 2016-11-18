@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<matches>
+  <mach>
+    <home-country code="ES">Spain</home-country>
+    <away-country code="BG">Bulgaria</away-country>
+    <league>FIFA 2018 World Cup</league>
+  </mach>
+  <mach>
+    <home-country code="ES">Spain</home-country>
+    <away-country code="DE">Germany</away-country>
+  </mach>
+  <mach date-time="26-Jun-94 11:35:00 AM">
+    <home-country code="BG">Bulgaria</home-country>
+    <away-country code="GR">Greece</away-country>
+    <score>4-0</score>
+  </mach>
+  <mach date-time="30-Jun-94 6:35:00 PM">
+    <home-country code="BG">Bulgaria</home-country>
+    <away-country code="AR">Argentina</away-country>
+    <score>2-0</score>
+  </mach>
+  <mach date="10-Jul-94">
+    <home-country code="DE">Germany</home-country>
+    <away-country code="BG">Bulgaria</away-country>
+    <score>1-2</score>
+  </mach>
+  <mach date="25-Mar-15">
+    <home-country code="DK">Denmark</home-country>
+    <away-country code="US">United States</away-country>
+    <score>3-2</score>
+  </mach>
+  <mach date-time="25-Mar-15 7:00:00 PM">
+    <home-country code="GE">Georgia</home-country>
+    <away-country code="MT">Malta</away-country>
+    <score>2-0</score>
+  </mach>
+  <mach date-time="13-Jun-15 9:45:00 PM">
+    <home-country code="AL">Albania</home-country>
+    <away-country code="FR">France</away-country>
+    <league>FIFA 2018 World Cup</league>
+  </mach>
+</matches>
