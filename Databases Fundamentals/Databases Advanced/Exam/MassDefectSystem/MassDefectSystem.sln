@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassDefect.Models", "MassDefect.Models\MassDefect.Models.csproj", "{665E1F09-7109-44F2-A35B-CDD03E1B3BEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassDefect.Data", "MassDefect.Data\MassDefect.Data.csproj", "{D564DBB3-780B-4292-BF93-A07D154AD907}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassDefect.Client", "MassDefect.Client\MassDefect.Client.csproj", "{9863B049-CD40-412C-A46D-6A140FABB6F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSONImports", "JSONImports\JSONImports.csproj", "{A6C6822D-948B-4E9B-B5D0-9F5ACAD5079D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLImports", "XMLImports\XMLImports.csproj", "{2ECB7E44-2A7A-4584-82E6-4CFFB20233F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataExportJSON", "DataExport\DataExportJSON.csproj", "{B887E581-4A09-4937-9237-48210205F7BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataExportXML", "DataExportXML\DataExportXML.csproj", "{037D81A6-B97F-44C3-BF42-49C1D2F6B378}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{665E1F09-7109-44F2-A35B-CDD03E1B3BEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{665E1F09-7109-44F2-A35B-CDD03E1B3BEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{665E1F09-7109-44F2-A35B-CDD03E1B3BEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{665E1F09-7109-44F2-A35B-CDD03E1B3BEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D564DBB3-780B-4292-BF93-A07D154AD907}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D564DBB3-780B-4292-BF93-A07D154AD907}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D564DBB3-780B-4292-BF93-A07D154AD907}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D564DBB3-780B-4292-BF93-A07D154AD907}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9863B049-CD40-412C-A46D-6A140FABB6F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9863B049-CD40-412C-A46D-6A140FABB6F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9863B049-CD40-412C-A46D-6A140FABB6F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9863B049-CD40-412C-A46D-6A140FABB6F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6C6822D-948B-4E9B-B5D0-9F5ACAD5079D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6C6822D-948B-4E9B-B5D0-9F5ACAD5079D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6C6822D-948B-4E9B-B5D0-9F5ACAD5079D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6C6822D-948B-4E9B-B5D0-9F5ACAD5079D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ECB7E44-2A7A-4584-82E6-4CFFB20233F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ECB7E44-2A7A-4584-82E6-4CFFB20233F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ECB7E44-2A7A-4584-82E6-4CFFB20233F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ECB7E44-2A7A-4584-82E6-4CFFB20233F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B887E581-4A09-4937-9237-48210205F7BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B887E581-4A09-4937-9237-48210205F7BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B887E581-4A09-4937-9237-48210205F7BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B887E581-4A09-4937-9237-48210205F7BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{037D81A6-B97F-44C3-BF42-49C1D2F6B378}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{037D81A6-B97F-44C3-BF42-49C1D2F6B378}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{037D81A6-B97F-44C3-BF42-49C1D2F6B378}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{037D81A6-B97F-44C3-BF42-49C1D2F6B378}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
