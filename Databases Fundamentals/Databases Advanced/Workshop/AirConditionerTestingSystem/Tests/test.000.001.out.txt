@@ -1,0 +1,27 @@
+Air Conditioner model EX1000 from Toshiba registered successfully.
+Air Conditioner model P320 from Hitachi registered successfully.
+Air Conditioner model C60 from Toshiba registered successfully.
+Air Conditioner model EX1000 from Toshiba tested successfully.
+Air Conditioner model P320 from Hitachi tested successfully.
+Report
+====================
+Manufacturer: Toshiba
+Model: EX1000
+Mark: Passed
+====================
+Jobs complete: 66.67%
+Air Conditioner model WH70 from Toshiba registered successfully.
+Air Conditioner model WH70 from Toshiba tested successfully.
+Reports from Toshiba:
+Report
+====================
+Manufacturer: Toshiba
+Model: EX1000
+Mark: Passed
+====================
+Report
+====================
+Manufacturer: Toshiba
+Model: WH70
+Mark: Passed
+====================

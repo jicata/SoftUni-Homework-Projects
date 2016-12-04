@@ -1,0 +1,122 @@
+Invalid command
+Invalid command
+Invalid command
+Invalid command
+Invalid command
+Invalid command
+Invalid command
+Invalid command
+Invalid command
+Invalid command
+Invalid command
+Invalid command
+Invalid command
+Invalid command
+The specified entry does not exist.
+The specified entry does not exist.
+No reports.
+Jobs complete: 0.00%
+Air Conditioner model F13XL from Fujitsu registered successfully.
+Air Conditioner model 150WF from WorldFlight registered successfully.
+Air Conditioner model TOYO from Toyota registered successfully.
+Air Conditioner
+====================
+Manufacturer: Fujitsu
+Model: F13XL
+Required energy efficiency rating: C
+Power Usage(KW / h): 1600
+====================
+The specified entry does not exist.
+No reports.
+Jobs complete: 0.00%
+Air Conditioner model F13XL from Fujitsu tested successfully.
+The specified entry does not exist.
+Air Conditioner model TOYO from Toyota tested successfully.
+Jobs complete: 66.67%
+Air Conditioner model F13S from Fujitsu registered successfully.
+Air Conditioner model F13S from Fujitsu tested successfully.
+Air Conditioner
+====================
+Manufacturer: Fujitsu
+Model: F13XL
+Required energy efficiency rating: C
+Power Usage(KW / h): 1600
+====================
+Air Conditioner
+====================
+Manufacturer: Fujitsu
+Model: F13S
+Required energy efficiency rating: B
+Power Usage(KW / h): 1100
+====================
+Report
+====================
+Manufacturer: Fujitsu
+Model: F13XL
+Mark: Failed
+====================
+Report
+====================
+Manufacturer: Fujitsu
+Model: F13S
+Mark: Passed
+====================
+Reports from Fujitsu:
+Report
+====================
+Manufacturer: Fujitsu
+Model: F13S
+Mark: Passed
+====================
+Report
+====================
+Manufacturer: Fujitsu
+Model: F13XL
+Mark: Failed
+====================
+Jobs complete: 75.00%
+Air Conditioner model E13S from Fujitsu registered successfully.
+Air Conditioner model E13S from Fujitsu tested successfully.
+Reports from Fujitsu:
+Report
+====================
+Manufacturer: Fujitsu
+Model: E13S
+Mark: Failed
+====================
+Report
+====================
+Manufacturer: Fujitsu
+Model: F13S
+Mark: Passed
+====================
+Report
+====================
+Manufacturer: Fujitsu
+Model: F13XL
+Mark: Failed
+====================
+Jobs complete: 80.00%
+Air Conditioner model AXZ1 from WorldFlight registered successfully.
+The specified entry does not exist.
+Air Conditioner model AXZ1 from WorldFlight tested successfully.
+Reports from WorldFlight:
+Report
+====================
+Manufacturer: WorldFlight
+Model: AXZ1
+Mark: Passed
+====================
+Jobs complete: 83.33%
+Air Conditioner model AXZ1 from Worldflight registered successfully.
+Air Conditioner model AXZ1 from Worldflight tested successfully.
+Reports from Worldflight:
+Report
+====================
+Manufacturer: Worldflight
+Model: AXZ1
+Mark: Passed
+====================
+The specified entry does not exist.
+The specified entry does not exist.
+The specified entry does not exist.

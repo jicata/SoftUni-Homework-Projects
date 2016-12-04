@@ -1,0 +1,30 @@
+The specified entry does not exist.
+Invalid command
+Manufacturer's name must be at least 4 symbols long.
+Air Conditioner model WX500 from Toshiba registered successfully.
+An entry for the given model already exists.
+Invalid command
+Invalid command
+Volume Covered must be a positive integer.
+Air Conditioner model HZ200 from Hitachi registered successfully.
+The specified entry does not exist.
+Air Conditioner
+====================
+Manufacturer: Toshiba
+Model: WX500
+Volume Covered: 8
+====================
+An entry for the given model already exists.
+Electricity Used must be a positive integer.
+Air Conditioner model HZ200 from Hitachi tested successfully.
+An entry for the given model already exists.
+An entry for the given model already exists.
+Report
+====================
+Manufacturer: Hitachi
+Model: HZ200
+Mark: Failed
+====================
+The specified entry does not exist.
+Invalid command
+Jobs complete: 50.00%

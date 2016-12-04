@@ -1,0 +1,206 @@
+Air Conditioner model 320 from Hawk registered successfully.
+Air Conditioner model 321 from Hawk registered successfully.
+Air Conditioner model Passat 6 from Volkswagen registered successfully.
+Air Conditioner model Fiesta from Ford registered successfully.
+Air Conditioner model Focus from Ford registered successfully.
+The specified entry does not exist.
+Air Conditioner model 321 from Hawk tested successfully.
+Reports from Hawk:
+Report
+====================
+Manufacturer: Hawk
+Model: 321
+Mark: Failed
+====================
+Jobs complete: 20.00%
+The specified entry does not exist.
+Air Conditioner model Focus from Ford tested successfully.
+Air Conditioner model Passat 6 from Volkswagen tested successfully.
+Air Conditioner model 320 from Hawk tested successfully.
+Reports from Hawk:
+Report
+====================
+Manufacturer: Hawk
+Model: 320
+Mark: Passed
+====================
+Report
+====================
+Manufacturer: Hawk
+Model: 321
+Mark: Failed
+====================
+Air Conditioner model RAS-13N3KPX-IN from Toshiba registered successfully.
+Energy efficiency rating must be between "A" and "E".
+Air Conditioner model AP0073H from Toshiba registered successfully.
+Air Conditioner model AP0093H from Toshiba registered successfully.
+Energy efficiency rating must be between "A" and "E".
+Air Conditioner model AP0123H from Toshiba registered successfully.
+Air Conditioner model AP0153H from Toshiba registered successfully.
+Air Conditioner
+====================
+Manufacturer: Toshiba
+Model: RAS-13N3KPX-IN
+Required energy efficiency rating: B
+Power Usage(KW / h): 1222
+====================
+Report
+====================
+Manufacturer: Ford
+Model: Focus
+Mark: Passed
+====================
+Air Conditioner model AP0093H from Toshiba tested successfully.
+Air Conditioner model AP0153H from Toshiba tested successfully.
+Reports from Toshiba:
+Report
+====================
+Manufacturer: Toshiba
+Model: AP0093H
+Mark: Failed
+====================
+Report
+====================
+Manufacturer: Toshiba
+Model: AP0153H
+Mark: Passed
+====================
+The specified entry does not exist.
+Air Conditioner
+====================
+Manufacturer: Toshiba
+Model: AP0153H
+Required energy efficiency rating: D
+Power Usage(KW / h): 1700
+====================
+Air Conditioner
+====================
+Manufacturer: Toshiba
+Model: AP0093H
+Required energy efficiency rating: A
+Power Usage(KW / h): 1000
+====================
+The specified entry does not exist.
+The specified entry does not exist.
+Air Conditioner model AP0073H from Toshiba tested successfully.
+Air Conditioner model RAS-13N3KPX-IN from Toshiba tested successfully.
+Reports from Toshiba:
+Report
+====================
+Manufacturer: Toshiba
+Model: AP0073H
+Mark: Passed
+====================
+Report
+====================
+Manufacturer: Toshiba
+Model: AP0093H
+Mark: Failed
+====================
+Report
+====================
+Manufacturer: Toshiba
+Model: AP0153H
+Mark: Passed
+====================
+Report
+====================
+Manufacturer: Toshiba
+Model: RAS-13N3KPX-IN
+Mark: Passed
+====================
+Jobs complete: 80.00%
+Air Conditioner model ZZ-15H-Q9-17 from Thunderbird registered successfully.
+Air Conditioner model ZZ-15H-Q9-18 from Thunderbird registered successfully.
+Air Conditioner
+====================
+Manufacturer: Thunderbird
+Model: ZZ-15H-Q9-17
+Volume Covered: 289
+Electricity Used: 5100
+====================
+Air Conditioner model ZZ-16H-Q9-17 from Thunderbird registered successfully.
+Air Conditioner model ZZ-16H-Q9-21 from Thunderbird registered successfully.
+Jobs complete: 57.14%
+Air Conditioner model ZZ-11H-Q4-07 from Thunderbird registered successfully.
+Air Conditioner model ZZ-16H-Q9-21 from Thunderbird tested successfully.
+Air Conditioner model ZY-03A-Q2-05 from Thunderbird registered successfully.
+Air Conditioner model ZY-03A-Q3-01 from Thunderbird registered successfully.
+Reports from Thunderbird:
+Report
+====================
+Manufacturer: Thunderbird
+Model: ZZ-16H-Q9-21
+Mark: Passed
+====================
+Jobs complete: 52.94%
+Report
+====================
+Manufacturer: Toshiba
+Model: AP0073H
+Mark: Passed
+====================
+Air Conditioner model ZZ-15H-Q9-18 from Thunderbird tested successfully.
+Air Conditioner model ZZ-16H-Q9-17 from Thunderbird tested successfully.
+Air Conditioner model ZZ-11H-Q4-07 from Thunderbird tested successfully.
+Air Conditioner model ZY-03A-Q2-05 from Thunderbird tested successfully.
+Jobs complete: 76.47%
+Reports from Volkswagen:
+Report
+====================
+Manufacturer: Volkswagen
+Model: Passat 6
+Mark: Passed
+====================
+Reports from Hawk:
+Report
+====================
+Manufacturer: Hawk
+Model: 320
+Mark: Passed
+====================
+Report
+====================
+Manufacturer: Hawk
+Model: 321
+Mark: Failed
+====================
+Reports from Thunderbird:
+Report
+====================
+Manufacturer: Thunderbird
+Model: ZY-03A-Q2-05
+Mark: Passed
+====================
+Report
+====================
+Manufacturer: Thunderbird
+Model: ZZ-11H-Q4-07
+Mark: Failed
+====================
+Report
+====================
+Manufacturer: Thunderbird
+Model: ZZ-15H-Q9-18
+Mark: Failed
+====================
+Report
+====================
+Manufacturer: Thunderbird
+Model: ZZ-16H-Q9-17
+Mark: Passed
+====================
+Report
+====================
+Manufacturer: Thunderbird
+Model: ZZ-16H-Q9-21
+Mark: Passed
+====================
+No reports.
+Reports from Ford:
+Report
+====================
+Manufacturer: Ford
+Model: Focus
+Mark: Passed
+====================

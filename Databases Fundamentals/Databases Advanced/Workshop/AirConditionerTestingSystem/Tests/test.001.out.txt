@@ -1,0 +1,11 @@
+Manufacturer's name must be at least 4 symbols long.
+Model's name must be at least 2 symbols long.
+Energy efficiency rating must be between "A" and "E".
+Power Usage must be a positive integer.
+Invalid command
+Power Usage must be a positive integer.
+Air Conditioner model  LE666 from Midea registered successfully.
+An entry for the given model already exists.
+Invalid command
+The specified entry does not exist.
+Air Conditioner model  LE666 from Midea tested successfully.

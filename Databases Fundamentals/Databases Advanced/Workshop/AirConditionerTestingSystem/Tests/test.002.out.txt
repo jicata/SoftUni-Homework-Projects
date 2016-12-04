@@ -1,0 +1,11 @@
+Volume Covered must be a positive integer.
+Manufacturer's name must be at least 4 symbols long.
+Model's name must be at least 2 symbols long.
+Invalid command
+Air Conditioner model P20 from Audi registered successfully.
+Volume Covered must be a positive integer.
+Air Conditioner model  W 0 W from Audi registered successfully.
+Invalid command
+An entry for the given model already exists.
+The specified entry does not exist.
+Air Conditioner model  W 0 W from Audi tested successfully.

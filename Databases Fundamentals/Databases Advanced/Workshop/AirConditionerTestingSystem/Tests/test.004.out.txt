@@ -1,0 +1,235 @@
+Air Conditioner model LG880 from LG Electronics registered successfully.
+Air Conditioner model LG881 from LG Electronics registered successfully.
+Air Conditioner model LG882 from LG Electronics registered successfully.
+Air Conditioner model LG883 from LG Electronics registered successfully.
+Air Conditioner model LG884 from LG Electronics registered successfully.
+Air Conditioner model LG885 from LG Electronics registered successfully.
+Air Conditioner model LG886 from LG Electronics registered successfully.
+Air Conditioner model LG887 from LG Electronics registered successfully.
+Air Conditioner model LG888 from LG Electronics registered successfully.
+Air Conditioner model LG889 from LG Electronics registered successfully.
+Air Conditioner model LG890 from LG Electronics registered successfully.
+Air Conditioner model LG891 from LG Electronics registered successfully.
+Air Conditioner model LG892 from LG Electronics registered successfully.
+Air Conditioner model LG893 from LG Electronics registered successfully.
+Air Conditioner model LG894 from LG Electronics registered successfully.
+Air Conditioner model LG895 from LG Electronics registered successfully.
+Air Conditioner model LG896 from LG Electronics registered successfully.
+Air Conditioner model LG897 from LG Electronics registered successfully.
+Air Conditioner model LG898 from LG Electronics registered successfully.
+Air Conditioner model LG899 from LG Electronics registered successfully.
+Air Conditioner model LG900 from LG Electronics registered successfully.
+Air Conditioner model HY100 from Hyundai registered successfully.
+Air Conditioner model HY101 from Hyundai registered successfully.
+Air Conditioner model HY102 from Hyundai registered successfully.
+Air Conditioner model TH100 from Thunder registered successfully.
+Air Conditioner model TH101 from Thunder registered successfully.
+Air Conditioner model TH102 from Thunder registered successfully.
+Air Conditioner model TH103 from Thunder registered successfully.
+Air Conditioner model LG880 from LG Electronics tested successfully.
+Air Conditioner model LG881 from LG Electronics tested successfully.
+Air Conditioner model LG882 from LG Electronics tested successfully.
+Air Conditioner model LG883 from LG Electronics tested successfully.
+Air Conditioner model LG884 from LG Electronics tested successfully.
+Air Conditioner model LG885 from LG Electronics tested successfully.
+Air Conditioner model LG886 from LG Electronics tested successfully.
+Air Conditioner model LG887 from LG Electronics tested successfully.
+Air Conditioner model LG888 from LG Electronics tested successfully.
+Air Conditioner model LG889 from LG Electronics tested successfully.
+Air Conditioner model LG890 from LG Electronics tested successfully.
+Air Conditioner model LG891 from LG Electronics tested successfully.
+Air Conditioner model LG892 from LG Electronics tested successfully.
+Air Conditioner model LG893 from LG Electronics tested successfully.
+Air Conditioner model LG894 from LG Electronics tested successfully.
+Air Conditioner model LG895 from LG Electronics tested successfully.
+Air Conditioner model LG896 from LG Electronics tested successfully.
+Air Conditioner model LG897 from LG Electronics tested successfully.
+Air Conditioner model LG898 from LG Electronics tested successfully.
+Air Conditioner model LG899 from LG Electronics tested successfully.
+Air Conditioner model LG900 from LG Electronics tested successfully.
+Air Conditioner model HY100 from Hyundai tested successfully.
+Air Conditioner model HY101 from Hyundai tested successfully.
+Air Conditioner model HY102 from Hyundai tested successfully.
+Air Conditioner model TH100 from Thunder tested successfully.
+Air Conditioner model TH101 from Thunder tested successfully.
+Air Conditioner model TH102 from Thunder tested successfully.
+Air Conditioner model TH103 from Thunder tested successfully.
+The specified entry does not exist.
+The specified entry does not exist.
+The specified entry does not exist.
+The specified entry does not exist.
+Invalid command
+Invalid command
+Invalid command
+An entry for the given model already exists.
+Reports from LG Electronics:
+Report
+====================
+Manufacturer: LG Electronics
+Model: LG880
+Mark: Passed
+====================
+Report
+====================
+Manufacturer: LG Electronics
+Model: LG881
+Mark: Passed
+====================
+Report
+====================
+Manufacturer: LG Electronics
+Model: LG882
+Mark: Failed
+====================
+Report
+====================
+Manufacturer: LG Electronics
+Model: LG883
+Mark: Failed
+====================
+Report
+====================
+Manufacturer: LG Electronics
+Model: LG884
+Mark: Passed
+====================
+Report
+====================
+Manufacturer: LG Electronics
+Model: LG885
+Mark: Passed
+====================
+Report
+====================
+Manufacturer: LG Electronics
+Model: LG886
+Mark: Passed
+====================
+Report
+====================
+Manufacturer: LG Electronics
+Model: LG887
+Mark: Failed
+====================
+Report
+====================
+Manufacturer: LG Electronics
+Model: LG888
+Mark: Passed
+====================
+Report
+====================
+Manufacturer: LG Electronics
+Model: LG889
+Mark: Passed
+====================
+Report
+====================
+Manufacturer: LG Electronics
+Model: LG890
+Mark: Passed
+====================
+Report
+====================
+Manufacturer: LG Electronics
+Model: LG891
+Mark: Failed
+====================
+Report
+====================
+Manufacturer: LG Electronics
+Model: LG892
+Mark: Failed
+====================
+Report
+====================
+Manufacturer: LG Electronics
+Model: LG893
+Mark: Passed
+====================
+Report
+====================
+Manufacturer: LG Electronics
+Model: LG894
+Mark: Passed
+====================
+Report
+====================
+Manufacturer: LG Electronics
+Model: LG895
+Mark: Passed
+====================
+Report
+====================
+Manufacturer: LG Electronics
+Model: LG896
+Mark: Failed
+====================
+Report
+====================
+Manufacturer: LG Electronics
+Model: LG897
+Mark: Failed
+====================
+Report
+====================
+Manufacturer: LG Electronics
+Model: LG898
+Mark: Passed
+====================
+Report
+====================
+Manufacturer: LG Electronics
+Model: LG899
+Mark: Passed
+====================
+Report
+====================
+Manufacturer: LG Electronics
+Model: LG900
+Mark: Passed
+====================
+Reports from Hyundai:
+Report
+====================
+Manufacturer: Hyundai
+Model: HY100
+Mark: Failed
+====================
+Report
+====================
+Manufacturer: Hyundai
+Model: HY101
+Mark: Passed
+====================
+Report
+====================
+Manufacturer: Hyundai
+Model: HY102
+Mark: Passed
+====================
+Reports from Thunder:
+Report
+====================
+Manufacturer: Thunder
+Model: TH100
+Mark: Passed
+====================
+Report
+====================
+Manufacturer: Thunder
+Model: TH101
+Mark: Passed
+====================
+Report
+====================
+Manufacturer: Thunder
+Model: TH102
+Mark: Failed
+====================
+Report
+====================
+Manufacturer: Thunder
+Model: TH103
+Mark: Failed
+====================

@@ -1,0 +1,13 @@
+Volume Covered must be a positive integer.
+Electricity Used must be a positive integer.
+Invalid command
+Invalid command
+Manufacturer's name must be at least 4 symbols long.
+Air Conditioner model XZ570 from BlackBird registered successfully.
+Model's name must be at least 2 symbols long.
+Electricity Used must be a positive integer.
+Volume Covered must be a positive integer.
+Air Conditioner model  P320  from  Hitachi  registered successfully.
+An entry for the given model already exists.
+The specified entry does not exist.
+Air Conditioner model  P320  from  Hitachi  tested successfully.
