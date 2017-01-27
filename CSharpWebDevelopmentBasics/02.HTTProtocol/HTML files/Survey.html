@@ -1,0 +1,119 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Survey</title>
+    <link type="text/css" rel="stylesheet" href="http://localhost/style.css">
+    <script src="http://localhost/jquery-1.10.2.js"></script>
+    <script src="http://localhost/bootstrap.js"></script>
+</head>
+<body>
+    <form class="form-horizontal" style="border: solid">
+<fieldset>
+
+<!-- Form Name -->
+
+        <legend align="left">Survey</legend>
+
+<!-- Text input-->
+<div class="control-group">
+  <label class="control-label col-sm-2" for="firstName">First Name</label>
+  <div class="col-sm-10">
+    <input id="firstName" name="firstName" type="text" placeholder="First Name" class="form-control" required="">   
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="control-group">
+  <label class="control-label col-sm-2" for="lastName">Last Name</label>
+  <div class="col-sm-10">
+    <input id="lastName" name="lastName" type="text" placeholder="Last Name" class="form-control" required="">   
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="control-group">
+    <label for="birthDate" class="col-sm-2 control-label">Date of Birth</label>
+    <div class="col-sm-10">
+        <input type="date" id="birthDate" class="form-control">
+    </div>
+</div>
+<div class="form-group">
+   <label class="col-sm-2 control-label">Gender</label>
+   <div class="col-sm-10">
+    <div class="radio">
+     <label>
+      <input id="maleOption" name="maleOption" value="Male" type="radio">
+      Male</label>
+    </div>
+    <div class="radio">
+     <label>
+      <input id="femaleOption" name="femaleOption" value="Female" type="radio">
+      Female</label>
+    </div>
+    <div class="radio">
+     <label>
+      <input id="otherOption" name="otherOption" value="Other" type="radio">
+      Other</label>
+    </div>
+   </div>
+  </div>
+<!-- Multiple Radios -->
+
+<!-- Select Basic -->
+<div class="control-group">
+  <label class="col-sm-2 control-label" for="status">Status</label>
+  <div class="col-sm-10 controls">
+    <select id="status" name="status" class="form-control">
+      <option>Student</option>
+      <option>Part-time employee</option>
+      <option>Full-time employee</option>
+      <option>Unemployed</option>
+      <option>Do not want to answer</option>
+    </select>
+  </div>
+</div>
+
+<!-- Textarea -->
+<div class="control-group form-group-lg">
+  <label class="col-sm-2 control-label" for="recommendations">Recommendations</label>
+  <div class="col-sm-10 controls">                     
+    <input type="text" id="recommendations" name="recommendations" class="form-control" placeholder="Your recommendations">
+  </div>
+</div>
+
+<!-- Multiple Checkboxes (inline) -->
+<div class="control-group" style="padding-bottom: 10px">
+  <label class="control-label col-sm-2" for="userDevice">You Own</label>
+  <div class="controls col-sm-10">
+    <label class="radio-inline">
+      <input type="radio" name="laptOption">Laptop
+    </label>
+    <label class="radio-inline">
+      <input type="radio" name="smartphoneOption">Smartphone
+    </label>
+    <label class="radio-inline">
+      <input type="radio" name="mobilePhone">Mobile
+    </label>
+     <label class="radio-inline">
+      <input type="radio" name="carOption">Car
+    </label>
+     <label class="radio-inline">
+      <input type="radio" name="bikeOption">Bike
+    </label>
+  </div>
+</div>
+
+<!-- Button (Double) -->
+<div class="control-group">
+  <label class="control-label col-sm-2" for="resetButton"></label>
+  <div class="controls col-sm-10">
+    <button id="resetButton" name="resetButton" class="btn btn-default">Reset all fields</button>
+    <button id="sendButton" name="sendButton" class="btn btn-primary">Send Survey</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+
+</body>
+</html>

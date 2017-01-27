@@ -9,7 +9,7 @@
     {
         static void Main(string[] args)
         {
-            string dbpath = @"D:\xampp\htdocs\cakes.csv";
+            string dbpath = @"D:\xampp\cgi-bin\cakes.csv";
             string byTheCakeHtml =
                File.ReadAllText(
                    @"D:\xampp\cgi-bin\AddCake.html");
@@ -19,9 +19,9 @@
             if (postContent != null)
             {
                 string[] firstSplit = postContent.Split('&');
-                string name = firstSplit[0].Split('=')[1];
+                string name = firstSplit[0].Split('=')[1].Replace("+", string.Empty);
                 string price = firstSplit[1].Split('=')[1];
-                string formatted = $"Name:{name}, Price:{price} \n";
+                string formatted = $"{name} ${price} \n";
                 File.AppendAllText(dbpath, formatted);
                 Console.WriteLine($"{name} ${price}");
             }
