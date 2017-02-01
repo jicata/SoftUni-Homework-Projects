@@ -2,27 +2,36 @@
 <head>
     <meta charset="UTF-8">
     <title>Fruits</title>
-    <link rel="stylesheet" href="bootstrap-3.3.7-dist\css\bootstrap.css">
+    <link rel="stylesheet" href="..\bootstrap-3.3.7-dist\css\bootstrap.css">
+    <link rel="stylesheet" href="styles\style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
 </head>
 <body>
  <div class="container-fluid">
      <div class="row">
          <div class="col-md-2">
              <h3>Favourites</h3>           
-             <ul>
-                 <li><a href="#">Banana</a></li>
-                 <li><a href="#">Watermelon</a></li>
-                 <li><a href="#">Apple</a></li>
+             <ul class="nav nav-pills nav-stacked">
+                 <li role="presentation" class="active"><a href="#">Banana</a></li>
+                 <li role="presentation"><a href="#">Watermelon</a></li>
+                 <li role="presentation"><a href="#">Apple</a></li>
              </ul>
          </div>
-         <div class="col-md-10">
+         <div class="container col-md-7">
+          <div class="alert alert-danger alert-dismissable" role="alert">
+             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                 <span aria-hidden="true">&times;</span>
+             </button>
+             <strong>Uh oh! Have you eaten a fruit today?</strong>
+         </div>
          <h1>Fresh Fruits & Salad</h1>
-         <div style="border-left:solid gray 1px; padding-left: 10px">
-                <h4>The best fruits and salads can be found here</h4>
-                <p>G. Ramsey</p>  
-             </span>
-             
-         </div>                  
+            <div>
+                <blockquote>
+                    <h4>The best fruits and salads can be found here</h4>
+                    <p>G. Ramsey</p>  
+                </blockquote>            
+            </div>                  
          </div>
      </div>
      <div class="row">
@@ -30,8 +39,72 @@
              <input type="text" class="form-control" placeholder="Search">
             <button type="button" class="btn btn-info" style="margin-top: 5">Search Fruits</button>             
          </div>
+         <div class="container col-md-7">
+             <h2>Nutrition Info</h2>
+             <table class="table table-striped">
+                 <thead>
+                 <tr>
+                    <th>Fruit</th>
+                    <th>Vitamins</th>
+                 </tr>
+                 </thead>
+                 <tbody>
+                 <tr>
+                     <td>Banana</td>
+                     <td>A,C,B6</td>
+                 </tr>
+                 <tr>
+                     <td>Watermelon</td>
+                     <td>A,C</td>
+                 </tr>
+                 <tr>
+                     <td>Apple</td>
+                     <td>A,C</td>
+                 </tr>
+                 </tbody>
+             </table>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto nemo maxime perspiciatis dicta cum, error, magni omnis eum temporibus similique, possimus commodi ratione nulla repudiandae minus ex unde? Aspernatur nemo voluptatem tempora laudantium asperiores illum doloremque odio quasi eveniet officia dignissimos itaque quam nam nostrum doloribus qui debitis, explicabo provident deleniti ad magnam a. Laborum id blanditiis quod, quia asperiores, enim explicabo natus veniam minus debitis hic accusantium repellat aliquam iusto aliquid, sed ullam vel est. Quaerat iusto architecto aperiam perspiciatis minus consectetur sapiente earum sint fuga, corporis, esse adipisci error ab aliquam dolorem quam porro incidunt et molestias amet?</p>
+             <p>Eum veritatis tempora esse, saepe aliquid doloremque! Sint fugiat adipisci, magni dicta, deserunt sed dignissimos aperiam! Provident voluptates velit, neque earum, sint fuga laudantium vero eius vel autem odit voluptatibus delectus illum ratione, vitae magni beatae. Numquam earum molestias, harum cumque exercitationem unde repellat eligendi quisquam alias ex ab id cum. Quo animi odio temporibus nobis, culpa numquam earum fuga similique quam. Ad dolorem nisi fuga aliquam blanditiis, nulla ullam adipisci, possimus ex minus? Voluptas aspernatur asperiores vero nisi quis ex nam! Debitis officiis, doloribus repellendus ullam, corrupti eos cumque tempore omnis voluptatibus adipisci at commodi soluta sint quos blanditiis.</p>
+            <div class="card-group">
+                <div class="card">
+                    <img class="card-img-top" src="images/banana.jpg" alt="Card image cap" width="200x" height="200px">
+                    <div class="card-block">
+                        <h4 class="card-title">Card title</h4>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="images/watermelon.jpg" alt="Card image cap" width="200x" height="200px">
+                    <div class="card-block">
+                        <h4 class="card-title">Card title</h4>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="images/apple.jpg" alt="Card image cap" width="200x" height="200px">
+                    <div class="card-block">
+                        <h4 class="card-title">Card title</h4>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+            <!--<img class ="media-object"src="images/banana.jpg" alt="picture of banana" width="200x" height="200px">
+    
+            <img class ="media-object" src="images/watermelon.jpg" alt="picture of watermelon"  width="200px" height="200px">
+        
+            <img class ="media-object" src="images/apple.jpg" alt="picture of apple"  width="200px" height="200px"> -->
+                                
+                     
+                         
+            </div> 
+         </div>
      </div>
  </div>  
-<script src="jquery\jquery-3.1.1.js"></script>
+<script src="..\jquery\jquery-3.1.1.js"></script>
+<script src="..\bootstrap-3.3.7-dist\js\bootstrap.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 </body>
 </html>
