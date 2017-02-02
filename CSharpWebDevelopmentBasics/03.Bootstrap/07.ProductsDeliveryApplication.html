@@ -1,0 +1,42 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Products</title>
+    <link rel="stylesheet" href="..\bootstrap-3.3.7-dist\css\bootstrap.css">
+    <link rel="stylesheet" href="..\flag-icon-css-master\css\flag-icon.css">
+</head>
+<body>
+     <div class="panel panel-default">
+        <!-- Default panel contents -->
+        <div class="panel-heading">Products & Orders</div>
+        <div class="panel-body">
+            <p>Orders</p>
+        </div>
+
+        <!-- Table -->
+        <table class="table table-striped">
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Payment Date</th>
+                <th>Delivery Date</th>
+                <th>Order Status</th>
+                <th>Modify</th>
+            </tr>
+            <tr class="success">
+                <form action="" method="GET" name="itemform">
+                     <td> <input type="hidden" name="itemId" value="1">1</td>                    
+                     <td><input type="hidden" name="itemName" value="Harry Potter 5 Game (PC)">Harry Potter 5 Game (PC)"</td>
+                     <td><input type="hidden" name="itemPaymentDate" value="29/01/2017">29/01/2017</td>
+                     <td><input type="hidden" name="itemDeliveryDate" value="01/02/2017">01/02/2017</td>
+                     <td><input type="hidden" name="itemOrderStat" value="Pending">Pending</td>
+                    <td><a href="javascript:document.itemform.submit();">Edit</a></td>
+                </form> 
+            </tr>
+       </table>        
+    </div>
+
+<script src="..\jquery\jquery-3.1.1.js"></script>
+<script src="..\bootstrap-3.3.7-dist\js\bootstrap.js"></script>
+</body>
+</html>
