@@ -1,0 +1,15 @@
+.icon-required
+{
+    color: orangered;
+    margin-left: 3%;
+}
+.form-group
+{
+    margin-top: 3%;
+}
+
+.large-input
+{
+    height:200px !important;
+    text-align: left;
+}
