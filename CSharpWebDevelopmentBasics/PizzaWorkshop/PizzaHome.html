@@ -1,0 +1,54 @@
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <meta name="description" content="The place for the best pizza EU">
+    <meta name="keywords" content="pizza,tasty,delicious,awesome,EU">
+    <meta name="author" content="jicata">
+    <link rel="stylesheet" href="..\bootstrap-3.3.7-dist\css\bootstrap.css">
+    <link rel="stylesheet" href="style\style.css">  
+</head>
+<body>
+    <div class="container-fluid">        
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="myCarousel" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="..\..\htdocs\images\pizza_1.jpg" alt="Image of a delicious pizza">
+                </div>
+                <div class="item">
+                    <img src="..\..\htdocs\images\pizza_2.jpg" alt="Image of a tasty pizza">
+                </div>
+            </div>
+        </div>
+        <div class="nav navbar navbar-default" id="navigation">
+                <div class="navbar-header">
+                        <a class="navbar-brand"href="#">Pizza moar!</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Call Us</a>
+                    </li>
+                </ul>
+                <form method="POST">
+                    <div class="nav navbar-nav navbar-right">
+                        <input id="languageBtn"type="submit" class="btn btn-primary navbar-btn" name="language" value="BG" formaction="home.exe" onlclick="change(this)">
+                            <a href="#" class="btn btn-success navbar-btn">Sign In</a>
+                            <a href="#" class="btn btn-warning navbar-btn">Sign Up</a>
+                            <a href="#" class="btn btn-info navbar-btn">Menu</a>                               
+                    </div>
+                </form>              
+        </div>     
+   </div>
+
+    <script src="..\jquery\jquery-3.1.1.js"></script>
+     <script src="..\bootstrap-3.3.7-dist\js\bootstrap.js"></script>
+</body>
+</html>
