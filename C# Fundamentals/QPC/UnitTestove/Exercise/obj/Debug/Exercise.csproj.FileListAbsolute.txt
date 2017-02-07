@@ -1,1 +1,2 @@
 c:\users\maika\documents\visual studio 2015\Projects\UnitTestove\Exercise\bin\Debug\Exercise.exe.config
+C:\Users\Maika\Documents\Programming\Homework\C# Fundamentals\QPC\UnitTestove\Exercise\bin\Debug\Exercise.exe.config
