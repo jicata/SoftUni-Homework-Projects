@@ -1,0 +1,14 @@
+REQUEST CONTENT: email=kur%40a&password=123 
+COOKIE IN HEADER FROM SIGN IN: sid 1
+SHOW PAGE 
+REQUEST CONTENT: email=kur%40a&password=123 
+SHOW PAGE 
+REQUEST CONTENT: email=kur%40a&password=123 
+REQUEST CONTENT: email=kur%40a&password=123 
+REQUEST CONTENT: email=kur%40a&password=123 
+REQUEST CONTENT: language=BG 
+SHOW PAGE 
+REQUEST CONTENT: language=EN 
+SHOW PAGE 
+REQUEST CONTENT: email=kur%40a&password=123 
+SHOW PAGE 
