@@ -28,8 +28,11 @@
                 {
                     try
                     {
-                        using (var context = new PizzaMoreContext())
-                        {
+                        var context = new PizzaMoreContext();
+                         Logger.Log(context.Sessions.Count().ToString());
+                            Logger.Log(context.Users.Count().ToString());
+                             Logger.Log(context.Pizzas.Count().ToString());
+
                             string email = WebUtility.UrlDecode(postParams["email"]);
                             string password = PasswordHasher.Hash(postParams["password"]);
                             var user = context.Users.FirstOrDefault(u => u.Email == email);
@@ -44,10 +47,11 @@
 
                                 var lastSession = context.Sessions.FirstOrDefault(s => s.User.Email == email);
                                 Cookie cookie = new Cookie("sid", lastSession.Id.ToString()); 
-                                header.CookieCollection.AddCookie(cookie);
+                                header.AddCookie(cookie);
+                                Logger.Log($" {cookie} ADDED!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! \n");
                             }
                             
-                        }
+                        
                     }
                     catch (Exception e)
                     {

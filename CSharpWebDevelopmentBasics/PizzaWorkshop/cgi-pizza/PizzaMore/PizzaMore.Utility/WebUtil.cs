@@ -5,6 +5,7 @@
     using System.IO;
     using System.Linq;
     using System.Net;
+    using System.Text;
     using Contracts;
     using Data;
     using Models;
@@ -19,7 +20,7 @@
 
         public static void PrintFileContent(string filePath)
         {
-            string html = File.ReadAllText(filePath);
+            string html = File.ReadAllText(filePath, Encoding.Default);
             Console.Write(html);
         }
 
@@ -55,8 +56,8 @@
             foreach (var cookieNameValuePair in cookieNameValuePairs)
             {
                 string[] cookieNameValuePairParams = cookieNameValuePair.Split('=');
-                string cookieName = WebUtility.UrlDecode(cookieNameValuePairParams[0]);
-                string cookieValue = WebUtility.UrlDecode(cookieNameValuePairParams[1]);
+                string cookieName = WebUtility.UrlDecode(cookieNameValuePairParams[0].Trim());
+                string cookieValue = WebUtility.UrlDecode(cookieNameValuePairParams[1].Trim());
                 Cookie cookie = new Cookie(cookieName, cookieValue);
                 cookieCollection.AddCookie(cookie);
             }

@@ -1,14 +1,160 @@
-REQUEST CONTENT: email=kur%40a&password=123 
-COOKIE IN HEADER FROM SIGN IN: sid 1
-SHOW PAGE 
-REQUEST CONTENT: email=kur%40a&password=123 
-SHOW PAGE 
-REQUEST CONTENT: email=kur%40a&password=123 
-REQUEST CONTENT: email=kur%40a&password=123 
-REQUEST CONTENT: email=kur%40a&password=123 
-REQUEST CONTENT: language=BG 
-SHOW PAGE 
-REQUEST CONTENT: language=EN 
-SHOW PAGE 
-REQUEST CONTENT: email=kur%40a&password=123 
-SHOW PAGE 
+Content-Type: text/html
+
+
+
+HEREEEEContent-Type: text/html
+
+
+
+Content-Type: text/html
+
+
+
+Content-Type: text/html
+
+
+
+Content-Type: text/html
+
+
+
+50Content-Type: text/html
+
+
+
+Content-Type: text/html
+
+
+
+Content-Type: text/html
+
+
+
+Content-Type: text/html
+
+
+
+ 50 
+ 50 
+Content-Type: text/html
+
+
+
+ 50 
+ 50 
+Content-Type: text/html
+
+
+
+ 50 
+ 50 
+Content-Type: text/html
+
+
+
+ 50 
+ 50 
+Content-Type: text/html
+
+
+
+ 50 
+ 50 
+Content-Type: text/html
+
+
+
+REQUEST CONTENT: email=kur%40b&password=123 
+5032 sid=34 ADDED!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 
+Content-Type: text/html
+Set-Cookie:sid=34
+
+
+
+lang=EN
+sid=34
+ASP.NET_SessionId=qnq5nu3annwcej5r42woof2v
+glimpsePolicy=On
+glimpseId=Chrome 52.0
+.AspNet.ApplicationCookie=kCr6arKuyXGv3wxR2WPDiG8Nadjs0y5OXN6zxwv_e6yh5wF4ir07cc408d3UbrlGA1NxJXl94IFgz3nTMepKJxXQMgYTYQLHsoieHWb--1vn2N82DEL0mTXLcb1Nd5SKls-x-yfCriMZKQqiFUQglkD2dx5uyKxkqk42bpCjgut0aa3AZqoL9QerBYXWtIO5vF15z--_ia7R2VEggJ2SHpob6WaR-ee9DOypgxQZcbJiUrw1chV0PWCmC7Ke5fmL-zjDUmcxguhm7iTyrKx7pgmLyjVAdKRXaUaKpCvf7CFT_jJeFJZOqhc4BoD_GrTDqPdXi0pfIXbSnxA2AbdFyW0Rab0bJZlIo6_N64aOL_wtAsOUaBwBRc9z0oJbVC3STATXG036nVbwSjfdnGkg6pOesoe3sGoy61RJY2n2z621-H6zDg8Xdm-f2TRjPn_PgIuf-lTtOrJ-KMp9qYvCBM_qkvaJk1ul8rQiVuD1VfU
+__RequestVerificationToken=ZJJ0pBAVBu-pA9i043Ul2h31no0N9l72TPq9fEGOQAzo0-o0LqdnUVqpCMBFTBYHgumrRH_OkurtSh8xfA_fB6s6fnc1
+Content-Type: text/html
+
+
+
+Content-Type: text/html
+
+
+
+ 51 
+Content-Type: text/html
+
+
+
+Content-Type: text/html
+
+
+
+ 51 
+Content-Type: text/html
+
+
+
+ 51 
+REQUEST CONTENT: pizzaVote=up&pizzaid=3 
+Content-Type: text/html
+
+
+
+kur@bContent-Type: text/html
+
+
+
+kur@bREQUEST CONTENT: title=Chiquenita&recipe=add+water&url=http%3A%2F%2Flocalhost%2Fimages%2Fpizza_2.jpg 
+Content-Type: text/html
+
+
+
+ 51 
+Content-Type: text/html
+
+
+
+Content-Type: text/html
+
+
+
+param: pizzaId=4 
+Content-Type: text/html
+
+
+
+Content-Type: text/html
+
+
+
+ 51 
+Content-Type: text/html
+
+
+
+ 51 
+REQUEST CONTENT: pizzaVote=up&pizzaid=4 
+Content-Type: text/html
+
+
+
+Content-Type: text/html
+
+
+
+param: pizzaId=4 
+Content-Type: text/html
+
+
+
+Content-Type: text/html
+
+
+
+ 51 

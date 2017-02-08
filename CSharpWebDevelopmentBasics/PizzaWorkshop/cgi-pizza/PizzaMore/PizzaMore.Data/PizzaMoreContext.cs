@@ -8,15 +8,15 @@ namespace PizzaMore.Data
     public class PizzaMoreContext : DbContext
     {
         public PizzaMoreContext()
-            : base("name=PizzaMore.Context")
+            : base("PizzaMore.Context")
         {
         }
 
-        public IDbSet<User> Users { get; set; }
+        public DbSet<User> Users { get; set; }
 
-        public IDbSet<Pizza> Pizzas { get; set; }
+        public DbSet<Pizza> Pizzas { get; set; }
 
-        public IDbSet<Session> Sessions { get; set; }
+        public DbSet<Session> Sessions { get; set; }
 
     }
 

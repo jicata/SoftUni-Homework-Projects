@@ -59,6 +59,10 @@
       <Project>{F2135022-0DE1-4B90-AB4D-8DE677A3DA9B}</Project>
       <Name>PizzaMore.Data</Name>
     </ProjectReference>
+    <ProjectReference Include="..\PizzaMore.Menu\PizzaMore.Menu.csproj">
+      <Project>{f574e68b-1d4e-4d07-b297-7fc7f06affb4}</Project>
+      <Name>PizzaMore.Menu</Name>
+    </ProjectReference>
     <ProjectReference Include="..\PizzaMore.Models\PizzaMore.Models.csproj">
       <Project>{11C1F0DD-3742-4CD7-BECA-25CE026447CD}</Project>
       <Name>PizzaMore.Models</Name>

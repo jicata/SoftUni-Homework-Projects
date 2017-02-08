@@ -14,7 +14,7 @@
 
         public int Downvotes { get; set; }
 
-        public User User { get; set; }
+        public virtual User User { get; set; }
 
     }
 }

@@ -38,7 +38,7 @@
                 foreach (KeyValuePair<string, Cookie> cookie in this.CookieCollection)
                 {
                     //<meta http-equiv="set-cookie" content="HolidayGlaze=Good%20yummies;">
-                    builder.AppendLine($@"Set-Cookie: {cookie.Value.Name}={cookie.Value.Value}");
+                    builder.AppendLine($@"Set-Cookie:{cookie.Value.Name}={cookie.Value.Value}");
            
                         
                 }
@@ -52,6 +52,7 @@
             {
                 builder.AppendLine();
             }
+            Logger.Log(builder + "\n");
             return builder.ToString();
         }
     }

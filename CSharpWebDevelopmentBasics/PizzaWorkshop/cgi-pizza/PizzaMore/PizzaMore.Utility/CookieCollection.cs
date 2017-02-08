@@ -52,7 +52,7 @@
                 if (!this.ContainsKey(key))
                 {
                     Logger.Log("No such key for cookie");
-                    throw new KeyNotFoundException("No such key for cookie");
+                    throw new KeyNotFoundException($"No such key for cookie: {key}");
                 }
                 return this.cookieCollection[key];
             }
