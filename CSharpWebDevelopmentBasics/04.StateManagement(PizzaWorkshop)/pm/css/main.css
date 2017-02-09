@@ -1,0 +1,51 @@
+#myCarousel {
+    height: 100%;
+    width: auto;
+    position: absolute;
+}
+
+.carousel-inner {
+    height: 100%;
+    width: auto;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+#navigation {
+    background-color: rgba(255,0,0,0);
+    border: none;
+    position: relative;
+    padding: 2px;
+    font-size: 20px;
+}
+
+.navbar-default .navbar-brand {
+    color: #ffffff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #e0e0e0;
+}
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #D5D5D5;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color: #D5D5D5;
+}
+
+.btn {
+    font-size: 20px;
+    float: right;
+    margin: 3px;
+}
+

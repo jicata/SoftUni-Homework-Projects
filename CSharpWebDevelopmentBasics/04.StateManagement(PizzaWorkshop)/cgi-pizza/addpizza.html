@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>PizzaMore - Add Pizza</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="\bootstrap-3.3.7-dist\css\bootstrap.css">
+	<link rel="stylesheet" href="/css/sigin.css">
+</head>
+<body>
+	<div class="container">
+		<div class="jumbotron">
+		<form method="post" class="form-horizontal">
+				<div class="form-group">
+					<div class="col-sm-offset-4 col-sm-4">
+						<input class="form-control" name="title" type="text" placeholder="Enter Pizza Title"/>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-sm-offset-4 col-sm-4">
+						<textarea class="form-control" rows="5" name="recipe" placeholder="Enter a pizza recipe"></textarea>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-sm-offset-4 col-sm-4">
+						<input class="form-control" name="url" type="url" placeholder="Enter a URL of image for the pizza"/>
+					</div>
+				</div>
+				<br/>
+				<div class="form-group">
+					<div class="col-sm-offset-5 col-sm-4">
+						<a class="btn btn-danger" href="http://localhost/cgi-bin/cgi-pizza/PizzaMore/PizzaMore.SignIn/bin/Debug/PizzaMore.Menu.exe">Go Back</a>
+						<input class="btn btn-success" type="submit" value="Add Pizza"/>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+	<script src="\..\jquery\jquery-3.1.1.js"></script>
+	<script src="\..\bootstrap-3.3.7-dist\js\bootstrap.js"></script>
+</body>
+</html>

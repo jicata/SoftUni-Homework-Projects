@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="bg">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>PizzaMore</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/pm/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/pm/css/main.css" />
+</head>
+<body>
+    <div class="container-fluid">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="myCarousel" data-to-slide="0" class="active"></li>
+                <li data-target="myCarousel" data-to-slide="1"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="/pm/images/pizza_1.jpg" alt="Image of a pizza">
+                </div>
+                <div class="item">
+                    <img src="/pm/images/pizza_2.jpg" alt="Image of a pizza">
+                </div>
+            </div>
+        </div>
+        <nav id="navigation" class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">PizzaMore</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="#">Startseite</a>
+                    </li>
+                    <li>
+                        <a href="#">Rufen Sie uns an</a>
+                    </li>
+                </ul>
+                <form method="POST">
+                    <input id="languageBtn" class="btn btn-primary navbar-btn" type="submit" formaction="Home.exe" name="language" value="DE"
+                        onclick="change(this)">
+                        <a class="btn btn-success navbar-btn" href="signin.exe">Anmelden</a>
+                        <a class="btn btn-warning navbar-btn" href="signup.exe">Registrieren</a>
+                        <a class="btn btn-info navbar-btn" href="menu.exe">Menu</a>
+                </form>
+            </div>
+        </nav>
+    </div>
+    <script src="/pm/jquery/jquery-3.1.1.js"></script>
+    <script src="/pm/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        function change(element) {
+            element.value = element.value == "DE" ? "EN" : "DE";
+        }
+    </script>
+</body>
+</html>
