@@ -20,7 +20,7 @@
                     Callable = request => new HttpResponse()
                     {
                         ContentAsUtf8 = "<h3>Hello from HttpServer :)</h3>",
-                        ResponseCode = ResponseStatusCode.OK
+                        StatusCode = ResponseStatusCode.Ok
                     }
                 },
                 new Route()
@@ -31,7 +31,7 @@
                     Callable = request => new HttpResponse()
                     {
                         ContentAsUtf8 = File.ReadAllText(@"C:\Users\Maika\Documents\Programming\Homework\CSharpWebDevelopmentBasics\03.Bootstrap\04.Calculator.html"),
-                        ResponseCode = ResponseStatusCode.OK
+                        StatusCode = ResponseStatusCode.Ok
                     }
                 },
                 new Route()
@@ -42,7 +42,7 @@
                     Callable = request => new HttpResponse()
                     {
                         ContentAsUtf8 = File.ReadAllText(@"C:\Users\Maika\Documents\Programming\Homework\CSharpWebDevelopmentBasics\bootstrap-3.3.7-dist\css\bootstrap.min.css"),
-                        ResponseCode = ResponseStatusCode.OK
+                        StatusCode = ResponseStatusCode.Ok
                     }
                 },
                  new Route()
@@ -53,7 +53,7 @@
                     Callable = request => new HttpResponse()
                     {
                         ContentAsUtf8 = File.ReadAllText(@"C:\Users\Maika\Documents\Programming\Homework\CSharpWebDevelopmentBasics\03.Bootstrap\styles\style.css"),
-                        ResponseCode = ResponseStatusCode.OK
+                        StatusCode = ResponseStatusCode.Ok
                     }
                 },
                    new Route()
@@ -64,7 +64,7 @@
                     Callable = request => new HttpResponse()
                     {
                         ContentAsUtf8 = File.ReadAllText(@"C:\Users\Maika\Documents\Programming\Homework\CSharpWebDevelopmentBasics\jquery\jquery-3.1.1.js"),
-                        ResponseCode = ResponseStatusCode.OK
+                        StatusCode = ResponseStatusCode.Ok
                     }
                 },
 
@@ -76,7 +76,7 @@
                     Callable = request => new HttpResponse()
                     {
                         ContentAsUtf8 = File.ReadAllText(@"C:\Users\Maika\Documents\Programming\Homework\CSharpWebDevelopmentBasics\bootstrap-3.3.7-dist\js\bootstrap.min.js"),
-                        ResponseCode = ResponseStatusCode.OK
+                        StatusCode = ResponseStatusCode.Ok
                     }
                 }
             };

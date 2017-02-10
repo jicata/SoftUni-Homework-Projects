@@ -12,7 +12,7 @@
                 @"C:\Users\Maika\Documents\Programming\Homework\CSharpWebDevelopmentBasics\05.HandMadeWebServer\HandMadeServer\500.html");
             var response = new HttpResponse();
             response.ContentAsUtf8 = html500;
-            response.ResponseCode = ResponseStatusCode.ServerError;
+            response.StatusCode = ResponseStatusCode.ServerError;
             return response;
         }
         public static HttpResponse NotFound()
@@ -21,7 +21,7 @@
                 @"C:\Users\Maika\Documents\Programming\Homework\CSharpWebDevelopmentBasics\05.HandMadeWebServer\HandMadeServer\404.html");
             var response = new HttpResponse();
             response.ContentAsUtf8 = html404;
-            response.ResponseCode = ResponseStatusCode.NotFound;
+            response.StatusCode = ResponseStatusCode.NotFound;
             return response;
         }
 
@@ -31,7 +31,7 @@
                 @"C:\Users\Maika\Documents\Programming\Homework\CSharpWebDevelopmentBasics\05.HandMadeWebServer\HandMadeServer\405.html");
             var response = new HttpResponse();
             response.ContentAsUtf8 = html405;
-            response.ResponseCode = ResponseStatusCode.MethodNotAllowed;
+            response.StatusCode = ResponseStatusCode.MethodNotAllowed;
             return response;    
         }
     }

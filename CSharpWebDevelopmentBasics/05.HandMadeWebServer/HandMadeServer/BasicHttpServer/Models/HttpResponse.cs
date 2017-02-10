@@ -11,9 +11,9 @@
             this.Header = new Header(HeaderType.HttpResponse);
         }
 
-        public ResponseStatusCode ResponseCode { get; set; }
+        public ResponseStatusCode StatusCode { get; set; }
 
-        public string StatusMessage => $"{this.ResponseCode}";
+        public string StatusMessage => $"{this.StatusCode}";
 
         public Header Header { get; set; }
 
@@ -32,7 +32,7 @@
         {
             StringBuilder httpResponse = new StringBuilder();
             httpResponse.AppendLine("HTTP/1.0");
-            httpResponse.AppendLine($"{(int)this.ResponseCode} {this.ResponseCode}");
+            httpResponse.AppendLine($"{(int)this.StatusCode} {this.StatusCode}");
             httpResponse.AppendLine(this.Header.ToString());
             return httpResponse.ToString();
 

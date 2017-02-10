@@ -1,11 +1,9 @@
 ﻿namespace BasicHttpServer
 {
     using System;
-    using System.Collections;
     using System.Collections.Generic;
-    using System.IO;
+    using System.Linq;
     using System.Net.Sockets;
-    using System.Runtime.InteropServices;
     using System.Text;
     using System.Text.RegularExpressions;
     using Enums;
@@ -65,33 +63,34 @@
 
         private HttpResponse RouteRequest()
         {
-            List<Route> matchingRoutes = new List<Route>();
-            foreach (var route in Routes)
-            {
-                Regex rgx = new Regex(route.UrlRegex);
-                if (rgx.IsMatch(this.Request.Url))
-                {
-                    matchingRoutes.Add(route);
-                    if (route.Method == this.Request.Method)
-                    {
-                        try
-                        {
-                            HttpResponse response = route.Callable(this.Request);
-                            return response;
-                        }
-                        catch (Exception e)
-                        {
-                            Console.WriteLine(e.Message);
-                            return HttpResponseBuilder.InternalServerError();
-                        }
-                    }
-                }
-            }
-            if (matchingRoutes.Count == 0)
-            {
+            var routes = this.Routes
+                .Where(x => Regex.Match(Request.Url, x.UrlRegex).Success)
+                .ToList();
+
+            if (!routes.Any())
                 return HttpResponseBuilder.NotFound();
+
+            var route = routes.SingleOrDefault(x => x.Method == Request.Method);
+
+            if (route == null)
+                return new HttpResponse()
+                {
+                    StatusCode = ResponseStatusCode.MethodNotAllowed
+                };
+
+
+            // trigger the route handler...
+            try
+            {
+                return route.Callable(Request);
             }
-            return HttpResponseBuilder.MethodNotAllowed();
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                Console.WriteLine(ex.StackTrace);
+                return HttpResponseBuilder.InternalServerError();
+            }
+
         }
 
         private HttpRequest GetRequest(NetworkStream stream)
