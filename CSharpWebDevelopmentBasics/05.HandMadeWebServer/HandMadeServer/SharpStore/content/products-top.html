@@ -60,9 +60,9 @@
 </div>
 <div class="container">
     <div class="row">
-        <form class="form-inline col-md-4" style="margin-bottom: 1%">
+        <form class="form-inline col-md-4" method="POST" action="http://localhost:8081/products" style="margin-bottom: 1%">
             <div class="form-group">
-                <input type="text" class="form-control" placeholder="Search">
+                <input type="text" class="form-control" placeholder="Search" name="search">
             </div>
             <button type="submit" class="btn btn-default" value="Search">Search</button>
         </form>

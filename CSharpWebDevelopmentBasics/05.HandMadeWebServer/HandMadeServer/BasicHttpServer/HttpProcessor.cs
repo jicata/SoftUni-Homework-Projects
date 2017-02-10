@@ -105,7 +105,7 @@
             while (!string.IsNullOrEmpty(line = StreamUtils.ReadLine(stream)))
             {
                 Console.WriteLine(line);
-                string[] requestParams = line.Split(':');
+                string[] requestParams = line.Split(new char[] {':'},2);
                 string paramName = requestParams[0];
                 string paramValue = requestParams[1];
                 if (paramName == "Cookie")

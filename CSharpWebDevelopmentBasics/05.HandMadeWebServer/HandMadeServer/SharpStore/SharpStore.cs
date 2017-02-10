@@ -21,13 +21,14 @@ namespace SharpStore
                 {
                     Name = "Home Directory",
                     Method = RequestMethod.GET,
-                    UrlRegex = "^/home$",
+                    UrlRegex = "^\\/.+\\.html$",
                     Callable = (request) =>
                     {
+                        string url = request.Url.Substring(1);
                         return new HttpResponse()
                         {
                             StatusCode = ResponseStatusCode.Ok,
-                            ContentAsUtf8 = File.ReadAllText("../../content/home.html")
+                            ContentAsUtf8 = File.ReadAllText($"../../content/{url}")
                         };
                     }
                 },
@@ -176,16 +177,33 @@ namespace SharpStore
                },
                    new Route()
                {
-                   Name = "Contacts",
+                   Name = "Contacts POST",
                    UrlRegex = @"^/contacts$",
                    Method = RequestMethod.POST,
+
                    Callable = request =>
                    {
-                       Console.WriteLine( "COOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOONTENT"+request.Content);
-                      
+                       PostRequestHandler.HandleContactsPost(request.Content);
                        var response = new HttpResponse()
                        {
                            ContentAsUtf8 = File.ReadAllText(@"../../content/contacts.html"),
+                           StatusCode = ResponseStatusCode.Ok
+                       };
+                       return response;
+                   }
+               },
+                     new Route()
+               {
+                   Name = "Products",
+                   UrlRegex = @"^/products$",
+                   Method = RequestMethod.POST,
+                   Callable = request =>
+                   {
+                       string where = PostRequestHandler.HandleProductsPost(request.Content);
+                       var response = new HttpResponse()
+                       {
+                         
+                           ContentAsUtf8 = PageBuilder.BuildKnivesPage(where),
                            StatusCode = ResponseStatusCode.Ok
                        };
                        return response;

@@ -1,21 +1,31 @@
 ﻿namespace SharpStore.Utility
 {
     using System;
+    using System.Collections.Generic;
     using System.IO;
     using System.Linq;
     using System.Text;
     using Data;
+    using Models;
 
     public static class PageBuilder
     {
-        public static string BuildKnivesPage()
+        public static string BuildKnivesPage(string where=null)
         {
             string pageTop = File.ReadAllText(@"../../content/products-top.html");
             StringBuilder pageBuilder = new StringBuilder();
             pageBuilder.Append(pageTop);
 
             var context = new SharpStoreContext();
-            var knives = context.Knives.ToList();
+            List<Knife> knives = new List<Knife>();
+            if (string.IsNullOrEmpty(where))
+            {
+                knives = context.Knives.ToList();
+            }
+            else
+            {
+                knives = context.Knives.Where(k => k.Name.Contains(where)).ToList();
+            }
             foreach (var knife in knives)
             {
                 string base64 = Convert.ToBase64String(File.ReadAllBytes(knife.ImageUrl));

@@ -63,12 +63,17 @@
     <Compile Include="Migrations\201702101441569_messagesAdded.Designer.cs">
       <DependentUpon>201702101441569_messagesAdded.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201702101635385_addingMessagesAgain.cs" />
+    <Compile Include="Migrations\201702101635385_addingMessagesAgain.Designer.cs">
+      <DependentUpon>201702101635385_addingMessagesAgain.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Knife.cs" />
     <Compile Include="Models\Message.cs" />
     <Compile Include="SharpStore.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utility\PageBuilder.cs" />
+    <Compile Include="Utility\PostRequestHandler.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -86,6 +91,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201702101441569_messagesAdded.resx">
       <DependentUpon>201702101441569_messagesAdded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702101635385_addingMessagesAgain.resx">
+      <DependentUpon>201702101635385_addingMessagesAgain.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
