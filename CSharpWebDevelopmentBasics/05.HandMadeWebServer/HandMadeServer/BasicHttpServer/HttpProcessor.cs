@@ -2,6 +2,7 @@
 {
     using System;
     using System.Collections.Generic;
+    using System.IO;
     using System.Linq;
     using System.Net.Sockets;
     using System.Text;
@@ -55,7 +56,6 @@
             {
                 this.Request = this.GetRequest(networkStream);
                 this.Response = this.RouteRequest();
-                Console.WriteLine(this.Response);
                 StreamUtils.WriteResponse(networkStream, this.Response);
 
             }
@@ -67,10 +67,12 @@
                 .Where(x => Regex.Match(Request.Url, x.UrlRegex).Success)
                 .ToList();
 
+           
             if (!routes.Any())
                 return HttpResponseBuilder.NotFound();
 
-            var route = routes.SingleOrDefault(x => x.Method == Request.Method);
+
+            var route = routes.FirstOrDefault(x => x.Method == Request.Method);
 
             if (route == null)
                 return new HttpResponse()
@@ -104,7 +106,6 @@
             string line;
             while (!string.IsNullOrEmpty(line = StreamUtils.ReadLine(stream)))
             {
-                Console.WriteLine(line);
                 string[] requestParams = line.Split(new char[] {':'},2);
                 string paramName = requestParams[0];
                 string paramValue = requestParams[1];
@@ -112,6 +113,10 @@
                 {
                     string[] cookieParams = paramValue.Split('=');
                     string cookieName = cookieParams[0];
+                    if (cookieName == "theme")
+                    {
+                        File.AppendAllText("D:\\Logged.txt", $"{cookieName}  {cookieParams[1]}");
+                    }
                     string cookieValue = cookieParams[1];
                     var cookie = new Cookie(cookieName, cookieValue);
                     header.CookieCollection.AddCookie(cookie);

@@ -37,8 +37,10 @@
 
         public static void WriteResponse(Stream stream, HttpResponse httpResponse)
         {
+            Console.WriteLine(httpResponse.ToString());
             byte[] responseHeader = Encoding.UTF8.GetBytes(httpResponse.ToString());
             stream.Write(responseHeader,0, responseHeader.Length);
+
             stream.Write(httpResponse.Content, 0, httpResponse.Content.Length);
         }
     }

@@ -4,9 +4,6 @@ using System.IO;
 
 namespace SharpStore
 {
-    using System;
-    using System.Net;
-    using System.Runtime.CompilerServices;
     using BasicHttpServer;
     using BasicHttpServer.Enums;
     using Utility;
@@ -15,21 +12,61 @@ namespace SharpStore
     {
         static void Main()
         {
+            PageBuilderFactory factory = new PageBuilderFactory();
             var routes = new List<Route>()
             {
+                  new Route()
+               {
+                   Name = "Products",
+                   UrlRegex = @"^/products.html$",
+                   Method = RequestMethod.GET,
+                   Callable = request =>
+                   {
+                       var response = new HttpResponse()
+                       {
+                           ContentAsUtf8 = PageBuilder.BuildKnivesPage(factory,request.Header.CookieCollection),
+                           StatusCode = ResponseStatusCode.Ok
+                       };
+                       return response;
+                   }
+               },
+
                 new Route()
                 {
                     Name = "Home Directory",
                     Method = RequestMethod.GET,
-                    UrlRegex = "^\\/.+\\.html$",
+                    UrlRegex = "^\\/.+\\.html",
                     Callable = (request) =>
                     {
-                        string url = request.Url.Substring(1);
-                        return new HttpResponse()
+                        string url = string.Empty;
+                        CookieCollection cookies = UrlHandler.HandleIncomingQueryParameters(request.Url);
+
+                        foreach (var cookie in cookies)
+                        {
+                            request.Header.CookieCollection.AddCookie(cookie);
+                        }
+                        if (!request.Header.CookieCollection.ContainsKey("theme"))
+                        {
+                            request.Header.CookieCollection.AddCookie(new Cookie("theme", "dark"));
+                        }
+                        if (cookies.Count > 0)
+                        {
+                            url = request.Url.Substring(1, request.Url.IndexOf('?') - 1);
+                        }
+                        else
+                        {
+                            url = request.Url;
+                        }
+
+                        var response = new HttpResponse()
                         {
                             StatusCode = ResponseStatusCode.Ok,
-                            ContentAsUtf8 = File.ReadAllText($"../../content/{url}")
+                            ContentAsUtf8 = factory.BuildThemedPage(request.Header.CookieCollection, url)
+
                         };
+                        response.Header.CookieCollection.AddCookie(request.Header.CookieCollection["theme"]);
+                        return response;
+
                     }
                 },
                 new Route()
@@ -114,21 +151,6 @@ namespace SharpStore
                         return response;
                     }
                 },
-               new Route()
-               {
-                   Name = "About us",
-                   UrlRegex = @"^/about$",
-                   Method = RequestMethod.GET,
-                   Callable = request =>
-                   {
-                       var response = new HttpResponse()
-                       {
-                           ContentAsUtf8 = File.ReadAllText(@"../../content/about.html"),
-                           StatusCode = ResponseStatusCode.Ok
-                       };
-                       return response;
-                   }
-               },
                 new Route()
                 {
                     Name = "img placeholder lib",
@@ -145,36 +167,6 @@ namespace SharpStore
                         return response;
                     }
                 },
-                 new Route()
-               {
-                   Name = "Products",
-                   UrlRegex = @"^/products$",
-                   Method = RequestMethod.GET,
-                   Callable = request =>
-                   {
-                       var response = new HttpResponse()
-                       {
-                           ContentAsUtf8 = PageBuilder.BuildKnivesPage(),
-                           StatusCode = ResponseStatusCode.Ok
-                       };
-                       return response;
-                   }
-               },
-                  new Route()
-               {
-                   Name = "Contacts",
-                   UrlRegex = @"^/contacts$",
-                   Method = RequestMethod.GET,
-                   Callable = request =>
-                   {
-                       var response = new HttpResponse()
-                       {
-                           ContentAsUtf8 = File.ReadAllText(@"../../content/contacts.html"),
-                           StatusCode = ResponseStatusCode.Ok
-                       };
-                       return response;
-                   }
-               },
                    new Route()
                {
                    Name = "Contacts POST",
@@ -186,7 +178,7 @@ namespace SharpStore
                        PostRequestHandler.HandleContactsPost(request.Content);
                        var response = new HttpResponse()
                        {
-                           ContentAsUtf8 = File.ReadAllText(@"../../content/contacts.html"),
+                           ContentAsUtf8 = factory.BuildThemedPage(request.Header.CookieCollection, request.Url),
                            StatusCode = ResponseStatusCode.Ok
                        };
                        return response;
@@ -202,8 +194,8 @@ namespace SharpStore
                        string where = PostRequestHandler.HandleProductsPost(request.Content);
                        var response = new HttpResponse()
                        {
-                         
-                           ContentAsUtf8 = PageBuilder.BuildKnivesPage(where),
+
+                           ContentAsUtf8 = PageBuilder.BuildKnivesPage(factory,request.Header.CookieCollection,where),
                            StatusCode = ResponseStatusCode.Ok
                        };
                        return response;

@@ -43,7 +43,8 @@
                 {
                     foreach (Cookie cookie in CookieCollection)
                     {
-                        header.AppendLine($"Set-CookieL: {cookie}");
+
+                       header.AppendLine($"Set-Cookie:{cookie};Expires=Sun, 12 Feb 2017 07:28:00 GMT; Secure; HttpOnly");
                     }
                 }
             }
@@ -52,8 +53,7 @@
             {
                 header.AppendLine($"{otherParameter.Key}: {otherParameter.Value}");
             }
-            header.AppendLine();
-            header.AppendLine();
+            //header.AppendLine();
             return header.ToString();
         }
     }

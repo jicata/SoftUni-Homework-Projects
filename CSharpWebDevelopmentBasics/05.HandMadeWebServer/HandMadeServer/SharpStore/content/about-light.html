@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
 
-    <title>Sharp Store - Contacts</title>
+    <title>Sharp Store - About</title>
 
     <!-- Bootstrap core CSS -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -27,7 +27,7 @@
 <div class="navbar-wrapper">
     <div class="container">
 
-        <nav class="navbar navbar-inverse navbar-static-top">
+        <nav class="navbar navbar-default navbar-static-top">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -36,18 +36,18 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="http://localhost:8081/home">Sharp Store</a>
+                    <a class="navbar-brand" href="http://localhost:8081/home.html">Sharp Store</a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li class=""><a href="http://localhost:8081/products">Products</a></li>
-                        <li><a href="http://localhost:8081/about">About Us</a></li>
-                        <li><a href="http://localhost:8081/contacts">Contacts</a></li>
+                        <li class=""><a href="http://localhost:8081/products.html">Products</a></li>
+                        <li><a href="http://localhost:8081/about.html">About Us</a></li>
+                        <li><a href="http://localhost:8081/contacts.html">Contacts</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Theme <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">Dark</a></li>
-                                <li><a href="#">Light</a></li>
+                                <li><a href="http://localhost:8081/about.html?theme=dark">Dark</a></li>
+                                <li><a href="http://localhost:8081/about.html?theme=light">Light</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -59,37 +59,41 @@
     </div>
 </div>
 <div class="container">
-    <row>
-        <div class="col-md-8 col-md-offset-2">
-            <form action="http://localhost:8081/contacts" method="POST" role="FORM" class="form-vertical" >
-                <div class="form-group">
-                    <label class="control-label">Your email</label>
-                    <div class="input-group input-group-lg">
-                        <input type="text" class="form-control" placeholder="Email" aria-describedby="basic-addon1" name="email">
-                        <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-asterisk icon-required"></span></span>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label class="control-label">Subject</label>
-                    <div class="input-group input-group-lg">
-                        <input type="text" class="form-control" placeholder="Subject" aria-describedby="basic-addon1" name="subject">
-                        <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-asterisk icon-required"></span></span>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label class="control-label">Your message</label>
-                    <div class="input-group input-group-lg">
-                        <textarea class="form-control" rows="5" placeholder="Enter your text here"id="comment" name="content"></textarea>
-                        <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-asterisk icon-required"></span></span>
-                    </div>
-                </div>
-                <div class="form-group text-right">
-                    <input type="submit" class="btn btn-primary col-md-2" value="Send">
-                </div>
-            </form>
+    <div class="row">
+        <div class="container col-md-8">
+            <h3>Who are we?</h3>
+            <p>Lorem ipsum dolor sit amet, ut in.
+                In sit ipsum ut suspendisse lobortis, sed tincidunt et, nunc sed.
+                Accumsan etiam eleifend, velit pellentesque amet neque est, velit suscipit arcu volutpat a,
+                integer at, ultricies morbi a ut nullam. Amet non, a aut urna vel nam ac urna, metus vehicula
+                nam morbi suspendisse aliquam tortor, eget hendrerit elit rutrum fringilla nisl nulla. Justo sed risus,
+                elit ut vestibulum, integer eros euismod, nec non quam ligula in, nulla sed proin voluptates vulputate aliquet.
+                Nunc a amet dui donec massa volutpat, leo class molestie lorem purus, mus fermentum nulla risus, mollis dolorem
+                et pharetra eu eu.</p>
         </div>
-    </row>
+        <div class="container col-md-4">
+            <img src="holder.js/400x200" alt="image" class="img-responsive">
+        </div>
+    </div>
+    <div class="row">
+        <div class="container col-md-4">
+            <img src="holder.js/400x200" alt="image" class="img-responsive">
+        </div>
+        <div class="container col-md-8">
+            <h3>Our Mission</h3>
+            <p>Lorem ipsum dolor sit amet, ut in.
+                In sit ipsum ut suspendisse lobortis, sed tincidunt et, nunc sed.
+                Accumsan etiam eleifend, velit pellentesque amet neque est, velit suscipit arcu volutpat a,
+                integer at, ultricies morbi a ut nullam. Amet non, a aut urna vel nam ac urna, metus vehicula
+                nam morbi suspendisse aliquam tortor, eget hendrerit elit rutrum fringilla nisl nulla. Justo sed risus,
+                elit ut vestibulum, integer eros euismod, nec non quam ligula in, nulla sed proin voluptates vulputate aliquet.
+                Nunc a amet dui donec massa volutpat, leo class molestie lorem purus, mus fermentum nulla risus, mollis dolorem
+                et pharetra eu eu.</p>
+        </div>
+    </div>
 </div>
+
+
 
 <div class="container">
     <footer class="panel-footer" style="margin-top:2%">

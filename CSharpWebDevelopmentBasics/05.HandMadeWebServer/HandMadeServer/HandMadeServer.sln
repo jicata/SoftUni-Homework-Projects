@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerTester", "ServerTeste
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpStore", "SharpStore\SharpStore.csproj", "{2AE5492C-ECFE-4CB0-95BB-FEA0FAAABB17}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileRepository", "FileRepository\FileRepository.csproj", "{66B5DF4B-FE43-4037-830B-8F233264375B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{2AE5492C-ECFE-4CB0-95BB-FEA0FAAABB17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AE5492C-ECFE-4CB0-95BB-FEA0FAAABB17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AE5492C-ECFE-4CB0-95BB-FEA0FAAABB17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66B5DF4B-FE43-4037-830B-8F233264375B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66B5DF4B-FE43-4037-830B-8F233264375B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66B5DF4B-FE43-4037-830B-8F233264375B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66B5DF4B-FE43-4037-830B-8F233264375B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

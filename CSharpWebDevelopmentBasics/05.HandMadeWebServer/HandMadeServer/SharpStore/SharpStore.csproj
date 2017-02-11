@@ -73,7 +73,9 @@
     <Compile Include="SharpStore.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utility\PageBuilder.cs" />
+    <Compile Include="Utility\PageBuilderFactory.cs" />
     <Compile Include="Utility\PostRequestHandler.cs" />
+    <Compile Include="Utility\UrlHandler.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

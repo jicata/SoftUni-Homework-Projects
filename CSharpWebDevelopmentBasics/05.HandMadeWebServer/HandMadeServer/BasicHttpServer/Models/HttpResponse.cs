@@ -35,7 +35,6 @@
             httpResponse.AppendLine($"{(int)this.StatusCode} {this.StatusCode}");
             httpResponse.AppendLine(this.Header.ToString());
             return httpResponse.ToString();
-
         }
     }
 }
