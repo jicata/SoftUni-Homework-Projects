@@ -2,6 +2,8 @@
 {
     using System;
     using System.Collections.Generic;
+    using System.Drawing;
+    using System.Drawing.Imaging;
     using System.IO;
     using System.Net;
     using BasicHttpServer;
@@ -16,6 +18,7 @@
             @"C:\Users\Maika\Documents\Programming\Homework\CSharpWebDevelopmentBasics\05.HandMadeWebServer\Repo";
         static void Main(string[] args)
         {
+            
             var routes = new List<Route>()
             {
                 new Route()
@@ -59,7 +62,10 @@
                     Callable = request =>
                     {
                     
-                       PostRequestHandler.HandleFolderCreation(RepoPath+request.Url, request.Content);
+                       byte[] bytes = PostRequestHandler.HandleFolderCreation(RepoPath+request.Url, request.Content);
+                        MemoryStream ms = new MemoryStream(bytes);
+                        Image image = Image.FromStream(ms,true,true);
+                        image.Save(@"D:\\UPLOADEDIMAGE.png", ImageFormat.Png);
                         return new HttpResponse()
                         {
                             ContentAsUtf8 = PageBuilder.BuildMyRepoPage(RepoPath+request.Url),
