@@ -62,10 +62,10 @@
                     Callable = request =>
                     {
                     
-                       byte[] bytes = PostRequestHandler.HandleFolderCreation(RepoPath+request.Url, request.Content);
-                        MemoryStream ms = new MemoryStream(bytes);
-                        Image image = Image.FromStream(ms,true,true);
-                        image.Save(@"D:\\UPLOADEDIMAGE.png", ImageFormat.Png);
+                       PostRequestHandler.HandleFolderCreation(RepoPath+request.Url, request.Content);
+                        //MemoryStream ms = new MemoryStream(bytes);
+                        //Image image = Image.FromStream(ms,true,true);
+                        //image.Save(@"D:\\UPLOADEDIMAGE.png", ImageFormat.Png);
                         return new HttpResponse()
                         {
                             ContentAsUtf8 = PageBuilder.BuildMyRepoPage(RepoPath+request.Url),
