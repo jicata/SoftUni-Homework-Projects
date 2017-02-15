@@ -55,18 +55,25 @@
                 }
                 else
                 {
-                    Type bindingModelType = pamfo.GetType();
+                    Type bindingModelType = pamfo.ParameterType;
                     object bindingModel = Activator.CreateInstance(bindingModelType);
-                    IEnumerable<PropertyInfo> properties = bindingModelType.GetProperties();
-                    foreach (var pinfo in properties)
+                 //   IEnumerable<PropertyInfo> properties = bindingModelType.GetProperties().Where(p=>p.Name.ToLower()!="id");
+                    foreach (var requestParam in this.requestParameters)
                     {
-                        pinfo.SetValue(bindingModel, Convert.ChangeType(this.requestParameters[pinfo.Name], pinfo.PropertyType));
+                        PropertyInfo pinfo =
+                            bindingModelType.GetProperties()
+                                .FirstOrDefault(p => p.Name.ToLower() == requestParam.Key.ToLower());
+                        if(pinfo!=null)
+                            pinfo.SetValue(bindingModel, Convert.ChangeType(this.requestParameters[pinfo.Name], pinfo.PropertyType));
                     }
                     this.methodParameters[index] = Convert.ChangeType(bindingModel, bindingModelType);
                     index++;
                 }
             }
-            IInvocable actionResult = (IInvocable)method.Invoke(this.GetController(), this.methodParameters);
+            Controller controller = this.GetController();
+
+
+            IInvocable actionResult = (IInvocable)method.Invoke(controller, this.methodParameters);
             string content = actionResult.Invoke();
             HttpResponse response = new HttpResponse()
             {
@@ -149,7 +156,7 @@
         {
             Dictionary<string, string> nameValueParams = new Dictionary<string, string>();
             int indexOfQuestionMark = incomingParamString.IndexOf('?');
-            if (indexOfQuestionMark == -1)
+            if (indexOfQuestionMark == -1 && !incomingParamString.Contains('&'))
             {
                 return nameValueParams;
             }

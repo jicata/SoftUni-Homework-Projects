@@ -7,12 +7,14 @@
     {
         public ActionResult(string fullyQualifiedViewName, T model)
         {
+            
             this.Action =(IRenderable<T>)
                 Activator.CreateInstance(Type.GetType(fullyQualifiedViewName));
 
             this.Action.Model = model;
+
         }
-        
+
         public IRenderable<T> Action { get; set; }
 
         public string Invoke()

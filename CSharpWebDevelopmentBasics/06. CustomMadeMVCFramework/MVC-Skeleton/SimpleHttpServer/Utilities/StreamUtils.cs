@@ -16,7 +16,7 @@ namespace SimpleHttpServer.Utilities
                 nextChar = stream.ReadByte();
                 if (nextChar == '\n') { break; }
                 if (nextChar == '\r') { continue; }
-                if (nextChar == -1) { Thread.Sleep(1); break; };
+                if (nextChar == -1) { Thread.Sleep(1); continue; };
                 data.Append((char)nextChar);
             }
             return data.ToString();

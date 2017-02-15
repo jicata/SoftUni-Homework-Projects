@@ -44,7 +44,7 @@ namespace SimpleHttpServer
             string[] tokens = requestLine.Split(' ');
             if (tokens.Length != 3)
             {
-                throw new Exception("invalid http request line");
+                //throw new Exception("invalid http request line");
             }
             RequestMethod method = (RequestMethod)Enum.Parse(typeof(RequestMethod), tokens[0].ToUpper());
             string url = tokens[1];
