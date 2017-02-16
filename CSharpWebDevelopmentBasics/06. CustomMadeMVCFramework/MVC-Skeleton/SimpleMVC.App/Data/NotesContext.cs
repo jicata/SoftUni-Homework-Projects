@@ -7,6 +7,7 @@ namespace SimpleMVC.App.Data
 
     public class NotesContext : DbContext
     {
+        
         public NotesContext()
             : base("name=NotesContext")
         {
