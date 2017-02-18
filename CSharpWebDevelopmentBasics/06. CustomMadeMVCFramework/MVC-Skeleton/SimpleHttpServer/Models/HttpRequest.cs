@@ -4,6 +4,7 @@
 
     public class HttpRequest
     {
+        public HttpSession HttpSession { get; set; }
         public RequestMethod Method { get; set; }
         public string Url { get; set; }
         public string Content { get; set; }

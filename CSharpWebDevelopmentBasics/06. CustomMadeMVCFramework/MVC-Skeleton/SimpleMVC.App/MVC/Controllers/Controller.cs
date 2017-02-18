@@ -57,5 +57,32 @@
                 action);
             return new ActionResult<T>(fullyQualifiedName, model);
         }
+
+        protected IActionResult Redirect(string location, [CallerMemberName]string caller = "")
+        {
+            string controllerName = this.GetType()
+                .Name
+                .Replace(MvcContext.Current.ControllersSuffix, string.Empty);
+            string fullyQualifiedName = string.Format("{0}.{1}.{2}.{3}",
+               MvcContext.Current.AssemblyName,
+               MvcContext.Current.ViewsFolder,
+               controllerName,
+               caller);
+            return new ActionResult(fullyQualifiedName, location);
+
+        }
+
+        protected IActionResult<T> Redirect<T>(string location, T model, [CallerMemberName] string caller = "")
+        {
+            string controllerName = this.GetType()
+                .Name
+                .Replace(MvcContext.Current.ControllersSuffix, string.Empty);
+            string fullyQualifiedName = string.Format("{0}.{1}.{2}.{3}",
+               MvcContext.Current.AssemblyName,
+               MvcContext.Current.ViewsFolder,
+               controllerName,
+               caller);
+            return new ActionResult<T>(fullyQualifiedName, model, location);
+        }
     }
 }

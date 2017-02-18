@@ -16,9 +16,10 @@ namespace SimpleHttpServer
         private IList<Route> Routes;
         private HttpRequest Request;
         private HttpResponse Response;
-
-        public HttpProcessor(IEnumerable<Route> routes)
+        private IDictionary<string, HttpSession> sessions;
+        public HttpProcessor(IEnumerable<Route> routes, IDictionary<string, HttpSession> sessions)
         {
+            this.sessions = sessions;
             this.Routes = new List<Route>(routes);
         }
 
@@ -124,6 +125,15 @@ namespace SimpleHttpServer
                 Header = header,
                 Content = content
             };
+            if (request.Header.Cookies.Contains("sessionId"))
+            {
+                var sessionId = request.Header.Cookies["sessionId"].Value;
+                request.HttpSession = new HttpSession(sessionId);
+                if (!this.sessions.ContainsKey(sessionId))
+                {
+                    this.sessions.Add(sessionId, request.HttpSession);
+                }
+            }
             Console.WriteLine("-REQUEST-----------------------------");
             Console.WriteLine(request);
             Console.WriteLine("------------------------------");
@@ -147,10 +157,20 @@ namespace SimpleHttpServer
                     StatusCode = ResponseStatusCode.MethodNotAllowed
                 };
 
-            // trigger the route handler...
+            if (this.Request.HttpSession == null)
+            {
+                var session = SessionCreator.Create();
+                this.Request.HttpSession = session;
+            }
+            var response = route.Callable(this.Request);
+            if (!this.Request.Header.Cookies.Contains("sessionId"))
+            {
+                var sessionCookie = new Cookie("sessionId", this.Request.HttpSession.Id + ";HttpOnly; path=/");
+                response.Header.AddCookie(sessionCookie);
+            }
             try
             {
-                return route.Callable(Request);
+                return response;
             }
             catch (Exception ex)
             {

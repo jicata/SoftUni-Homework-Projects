@@ -1,6 +1,6 @@
 ﻿namespace SimpleMVC.App.MVC.Interfaces
 {
-    public interface IInvocable
+    public interface IInvocable : IRedirectable
     {
         string Invoke();
     }

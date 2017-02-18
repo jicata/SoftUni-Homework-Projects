@@ -71,8 +71,14 @@
     <Compile Include="Migrations\201702151115130_second.Designer.cs">
       <DependentUpon>201702151115130_second.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201702181054414_includedIdentity.cs" />
+    <Compile Include="Migrations\201702181054414_includedIdentity.Designer.cs">
+      <DependentUpon>201702181054414_includedIdentity.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Login.cs" />
     <Compile Include="Models\Note.cs" />
+    <Compile Include="Models\SessionViewModel.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="MVC\Attributes\Methods\HttpGetAttribute.cs" />
     <Compile Include="MVC\Attributes\Methods\HttpMethodAttribute.cs" />
@@ -81,18 +87,23 @@
     <Compile Include="MVC\Interfaces\Generic\IActionResult.cs" />
     <Compile Include="MVC\Interfaces\Generic\IRenderable.cs" />
     <Compile Include="MVC\Interfaces\IActionResult.cs" />
+    <Compile Include="MVC\Interfaces\IDbIdentityContext.cs" />
     <Compile Include="MVC\Interfaces\IHandleable.cs" />
     <Compile Include="MVC\Interfaces\IInvocable.cs" />
+    <Compile Include="MVC\Interfaces\IRedirectable.cs" />
     <Compile Include="MVC\Interfaces\IRenderable.cs" />
     <Compile Include="MVC\MvcContext.cs" />
     <Compile Include="MVC\MvcEngine.cs" />
     <Compile Include="MVC\Routes\ControllerRouter.cs" />
+    <Compile Include="MVC\Secutiry\SignInManager.cs" />
     <Compile Include="MVC\ViewEngine\ActionResult.cs" />
     <Compile Include="MVC\ViewEngine\Generic\ActionResult.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RouteTables.cs" />
     <Compile Include="Views\Home\Index.cs" />
     <Compile Include="Views\Users\All.cs" />
+    <Compile Include="Views\Users\Greet.cs" />
+    <Compile Include="Views\Users\Login.cs" />
     <Compile Include="Views\Users\Profile.cs" />
     <Compile Include="Views\Users\Register.cs" />
   </ItemGroup>
@@ -115,6 +126,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201702151115130_second.resx">
       <DependentUpon>201702151115130_second.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702181054414_includedIdentity.resx">
+      <DependentUpon>201702181054414_includedIdentity.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

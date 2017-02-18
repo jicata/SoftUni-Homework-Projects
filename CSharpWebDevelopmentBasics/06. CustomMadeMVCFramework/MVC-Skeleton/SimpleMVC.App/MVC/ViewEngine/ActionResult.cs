@@ -5,10 +5,11 @@
     public class ActionResult : IActionResult
     {
 
-        public ActionResult(string viewFullyQualifiedName)
+        public ActionResult(string viewFullyQualifiedName, string location = null)
         {
             this.Action = (IRenderable)
                 Activator.CreateInstance(Type.GetType(viewFullyQualifiedName));
+            this.Location = location;
         }
 
         public IRenderable Action { get; set; }
@@ -17,5 +18,7 @@
         {
             return this.Action.Render();
         }
+
+        public string Location { get; set; }
     }
 }

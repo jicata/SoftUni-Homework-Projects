@@ -11,6 +11,7 @@
     using Interfaces;
     using SimpleHttpServer.Enums;
     using SimpleHttpServer.Models;
+    using SimpleHttpServer.Utilities;
 
     public class ControllerRouter : IHandleable
     {
@@ -46,6 +47,7 @@
             this.methodParameters = new object[parameters.Count()];
             int index = 0;
             foreach (ParameterInfo pamfo in parameters)
+
             {
                 if (pamfo.ParameterType.IsPrimitive)
                 {
@@ -53,11 +55,20 @@
                     this.methodParameters[index] = Convert.ChangeType(value, pamfo.ParameterType);
                     index++;
                 }
+                else if (pamfo.ParameterType == typeof(HttpRequest))
+                {
+                    this.methodParameters[index] = pamfo;
+                    index++;
+                }
+                else if (pamfo.ParameterType == typeof(HttpSession))
+                {
+                    this.methodParameters[index] = request.HttpSession;
+                   index++;
+                }
                 else
                 {
                     Type bindingModelType = pamfo.ParameterType;
                     object bindingModel = Activator.CreateInstance(bindingModelType);
-                 //   IEnumerable<PropertyInfo> properties = bindingModelType.GetProperties().Where(p=>p.Name.ToLower()!="id");
                     foreach (var requestParam in this.requestParameters)
                     {
                         PropertyInfo pinfo =
@@ -72,17 +83,20 @@
             }
             Controller controller = this.GetController();
 
-
             IInvocable actionResult = (IInvocable)method.Invoke(controller, this.methodParameters);
             string content = actionResult.Invoke();
-            HttpResponse response = new HttpResponse()
+            var response = new HttpResponse();
+            if (!string.IsNullOrEmpty(actionResult.Location))
             {
-                StatusCode = ResponseStatusCode.Ok,
-                ContentAsUTF8 = content
-            };
+                response.StatusCode = ResponseStatusCode.Found;
+                response.Header.OtherParameters.Add("Location", actionResult.Location);
+            }
+            else
+            {
+                response.StatusCode = ResponseStatusCode.Ok;
+                response.ContentAsUTF8 = content;
+            }         
             return response;
-
-
         }
 
         private MethodInfo GetMethod()
