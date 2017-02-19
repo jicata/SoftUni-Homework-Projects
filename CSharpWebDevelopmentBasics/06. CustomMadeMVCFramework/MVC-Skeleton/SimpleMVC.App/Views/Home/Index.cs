@@ -11,6 +11,9 @@
             StringBuilder pagebuilder = new StringBuilder();
             pagebuilder.AppendLine("<h3>Notes app</h3>");
             pagebuilder.AppendLine($@"<a href=""{allUsersUrl}"">All Users</a></br><a href=""{registerUrl}"">Register</a>");
+            pagebuilder.AppendLine(@"<form action=""index"" method=""POST"">
+                                      <input type=""submit"" value=""Log out"">
+                                    </form>");
             return pagebuilder.ToString();
         }
     }

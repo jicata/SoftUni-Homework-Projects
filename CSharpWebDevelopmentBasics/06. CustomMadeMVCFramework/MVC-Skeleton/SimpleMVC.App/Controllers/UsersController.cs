@@ -86,7 +86,7 @@
             {
                 var login = new Login()
                 {
-                    Session = session,
+                    SessionId = session.Id,
                     User = userFromDb,
                     IsActive = true
                 };

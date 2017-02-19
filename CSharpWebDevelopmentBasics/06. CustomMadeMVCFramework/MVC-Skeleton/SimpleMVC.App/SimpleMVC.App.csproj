@@ -75,6 +75,14 @@
     <Compile Include="Migrations\201702181054414_includedIdentity.Designer.cs">
       <DependentUpon>201702181054414_includedIdentity.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201702191026097_migrateToNormal.cs" />
+    <Compile Include="Migrations\201702191026097_migrateToNormal.Designer.cs">
+      <DependentUpon>201702191026097_migrateToNormal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201702191031264_loginImproved.cs" />
+    <Compile Include="Migrations\201702191031264_loginImproved.Designer.cs">
+      <DependentUpon>201702191031264_loginImproved.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Login.cs" />
     <Compile Include="Models\Note.cs" />
@@ -129,6 +137,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201702181054414_includedIdentity.resx">
       <DependentUpon>201702181054414_includedIdentity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702191026097_migrateToNormal.resx">
+      <DependentUpon>201702191026097_migrateToNormal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702191031264_loginImproved.resx">
+      <DependentUpon>201702191031264_loginImproved.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
