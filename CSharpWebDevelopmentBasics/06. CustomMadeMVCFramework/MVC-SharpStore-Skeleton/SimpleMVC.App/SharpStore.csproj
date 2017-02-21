@@ -7,8 +7,8 @@
     <ProjectGuid>{0A687C16-DF92-468D-AB8D-94A98DBAAD31}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SimpleMVC.App</RootNamespace>
-    <AssemblyName>SimpleMVC.App</AssemblyName>
+    <RootNamespace>SharpStore</RootNamespace>
+    <AssemblyName>SharpStore</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -55,10 +55,37 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppStart.cs" />
+    <Compile Include="BindingModels\KnifeBindingModel.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Data\C__MigrationHistory.cs" />
+    <Compile Include="Migrations\201702211522424_AddedBuyer.cs" />
+    <Compile Include="Migrations\201702211522424_AddedBuyer.Designer.cs">
+      <DependentUpon>201702211522424_AddedBuyer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201702211539197_RemovedEnumFromBuyer.cs" />
+    <Compile Include="Migrations\201702211539197_RemovedEnumFromBuyer.Designer.cs">
+      <DependentUpon>201702211539197_RemovedEnumFromBuyer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201702211749213_AddedUser.cs" />
+    <Compile Include="Migrations\201702211749213_AddedUser.Designer.cs">
+      <DependentUpon>201702211749213_AddedUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Buyer.cs" />
+    <Compile Include="Models\Knife.cs" />
+    <Compile Include="Models\Message.cs" />
+    <Compile Include="Data\SharpStoreContext.cs" />
+    <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RouteTable.cs" />
+    <Compile Include="Views\Admin\Products.cs" />
+    <Compile Include="Views\Home\About.cs" />
+    <Compile Include="Views\Home\Buy.cs" />
+    <Compile Include="Views\Home\Contacts.cs" />
     <Compile Include="Views\Home\Index.cs" />
+    <Compile Include="Views\Home\Login.cs" />
+    <Compile Include="Views\Home\Products.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -75,10 +102,18 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="BindingModels\" />
-    <Folder Include="Data\" />
-    <Folder Include="Models\" />
     <Folder Include="ViewModels\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201702211522424_AddedBuyer.resx">
+      <DependentUpon>201702211522424_AddedBuyer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702211539197_RemovedEnumFromBuyer.resx">
+      <DependentUpon>201702211539197_RemovedEnumFromBuyer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702211749213_AddedUser.resx">
+      <DependentUpon>201702211749213_AddedUser.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

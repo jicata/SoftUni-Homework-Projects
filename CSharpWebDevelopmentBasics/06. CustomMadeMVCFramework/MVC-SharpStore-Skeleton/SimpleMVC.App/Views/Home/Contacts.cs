@@ -2,12 +2,11 @@
 {
     using System.IO;
     using MVCFramework.MVC.Interfaces;
-
-    public class Index : IRenderable
+    public class Contacts:IRenderable
     {
         public string Render()
         {
-            return File.ReadAllText("../../content/home.html");
+            return File.ReadAllText("../../content/contacts-dark.html");
         }
     }
 }

@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleHttpServer", "SimpleHttpServer\SimpleHttpServer.csproj", "{9E139539-C272-488A-BFCF-CADDF458DF9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMVC.App", "SimpleMVC.App\SimpleMVC.App.csproj", "{0A687C16-DF92-468D-AB8D-94A98DBAAD31}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpStore", "SimpleMVC.App\SharpStore.csproj", "{0A687C16-DF92-468D-AB8D-94A98DBAAD31}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCFramework", "MVCFramework\MVCFramework.csproj", "{76AACA12-F4B9-45AC-B9B1-8045F5921E13}"
 EndProject

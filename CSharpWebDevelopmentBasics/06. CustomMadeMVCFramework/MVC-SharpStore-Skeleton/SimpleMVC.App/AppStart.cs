@@ -1,15 +1,14 @@
-﻿using SimpleHttpServer;
-
-namespace SimpleMVC.App
+﻿namespace SharpStore
 {
     using MVCFramework.MVC;
+    using SimpleHttpServer;
 
     class AppStart
     {
         static void Main(string[] args)
         {
             HttpServer server = new HttpServer(8081, RouteTable.Routes);
-            MvcEngine.Run(server, "SimpleMVC.App");
+            MvcEngine.Run(server, "SharpStore");
         }
     }
 }

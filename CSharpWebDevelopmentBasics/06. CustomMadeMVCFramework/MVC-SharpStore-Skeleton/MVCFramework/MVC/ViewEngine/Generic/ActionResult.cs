@@ -9,7 +9,7 @@
         {
             this.Action =
                 (IRenderable<T>)Activator
-                .CreateInstance(Type.GetType(viewFullQualifiedName));
+                .CreateInstance(MvcContext.Current.CurrentAssembly.GetType(viewFullQualifiedName));
 
             this.Action.Model = model;
         }

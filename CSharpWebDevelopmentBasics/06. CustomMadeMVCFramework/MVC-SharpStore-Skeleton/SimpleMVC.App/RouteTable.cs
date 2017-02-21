@@ -1,11 +1,11 @@
-﻿using SimpleHttpServer.Enums;
-using SimpleHttpServer.Models;
-using System.Collections.Generic;
-using System.IO;
-
-namespace SimpleMVC.App
+﻿namespace SharpStore
 {
+    using System;
+    using System.Collections.Generic;
+    using System.IO;
     using MVCFramework.MVC.Routers;
+    using SimpleHttpServer.Enums;
+    using SimpleHttpServer.Models;
 
     public static class RouteTable
     {
@@ -15,6 +15,39 @@ namespace SimpleMVC.App
             {
                 return new Route[]
                 {
+                        new Route()
+                    {
+                        Name = "Images",
+                        Method = RequestMethod.GET,
+                        UrlRegex = "/images/(.)+.png$",
+                        Callable = (request) =>
+                        {
+                            var response = new HttpResponse()
+                            {
+                                StatusCode = ResponseStatusCode.Ok,
+                                Content= File.ReadAllBytes($@"../../{request.Url}")
+                            };
+                            response.Header.ContentType = "image/png";
+                            response.Header.ContentLength = response.Content.Length.ToString();
+                            return response;
+                        }
+                    },
+                      new Route()
+                    {
+                        Name = "HolderJS",
+                        Method = RequestMethod.GET,
+                        UrlRegex = "/holder.min.js$",
+                        Callable = (request) =>
+                        {
+                            var response = new HttpResponse()
+                            {
+                                StatusCode = ResponseStatusCode.Ok,
+                                ContentAsUTF8 = File.ReadAllText(@"../../content/imsky-holder-8220898/holder.min.js")
+                            };
+                            response.Header.ContentType = "application/x-javascript";
+                            return response;
+                        }
+                    },
                      new Route()
                     {
                         Name = "Carousel CSS",

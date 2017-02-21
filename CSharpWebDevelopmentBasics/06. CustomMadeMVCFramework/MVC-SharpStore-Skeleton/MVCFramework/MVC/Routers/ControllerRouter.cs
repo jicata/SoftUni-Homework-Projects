@@ -103,7 +103,7 @@
 
             //Retrieve POST parameters
             string postParameters = WebUtility.UrlDecode(this.request.Content);
-            if (postParameters != null)
+            if (!string.IsNullOrWhiteSpace(postParameters))
             {
                 string[] pairs = postParameters.Split('&');
                 foreach (var pair in pairs)
@@ -136,7 +136,9 @@
             {
                 if (param.ParameterType.IsPrimitive || param.ParameterType== typeof(String))
                 {
-                    object value = this.getParams[param.Name];
+                    //TODO: test and evaluate if best approach
+                    Type t = param.ParameterType;
+                    object value = this.getParams.ContainsKey(param.Name) ? this.getParams[param.Name] : null;
                     this.methodParams[index] = Convert.ChangeType(
                         value,
                         param.ParameterType
@@ -170,13 +172,17 @@
 
                     foreach (PropertyInfo property in properties)
                     {
-                        property.SetValue(
+                        if (property.Name.ToLower() != "id")
+                        {
+                            property.SetValue(
                             bindingModel,
                             Convert.ChangeType(
                                 this.postParams[property.Name],
                                 property.PropertyType
                                 )
                             );
+                        }
+                        
                     }
 
                     this.methodParams[index] = Convert.ChangeType(
@@ -217,7 +223,7 @@
                     .GetCustomAttributes()
                     .Where(a => a is HttpMethodAttribute);
 
-                if (!attributes.Any())
+                if (!attributes.Any() && this.requestMethod == "GET")
                 {
                     return methodInfo;
                 }
@@ -229,6 +235,7 @@
                         return methodInfo;
                     }
                 }
+                
             }
 
             return method;

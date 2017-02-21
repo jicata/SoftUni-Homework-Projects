@@ -3,11 +3,11 @@
     using System.IO;
     using MVCFramework.MVC.Interfaces;
 
-    public class Index : IRenderable
+    public class About : IRenderable
     {
         public string Render()
         {
-            return File.ReadAllText("../../content/home.html");
+            return File.ReadAllText("../../content/about-light.html");
         }
     }
 }
