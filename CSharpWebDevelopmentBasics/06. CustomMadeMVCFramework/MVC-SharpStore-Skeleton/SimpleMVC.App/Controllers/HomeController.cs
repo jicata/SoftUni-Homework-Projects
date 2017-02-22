@@ -3,13 +3,11 @@
     using System.Collections.Generic;
     using System.Linq;
     using Data;
-    using Microsoft.Win32;
     using Models;
     using MVCFramework.MVC.Attributes.Methods;
     using MVCFramework.MVC.Controllers;
     using MVCFramework.MVC.Interfaces;
     using MVCFramework.MVC.Interfaces.Generic;
-    using SimpleHttpServer.Enums;
     using SimpleHttpServer.Models;
 
     public class HomeController : Controller
@@ -80,14 +78,21 @@
         }
 
         [HttpPost]
-        public IActionResult Login(HttpResponse response,User user)
+        public IActionResult Login(HttpResponse response,User user, HttpSession session)
         {
             var userFromDb =
                 this.context.Users.FirstOrDefault(u => u.Password == user.Password && u.Username == user.Username);
             if (userFromDb != null)
             {
-                this.Redirect(response, "/admin/home");
-                return null;
+                var login = new Login()
+                {
+                    IsActive = true,
+                    SessionId = session.Id,
+                    User = userFromDb
+                };
+                this.context.Logins.Add(login);
+                this.context.SaveChanges();
+                return this.View();
             }
             else
             {

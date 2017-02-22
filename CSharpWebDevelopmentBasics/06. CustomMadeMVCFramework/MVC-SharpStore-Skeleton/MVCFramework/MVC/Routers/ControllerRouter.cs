@@ -39,7 +39,7 @@
             this.response = new HttpResponse();
             this.ParseInput();
 
-            IInvocable result =
+                IInvocable result =
                 (IInvocable)this.GetMethod()
                 .Invoke(this.GetController(), this.methodParams);
 
@@ -105,7 +105,16 @@
             string postParameters = WebUtility.UrlDecode(this.request.Content);
             if (!string.IsNullOrWhiteSpace(postParameters))
             {
-                string[] pairs = postParameters.Split('&');
+                string[] pairs = new string[1];
+                if (postParameters.Contains('&'))
+                {
+                    pairs = postParameters.Split('&');
+                }
+                else
+                {
+                    pairs[0] = postParameters;
+                }
+               
                 foreach (var pair in pairs)
                 {
                     string[] keyValue = pair.Split('=');
@@ -137,8 +146,9 @@
                 if (param.ParameterType.IsPrimitive || param.ParameterType== typeof(String))
                 {
                     //TODO: test and evaluate if best approach
-                    Type t = param.ParameterType;
+
                     object value = this.getParams.ContainsKey(param.Name) ? this.getParams[param.Name] : null;
+
                     this.methodParams[index] = Convert.ChangeType(
                         value,
                         param.ParameterType

@@ -55,6 +55,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppStart.cs" />
+    <Compile Include="BindingModels\KnifeAddBindingModel.cs" />
     <Compile Include="BindingModels\KnifeBindingModel.cs" />
     <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -71,14 +72,24 @@
     <Compile Include="Migrations\201702211749213_AddedUser.Designer.cs">
       <DependentUpon>201702211749213_AddedUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201702220934002_addedLogin.cs" />
+    <Compile Include="Migrations\201702220934002_addedLogin.Designer.cs">
+      <DependentUpon>201702220934002_addedLogin.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Buyer.cs" />
     <Compile Include="Models\Knife.cs" />
+    <Compile Include="Models\Login.cs" />
     <Compile Include="Models\Message.cs" />
     <Compile Include="Data\SharpStoreContext.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RouteTable.cs" />
+    <Compile Include="Security\IDbIdentityContext.cs" />
+    <Compile Include="Security\SignInManager.cs" />
+    <Compile Include="ViewModels\KnifeViewModel.cs" />
+    <Compile Include="Views\Admin\Add.cs" />
+    <Compile Include="Views\Admin\Edit.cs" />
     <Compile Include="Views\Admin\Products.cs" />
     <Compile Include="Views\Home\About.cs" />
     <Compile Include="Views\Home\Buy.cs" />
@@ -101,9 +112,7 @@
       <Name>SimpleHttpServer</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ViewModels\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201702211522424_AddedBuyer.resx">
       <DependentUpon>201702211522424_AddedBuyer.cs</DependentUpon>
@@ -113,6 +122,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201702211749213_AddedUser.resx">
       <DependentUpon>201702211749213_AddedUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702220934002_addedLogin.resx">
+      <DependentUpon>201702220934002_addedLogin.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
