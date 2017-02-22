@@ -15,23 +15,23 @@
             {
                 return new Route[]
                 {
-                        new Route()
+                       new Route()
                     {
-                        Name = "Images",
+                        Name = "Testemonial",
                         Method = RequestMethod.GET,
-                        UrlRegex = "/images/(.)+.png$",
+                        UrlRegex = "/testemonial.css$",
                         Callable = (request) =>
                         {
                             var response = new HttpResponse()
                             {
                                 StatusCode = ResponseStatusCode.Ok,
-                                Content= File.ReadAllBytes($@"../../{request.Url}")
+                                ContentAsUTF8 = File.ReadAllText(@"../../content/css/testemonial.css")
                             };
-                            response.Header.ContentType = "image/png";
-                            response.Header.ContentLength = response.Content.Length.ToString();
+                            response.Header.ContentType = "text/css";
                             return response;
                         }
                     },
+
                       new Route()
                     {
                         Name = "HolderJS",
@@ -130,6 +130,23 @@
                             return response;
                         }
                     },
+                      new Route()
+                    {
+                        Name = "Images",
+                        Method = RequestMethod.GET,
+                        UrlRegex = "/images/(.)+.png$",
+                        Callable = (request) =>
+                        {
+                            var response = new HttpResponse()
+                            {
+                                StatusCode = ResponseStatusCode.Ok,
+                                Content= File.ReadAllBytes($@"../../{request.Url}")
+                            };
+                            response.Header.ContentType = "image/png";
+                            response.Header.ContentLength = response.Content.Length.ToString();
+                            return response;
+                        }
+                    },
                     //TODO: Add the route to bootstrap.min.css file here
                     new Route()
                     {
@@ -144,7 +161,9 @@
                         Method = RequestMethod.POST,
                         UrlRegex = @"^/(.+)/(.+)$",
                         Callable = new ControllerRouter().Handle
-                    }
+                    },
+                       
+
                 };
             }
         }

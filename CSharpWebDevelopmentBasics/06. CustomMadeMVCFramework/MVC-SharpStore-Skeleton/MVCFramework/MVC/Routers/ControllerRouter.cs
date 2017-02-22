@@ -143,7 +143,7 @@
             int index = 0;
             foreach (ParameterInfo param in parameters)
             {
-                if (param.ParameterType.IsPrimitive || param.ParameterType== typeof(String))
+                if (param.ParameterType.IsPrimitive || param.ParameterType.Name=="String")
                 {
                     //TODO: test and evaluate if best approach
 
@@ -180,19 +180,19 @@
                     IEnumerable<PropertyInfo> properties
                         = bindingModelType.GetProperties();
 
-                    foreach (PropertyInfo property in properties)
+                    foreach (KeyValuePair<string,string> postParam in postParams)
                     {
-                        if (property.Name.ToLower() != "id")
+                        var property = properties.FirstOrDefault(p => p.Name == postParam.Key && p.Name.ToLower()!="id");
+                        if (property != null)
                         {
                             property.SetValue(
                             bindingModel,
                             Convert.ChangeType(
-                                this.postParams[property.Name],
+                                postParam.Value,
                                 property.PropertyType
                                 )
                             );
-                        }
-                        
+                        }                        
                     }
 
                     this.methodParams[index] = Convert.ChangeType(

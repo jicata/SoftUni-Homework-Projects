@@ -1,5 +1,6 @@
 ﻿namespace SharpStore.Controllers
 {
+    using System;
     using System.Collections.Generic;
     using System.Data.Entity.Migrations;
     using System.Linq;
@@ -111,5 +112,92 @@
             return null;
         }
 
+        [HttpGet]
+        public IActionResult<List<MessageViewModel>>  Messages(HttpResponse response,HttpSession session)
+        {
+            if (!this.signInManager.IsAuthenticated(session))
+            {
+                Redirect(response, "/home/login");
+                return null;
+            }
+            var messages = this.context.Messages.ToList();
+            var messageVMs = new List<MessageViewModel>();
+            foreach (var message in messages)
+            {
+                var mvm = new MessageViewModel()
+                {
+                    Content = message.Content,
+                    Sender = message.Sender,
+                    Subject = message.Subject
+                };
+                messageVMs.Add(mvm);
+            }
+            return this.View(messageVMs);
+        }
+
+        [HttpGet]
+        public IActionResult<MessageViewModel> Reply(string content)
+        {
+            content = WebUtility.UrlDecode(content);
+            var message = this.context.Messages.FirstOrDefault(m => m.Content ==content);
+            var messageViewModel = new MessageViewModel()
+            {
+                Content = content,
+                Sender = message.Sender,
+                Subject = message.Subject
+            };
+
+            return this.View(messageViewModel);
+        }
+
+        [HttpPost]
+        public IActionResult Reply(HttpResponse response, MessageBindingModel bmm)
+        {
+            var message = new Message()
+            {
+                Content = bmm.Content,
+                Sender = "Admin",
+                Subject = bmm.Subject
+            };
+            context.Messages.Add(message);
+            context.SaveChanges();
+            Redirect(response,"/admin/messages");
+            return null;
+        }
+
+        [HttpGet]
+        public IActionResult<List<BuyerViewModel>>  Orders(HttpResponse response, HttpSession session)
+        {
+            if (!this.signInManager.IsAuthenticated(session))
+            {
+                Redirect(response, "/home/login");
+                return null;
+            }
+            var buyers = this.context.Buyers.ToList();
+            var buyerViewModels = new List<BuyerViewModel>();
+            foreach (var buyer in buyers)
+            {
+                var buyerViewModel = new BuyerViewModel()
+                {
+
+                    Name = buyer.Name,
+                    Address = buyer.Address,
+                    DeliveryStatus = buyer.DeliveryStatus
+                };
+               buyerViewModels.Add(buyerViewModel);
+            }
+            return this.View(buyerViewModels);
+        }
+
+        [HttpPost]
+        public IActionResult Orders(HttpResponse response,BuyerBindingModel bbm)
+        {
+            var buyer = this.context.Buyers.FirstOrDefault(b => b.Name == bbm.Name && b.Address == bbm.Address);
+            buyer.DeliveryStatus = bbm.DeliveryStatus;
+            this.context.Buyers.AddOrUpdate(buyer);
+            this.context.SaveChanges();
+            Redirect(response,"/admin/orders");
+            return null;
+        }
     }
 }

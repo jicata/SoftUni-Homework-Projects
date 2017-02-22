@@ -55,8 +55,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppStart.cs" />
+    <Compile Include="BindingModels\BuyerBindingModel.cs" />
     <Compile Include="BindingModels\KnifeAddBindingModel.cs" />
     <Compile Include="BindingModels\KnifeBindingModel.cs" />
+    <Compile Include="BindingModels\MessageBindingModel.cs" />
     <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Data\C__MigrationHistory.cs" />
@@ -76,6 +78,10 @@
     <Compile Include="Migrations\201702220934002_addedLogin.Designer.cs">
       <DependentUpon>201702220934002_addedLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201702221715528_addedDeliveryStatusToBuyer.cs" />
+    <Compile Include="Migrations\201702221715528_addedDeliveryStatusToBuyer.Designer.cs">
+      <DependentUpon>201702221715528_addedDeliveryStatusToBuyer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Buyer.cs" />
     <Compile Include="Models\Knife.cs" />
@@ -87,10 +93,15 @@
     <Compile Include="RouteTable.cs" />
     <Compile Include="Security\IDbIdentityContext.cs" />
     <Compile Include="Security\SignInManager.cs" />
+    <Compile Include="ViewModels\BuyerViewModel.cs" />
     <Compile Include="ViewModels\KnifeViewModel.cs" />
+    <Compile Include="ViewModels\MessageViewModel.cs" />
     <Compile Include="Views\Admin\Add.cs" />
     <Compile Include="Views\Admin\Edit.cs" />
+    <Compile Include="Views\Admin\Messages.cs" />
+    <Compile Include="Views\Admin\Orders.cs" />
     <Compile Include="Views\Admin\Products.cs" />
+    <Compile Include="Views\Admin\Reply.cs" />
     <Compile Include="Views\Home\About.cs" />
     <Compile Include="Views\Home\Buy.cs" />
     <Compile Include="Views\Home\Contacts.cs" />
@@ -125,6 +136,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201702220934002_addedLogin.resx">
       <DependentUpon>201702220934002_addedLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702221715528_addedDeliveryStatusToBuyer.resx">
+      <DependentUpon>201702221715528_addedDeliveryStatusToBuyer.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
