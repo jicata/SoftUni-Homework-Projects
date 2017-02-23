@@ -182,7 +182,7 @@
 
                     foreach (KeyValuePair<string,string> postParam in postParams)
                     {
-                        var property = properties.FirstOrDefault(p => p.Name == postParam.Key && p.Name.ToLower()!="id");
+                        var property = properties.FirstOrDefault(p => p.Name == postParam.Key);
                         if (property != null)
                         {
                             property.SetValue(

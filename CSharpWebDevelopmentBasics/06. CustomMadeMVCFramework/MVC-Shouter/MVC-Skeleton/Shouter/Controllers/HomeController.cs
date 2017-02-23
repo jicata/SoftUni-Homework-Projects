@@ -2,6 +2,7 @@
 {
     using System;
     using System.Collections.Generic;
+    using System.Linq;
     using BindingModels;
     using Data;
     using Data.Contracts;
@@ -35,7 +36,7 @@
         {
             if (this.signInManager.IsAuthenticated(session))
             {
-                var shouts = this.data.ShoutRepository.GetAll();
+                var shouts = this.data.ShoutRepository.UpdateAndGetAllShouts();
                 var shoutViewModels = new List<ShoutViewModel>();
                 foreach (var shout in shouts)
                 {
@@ -47,6 +48,7 @@
                     };
                     shoutViewModels.Add(shoutViewModel);
                 }
+                this.data.SaveChanges();
                 return this.View(shoutViewModels);
             }
             else
@@ -56,7 +58,25 @@
             }
         }
 
-        public IActionResult<List<ShoutViewModel>>  Feed(HttpResponse response, HttpSession session)
+        [HttpPost]
+        public IActionResult FeedSigned(HttpResponse response, HttpSession session, ShoutBindingModel sbm)
+        {
+            var user = this.data.LoginRepository.FindUserByLogin(session.Id);
+            var shout = new Shout()
+            {
+                Author = user,
+                Content = sbm.Content,
+                Lifetime = new TimeSpan(sbm.Lifetime, 59, 59),
+                PostedOn = DateTime.Now
+            };
+            this.data.ShoutRepository.Insert(shout);
+            this.data.SaveChanges();
+            Redirect(response,"/home/feedSigned");
+            return null;
+        }
+
+
+        public IActionResult<List<ShoutViewModel>> Feed(HttpResponse response, HttpSession session)
         {
             if (this.signInManager.IsAuthenticated(session))
             {
@@ -64,7 +84,7 @@
                 return null;
             }
 
-            var shouts = this.data.ShoutRepository.GetAll();
+            var shouts = this.data.ShoutRepository.UpdateAndGetAllShouts();
             var shoutViewModels = new List<ShoutViewModel>();
             foreach (var shout in shouts)
             {
@@ -76,6 +96,7 @@
                 };
                 shoutViewModels.Add(shoutViewModel);
             }
+            this.data.SaveChanges();
             return this.View(shoutViewModels);
         }
 
@@ -124,16 +145,6 @@
             return this.View();
         }
 
-        public IActionResult Followers(HttpResponse response,HttpSession session)
-        {
-            if (this.signInManager.IsAuthenticated(session))
-            {
-                return this.View();
-            }
-            this.Redirect(response, "/home/login");
-            return null;
-        }
-
         public IActionResult FollowersFeed(HttpResponse response, HttpSession session)
         {
             if (this.signInManager.IsAuthenticated(session))
@@ -144,6 +155,64 @@
             return null;
         }
 
+
+        public IActionResult Logout(HttpResponse response, HttpSession session)
+        {
+            var login = this.data.LoginRepository.FindByPredicate(l => l.SessionId == session.Id);
+            this.data.LoginRepository.Delete(login);
+            this.data.SaveChanges();
+            this.Redirect(response,"/home/feed");
+            return null;
+
+        }
+
+        public IActionResult<List<FollowerViewModel>> Followers(HttpSession session)
+        {
+            var currentUser = this.data.LoginRepository.FindUserByLogin(session.Id);
+            var allUsers = this.data.UsersRepository.Find(u => u.Username != currentUser.Username);        
+            var userFollowing = currentUser.Following.ToList();
+            List<FollowerViewModel> fvms = new List<FollowerViewModel>();
+            foreach (var user in allUsers)
+            {
+                var fvm = new FollowerViewModel()
+                {
+                    Username = user.Username,
+                    Id = user.Id.ToString()
+                };
+                if (userFollowing.Contains(user))
+                {
+                    fvm.FollowOption = "Unfollow";
+                    fvm.FollowStatus = "danger";
+                }
+                else
+                {
+                    fvm.FollowOption = "Follow";
+                    fvm.FollowStatus = "success";
+                }
+                fvms.Add(fvm);
+            }
+            return this.View(fvms);
+        }
+
+        [HttpPost]
+        public IActionResult Followers(HttpResponse response, HttpSession session, FollowerBindingModel fvm)
+        {
+            var user = this.data.LoginRepository.FindUserByLogin(session.Id);
+            var follower = this.data.UsersRepository.GetById(fvm.Id);
+            if (user.Following.Contains(follower))
+            {
+                user.Following.Remove(follower);
+            }
+            else
+            {
+                user.Following.Add(follower);
+            }
+           
+            //this.data.UsersRepository.AddOrUpdateUser(user);
+            this.data.SaveChanges();
+            Redirect(response,"/home/followers");
+            return null;
+        }
         private string CalculateTimeSincePost(DateTime? shoutPostedOn)
         {
             DateTime now = DateTime.Now;

@@ -28,5 +28,6 @@ namespace Shouter.Migrations
             //    );
             //
         }
+       
     }
 }

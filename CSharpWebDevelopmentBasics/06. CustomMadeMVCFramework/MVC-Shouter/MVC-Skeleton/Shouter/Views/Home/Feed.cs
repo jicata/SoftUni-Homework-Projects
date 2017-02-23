@@ -11,7 +11,7 @@
     {
         public string Render()
         {
-            string feedSignedInHtml = File.ReadAllText("../../content/feed-signed.html");
+            string feedSignedInHtml = File.ReadAllText("../../content/feed.html");
             StringBuilder pageBuilder = new StringBuilder();
             foreach (var shoutViewModel in this.Model)
             {

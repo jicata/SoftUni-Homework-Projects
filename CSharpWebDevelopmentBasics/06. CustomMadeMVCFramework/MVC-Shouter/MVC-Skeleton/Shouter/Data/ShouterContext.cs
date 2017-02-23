@@ -28,6 +28,14 @@ namespace Shouter.Data
         }
 
         public DbContext DbContext => this;
-       
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<User>()
+            .HasMany(m => m.Following)
+            .WithMany()
+            .Map(m => m.ToTable("Followers"));
+            base.OnModelCreating(modelBuilder);
+        }
     }
 }

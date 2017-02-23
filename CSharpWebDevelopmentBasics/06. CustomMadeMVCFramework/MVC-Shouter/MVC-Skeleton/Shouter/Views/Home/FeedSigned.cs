@@ -17,7 +17,7 @@
                 pageBuilder.Append($@"<div class=""thumbnail"">
 			                               <h4>
                                             <strong>
-                                             <a href=""/followers/profile?={shoutViewModel.Author.Id}"">{shoutViewModel.Author}</a>
+                                             <a href=""/followers/profile?={shoutViewModel.Author.Id}"">{shoutViewModel.Author.Username}</a>
                                             <strong> 
                                             <small>{shoutViewModel.PostedForTime}</small></h4>
 			                            <p>{shoutViewModel.Content}</p>

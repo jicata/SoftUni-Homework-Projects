@@ -59,8 +59,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppStart.cs" />
+    <Compile Include="BindingModels\FollowerBindingModel.cs" />
+    <Compile Include="Migrations\201702231914121_extraTableAddedForUsers.cs" />
+    <Compile Include="Migrations\201702231914121_extraTableAddedForUsers.Designer.cs">
+      <DependentUpon>201702231914121_extraTableAddedForUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\FollowerViewModel.cs" />
     <Compile Include="BindingModels\LoginUserBindingModel.cs" />
     <Compile Include="BindingModels\RegisterUserBindingModel.cs" />
+    <Compile Include="BindingModels\ShoutBindingModel.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Data\Contracts\IRepository.cs" />
     <Compile Include="Data\Contracts\IShouterContext.cs" />
@@ -81,6 +88,18 @@
     <Compile Include="Migrations\201702231307529_IDontKnowWhatHasChanged.cs" />
     <Compile Include="Migrations\201702231307529_IDontKnowWhatHasChanged.Designer.cs">
       <DependentUpon>201702231307529_IDontKnowWhatHasChanged.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201702231701569_changedLifeTimeOfShoutToTimeSpanFromInt.cs" />
+    <Compile Include="Migrations\201702231701569_changedLifeTimeOfShoutToTimeSpanFromInt.Designer.cs">
+      <DependentUpon>201702231701569_changedLifeTimeOfShoutToTimeSpanFromInt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201702231707331_testMigration.cs" />
+    <Compile Include="Migrations\201702231707331_testMigration.Designer.cs">
+      <DependentUpon>201702231707331_testMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201702231801084_added_nav_property_tt_user.cs" />
+    <Compile Include="Migrations\201702231801084_added_nav_property_tt_user.Designer.cs">
+      <DependentUpon>201702231801084_added_nav_property_tt_user.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Login.cs" />
@@ -123,6 +142,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201702231307529_IDontKnowWhatHasChanged.resx">
       <DependentUpon>201702231307529_IDontKnowWhatHasChanged.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702231701569_changedLifeTimeOfShoutToTimeSpanFromInt.resx">
+      <DependentUpon>201702231701569_changedLifeTimeOfShoutToTimeSpanFromInt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702231707331_testMigration.resx">
+      <DependentUpon>201702231707331_testMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702231801084_added_nav_property_tt_user.resx">
+      <DependentUpon>201702231801084_added_nav_property_tt_user.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702231914121_extraTableAddedForUsers.resx">
+      <DependentUpon>201702231914121_extraTableAddedForUsers.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

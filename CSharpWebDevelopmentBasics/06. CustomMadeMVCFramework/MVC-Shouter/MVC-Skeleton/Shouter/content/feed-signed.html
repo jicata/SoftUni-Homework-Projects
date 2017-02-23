@@ -64,7 +64,7 @@
               </ul>
 			  <ul class="signmenu nav navbar-nav">
 			  <li><span class="navbar-text">Hello, ##username##</span></li>
-			  <li><span class="navbar-text"><a href="/user/logout">Log out</a></span></li>
+			  <li><span class="navbar-text"><a href="/home/logout">Log out</a></span></li>
 			  </ul>
             </div>
           </div>
@@ -77,20 +77,22 @@
    
 
 	<div class="container">
-	
-		<div class="input-group">
-		  
-		  <input type="text" class="form-control" placeholder="Share your thoughts here...">
-		  <span class="input-group-btn">
-			<button class="btn btn-primary" type="button">Shout</button>
+
+        <form action="/home/feedSigned/" method="POST">
+            <div class="input-group">
+
+                <input type="text" class="form-control" placeholder="Share your thoughts here..." name="Content">
+                <span class="input-group-btn">
+			<input class="btn btn-primary" type="submit">Shout</input>
 		  </span>
-		</div>
-		<strong>Expires after:  </strong>
-		  <label class="radio-inline"><input type="radio" name="optradio">1 Hour</label>
-		  <label class="radio-inline"><input type="radio" name="optradio">1 Day</label>
+            </div>
+            <strong>Expires after:  </strong>
+            <label class="radio-inline"><input type="radio" name="Lifetime" value="0">1 Hour</label>
+            <label class="radio-inline"><input type="radio" name="Lifetime" value="23">1 Day</label>
+        </form>
+
 		<br/>
-		<br/>
-		<br/>
+
 		##feed##
 	</div>
 		

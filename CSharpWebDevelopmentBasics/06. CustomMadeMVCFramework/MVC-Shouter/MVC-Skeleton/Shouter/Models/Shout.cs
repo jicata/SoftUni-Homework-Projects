@@ -10,7 +10,7 @@
 
         public DateTime? PostedOn { get; set; }
 
-        public int Lifetime { get; set; }
+        public TimeSpan? Lifetime { get; set; }
 
         public virtual User Author { get; set; }
         

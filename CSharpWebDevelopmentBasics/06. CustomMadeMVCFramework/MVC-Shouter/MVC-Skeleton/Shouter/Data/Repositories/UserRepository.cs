@@ -2,6 +2,7 @@
 {
     using System;
     using System.Data.Entity;
+    using System.Data.Entity.Migrations;
     using System.Linq;
     using System.Linq.Expressions;
     using Contracts;
@@ -17,6 +18,11 @@
         public User FindUserByUserName(string username)
         {
            return this.EntityTable.FirstOrDefault(u=>u.Username == username);
+        }
+
+        public void AddOrUpdateUser(User user)
+        {
+            this.EntityTable.AddOrUpdate(user);
         }
     }
 }
