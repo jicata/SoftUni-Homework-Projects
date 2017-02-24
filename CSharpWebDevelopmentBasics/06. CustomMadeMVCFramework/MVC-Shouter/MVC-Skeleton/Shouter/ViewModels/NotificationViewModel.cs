@@ -1,8 +1,9 @@
 ﻿namespace Shouter.ViewModels
 {
-    public class UserViewModel
+    public class NotificationViewModel
     {
-        public int Id { get; set; }
+        public int UserId { get; set; }
+
         public string Username { get; set; }
     }
 }

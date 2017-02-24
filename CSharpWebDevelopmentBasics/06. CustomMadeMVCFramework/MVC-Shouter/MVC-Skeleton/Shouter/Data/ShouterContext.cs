@@ -14,9 +14,9 @@ namespace Shouter.Data
         }
 
         public IDbSet<User> Users { get; set; }
-        public IDbSet<Shout> Shouts { get; }
+        public IDbSet<Shout> Shouts { get; set; }
         public IDbSet<Login> Logins { get; set; }
-
+        public IDbSet<Notification> Notifications { get; set; }
         public new IDbSet<T> Set<T>() where T : class
         {
             return base.Set<T>();

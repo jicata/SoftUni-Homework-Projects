@@ -15,18 +15,16 @@ namespace Shouter.Migrations
 
         protected override void Seed(Shouter.Data.ShouterContext context)
         {
-            //  This method will be called after migrating to the latest version.
-
-            //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
-            //  to avoid creating duplicate seed data. E.g.
-            //
-            //    context.People.AddOrUpdate(
-            //      p => p.FullName,
-            //      new Person { FullName = "Andrew Peters" },
-            //      new Person { FullName = "Brice Lambson" },
-            //      new Person { FullName = "Rowan Miller" }
-            //    );
-            //
+            //var users = context.Users.ToList();
+            //foreach (var user in users)
+            //{
+            //    var shouts = context.Shouts.Where(s => s.Author == user);
+            //    if (user.Shouts.Count == 0 && shouts.Any())
+            //    {                   
+            //        user.Shouts = shouts.ToList();
+            //    }
+            //}
+            //context.SaveChanges();
         }
        
     }

@@ -8,8 +8,6 @@
         IDbSet<User> Users { get; }
         IDbSet<Login> Logins { get; }
 
-        IDbSet<Shout> Shouts { get; }
-
         DbContext DbContext { get; }
 
         int SaveChanges();

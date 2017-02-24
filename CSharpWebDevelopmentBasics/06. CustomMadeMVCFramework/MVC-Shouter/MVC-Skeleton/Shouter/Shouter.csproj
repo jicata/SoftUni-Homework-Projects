@@ -60,10 +60,31 @@
   <ItemGroup>
     <Compile Include="AppStart.cs" />
     <Compile Include="BindingModels\FollowerBindingModel.cs" />
+    <Compile Include="Controllers\FollowersController.cs" />
+    <Compile Include="Controllers\UserController.cs" />
+    <Compile Include="Data\Repositories\NotificationRepository.cs" />
     <Compile Include="Migrations\201702231914121_extraTableAddedForUsers.cs" />
     <Compile Include="Migrations\201702231914121_extraTableAddedForUsers.Designer.cs">
       <DependentUpon>201702231914121_extraTableAddedForUsers.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201702241027093_addedShoutsNavPropToUser.cs" />
+    <Compile Include="Migrations\201702241027093_addedShoutsNavPropToUser.Designer.cs">
+      <DependentUpon>201702241027093_addedShoutsNavPropToUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201702241308447_addedNotifications.cs" />
+    <Compile Include="Migrations\201702241308447_addedNotifications.Designer.cs">
+      <DependentUpon>201702241308447_addedNotifications.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201702241351220_navProptToNotifications.cs" />
+    <Compile Include="Migrations\201702241351220_navProptToNotifications.Designer.cs">
+      <DependentUpon>201702241351220_navProptToNotifications.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201702241357203_navProptIproved.cs" />
+    <Compile Include="Migrations\201702241357203_navProptIproved.Designer.cs">
+      <DependentUpon>201702241357203_navProptIproved.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Notification.cs" />
+    <Compile Include="Tools\Extensions.cs" />
     <Compile Include="ViewModels\FollowerViewModel.cs" />
     <Compile Include="BindingModels\LoginUserBindingModel.cs" />
     <Compile Include="BindingModels\RegisterUserBindingModel.cs" />
@@ -109,14 +130,21 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Routes.cs" />
     <Compile Include="Security\SignInManager.cs" />
+    <Compile Include="ViewModels\NotificationViewModel.cs" />
     <Compile Include="ViewModels\ShoutViewModel.cs" />
+    <Compile Include="ViewModels\UserProfileViewModel.cs" />
     <Compile Include="ViewModels\UserViewModel.cs" />
+    <Compile Include="Views\Followers\Profile.cs" />
     <Compile Include="Views\Home\Feed.cs" />
     <Compile Include="Views\Home\FeedSigned.cs" />
-    <Compile Include="Views\Home\Followers.cs" />
-    <Compile Include="Views\Home\FollowersFeed.cs" />
+    <Compile Include="Views\Followers\All.cs" />
+    <Compile Include="Views\Followers\Feed.cs" />
     <Compile Include="Views\Home\Login.cs" />
     <Compile Include="Views\Home\Register.cs" />
+    <Compile Include="Views\Profile\MyFeed.cs" />
+    <Compile Include="Views\User\Feed.cs" />
+    <Compile Include="Views\User\Followers.cs" />
+    <Compile Include="Views\User\Notifications.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -154,6 +182,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201702231914121_extraTableAddedForUsers.resx">
       <DependentUpon>201702231914121_extraTableAddedForUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702241027093_addedShoutsNavPropToUser.resx">
+      <DependentUpon>201702241027093_addedShoutsNavPropToUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702241308447_addedNotifications.resx">
+      <DependentUpon>201702241308447_addedNotifications.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702241351220_navProptToNotifications.resx">
+      <DependentUpon>201702241351220_navProptToNotifications.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702241357203_navProptIproved.resx">
+      <DependentUpon>201702241357203_navProptIproved.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

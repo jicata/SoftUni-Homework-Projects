@@ -1,16 +1,17 @@
-﻿namespace Shouter.Views.Home
+﻿namespace Shouter.Views.Followers
 {
     using System.Collections.Generic;
     using System.IO;
     using System.Text;
+    using MVCFramework.MVC.Interfaces;
     using MVCFramework.MVC.Interfaces.Generic;
     using ViewModels;
 
-    public class FeedSigned : IRenderable<List<ShoutViewModel>>
+    public class Feed : IRenderable<List<ShoutViewModel>>
     {
         public string Render()
         {
-            string feedSignedInHtml = File.ReadAllText("../../content/feed-signed.html");
+            string followersFeedHtml = File.ReadAllText("../../content/followersFeed.html");
             StringBuilder pageBuilder = new StringBuilder();
             foreach (var shoutViewModel in this.Model)
             {
@@ -23,8 +24,8 @@
 			                            <p>{shoutViewModel.Content}</p>
 		                            </div>");
             }
-            feedSignedInHtml = feedSignedInHtml.Replace("##feed##", pageBuilder.ToString());
-            return feedSignedInHtml;
+            followersFeedHtml = followersFeedHtml.Replace("##feed##", pageBuilder.ToString());
+            return followersFeedHtml;
         }
 
         public List<ShoutViewModel> Model { get; set; }

@@ -20,6 +20,10 @@
         public DateTime? Birthdate { get; set; }
 
         public virtual ICollection<User> Following { get; set; }
+
+        public virtual ICollection<Notification> Notifications { get; set; }
+        
+        
         
     }
 }
