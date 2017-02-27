@@ -29,6 +29,7 @@
 
         public bool IsAdmin { get; set; }
 
+
         public virtual ICollection<Topic> Topics { get; set; }
         
 

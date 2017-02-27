@@ -116,13 +116,9 @@
         public IActionResult Profile(HttpResponse response, DeleteTopicBindingModel dtbm)
         {
             var topic = this.data.Topics.FindByPredicate(t => t.Title == dtbm.TopicTitle);
-            var replies = topic.Replies.ToList();
-            foreach (var reply in replies)
-            {
-                this.data.Replies.Delete(reply);
-            }
+           
             var topicAuthor = topic.Author.Username;
-            topic.Author.Topics.Remove(topic);
+ 
             this.data.Topics.Delete(topic);
             this.data.SaveChanges();
             this.Redirect(response, $"/forum/profile?ProfileName={topicAuthor}");

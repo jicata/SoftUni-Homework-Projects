@@ -30,7 +30,7 @@
             StringBuilder contentBuilder = new StringBuilder();
             string topicTemplate = $@"<div class=""thumbnail"">
 	                                    <h4><strong><a href=""/topics/details?TopicTitle={this.Model.Title}"">{this.Model.Title}</a><strong></h4>
-	                                    <p><a href=""/forum/profile?Username={this.Model.Author}"">{this.Model.Author}</a> {this.Model.PostedOn}</p>
+	                                    <p><a href=""/forum/profile?ProfileName={this.Model.Author}"">{this.Model.Author}</a> {this.Model.PostedOn}</p>
 	                                    <p>{this.Model.Content}</p>
                                     </div>";
             contentBuilder.Append(topicTemplate);

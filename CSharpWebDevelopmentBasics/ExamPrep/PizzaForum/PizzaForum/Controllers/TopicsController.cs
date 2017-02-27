@@ -2,6 +2,7 @@
 {
     using System;
     using System.Collections.Generic;
+    using System.Net;
     using BindingModels;
     using Data;
     using Data.Contracts;
@@ -74,8 +75,9 @@
 
         public IActionResult<TopicDetailsViewModel> Details(HttpSession session,string topicTitle)
         {
-           
-            var topic = this.data.Topics.FindByPredicate(t => t.Title == topicTitle);
+
+            string topicDecoded = WebUtility.UrlDecode(topicTitle);
+            var topic = this.data.Topics.FindByPredicate(t => t.Title == topicDecoded);
             var tdvm = new TopicDetailsViewModel()
             {
                 Title = topic.Title,

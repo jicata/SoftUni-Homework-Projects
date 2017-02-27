@@ -83,6 +83,14 @@
     <Compile Include="Migrations\201702271136420_added_category_to_topic.Designer.cs">
       <DependentUpon>201702271136420_added_category_to_topic.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201702271647558_added_nav_prov_to_reply.cs" />
+    <Compile Include="Migrations\201702271647558_added_nav_prov_to_reply.Designer.cs">
+      <DependentUpon>201702271647558_added_nav_prov_to_reply.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201702271651303_added_nav_prov_to_reply2.cs" />
+    <Compile Include="Migrations\201702271651303_added_nav_prov_to_reply2.Designer.cs">
+      <DependentUpon>201702271651303_added_nav_prov_to_reply2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Category.cs" />
     <Compile Include="Models\Login.cs" />
@@ -133,6 +141,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201702271136420_added_category_to_topic.resx">
       <DependentUpon>201702271136420_added_category_to_topic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702271647558_added_nav_prov_to_reply.resx">
+      <DependentUpon>201702271647558_added_nav_prov_to_reply.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702271651303_added_nav_prov_to_reply2.resx">
+      <DependentUpon>201702271651303_added_nav_prov_to_reply2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
