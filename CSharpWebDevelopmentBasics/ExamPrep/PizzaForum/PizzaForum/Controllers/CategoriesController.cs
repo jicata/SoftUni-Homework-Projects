@@ -135,5 +135,13 @@
             }
             return this.View(tvms);
         }
+        public IActionResult Delete(HttpResponse response, string categoryName)
+        {
+            var category = this.data.Categories.FindByPredicate(c => c.Name == categoryName);
+            this.data.Categories.Delete(category);
+            this.data.SaveChanges();
+            Redirect(response, "/categories/all");
+            return null;
+        }
     }
 }

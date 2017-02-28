@@ -149,8 +149,20 @@
                 tvms.Add(tvm);
             }
             return this.View(tvms);
+
         }
 
+        public IActionResult Logout(HttpResponse response,HttpSession session)
+        {
+            var login = this.data.Logins.FindByPredicate(l => l.SessionId == session.Id);
+            login.IsActive = false;
+            this.data.SaveChanges();
+            this.Redirect(response,"/forum/login");
+            return null;
+
+        }
+
+      
      
     }
 }
