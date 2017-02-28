@@ -1,0 +1,48 @@
+
+<div class="container">
+	<form method="get">
+		<div class="row">
+			<div class="col-sm-2">
+				<div class="form-group">
+					<select name="status"  class="form-control" required>
+						<optgroup label="Status">
+							<option value="" disabled hidden selected>Status</option>
+							<option value="All">All</option>
+							<option value="New">New</option>
+							<option value="Solved">Solved</option>
+						</optgroup>
+					</select>
+				</div>
+			</div>
+			<div class="col-sm-8">
+				<div class="form-group">
+					<input name="query" type="text" class="form-control" placeholder="Search">
+				</div>
+			</div>
+			<div class="col-sm-2">
+				<button type="submit" class="btn btn-default">Search</button>
+			</div>
+		</div>
+		<div class="row">
+			<a class="btn btn-success" href="/issues/new">Add Issue</a>
+		</div>
+	</form>
+	<div class="row">
+		<table class="table table-hover">
+			<thead>
+				<tr>
+					<th>Id</th>
+					<th>Name</th>
+					<th>Status</th>
+					<th>Priority</th>
+					<th>Creation Date</th>
+					<th>Author</th>
+					<th></th>
+				</tr>
+			</thead>
+			<tbody>
+				##issues##
+			</tbody>
+		</table>
+	</div>
+</div>

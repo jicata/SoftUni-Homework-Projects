@@ -1,0 +1,35 @@
+<div class="container">
+	<div class="row">
+		<div class="jumbotron">
+			<form method="POST">
+				<div class="form-group">
+					<input name="name" type="text" class="form-control" placeholder="Enter issue name">
+					<input type="hidden" name="id" value="##id##">
+				</div>
+				<div class="form-group">
+					<select name="status" class="form-control" required>
+						<optgroup label="Status">
+							<option value="" disabled hidden selected>Status</option>
+							<option value="New">New</option>
+							<option value="Solved">Solved</option>
+						</optgroup>
+					</select>
+				</div>
+				<div class="form-group">
+					<select name="priority" class="form-control" required>
+						<optgroup label="Priority">
+							<option value="" disabled hidden selected>Priority</option>
+							<option value="Low">Low</option>
+							<option value="Medium">Medium</option>
+							<option value="High">High</option>
+						</optgroup>
+					</select>
+				</div>
+				<div class="form-group">
+					<input class="btn btn-primary" type="submit" value="Edit">
+					<a href="#" class="btn btn-primary">Cancel</a>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
