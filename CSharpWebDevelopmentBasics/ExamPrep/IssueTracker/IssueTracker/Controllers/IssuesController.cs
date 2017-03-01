@@ -45,7 +45,7 @@
             }
             HashSet<Issue> issues = new HashSet<Issue>();
             var user = this.service.FindUserBySession(session);
-
+            
             if (string.IsNullOrEmpty(query) && string.IsNullOrEmpty(status))
             {
                 issues = this.service.FindIssues();
