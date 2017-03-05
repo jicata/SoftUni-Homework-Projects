@@ -1,0 +1,23 @@
+<main class="col-4 offset-4 text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="text-center"><h1 class="display-4">Delete Game</h1></div>
+                <br/>
+                <form method="post" id="new-game-form">
+                    <input type="type" hidden="hidden" value="##id##" name="id" />
+
+                    <div class="form-group row">
+                        <label for="name" class="form-control-label">Title</label>
+                        <input name="name" type="text" maxlength="100" minlength="4" id="name" class="form-control"
+                               placeholder="Enter Game Name" value="##name##" disabled/>
+                    </div>
+
+                    <input type="submit" id="btn-edit-game" class="btn btn-outline-danger btn-lg btn-block"
+                           value="Delete Game"/>
+                </form>
+                <br/>
+            </div>
+        </div>
+    </div>
+</main>

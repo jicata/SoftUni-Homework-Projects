@@ -1,4 +1,4 @@
-﻿namespace Models
+﻿namespace SoftUniStore.Models
 {
     public class Login
     {

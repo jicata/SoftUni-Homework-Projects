@@ -1,6 +1,8 @@
-﻿namespace Data.Repositories
+﻿namespace SoftUniStore.Data.Repositories
 {
     using System;
+    using System.Data.Entity;
+    using System.Data.Entity.Migrations;
     using System.Linq;
     using System.Linq.Expressions;
     using Contracts;
@@ -9,7 +11,7 @@
     {
         protected IDbSet<T> EntityTable;
 
-        public Repository(IContext context)
+        public Repository(ISoftStoreContext context)
         {
             this.EntityTable = context.Set<T>();
         }

@@ -1,11 +1,13 @@
-﻿namespace Data.Contracts
+﻿namespace SoftUniStore.Data.Contracts
 {
+    using System.Data.Entity;
     using Models;
 
-    public interface IContext
+    public interface ISoftStoreContext
     {
         IDbSet<User> Users { get; }
         IDbSet<Login> Logins { get; }           
+        IDbSet<Game> Games { get; }
         DbContext DbContext { get; }
 
         int SaveChanges();

@@ -1,4 +1,4 @@
-﻿namespace Data.Contracts
+﻿namespace SoftUniStore.Data.Contracts
 {
     using System;
     using System.Linq;

@@ -1,0 +1,38 @@
+<main class="col-4 offset-4 text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="text-center">
+                    <h1 class="display-3">Register</h1>
+                </div>
+                <br/>
+                <form role="form" method="post" id="login-form" autocomplete="off">
+
+                    <div class="form-group row">
+                        <label for="email" class="sr-only">Email</label>
+                        <input type="email" id="email" class="form-control" placeholder="somebody@example.com" name="email" />
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="name" class="sr-only">Full Name</label>
+                        <input type="text" id="name" pattern="^[a-zA-Z -.]+$" class="form-control" placeholder="Full Name"  name="fullname" />
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="key" class="sr-only">Password</label>
+                        <input type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" id="key" class="form-control" placeholder="Password" name="password"/>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="confirm-key" class="sr-only">Confirm Password</label>
+                        <input type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" id="confirm-key" class="form-control"
+                            placeholder="Confirm Password" name="confirmpassword" />
+                    </div>
+
+                    <input type="submit" id="btn-login" class="btn btn-outline-warning btn-lg btn-block" value="Register" />
+                </form>
+                <br/>
+            </div>
+        </div>
+    </div>
+</main>

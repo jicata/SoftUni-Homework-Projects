@@ -1,6 +1,9 @@
-﻿namespace Client
+﻿namespace SoftUniStore.Client
 {
     using System.IO;
+    using SimpleHttpServer.Enums;
+    using SimpleHttpServer.Models;
+    using SimpleMVC.Routers;
 
     public static class RouteTable
     {
@@ -21,41 +24,24 @@
                             var response = new HttpResponse()
                             {
                                 StatusCode = ResponseStatusCode.Ok,
-                                Content = File.ReadAllBytes(@"../../content/images/issue.ico")
+                                Content = File.ReadAllBytes(@"../../content/images/store.ico")
                             };
                             response.Header.ContentType = "image/*";
                             response.Header.ContentLength = response.Content.Length.ToString();
                             return response;
                         }
                     },
-                       new Route()
-                    {
-                        Name = " CSS",
-                        Method = RequestMethod.GET,
-                        UrlRegex = "/css/action.css$",
-                        Callable = (request) =>
-                        {
-                            var response = new HttpResponse()
-                            {
-                                StatusCode = ResponseStatusCode.Ok,
-                                ContentAsUTF8 = File.ReadAllText("../../content/css/style.css")
-                            };
-                            response.Header.ContentType = "text/css";
-                            return response;
-                        }
-                    },
-
-                    new Route()
+             new Route()
                     {
                         Name = "Bootstrap JS",
                         Method = RequestMethod.GET,
-                        UrlRegex = "/bootstrap/js/bootstrap.min.js$",
+                        UrlRegex = "/scripts/jquery-3.1.1.min.js$",
                         Callable = (request) =>
                         {
                             var response = new HttpResponse()
                             {
                                 StatusCode = ResponseStatusCode.Ok,
-                                ContentAsUTF8 = File.ReadAllText("../../content/bootstrap/js/bootstrap.min.js")
+                                ContentAsUTF8 = File.ReadAllText("../../content/scripts/jquery-3.1.1.min.js")
                             };
                             response.Header.ContentType = "application/x-javascript";
                             return response;
@@ -65,29 +51,29 @@
                     {
                         Name = "Bootstrap JS",
                         Method = RequestMethod.GET,
-                        UrlRegex = "/jquery/jquery-3.1.1.js$",
+                        UrlRegex = "/js/bootstrap.min.js$",
                         Callable = (request) =>
                         {
                             var response = new HttpResponse()
                             {
                                 StatusCode = ResponseStatusCode.Ok,
-                                ContentAsUTF8 = File.ReadAllText("../../content/jquery/jquery-3.1.1.js")
+                                ContentAsUTF8 = File.ReadAllText("../../content/js/bootstrap.min.js")
                             };
                             response.Header.ContentType = "application/x-javascript";
                             return response;
                         }
-                    },
+                    },             
                      new Route()
                     {
                         Name = "Bootstrap CSS",
                         Method = RequestMethod.GET,
-                        UrlRegex = "/bootstrap/css/bootstrap.min.css$",
+                        UrlRegex = "/css/bootstrap.min.css$",
                         Callable = (request) =>
                         {
                             var response = new HttpResponse()
                             {
                                 StatusCode = ResponseStatusCode.Ok,
-                                ContentAsUTF8 = File.ReadAllText("../../content/bootstrap/css/bootstrap.min.css")
+                                ContentAsUTF8 = File.ReadAllText("../../content/css/bootstrap.min.css")
                             };
                             response.Header.ContentType = "text/css";
                             return response;

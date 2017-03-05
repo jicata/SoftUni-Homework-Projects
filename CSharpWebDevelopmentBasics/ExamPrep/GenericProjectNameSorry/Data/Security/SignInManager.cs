@@ -1,13 +1,14 @@
-﻿namespace Data.Security
+﻿namespace SoftUniStore.Data.Security
 {
     using System.Linq;
     using Contracts;
+    using SimpleHttpServer.Models;
 
     public class SignInManager
     {
-        private IData data;
+        private ISoftStoreData data;
 
-        public SignInManager(IData data)
+        public SignInManager(ISoftStoreData data)
         {
             this.data = data;
         }
