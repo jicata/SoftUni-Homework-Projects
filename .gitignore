@@ -462,3 +462,5 @@ __pycache__/
 
 # Cake - Uncomment if you are using it
 # tools/
+/CSharpWebDevelopmentBasics/ExamPrep/*.docx
+/CSharpWebDevelopmentBasics/ExamPrep/8. CSharp-Web-Dev-Basics-Exam-Preparation.docx
