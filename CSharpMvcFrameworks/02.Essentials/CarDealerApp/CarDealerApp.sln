@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarDealer.App", "CarDealerApp\CarDealer.App.csproj", "{1EBC3046-B06C-4040-8E91-F13ACDA8ADF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarDealer.Data", "CarDealer.Data\CarDealer.Data.csproj", "{79337531-4BDA-49F5-8E47-99D0B3DEDD0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarDealer.Models", "CarDealer.Models\CarDealer.Models.csproj", "{7697BCA6-E59B-4C73-A160-8867A647D16C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1EBC3046-B06C-4040-8E91-F13ACDA8ADF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EBC3046-B06C-4040-8E91-F13ACDA8ADF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EBC3046-B06C-4040-8E91-F13ACDA8ADF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EBC3046-B06C-4040-8E91-F13ACDA8ADF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79337531-4BDA-49F5-8E47-99D0B3DEDD0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79337531-4BDA-49F5-8E47-99D0B3DEDD0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79337531-4BDA-49F5-8E47-99D0B3DEDD0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79337531-4BDA-49F5-8E47-99D0B3DEDD0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7697BCA6-E59B-4C73-A160-8867A647D16C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7697BCA6-E59B-4C73-A160-8867A647D16C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7697BCA6-E59B-4C73-A160-8867A647D16C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7697BCA6-E59B-4C73-A160-8867A647D16C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
