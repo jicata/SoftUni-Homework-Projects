@@ -14,7 +14,7 @@ namespace CarDealerApp.Controllers
         [Route("{type?}")]
         public ActionResult Suppliers(string type)
         {
-            bool isImporter = type == "importers";
+            bool isImporter = type.ToLower() == "importers";
 
             var suppliers = this.db.Suppliers.Where(s => s.IsImporter == isImporter);
 

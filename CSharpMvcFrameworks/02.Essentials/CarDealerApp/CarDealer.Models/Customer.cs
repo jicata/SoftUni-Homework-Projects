@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace CarDealer.Models
 {
+    using System.ComponentModel.DataAnnotations;
+
     public class Customer
     {
         public Customer()
@@ -14,6 +16,7 @@ namespace CarDealer.Models
         }
         public int Id { get; set; }
         public string Name { get; set; }
+        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:dd/MM/yyyy}")]
         public DateTime BirthDate { get; set; }
         public bool IsYoungDriver { get; set; }
 

@@ -8,6 +8,7 @@ namespace CarDealerApp.Controllers
     using AutoMapper;
     using CarDealer.Data;
     using CarDealer.Models;
+    using CarDealer.Models.BindingModels;
     using CarDealer.Models.ViewModels;
 
     [RoutePrefix("cars")]
@@ -48,16 +49,35 @@ namespace CarDealerApp.Controllers
         }
 
         // POST: Cars/Create
+
+        [Route("create")]
+        public ActionResult Create()
+        {
+            var createCarBm = new CarViewModel();
+            var partVms = Mapper.Map<IEnumerable<Part>, IEnumerable<PartViewModel>>(this.db.Parts.ToList());
+            createCarBm.Parts = partVms.ToList();
+            return this.View(createCarBm);
+        }
+
+
+        [Route("create")]
         [HttpPost]
-        public ActionResult Create(FormCollection collection)
+        public ActionResult Create(CreateCarBindingModel ccbm)
         {
             try
             {
-                // TODO: Add insert logic here
-
-                return RedirectToAction("Index");
+                var parts = ccbm.Parts.Where(p => p.Checked);
+                var car = Mapper.Map<Car>(ccbm);
+                foreach (var part in parts)
+                {
+                    var partFromDb = this.db.Parts.FirstOrDefault(p => p.Name == part.Name);
+                    car.Parts.Add(partFromDb);
+                }
+                this.db.Cars.Add(car);
+                this.db.SaveChanges();
+                return RedirectToAction("All");
             }
-            catch
+                catch
             {
                 return View();
             }

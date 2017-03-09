@@ -10,6 +10,7 @@ namespace CarDealerApp
 {
     using AutoMapper;
     using CarDealer.Models;
+    using CarDealer.Models.BindingModels;
     using CarDealer.Models.ViewModels;
 
     public class MvcApplication : System.Web.HttpApplication
@@ -51,6 +52,9 @@ namespace CarDealerApp
                     .ForMember(dest => dest.Discount,
                         opts => opts.MapFrom(src => src.Discount * 100));
 
+                cfg.CreateMap<CreatePartBindingModel, Part>().ForMember(x => x.Supplier, opt => opt.Ignore());
+                cfg.CreateMap<Part, PartEditViewModel>();
+                cfg.CreateMap<CreateCarBindingModel, Car>().ForMember(x => x.Parts, opt => opt.Ignore());
 
             });
 

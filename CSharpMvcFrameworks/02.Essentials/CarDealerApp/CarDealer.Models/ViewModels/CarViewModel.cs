@@ -16,6 +16,6 @@
 
         public decimal TravelledDistance { get; set; }
 
-       public  ICollection<PartViewModel> Parts { get; set; }
+       public  IList<PartViewModel> Parts { get; set; }
     }
 }
