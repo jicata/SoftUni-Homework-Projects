@@ -41,10 +41,10 @@ namespace CarDealerApp.Controllers
             return this.View(carVm);
         }
 
-        // GET: Cars/Create
-        public ActionResult Create()
+        [Route("all")]
+        public ActionResult All()
         {
-            return View();
+            return this.View(this.db.Cars.ToList());
         }
 
         // POST: Cars/Create

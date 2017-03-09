@@ -204,6 +204,7 @@
     <Content Include="Views\Sales\Index.cshtml" />
     <Content Include="Views\Sales\Details.cshtml" />
     <Content Include="Views\Sales\Discounted.cshtml" />
+    <Content Include="Views\Cars\All.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

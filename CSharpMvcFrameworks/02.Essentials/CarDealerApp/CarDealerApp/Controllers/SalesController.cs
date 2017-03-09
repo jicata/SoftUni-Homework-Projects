@@ -10,12 +10,10 @@ namespace CarDealerApp.Controllers
     using CarDealer.Models.ViewModels;
 
     [RoutePrefix("sales")]
-    [Route("{action}")]
     public class SalesController : Controller
     {
         CarDealerContext context = new CarDealerContext();
-        // GET: Sales
-        [Route("~/")]
+
         [Route]
         [Route("Index")]
         public ActionResult Index()
