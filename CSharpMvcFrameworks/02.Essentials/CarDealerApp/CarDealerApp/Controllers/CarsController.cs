@@ -86,6 +86,7 @@ namespace CarDealerApp.Controllers
         // GET: Cars/Edit/5
         public ActionResult Edit(int id)
         {
+
             return View();
         }
 
@@ -96,7 +97,7 @@ namespace CarDealerApp.Controllers
             try
             {
                 // TODO: Add update logic here
-
+                
                 return RedirectToAction("Index");
             }
             catch

@@ -4,8 +4,9 @@ namespace CarDealer.Data
     using System;
     using System.Data.Entity;
     using System.Linq;
+    using Microsoft.AspNet.Identity.EntityFramework;
 
-    public class CarDealerContext : DbContext
+    public class CarDealerContext : IdentityDbContext<User>
     {
         public CarDealerContext()
             : base("name=CarDealerContext")
@@ -19,6 +20,7 @@ namespace CarDealer.Data
         public virtual DbSet<Supplier> Suppliers { get; set; }
         public virtual DbSet<Customer> Customers { get; set; }
         public virtual DbSet<Sale> Sales { get; set; }
+
     }
 
 }
