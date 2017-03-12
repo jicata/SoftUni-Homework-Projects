@@ -2,6 +2,8 @@
 
 namespace CarDealer.Models
 {
+    using System.ComponentModel.DataAnnotations.Schema;
+
     public class Part
     {
         public Part()
@@ -9,6 +11,9 @@ namespace CarDealer.Models
             this.Cars = new HashSet<Car>();
         }
         public int Id { get; set; }
+
+        [ForeignKey("Supplier")]
+        public int SupplierId { get; set; }
         public string Name { get; set; }
         public double? Price { get; set; }
         public int Quantity { get; set; }

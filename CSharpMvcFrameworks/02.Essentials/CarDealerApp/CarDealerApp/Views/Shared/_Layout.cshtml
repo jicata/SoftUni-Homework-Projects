@@ -22,6 +22,14 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Cars", "All", "Cars")</li>
+                    <li>@Html.ActionLink("Logs","All","Logs")</li>
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Suppliers <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>@Html.ActionLink("Importers", "All", "Suppliers", new {type="importers"},null)</li>
+                            <li>@Html.ActionLink("Local", "All", "Suppliers", new {type="local"}, null)</li>
+                        </ul>
+                    </li>
                     <li class="dropdown">
                         <a href="#" data-toggle="dropdown" class="dropdown-toggle">Sales <b class="caret"></b></a>
                         <ul class="dropdown-menu">

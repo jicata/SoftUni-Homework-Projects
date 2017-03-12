@@ -1,0 +1,58 @@
+﻿@model CarDealer.Models.ViewModels.ConfirmSaleViewModel
+@{
+    ViewBag.Title = "Confirm";
+}
+
+<h2>Confirm</h2>
+
+@using(@Html.BeginForm("create","sales"))
+{
+ @Html.AntiForgeryToken()
+<div class="form-horizontal">
+    <h4>Sale</h4>
+    <hr/>
+    <div class="form-group">
+        @Html.LabelFor(model => model.Customer, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.DisplayFor(csvm=>csvm.Customer)
+            @Html.ValidationMessageFor(model => model.Customer, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.Car, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.DisplayFor(csvm => csvm.Car)
+            @Html.ValidationMessageFor(model => model.Car, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.Discount, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.DisplayFor(csvm => csvm.Discount)%
+            @Html.ValidationMessageFor(model => model.Discount, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.Price, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.DisplayFor(csvm => csvm.Price)
+            @Html.ValidationMessageFor(model => model.Price, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.FinalPrice, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.DisplayFor(csvm => csvm.FinalPrice)
+            @Html.ValidationMessageFor(model => model.FinalPrice, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <input type="hidden" name="customerId" value="@Model.CustomerId"/>
+    <input type="hidden" name="carId" value="@Model.CarId"/>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Finalize" class="btn btn-info" />
+            <input type="button" value="Cancel" class="btn btn-default" onclick="window.location.href='create'"/>
+        </div>
+    </div>
+</div>
+}

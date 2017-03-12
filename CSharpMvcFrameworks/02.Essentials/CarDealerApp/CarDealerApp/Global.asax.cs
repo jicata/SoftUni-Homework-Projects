@@ -48,7 +48,7 @@ namespace CarDealerApp
                     .ForMember(dest => dest.TotalSum,
                         opts => opts.MapFrom(src => src.Car.Parts.Sum(p => p.Price)))
                     .ForMember(dest => dest.TotalSumWithDiscount,
-                        opts => opts.MapFrom(src => src.Discount * src.Car.Parts.Sum(p => p.Price)))
+                        opts => opts.MapFrom(src => src.Car.Parts.Sum(p=>p.Price) - (src.Discount * src.Car.Parts.Sum(p => p.Price))))
                     .ForMember(dest => dest.Discount,
                         opts => opts.MapFrom(src => src.Discount * 100));
 

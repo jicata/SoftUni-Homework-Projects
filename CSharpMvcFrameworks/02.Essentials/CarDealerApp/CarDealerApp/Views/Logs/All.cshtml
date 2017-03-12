@@ -1,0 +1,70 @@
+﻿@model PagedList.IPagedList<CarDealer.Models.Log>
+@using PagedList.Mvc;
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+
+@{
+    ViewBag.Title = "All";
+}
+
+<h2>All</h2>
+
+    @using (@Html.BeginForm("All", "Logs", FormMethod.Get))
+    {
+        <div class="form-inline col-md-8">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Username..." name="search">
+                <span class="input-group-btn"><input type="submit" class="btn btn-info" value="Search Logs" style="margin-left: 3%"/></span>
+            </div>
+        </div>
+    }
+        <div class="form-inline">
+            <div class="input-group pull-right">
+                <span><a href="clear"><button class="btn btn-success" style:dir="rtl">Clear All Logs</button></a></span>
+            </div>
+        </div>
+    
+<table class="table" style="margin-top: 5%">
+    <tr>
+        <th>
+            User
+        </th>
+        <th>
+            Action
+        </th>
+        <th>
+            Controller
+        </th>
+        <th>
+            Time
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.User)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Action)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Controller)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Time)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+            </td>
+        </tr>
+    }
+</table>
+<br />
+Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+
+@Html.PagedListPager(Model, page => Url.Action("All",
+    new { page }))

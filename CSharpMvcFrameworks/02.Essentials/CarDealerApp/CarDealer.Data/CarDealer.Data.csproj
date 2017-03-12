@@ -72,6 +72,14 @@
     <Compile Include="Migrations\201703101308394_identity.Designer.cs">
       <DependentUpon>201703101308394_identity.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201703121123208_added_FK_PartsSupplier.cs" />
+    <Compile Include="Migrations\201703121123208_added_FK_PartsSupplier.Designer.cs">
+      <DependentUpon>201703121123208_added_FK_PartsSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201703121224499_added_Log_Model.cs" />
+    <Compile Include="Migrations\201703121224499_added_Log_Model.Designer.cs">
+      <DependentUpon>201703121224499_added_Log_Model.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -91,6 +99,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201703101308394_identity.resx">
       <DependentUpon>201703101308394_identity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703121123208_added_FK_PartsSupplier.resx">
+      <DependentUpon>201703121123208_added_FK_PartsSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703121224499_added_Log_Model.resx">
+      <DependentUpon>201703121224499_added_Log_Model.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

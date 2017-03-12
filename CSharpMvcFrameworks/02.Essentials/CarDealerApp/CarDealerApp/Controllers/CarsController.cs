@@ -50,6 +50,7 @@ namespace CarDealerApp.Controllers
 
         // POST: Cars/Create
 
+        [Authorize()]
         [Route("create")]
         public ActionResult Create()
         {

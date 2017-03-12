@@ -4,6 +4,9 @@ namespace CarDealer.Data.Migrations
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
     using System.Linq;
+    using Microsoft.AspNet.Identity;
+    using Microsoft.AspNet.Identity.EntityFramework;
+    using Models;
 
     internal sealed class Configuration : DbMigrationsConfiguration<CarDealer.Data.CarDealerContext>
     {
@@ -14,18 +17,11 @@ namespace CarDealer.Data.Migrations
 
         protected override void Seed(CarDealer.Data.CarDealerContext context)
         {
-            //  This method will be called after migrating to the latest version.
-
-            //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
-            //  to avoid creating duplicate seed data. E.g.
-            //
-            //    context.People.AddOrUpdate(
-            //      p => p.FullName,
-            //      new Person { FullName = "Andrew Peters" },
-            //      new Person { FullName = "Brice Lambson" },
-            //      new Person { FullName = "Rowan Miller" }
-            //    );
-            //
+            var roleManager = new RoleManager<Role>(new RoleStore<Role>(context));
+            if (!roleManager.RoleExists("Admin"))
+            {
+                roleManager.Create(new Role("Admin"));
+            }
         }
     }
 }
