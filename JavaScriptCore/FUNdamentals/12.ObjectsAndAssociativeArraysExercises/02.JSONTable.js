@@ -1,12 +1,13 @@
-/**
- * Created by Administrator on 30.5.2017 г..
- */
 function JSONTab(data){
 
     let html = "<table>\n";
     for(let dataRow of data){
         let jsonObj = JSON.parse(dataRow);
-        html+=`<tr>\n<td>${escapeHtml(jsonObj["name"])}</td>\n<td>${escapeHtml(jsonObj.position)}</td>\n<td>${jsonObj.salary}</td>\n</tr>\n`
+        html+=`    <tr>\n`;
+        html+=`        <td>${escapeHtml(jsonObj["name"])}</td>\n`;
+        html+=`        <td>${escapeHtml(jsonObj.position)}</td>\n`;
+        html+=`        <td>${jsonObj.salary}</td>\n`;
+        html+=`    <tr>\n`;
     }
     html+="</table>";
 
