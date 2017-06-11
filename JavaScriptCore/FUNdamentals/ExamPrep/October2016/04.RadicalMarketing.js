@@ -41,7 +41,7 @@ function radicalMarketing(incomingData) {
 
         if (firstPersonSubscribersLength == secondPersonSubscribersLength) {
             let firstPersonTimesSubscribed = log.get(sortedPersonKeyOne);
-            let secondPersonTimesSubscribed = log.get(sortedPersonKeyTwo)
+            let secondPersonTimesSubscribed = log.get(sortedPersonKeyTwo);
                 if (firstPersonTimesSubscribed > secondPersonTimesSubscribed) {
                     return printResult(sortedPersonKeyOne, sortedPersonValueOne);
                 }
