@@ -57,13 +57,7 @@ function angularParser(data) {
         let controllers = moduleElements.controllers.sort((a, b) => alphabeticalSort(a, b));
        let models =  moduleElements.models.sort((a, b) => alphabeticalSort(a, b));
        let views =  moduleElements.views.sort((a, b) => alphabeticalSort(a, b));
-        let result = {
-            moduleName: {
-                controllers: moduleElements.controllers,
-                models: moduleElements.models,
-                views: moduleElements.views
-            }
-        };
+
         resultObject[moduleName] = {controllers,models, views};
     }
     console.log(JSON.stringify(resultObject));
