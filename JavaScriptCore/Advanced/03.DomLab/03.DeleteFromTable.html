@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>03.DeleteFromTable</title>
+</head>
+<body>
+<table border="1" id="customers">
+    <tr>
+        <th>Name</th>
+        <th>Email</th>
+    </tr>
+    <tr>
+        <td>Eve</td>
+        <td>eve@gmail.com</td>
+    </tr>
+    <tr>
+        <td>Nick</td>
+        <td>nick@yahooo.com</td>
+    </tr>
+    <tr>
+        <td>Didi</td>
+        <td>didi@didi.net</td>
+    </tr>
+    <tr>
+        <td>Tedy</td>
+        <td>tedy@tedy.com</td>
+    </tr>
+</table>
+Email: <input type="text" name="email"/>
+<button onclick="deleteByEmail()">Delete</button>
+<div id="result"/>
+<script>
+    function deleteByEmail() {
+        let deleted = false;
+        let email = document.querySelector('input').value;
+        let table = document.querySelector('table#customers tbody');
+        let tableRows = document.querySelectorAll('table#customers tr');
+        for (let row of tableRows) {
+            deleteNode(row)
+        }
+
+        let resultsDiv = document.getElementById('result');
+        let paragraph = document.createElement('p');
+
+
+        if(!deleted){
+            paragraph.textContent = 'Not found.';
+        }
+        else{
+            paragraph.textContent = 'Deleted';
+        }
+        resultsDiv.appendChild(paragraph);
+
+        function deleteNode(row) {
+            let lastChild = row.lastElementChild;
+            if (lastChild.textContent == email) {
+                let liElement = lastChild.parentNode;
+                table.removeChild(liElement);
+                deleted = true;
+            }
+
+        }
+    }
+</script>
+</body>
+</html>
