@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Subtraction</title>
+</head>
+<body>
+<div id="wrapper">
+    <input type="text" id="firstNumber" value="13.33" disabled>
+    <input type="text" id="secondNumber" value="22.18" disabled>
+
+    <div id="result"></div>
+</div>
+<script>
+    window.onload = function () {
+        subtract();
+    };
+
+    function subtract(){
+        let firstNumber = Number(document.getElementById('firstNumber').value);
+        let secondNumber = Number(document.getElementById('secondNumber').value);
+
+        let result = firstNumber - secondNumber;
+
+        document.getElementById('result').textContent = result;
+
+    }
+</script>
+</body>
+</html>
