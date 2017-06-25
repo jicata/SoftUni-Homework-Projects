@@ -7,59 +7,54 @@ function initializeTable() {
         let capital = $("#newCapitalText").val();
         let country = $("#newCountryText").val();
         addCountryToTable(country,capital);
-        clearLastLinkFromLastItem();
+        normalizeLinks();
     }
 
-    $('createLink').click(createNewRow);
+    $('#createLink').click(createNewRow);
 
     function moveUp() {
-
         let row = $(this).parent().parent();
         row.fadeOut(function () {
             row.insertBefore(row.prev());
             row.fadeIn();
-        })
-        clearLastLinkFromLastItem();
+            normalizeLinks();
+        });
+
     }
 
     function moveDown() {
-        clearLastLinkFromLastItem();
+        let row = $(this).parent().parent();
+        row.fadeOut(function () {
+            row.insertAfter(row.next());
+            row.fadeIn();
+            normalizeLinks();
+        });
     }
 
     function deleteItem() {
-        clearLastLinkFromLastItem();
+        let row = $(this).parent().parent();
+        row.fadeOut(function () {
+            row.remove();
+            normalizeLinks();
+        })
+
     }
 
     function addCountryToTable(country, capital) {
-        let tr = $("<tr>");
-        let countryTd = $("<td>");
-        let capitalTd = $("<td>");
-        let actionsTd = $("<td>");
-
-        let upA = $("<a href='#'>[Up]</a>").click(moveUp);
-        let downA = $("<a href='#'>[Down]</a>").click(moveDown);
-        let deleteA = $("<a href='#'>[Delete]</a>").click(deleteItem);
-
-        actionsTd.append(upA);
-        actionsTd.append(downA);
-        actionsTd.append(deleteA);
-
-        countryTd.text(country);
-        capitalTd.text(capital);
-
-        tr.append(countryTd);
-        tr.append(capitalTd);
-        tr.append(actionsTd);
-
-        table.append(tr);
+        $(`<tr>`)
+            .append($(`<td>${country}</td>`))
+            .append($(`<td>${capital}</td>`))
+            .append($(`<td>`)
+                .append($(`<a href="#">[Up]</a>`).click(moveUp))
+                .append($(`<a href="#">[Down]</a>`).click(moveDown))
+                .append($(`<a href="#">[Delete]</a>`).click(deleteItem)))
+            .appendTo($(table));
     }
-    function clearLastLinkFromLastItem(){
+    function normalizeLinks(){
         "use strict";
-        let lastAnchor = table.find("tr").last().find("a").last().prev();
-        if(lastAnchor!=undefined && lastAnchor.text() == '[Down]'){
-            $(lastAnchor).remove();
-        }
-
+        $('tr a').show();
+        $('tr:last-child a:contains(Down)').hide();
+        $('tr:eq(2) a:contains(Up)').hide();
 
     }
     function seed() {
@@ -75,7 +70,7 @@ function initializeTable() {
             addCountryToTable(country, capital);
 
         }
-        clearLastLinkFromLastItem();
+        normalizeLinks();
     }
     }
 
