@@ -1,7 +1,8 @@
-function loadCanvas(player){
+function loadCanvas(playerPassed){
     let canvas = document.getElementById("canvas");
     let ctx = canvas.getContext("2d");
-
+    let player = playerPassed;
+    console.log(player);
     let background = new Image();
     let target = new Image();
     let sight = new Image();
@@ -64,6 +65,7 @@ function loadCanvas(player){
             }
 
             player.bullets--;
+            console.log(player);
         }
     });
 

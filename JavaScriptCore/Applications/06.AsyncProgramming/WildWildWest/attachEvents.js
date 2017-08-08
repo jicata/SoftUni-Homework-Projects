@@ -2,9 +2,11 @@ let kinveyUrl = "https://baas.kinvey.com/appdata/kid_H1ibWhxwW/players";
 let appId = "kid_H1ibWhxwW";
 let base64auth = btoa(`jica:123`);
 let authHeader = {"Authorization": "Basic " + base64auth};
-
+let currentPlayerId = 0;
+let player = undefined;
 function attachEvents() {
     loadAllPlayers();
+    $(".play").click(play);
 
 }
 
@@ -24,22 +26,6 @@ function loadAllPlayers() {
             let playerName = player.name;
             let playerMoney = player.money;
             let playerBullets = player.bullets;
-        // <div class="player" data-id="<id-goes-here>">
-        //    <div class="row">
-        //         <label>Name:</label>
-        //     <label class="name">Pesho</label>
-        //         </div>
-        //         <div class="row">
-        //         <label>Money:</label>
-        //     <label class="money">500</label>
-        //         </div>
-        //         <div class="row">
-        //         <label>Bullets:</label>
-        //     <label class="bullets">6</label>
-        //      </div>
-        //         <button class="play">Play</button>
-        //         <button class="delete">Delete</button>
-        //  </div>
 
             $(`<div class="player" data-id="${playerId}">`)
                 .append($(`<div class="row">`)
@@ -59,6 +45,30 @@ function loadAllPlayers() {
 }
 
 function play() {
+    $("#save").show();
+    $("#reload").show();
+    $("#canvas").show();
+
+    let playerId = $(this).parent().attr("data-id");
+    currentPlayerId = playerId;
+    let url = kinveyUrl + `/${playerId}`;
+    let playerRequest = {
+        url : url,
+        headers: authHeader
+    };
+
+    $.ajax(playerRequest)
+        .then(startGame)
+        .catch(error);
+
+    function startGame(response) {
+        player = response;
+       loadCanvas(response);
+    }
+}
+
+function save(){
+    "use strict";
 
 }
 function deletePlayer() {
