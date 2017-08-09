@@ -3,12 +3,6 @@ function startApp() {
 
 
     $("#menu").find("a").show();
-    $("#viewHome").show();
-
-
-    // Attach listeners
-    $('header').find('a[data-target]').click(navigateTo);
-    $("#buttonLoginUser").click(login);
 
     function navigateTo(e) {
         $('section').hide();
@@ -16,6 +10,76 @@ function startApp() {
         $("#" + target).show();
     }
 
+    function showView(view){
+        $("section").hide();
+        switch (view){
+            case 'home':
+                $('#viewHome').show();
+                break;
+            case 'login':
+                $('#viewLogin').show();
+                break;
+            case 'register':
+                $('#viewRegister').show();
+                break;
+            case 'ads':
+                $('#viewAds').show();
+                loadAds();
+                break;
+            case 'create':
+                $('#viewCreateAd').show();
+                break;
+            case 'details':
+                $('#viewDetailsAd').show();
+                break;
+            case 'edit':
+                $('#viewEditAd').show();
+                break;
+
+        }
+
+    }
+
+    // Attach listeners
+    $("#linkHome").click(()=>showView('home'));
+    $("#linkLogin").click(()=>showView('login'));
+    $("#linkRegister").click(()=>showView('register'));
+    $("#linkCreateAd").click(()=>showView('create'));
+    $("#linkListAds").click(()=>showView('ads'));
+    $("#linkLogout").click(logout);
+    $("#buttonLoginUser").click(login);
+    $("#buttonRegisterUser").click(register);
+
+
+    // Notifications
+
+    // Bind the info / error boxes
+    $(".notification").click(function() {
+        $(this).fadeOut();
+    });
+
+    // Attach AJAX "loading" event listener
+    $(document).on({
+        ajaxStart: function() { $("#loadingBox").fadeIn() },
+        ajaxStop: function() { $("#loadingBox").fadeOut('slow') }
+    });
+    
+    function showInfo(message) {
+        $('#infoBox').text(message);
+        $('#infoBox').show();
+        setTimeout(function() {
+            $('#infoBox').fadeOut();
+        }, 3000);
+    }
+
+    function showError(errorMsg) {
+        $('#errorBox').text("Error: " + errorMsg);
+        $('#errorBox').show();
+    }
+    
+    function handleError(reason) {
+        showError(reason.responseJSON.description);
+    }
 
     let requester = (() => {
         const appId = 'kid_SJhx5dvvZ';
@@ -26,7 +90,7 @@ function startApp() {
             if (type === 'basic') {
                 return 'Basic ' + btoa(appId + ":" + appSecret);
             }
-            return 'Kinvey' + localStorage.getItem('authtoken');
+            return 'Kinvey ' + localStorage.getItem('authtoken');
         }
 
         function createRequest(method, module, url, auth) {
@@ -46,13 +110,13 @@ function startApp() {
 
         function post(module, url, data, auth) {
             let req = createRequest('POST', module, url, auth);
-            req.data = JSON.stringify(data);
+            req.data = data;
             return $.ajax(req);
         }
 
         function update(module, url, data, auth) {
             let req = createRequest('PUT', module, url, auth);
-            req.data = data;
+            req.data = JSON.stringify(data);
             return $.ajax(req);
         }
 
@@ -69,10 +133,42 @@ function startApp() {
         }
     })();
 
+    if (localStorage.getItem("authtoken")
+        && localStorage.getItem("username")) {
+        userLoggedIn(localStorage.getItem("username"));
+    }
+    else {
+        userLoggedOut()
+    }
+    $("#viewHome").show();
+
     function saveSession(data) {
         localStorage.setItem('username', data.username);
         localStorage.setItem('id', data._id);
         localStorage.setItem('authtoken', data._kmd.authtoken);
+        userLoggedIn(data.username);
+    }
+
+    function userLoggedIn(username) {
+        let greetingsSpan = $("#loggedInUser");
+        greetingsSpan.text(`Welcome ${username}!`);
+        greetingsSpan.show();
+        $("#linkLogin").hide();
+        $("#linkRegister").hide();
+        $("#linkLogout").show();
+        $("#linkListAds").show();
+        $("#linkCreateAd").show();
+    }
+
+    function userLoggedOut() {
+        let greetingsSpan = $("#loggedInUser");
+        greetingsSpan.text(``);
+        greetingsSpan.hide();
+        $("#linkLogin").show();
+        $("#linkRegister").show();
+        $("#linkLogout").hide();
+        $("#linkListAds").hide();
+        $("#linkCreateAd").hide();
     }
 
     async function login() {
@@ -85,8 +181,56 @@ function startApp() {
             password
         };
 
-        saveSession(await requester.post("user", 'login', data, 'basic'));
-        $("section").hide();
-        $("#viewAds").show();
+        try {
+            saveSession(await
+                requester.post("user", 'login', data, 'basic')
+            )
+            ;
+            $("section").hide();
+            $("#viewAds").show();
+        }
+        catch (error) {
+            handleError(error);
+        }
+
+    }
+
+    async function register() {
+        let registerForm = $("#formRegister");
+        let username = registerForm.find('input[name="username"]').val();
+        let password = registerForm.find('input[name="passwd"]').val();
+
+        let newUser = {
+            username,
+            password
+        };
+
+        try {
+            saveSession(await requester.post("user", '', newUser, 'basic'));
+            $("section").hide();
+            $("#viewAds").show();
+        }
+        catch (error) {
+            handleError(error);
+        }
+    }
+
+    async function logout() {
+        try {
+            let data = await requester.post("user", '_logout', {authtoken: localStorage['authtoken']});
+            localStorage.clear();
+            userLoggedOut();
+            $("section").hide();
+            $("#viewHome").show();
+
+        }
+        catch (error) {
+           handleError(error);
+        }
+    }
+    
+    async function loadAds() {
+        let adverts = await requester.get('appdata','adverts');
+        console.log(adverts);
     }
 }
