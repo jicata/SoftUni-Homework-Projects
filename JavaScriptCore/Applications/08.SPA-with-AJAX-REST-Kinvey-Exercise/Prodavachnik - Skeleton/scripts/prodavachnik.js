@@ -2,7 +2,7 @@ function startApp() {
     "use strict";
 
 
-    $("#menu").find("a").show();
+    $("#menu").find("a").rshow();
 
     function navigateTo(e) {
         $('section').hide();
@@ -10,35 +10,7 @@ function startApp() {
         $("#" + target).show();
     }
 
-    function showView(view){
-        $("section").hide();
-        switch (view){
-            case 'home':
-                $('#viewHome').show();
-                break;
-            case 'login':
-                $('#viewLogin').show();
-                break;
-            case 'register':
-                $('#viewRegister').show();
-                break;
-            case 'ads':
-                $('#viewAds').show();
-                loadAds();
-                break;
-            case 'create':
-                $('#viewCreateAd').show();
-                break;
-            case 'details':
-                $('#viewDetailsAd').show();
-                break;
-            case 'edit':
-                $('#viewEditAd').show();
-                break;
 
-        }
-
-    }
 
     // Attach listeners
     $("#linkHome").click(()=>showView('home'));
@@ -81,57 +53,7 @@ function startApp() {
         showError(reason.responseJSON.description);
     }
 
-    let requester = (() => {
-        const appId = 'kid_SJhx5dvvZ';
-        const appSecret = 'b24ec0d1cfac4d7186d5b7cc0671e046';
-        const baseKinveyUrl = 'https://baas.kinvey.com/';
 
-        function createAuth(type) {
-            if (type === 'basic') {
-                return 'Basic ' + btoa(appId + ":" + appSecret);
-            }
-            return 'Kinvey ' + localStorage.getItem('authtoken');
-        }
-
-        function createRequest(method, module, url, auth) {
-            return {
-                url: baseKinveyUrl + module + "/" + appId + "/" + url,
-                method,
-                headers: {
-                    'Authorization': createAuth(auth),
-                    //'Content-Type':
-                }
-            };
-        }
-
-        function get(module, url, auth) {
-            return $.ajax(createRequest('GET', module, url, auth));
-        }
-
-        function post(module, url, data, auth) {
-            let req = createRequest('POST', module, url, auth);
-            req.data = data;
-            return $.ajax(req);
-        }
-
-        function update(module, url, data, auth) {
-            let req = createRequest('PUT', module, url, auth);
-            req.data = JSON.stringify(data);
-            return $.ajax(req);
-        }
-
-        function remove(module, url, auth) {
-            let req = createRequest('DELETE', module, url, auth);
-            return $.ajax(req);
-        }
-
-        return {
-            get,
-            post,
-            update,
-            remove
-        }
-    })();
 
     if (localStorage.getItem("authtoken")
         && localStorage.getItem("username")) {

@@ -1,0 +1,17 @@
+<section id="viewAds" class="viewAds">
+    <h1 class="titleForm">Advertisements</h1>
+    <div id="ads" class="ads">
+        <table>
+            <tr>
+                <th>Title</th>
+                <th>Publisher</th>
+                <th>Description</th>
+                <th>Price</th>
+                <th>Date Published</th>
+            </tr>
+            {{#each ads}}
+                {{> ad}}
+            {{/each}}
+        </table>
+    </div>
+</section>
