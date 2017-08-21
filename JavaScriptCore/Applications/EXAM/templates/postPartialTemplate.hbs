@@ -1,0 +1,30 @@
+<article class="post">
+    <div class="col rank">
+        <span>{{{rank}}}</span>
+    </div>
+    <div class="col thumbnail">
+        <a href="{{{url}}}">
+            <img src="{{{imgUrl}}}">
+        </a>
+    </div>
+    <div class="post-content">
+        <div class="title">
+            <a href="{{{url}}}">
+                {{{title}}}
+            </a>
+        </div>
+        <div class="details">
+            <div class="info">
+                submitted {{{createdBefore}}} by {{{author}}}
+            </div>
+            <div class="controls">
+                <ul>
+                    <li class="action"><a href="#" data-id="{{id}}">Details</a></li>
+                    <li class="action"><a href="#" class="editPost" data-id="{{id}}">Edit</a></li>
+                    <li class="action"><a href="#" class="deletePost" data-id="{{id}}">Delete</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</article>

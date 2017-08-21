@@ -1,0 +1,18 @@
+<section id="viewPost{{viewType}}">
+    <div  class="submitArea">
+        <h1>{{heading}}</h1>
+        <p>Please, fill out the form. A thumbnail image/description is not required.</p>
+        <form id="{{formName}}PostForm" class="submitForm">
+            <label>Link URL:</label>
+            <input name="url" type="text">
+            <label>Link Title:</label>
+            <input name="title" type="text">
+            <label>Link Thumbnail Image (optional):</label>
+            <input name="image" type="text">
+            <label>{{descOrOpt}} (optional):</label>
+            <textarea name="description"></textarea>
+            <input type="submit" value="{{inputValue}}">
+        </form>
+    </div>
+</section>
+

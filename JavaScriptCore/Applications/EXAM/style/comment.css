@@ -1,0 +1,12 @@
+.comment {
+    overflow: auto;
+    background: #ddf9c0;
+    margin: 15px;
+    position: relative;
+}
+
+.comment-content {
+    display: block;
+    vertical-align: top;
+    padding: 10px;
+}

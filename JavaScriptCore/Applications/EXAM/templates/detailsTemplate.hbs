@@ -1,0 +1,34 @@
+<section id="viewPostDetails">
+
+    <!-- POST DETAILS DESCRIPTION & IMAGE & TITLE-->
+    <article id="postDetails" class="post">
+        <div class="col thumbnail">
+            <img src="{{imageUrl}}">
+        </div>
+        <div class="post-content">
+            <div class="title">
+                <strong>{{title}}</strong>
+            </div>
+            <div class="details">
+                {{#if description}}
+                    {{description}}
+                {{else}}
+                    <p>No description in its place</p>
+                {{/if}}
+            </div>
+        </div>
+    </article>
+    <div class="submitArea">
+        <h1>Post Comment</h1>
+        <form id="createCommentForm" class="submitForm">
+            <label>Content:</label>
+            <input id="cmtContent" name="content" type="text">
+            <input type="submit" value="Post Comment">
+        </form>
+    </div>
+    <div id="allComments" class="comments">
+
+    </div>
+</section>
+
+</section>
