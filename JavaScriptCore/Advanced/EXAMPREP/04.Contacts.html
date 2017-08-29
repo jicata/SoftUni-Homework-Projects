@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Contacts Builder</title>
+    <style>
+        article {
+            background: #EEE;
+            padding: 1px;
+            width: 250px;
+            margin: 1px;
+        }
+
+        .title {
+            background: #DDD;
+            padding: 5px;
+            font-weight: bold;
+        }
+
+        .title button {
+            float: right
+        }
+
+        .info {
+            margin: 5px;
+        }
+
+        .info span {
+            display: block;
+        }
+
+        .online {
+            background: #9E9;
+        }
+    </style>
+    © Software University Foundation (softuni.org). This work is licensed under the CC-BY-NC-SA license.
+    Follow us: Page 2 of 2
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="contacts.js"></script>
+</head>
+<body>
+<div id="main"></div>
+<script>
+    let contacts = [
+        new Contact("Ivan", "Ivanov", "0888 123 456", "i.ivanov@gmail.com"),
+        new Contact("Maria", "Petrova", "0899 987 654", "mar4eto@abv.bg"),
+        new Contact("Jordan", "Kirov", "0988 456 789", "jordk@gmail.com")
+    ];
+    contacts.forEach(c => c.render('main'));
+    // After 1 second, change the online status to true
+    setTimeout(() => contacts[1].online = true, 1000);
+    setTimeout(() => contacts[1].online = false, 2000);
+</script>
+</body>
+</html>
