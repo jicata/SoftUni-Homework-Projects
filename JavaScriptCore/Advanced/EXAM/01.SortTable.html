@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sort Table</title>
+    <style>
+        body {
+            padding: 30px;
+        }
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 5px 20px;
+        }
+        th {
+            background: #cccccc;
+        }
+        tr:nth-child(odd) {
+            background: #eeeeee;
+        }
+        tr:nth-child(even) {
+            background: #dddddd;
+        }
+        a {
+            color: black;
+            text-decoration: none;
+        }
+        a:hover {
+            color: white;
+        }
+        .active {
+            color: #99ff99;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+
+<h1>Sort Table</h1>
+<table id="products">
+    <thead>
+    <tr>
+        <th>Name <a href="javascript:sort(0, false)">&#x25B2;</a> <a href="javascript:sort(0, true)">&#x25BC;</a></th>
+        <th>Price <a href="javascript:sort(1, false)">&#x25B2;</a> <a href="javascript:sort(1, true)">&#x25BC;</a></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Potatoes</td>
+        <td>0.89</td>
+    </tr>
+    <tr>
+        <td>Tomatoes</td>
+        <td>2.30</td>
+    </tr>
+    <tr>
+        <td>Bananas</td>
+        <td>1.79</td>
+    </tr>
+    </tbody>
+</table>
+
+<script>
+    function sort(colIndex, descending) {
+        let tableRows = $("tbody > tr").toArray().map(x=>x);
+
+        if(colIndex == 1){
+            if(descending){
+                tableRows = tableRows.sort((a,b) => sortDescPrice(a,b))
+            }
+            else{
+                tableRows = tableRows.sort((a,b) => sortAscPrice(a,b))
+            }
+        }
+        else if(colIndex == 0){
+            if(descending){
+                tableRows = tableRows.sort((a,b) => sortDescName(a,b))
+            }
+            else{
+                tableRows = tableRows.sort((a,b) => sortAscName(a,b))
+            }
+        }
+
+        $("tbody").empty();
+        for(let row of tableRows){
+            $(row).appendTo($("tbody"));
+        }
+
+        function sortDescPrice(a, b) {
+            let priceA = Number(a.cells[1].innerHTML);
+            let priceB = Number(b.cells[1].innerHTML);
+            if(priceA > priceB){
+                return -1;
+            }
+            if(priceA < priceB){
+                return 1;
+            }
+            return 0;
+        }
+
+        function sortAscPrice(a, b) {
+            let priceA = Number(a.cells[1].innerHTML);
+            let priceB = Number(b.cells[1].innerHTML);
+            if(priceA > priceB){
+                return 1;
+            }
+            if(priceA < priceB){
+                return -1;
+            }
+            return 0;
+        }
+
+        function sortDescName(a, b) {
+            let nameA = a.cells[0].innerHTML;
+            let nameB = b.cells[0].innerHTML;
+            return nameB.localeCompare(nameA);
+        }
+
+        function sortAscName(a, b) {
+            let nameA = a.cells[0].innerHTML;
+            let nameB = b.cells[0].innerHTML;
+            return nameA.localeCompare(nameB);
+        }
+    }
+</script>
+
+</body>
+</html>
