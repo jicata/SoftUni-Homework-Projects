@@ -1,0 +1,16 @@
+
+    <h1>Add New Movie</h1>
+    <div class="container">
+        <form action="/addGenre" method="POST" enctype=multipart/form-data>
+            <label for="movieTitle">Title</label>
+            <input type="text" id="movieTitle" name="genreName" placeholder="The title of the movie">
+
+            <input type="submit" value="Submit">
+
+        </form>
+    </div>
+{{#if status}}
+<div id="successBox">
+    <h2 id="successMsg">Genre Added</h2>
+</div>
+{{/if}}
