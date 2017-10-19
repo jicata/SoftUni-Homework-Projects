@@ -1,0 +1,18 @@
+<div class="carContainer">
+    <img src="{{car.image}}" height="150px" width="150px">
+    <h3>Model Name: {{car.name}}</h3>
+    <h4 class="price">Price per day: {{car.price}}</h4>
+    <h5>Added on: {{car.addedOn}}</h5>
+</div>
+<div>
+    <form action="/rent" method="POST">
+        <input type="number" name="rentDays" placeholder="Rent for days">
+        <input type="hidden" name="totalPrice">
+        <input type="hidden" name="id" value="{{car.id}}">
+        <p id="finalSum">Total price: 0</p>
+        <input type="submit" value="Rent">
+    </form>
+    <a href="/edit/{{car.id}}"><button>Edit</button></a>
+</div>
+
+<script type="text/javascript" src="/scripts/priceCalc.js"></script>

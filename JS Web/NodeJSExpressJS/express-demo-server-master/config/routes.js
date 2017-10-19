@@ -1,0 +1,30 @@
+const controllers = require('../controllers');
+const restrictedPages = require('./auth');
+
+module.exports = app => {
+    app.get('/', controllers.home.index);
+    app.get('/about', restrictedPages.hasRole('Admin'), controllers.home.about);
+    app.get('/register', controllers.user.registerGet);
+    app.post('/register', controllers.user.registerPost);
+    app.post('/logout', controllers.user.logout);
+    app.get('/login', controllers.user.loginGet);
+    app.post('/login', controllers.user.loginPost);
+
+    // Car routes
+    app.get('/addCar', controllers.car.addCarGet);
+    app.post('/addCar', controllers.car.addCarPost);
+    app.get('/allCars', controllers.car.allCars);
+    app.get('/details/:id', controllers.car.details);
+    app.get('/edit/:id', controllers.car.edit);
+    app.post('/edit', controllers.car.editPost);
+
+    // Rent routes
+    app.post('/rent', controllers.rent.rentCar);
+    app.get('/rents', controllers.rent.rents);
+
+    app.all('*', (req, res) => {
+        res.status(404);
+        res.send('404 Not Found');
+        res.end();
+    });
+};

@@ -1,0 +1,16 @@
+<h3>Add a car</h3>
+<form action="/addCar" method="POST" encType="multipart/form-data">
+  Model:<br>
+  <input type="text" name="model" placeholder="Model"><br>
+  Price (per day):<br>
+  <input type="number" name="price" placeholder="Price"><br>
+  Image:<br>
+  <input type="file" name="image"><br><br>
+  <input type="submit" value="Submit">
+</form>
+{{#if status}}
+<h2>Car successfully added!</h2>
+{{/if}}
+{{#if error}}
+<h2>Failed miserably at adding a cahr</h2>
+{{/if}}

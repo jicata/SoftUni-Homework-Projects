@@ -1,0 +1,23 @@
+<form method="GET" action="allCars">
+<input type="text" name="name" placeholder="Search for a car">
+<input type="submit" value="Search">
+</form>
+</br>
+{{#each cars}}
+{{#unless this.rented}}
+<div class="carContainer">
+    <a href="details/{{this._id}}"><img src="{{this.image}}" height="100px" width="100px"></a>
+    <h3>Model Name: {{this.name}}</h3>
+    <h4>Price per day: {{this.price}}</h4>
+    <h5>Added on: {{this.addedOn}}</h5>
+</div>
+{{/unless}}
+{{else}}
+<h2>Dude where's my cars</h2>
+{{/each}}
+{{#if pages.prevPage}}
+<a href="allCars?page={{pages.prevPage}}">Prev</a>
+{{/if}}
+{{#if pages.nextPage}}
+<a href="allCars?page={{pages.nextPage}}">Next</a>
+{{/if}}
