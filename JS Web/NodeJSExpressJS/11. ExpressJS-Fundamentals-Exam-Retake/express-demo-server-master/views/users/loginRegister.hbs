@@ -1,0 +1,18 @@
+<div class="login-page">
+    <div class="form">
+        <form action="/register" method="POST" class="register-form">
+            <input type="text" name="username" placeholder="name" />
+            <input type="password" name="password" placeholder="password" />
+            <input type="text" name="firstName" placeholder="first name" />
+            <input type="text" name="lastName" placeholder="lirst name" />
+            <button>create</button>
+            <p class="message">Already registered? <a href="#">Sign In</a></p>
+        </form>
+        <form action="/login" method="POST" class="login-form">
+            <input type="text" name="username" placeholder="username" />
+            <input type="password" name="password" placeholder="password" />
+            <button type="submit">Login</button>
+            <p class="message">Not registered? <a href="/register">Create an account</a></p>
+        </form>
+    </div>
+</div>

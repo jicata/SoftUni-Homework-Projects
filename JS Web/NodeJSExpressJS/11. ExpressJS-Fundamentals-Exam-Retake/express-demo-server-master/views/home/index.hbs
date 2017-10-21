@@ -1,0 +1,12 @@
+<h1>List</h1>
+
+{{#each hotels}}
+<a href="/details/{{this._id}}">
+    <fieldset>
+    <legend>{{this.title}}</legend>
+    <p>{{this.location}}</p>
+    <img class="hotelImg" src="{{this.imageUrl}}" alt="hotel image">
+    <p>{{this.description}}</p>
+</fieldset>
+</a>
+{{/each}}

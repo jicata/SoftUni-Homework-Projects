@@ -1,0 +1,15 @@
+    <h1>Home Page</h1>
+
+{{#each hotels}}
+<a href="/details/{{this._id}}">
+    <fieldset>
+    <legend>{{this.title}}</legend>
+    <p>{{this.location}}</p>
+    <img class="hotelImg" src="{{this.imageUrl}}" alt="hotel image">
+    <p>{{this.description}}</p>
+</fieldset>
+</a>
+{{/each}}
+
+<a href="/list?page={{pages.prevPage}}"><button>Prev</button></a>
+<a href="/list?page={{pages.nextPage}}"><button>Next</button></a>

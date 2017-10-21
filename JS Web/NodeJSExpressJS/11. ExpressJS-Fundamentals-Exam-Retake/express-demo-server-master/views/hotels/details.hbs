@@ -1,0 +1,47 @@
+<h1>Home Page</h1>
+
+<fieldset>
+    <legend>{{selectedHotel.title}}</legend>
+    <p>{{selectedHotel.location}}</p>
+    <img class="hotelImg" src="{{selectedHotel.imageUrl}}" alt="hotel image">   
+    <p>{{selectedHotel.description}}</p>
+<div>
+        <a  href="like/{{selectedHotel._id}}"><img class="likeBtn" src="/img/like-button-png-2.png" alt="like"></a>
+        <span>{{selectedHotel.prop}}</span>
+</div>
+
+<div>
+<fieldset>
+<a href="/remove/{{selectedHotel._id}}"><button>Delete</button></a>
+<a href="/edit/{{selectedHotel._id}}"><button>Edit</button></a>
+</fieldset>
+</div>
+
+</fieldset>
+{{#if currentUser}}
+<div class="login-page">
+    <div class="form">
+        <form action="/addComment/{{selectedHotel._id}}" method="POST" class="create-form">
+            <input type="text" name='title' placeholder="Title" />
+            <textarea name="comment" id="" cols="35" rows="10" placeholder="comment"></textarea>
+            <br>
+            <button type="submit">create</button>
+        </form>
+    </div>
+</div>
+{{/if}}
+
+
+
+
+
+{{#each comments}}
+<fieldset>
+    <legend>
+        <p>{{this.author.username}}</p>
+    </legend>
+    <h3>{{this.title}}</h3>
+    <p>{{this.content}}</p>
+    <p>{{this.createdOn}}</p>
+</fieldset>
+{{/each}}
