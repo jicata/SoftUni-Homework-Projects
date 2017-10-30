@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Doner Place</title>
+    <link href="static/css/site.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <span class="logo">Doner  Place</span>
+            <span class="greeting">Welcome, Pesho! | <a href="#">[logout]</a></span>
+            <ul class="menu">
+				<li><a class="button" href="index.html">Home</a></li>
+                <li><a class="button" href="order-status.html">Order Status</a></li>
+                <li><a class="button" href="login.html">Login</a></li>
+                <li><a class="button" href="register.html">Register</a></li>
+            </ul>
+        </header>
+        <main>
+            <h1>Manage orders</h1>
+            <div class="orders">
+				<form method="post">
+					<div class="order">
+						<span class="order-time">22.Oct 2017 10:35</span>
+						<span class="order-name">Chicken doner, 21 cm</span>
+						<span class="order-status">
+							<select name="59e8ea04906b6628acbf9d29" selected="pending">
+								<option selected="selected" value="pending">Pending</option>
+								<option value="inProgress">In Progress</option>
+								<option value="inTransit" selected>In Transit</option>
+								<option value="delivered">Delivered</option>
+							</select>
+						</span>
+						<a href="order-details.html" class="button order-button">Details</a>
+					</div>
+					<div class="order">
+						<span class="order-time">22.Oct 2017 10:12</span>
+						<span class="order-name">Lamb doner, 17 cm</span>
+						<span class="order-status">
+							<select name="59e8ea04906b6628acbf9d28" selected="pending">
+								<option selected="selected" value="pending">Pending</option>
+								<option value="inProgress">In Progress</option>
+								<option value="inTransit" selected>In Transit</option>
+								<option value="delivered">Delivered</option>
+							</select>
+						</span>
+						<a href="order-details.html" class="button order-button">Details</a>
+						</div>
+					<div class="order">
+						<span class="order-time">21.Oct 2017 16:15</span>
+						<span class="order-name">Chicken doner, 24 cm</span>
+						<span class="order-status">
+							<select name="59e8ea04906b6628acbf9d27" selected="pending">
+								<option selected="selected" value="pending">Pending</option>
+								<option value="inProgress">In Progress</option>
+								<option value="inTransit" selected>In Transit</option>
+								<option value="delivered">Delivered</option>
+							</select>
+						</span>
+						<a href="order-details.html" class="button order-button">Details</a>
+					</div>
+					<div class="order">
+						<span class="order-time">20.Oct 2017 10:35</span>
+						<span class="order-name">Beef doner, 21 cm</span>
+						<span class="order-status">
+							<select name="59e8ea04906b6628acbf9d26" selected="pending">
+								<option selected="selected" value="pending">Pending</option>
+								<option value="inProgress">In Progress</option>
+								<option value="inTransit" selected>In Transit</option>
+								<option value="delivered">Delivered</option>
+							</select>
+						</span>
+						<a href="order-details.html" class="button order-button">Details</a>
+					</div>
+					<input type="submit" value="Save Changes" class="button" style="border:0">
+				</form>
+            </div>
+        </main>
+        <footer>Doner Place &copy; 2017</footer>
+    </div>
+</body>
+</html>

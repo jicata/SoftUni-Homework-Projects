@@ -11,6 +11,9 @@ module.exports = {
         const hashedPass =
             encryption.generateHashedPassword(salt, reqUser.password);
         try {
+            if(reqUser.password === ''){
+                throw new Error('Pasword cannot be empty')
+            }
             const user = await User.create({
                 username: reqUser.username,
                 hashedPass,

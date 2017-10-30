@@ -1,0 +1,32 @@
+<h1>Welcome to Doner Place!</h1>
+<p>We offer a wide variety of tasty doner kebab, cutosmized to your liking. Choose from different sizes of chicken, beef and
+    lamb and any topping you want. Place your order now!</p>
+
+<div class="products">
+    <h2>Chicken Doner</h2>
+    {{#each products.chicken}}
+    <div class="product-card">
+        <img src="{{this.imageUrl}}" height="100px" width="100px">
+         <a href="/createOrder/{{this._id}}" class="button product-title">Order</a>
+    </div>
+    {{/each}}
+    <br>
+    <h2>Beef Doner</h2>
+    {{#each products.beef}}
+    <div class="product-card">
+        <img src="{{this.imageUrl}}" height="100px" width="100px">
+        <a href="/createOrder/{{this._id}}" class="button product-title">Order</a>
+    </div>
+    {{/each}}
+    <br>
+    <h2>Lamb Doner</h2>
+    {{#each products.lamb}}
+    <div class="product-card">
+        <img src="{{this.imageUrl}}" height="100px" width="100px">
+         <a href="/createOrder/{{this._id}}" class="button product-title">Order</a>
+    </div>
+    {{/each}} 
+    {{#unless products}}
+    <h1>Nqma жлядък дьомнер ан устата ми :((((((((((</h1>
+    {{/unless}}
+</div>

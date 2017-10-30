@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 const encryption = require('../util/encryption');
+const ObjectId = mongoose.Schema.ObjectId;
 
 const userSchema = new mongoose.Schema({
     username: { type: mongoose.Schema.Types.String, required: true, unique: true },
@@ -7,7 +8,9 @@ const userSchema = new mongoose.Schema({
     firstName: { type: mongoose.Schema.Types.String },
     lastName: { type: mongoose.Schema.Types.String },
     salt: { type: mongoose.Schema.Types.String, required: true },
-    roles: [{ type: mongoose.Schema.Types.String }]
+    roles: [{ type: mongoose.Schema.Types.String }],
+    isAdmin: { type: mongoose.Schema.Types.Boolean, default: false },
+    orders: [{ type: ObjectId, ref: 'Order' }]
 });
 
 userSchema.method({
@@ -28,7 +31,8 @@ User.seedAdminUser = async () => {
             username: 'Admin',
             salt,
             hashedPass,
-            roles: ['Admin']
+            roles: ['Admin'],
+            isAdmin: true
         });
     } catch (e) {
         console.log(e);
