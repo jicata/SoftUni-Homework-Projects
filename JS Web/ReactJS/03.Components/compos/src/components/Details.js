@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ImgTag from './ImgTag';
 import Text from './Text'
+import Image from './Image';
 
 class Details extends Component {
     constructor() {
@@ -12,28 +13,35 @@ class Details extends Component {
         }
     }
 
-
-    clickOnImg(){
-        
+    childImgWasClicked(imgId) {
+        fetch("http://localhost:9999/character/"+imgId)
+        .then(rawCharacter => {
+            return rawCharacter.json();
+        })
+        .then(character => {
+            this.setState({ imgUrl: character.url, content: character.bio });
+        })
     }
 
-
-    componentDidMount(){
-        fetch("http://localhost:9999/character/1")
+    componentDidMount() {
+        fetch("http://localhost:9999/character/0")
             .then(rawCharacter => {
                 return rawCharacter.json();
             })
             .then(character => {
-                this.setState({imgUrl:character.url, content:character.bio});
-            }) 
+                this.setState({ imgUrl: character.url, content: character.bio });
+            })
     }
 
     render() {
         return (
-            <fieldset>
+            <div>
+            <Image parentCallback = {(imgId) => this.childImgWasClicked(imgId)} />
+            <fieldset >
                 <ImgTag imgUrl={this.state.imgUrl} />
                 <Text content={this.state.content} />
             </fieldset>
+            </div>
         )
     }
 }

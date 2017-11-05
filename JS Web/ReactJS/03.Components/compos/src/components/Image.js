@@ -10,6 +10,10 @@ class Image extends Component {
         }
     }
 
+    onImgClicked(imgClicked){
+        this.props.parentCallback(imgClicked);
+    }
+
     componentDidMount() {
         fetch('http://localhost:9999/roster/')
             .then(rawRoster => {
@@ -25,7 +29,7 @@ class Image extends Component {
         return (
             <div>
                 {this.state.roster.map((r, index) => {
-                    return  <ImgTag key={index} imgUrl={r.url} height="200" width="178"/> 
+                    return  <ImgTag key={index} dataId={index} imgUrl={r.url} height="200" width="178" parentCallback={(imgClicked) => this.onImgClicked(imgClicked)}/> 
                 })}
             </div>
         )
