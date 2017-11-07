@@ -6,9 +6,12 @@ const pokemons = require('./../data/pokemons')
 
 
 router.post('/create',(req,res,next)=>{
-
     pokemons.addPokem((req.body))
-
+    return res.status(201).json({
+        success: true,
+        message: "Succesfully added pokemon",
+        pokemon: req.body
+    })
 })
 
 router.get('/pokedex',(req,res,next)=>{

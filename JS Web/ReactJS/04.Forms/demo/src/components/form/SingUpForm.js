@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 import validationFunc from './../../utils/formValidator'
 import Input from './formFields/Input'
 
-class SingUpForm extends Component {
+class   SingUpForm extends Component {
   constructor() {
     super()
 
@@ -41,7 +41,9 @@ class SingUpForm extends Component {
       return res.json();
     })
     .then(data => {
-      console.log(data);
+      if(data.token){
+        this.props.onSignIn(data.token);
+      }
     })
   }
 
