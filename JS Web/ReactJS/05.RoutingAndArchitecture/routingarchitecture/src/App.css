@@ -1,0 +1,124 @@
+/*SITE*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.div {
+  border: 1px solid black;
+}
+
+body {
+  background: #dddddd;
+}
+
+#container {
+  margin: 10px;
+}
+
+.content {
+  background: #ffffff;
+  overflow: auto;
+}
+
+footer {
+  text-align: center;
+  margin: 10px;
+}
+
+.welcome {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.welcome>* {
+  vertical-align: top;
+  overflow: auto;
+}
+
+.about {
+  background: #ddf9c0;
+  padding: 20px;
+  margin: 10px;
+  height: 340px;
+}
+
+.signup {
+  float: right;
+  width: 200px;
+}
+
+#loginForm {
+  display: block;
+  background: #ddf9c0;
+  margin: 10px;
+  padding: 10px;
+  height: 150px;
+  position: relative;
+}
+
+#loginForm>* {
+  width: 150px;
+  box-sizing: border-box;
+}
+
+#registerForm {
+  display: block;
+  background: #ddf9c0;
+  margin: 10px;
+  padding: 10px;
+  height: 180px;
+  position: relative;
+}
+
+#registerForm>* {
+  width: 150px;
+  box-sizing: border-box;
+}
+
+#btnLogin, #btnRegister {
+  display: block;
+  position: absolute;
+  bottom: 10px;
+}
+
+/*HEADER*/
+header {
+    position: relative;
+}
+
+.logo, .header {
+    font-size: 3em;
+}
+
+#profile {
+    display: inline-block;
+    background: #ffffff;
+    text-align: right;
+    vertical-align: bottom;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#profile span {
+    padding: 5px 10px;
+}
+
+#profile a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+#profile a:hover {
+    color: #000000;
+}

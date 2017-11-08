@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SeenIt</title>
+    <link rel="stylesheet" href="style/site.css">
+    <link rel="stylesheet" href="style/post.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/menu.css">
+    <link rel="stylesheet" href="style/notifications.css">
+    <link rel="stylesheet" href="style/submit.css">
+    <link rel="stylesheet" href="style/comments.css">
+</head>
+<body>
+
+<div id="container">
+    <header>
+        <span class="logo">☃</span><span class="header">SeenIt</span>
+        <div id="profile"><span>pesho</span>|<a href="#/logout">logout</a></div>
+    </header>
+
+    <div class="content">
+        <div id="menu">
+            <div class="title">Navigation</div>
+            <a class="nav" href="#">Catalog</a>
+            <a class="nav" href="#">Submit Link</a>
+            <a class="nav" href="#">My Posts</a>
+        </div>
+
+        <section id="viewWelcome">
+            <div class="welcome">
+                <div class="signup">
+                    <form id="loginForm">
+                        <h2>Sign In</h2>
+                        <label>Username:</label>
+                        <input name="username" type="text">
+                        <label>Password:</label>
+                        <input name="password" type="password">
+                        <input id="btnLogin" value="Sign In" type="submit">
+                    </form>
+                    <form id="registerForm">
+                        <h2>Register</h2>
+                        <label>Username:</label>
+                        <input name="username" type="text">
+                        <label>Password:</label>
+                        <input name="password" type="password">
+                        <label>Repeat Password:</label>
+                        <input name="repeatPass" type="password">
+                        <input id="btnRegister" value="Sign Up" type="submit">
+                    </form>
+                </div>
+
+                <div class="about">
+                    <h1>Welcome to SeenIt</h1>
+                    <p>
+                        Share interesting links and discuss great content. It's what's happening now.
+                    </p>
+                    <p>Sign in or sign up in a second.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="viewCatalog">
+            <div class="posts">
+                <article class="post">
+                    <div class="col rank">
+                        <span>1</span>
+                    </div>
+                    <div class="col thumbnail">
+                        <a href="https://softuni.bg/">
+                            <img src="https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAAMDAAAAJGY2Mjg3Y2I4LWU1ZTktNDJlNC1iM2M4LTc2MDlhNmVhNThhNQ.png">
+                        </a>
+                    </div>
+                    <div class="post-content">
+                        <div class="title">
+                            <a href="https://softuni.bg/">
+                                SoftUni
+                            </a>
+                        </div>
+                        <div class="details">
+                            <div class="info">
+                                submitted 1 day ago by Kiril
+                            </div>
+                            <div class="controls">
+                                <ul>
+                                    <li class="action"><a class="commentsLink" href="#">comments</a></li>
+                                    <li class="action"><a class="editLink" href="#">edit</a></li>
+                                    <li class="action"><a class="deleteLink" href="#">delete</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </article>
+
+                <article class="post">
+                    <div class="col rank">
+                        <span>2</span>
+                    </div>
+                    <div class="col thumbnail">
+                        <a href="https://www.sli.do/">
+                            <img src="https://www.sli.do/assets/images/2-step.png">
+                        </a>
+                    </div>
+                    <div class="post-content">
+                        <div class="title">
+                            <a href="https://www.sli.do/">
+                                Sli.Do
+                            </a>
+                        </div>
+                        <div class="details">
+                            <div class="info">
+                                submitted 3 days ago by Viktor
+                            </div>
+                            <div class="controls">
+                                <ul>
+                                    <li class="action"><a class="commentsLink" href="#">comments</a></li>
+                                    <li class="action"><a class="editLink" href="#">edit</a></li>
+                                    <li class="action"><a class="deleteLink" href="#">delete</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </article>
+
+                <article class="post">
+                    <div class="col rank">
+                        <span>3</span>
+                    </div>
+                    <div class="col thumbnail">
+                        <a href="https://www.cnbc.com/2017/06/28/progress-buys-mobile-backend-start-up-kinvey-for-49-million.html">
+                            <img src="https://pbs.twimg.com/profile_images/464099715865276417/nXvsGPVO.png">
+                        </a>
+                    </div>
+                    <div class="post-content">
+                        <div class="title">
+                            <a href="https://www.cnbc.com/2017/06/28/progress-buys-mobile-backend-start-up-kinvey-for-49-million.html">
+                                Progress Software buys Kinvey
+                            </a>
+                        </div>
+                        <div class="details">
+                            <div class="info">
+                                submitted 4 hours ago by Nakov
+                            </div>
+                            <div class="controls">
+                                <ul>
+                                    <li class="action"><a class="commentsLink" href="#">comments</a></li>
+                                    <li class="action"><a class="editLink" href="#">edit</a></li>
+                                    <li class="action"><a class="deleteLink" href="#">delete</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </article>
+                <!-- TODO: more posts will come here -->
+            </div>
+        </section>
+
+        <section id="viewSubmit">
+            <div class="submitArea">
+                <h1>Submit Link</h1>
+                <p>Please, fill out the form. A thumbnail image is not required.</p>
+            </div>
+            <div class="submitArea formContainer">
+                <form id="submitForm" class="submitForm">
+                    <label>Link URL:</label>
+                    <input name="url" value="" type="text">
+                    <label>Link Title:</label>
+                    <input name="title" value="" type="text">
+                    <label>Link Thumbnail Image (optional):</label>
+                    <input name="image" value="" type="text">
+                    <label>Comment (optional):</label>
+                    <textarea name="comment"></textarea>
+                    <input id="btnSubmitPost" value="Submit" type="submit">
+                </form>
+            </div>
+        </section>
+
+        <section id="viewMyPosts">
+            <div class="post post-content">
+                <h1>Your Posts</h1>
+            </div>
+            <div class="posts">
+                <article class="post">
+                    <div class="col rank">
+                        <span>1</span>
+                    </div>
+                    <div class="col thumbnail">
+                        <a href="http://sammyjs.org/docs/api/0.7.4/all#Sammy.RenderContext-load">
+                            <img src="src/RuditoFreshStep.jpg">
+                        </a>
+                    </div>
+                    <div class="post-content">
+                        <div class="title">
+                            <a href="http://sammyjs.org/docs/api/0.7.4/all#Sammy.RenderContext-load">
+                                Sammy Docs
+                            </a>
+                        </div>
+                        <div class="details">
+                            <div class="info">
+                                submitted 5 days ago by pesho
+                            </div>
+                            <div class="controls">
+                                <ul>
+                                    <li class="action"><a class="commentsLink" href="#">comments</a></li>
+                                    <li class="action"><a class="editLink" href="#">edit</a></li>
+                                    <li class="action"><a class="deleteLink" href="#">delete</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </article>
+            </div>
+        </section>
+
+        <section id="viewEdit">
+            <div class="submitArea">
+                <h1>Edit Link</h1>
+                <p>Please, fill out the form. A thumbnail image/description is not required.</p>
+            </div>
+            <div class="submitArea formContainer">
+                <form id="editPostForm" class="submitForm">
+                    <label>Link URL:</label>
+                    <input name="url" type="text"
+                           value="https://www.cnbc.com/2017/06/28/progress-buys-mobile-backend-start-up-kinvey-for-49-million.html">
+                    <label>Link Title:</label>
+                    <input name="title" type="text" value="Progress Software buys Kinvey">
+                    <label>Link Thumbnail Image (optional):</label>
+                    <input name="image" type="text"
+                           value="https://pbs.twimg.com/profile_images/464099715865276417/nXvsGPVO.png">
+                    <label>Comment (optional):</label>
+                    <textarea name="description">No desc</textarea>
+                    <input id="btnEditPost" type="submit" value="Edit Post">
+                </form>
+            </div>
+        </section>
+
+        <section id="viewComments">
+            <div class="post">
+                <div class="col thumbnail">
+                    <a href="http://sammyjs.org/docs/api/0.7.4/all#Sammy.RenderContext-load">
+                        <img src="src/RuditoFreshStep.jpg">
+                    </a>
+                </div>
+                <div class="post-content">
+                    <div class="title">
+                        <a href="http://sammyjs.org/docs/api/0.7.4/all#Sammy.RenderContext-load">
+                            Sammy Docs
+                        </a>
+                    </div>
+                    <div class="details">
+                        <p>Very helpful and complete info. Even includes a detailed tutorial.</p>
+                        <div class="info">
+                            submitted 5 days ago by pesho
+                        </div>
+                        <div class="controls">
+                            <ul>
+                                <li class="action"><a class="editLink" href="#">edit</a></li>
+                                <li class="action"><a class="deleteLink" href="#">delete</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="post post-content">
+                <form id="commentForm">
+                    <label>Comment</label>
+                    <textarea name="content" type="text"></textarea>
+                    <input type="submit" value="Add Comment" id="btnPostComment">
+                </form>
+            </div>
+            <article class="post post-content">
+                <p>Thanks, just what I needed.</p>
+                <div class="info">
+                    submitted 5 days ago by Gosho | <a href="#" class="deleteLink">delete</a>
+                </div>
+            </article>
+            <article class="post post-content">
+                <p>Tutorial is kinda outdated, but it works.</p>
+                <div class="info">
+                    submitted 4 days ago by Kiril | <a href="#" class="deleteLink">delete</a>
+                </div>
+            </article>
+            <article class="post post-content">
+                <p>Beats React any day! So must easier and less boilerplate.</p>
+                <div class="info">
+                    submitted 3 days ago by Nakov | <a href="#" class="deleteLink">delete</a>
+                </div>
+            </article>
+        </section>
+
+    </div>
+
+
+    <footer>SeenIt SPA © 2017</footer>
+</div>
+
+<div id="notifications">
+    <div id="loadingBox" class="notification"><span>Loading …</span></div>
+    <div id="infoBox" class="notification"><span>Info</span></div>
+    <div id="errorBox" class="notification"><span>Error</span></div>
+</div>
+
+</body>
+</html>
