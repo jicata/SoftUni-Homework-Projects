@@ -12,32 +12,25 @@ export default class Catalog extends Component {
     }
 
     async componentDidMount() {
-        try {
-            PostService
-                .all()
-                .then(allPosts => {
-                    console.log(allPosts);
-                    this.setState({ posts: allPosts });
-                })
-        }
-        catch (err) {
-            console.log(err)
-        }
+        PostService.all()
+            .then(allPosts => {
+                this.setState({ posts: allPosts });
+                console.log(this.state.posts)
+            })
+
     }
 
     render() {
         return (
             <section id="viewCatalog">
-                {this.state.posts
-                    ? (this.state.posts.map((p, i) => {
-                        <Post key={i}
-                            url={p.url}
-                            imageUrl={p.imageUrl}
-                            title={p.title}
-                            author={p.author}
-                        />
-                    }))
-                    : (<h1>emi</h1>)
+                {this.state.posts.map((p, i) => {
+                    return (<Post key={i}
+                        url={p.url}
+                        imageUrl={p.imageUrl}
+                        title={p.title}
+                        author={p.author}
+                    />)
+                })
                 }
             </section >
         )
