@@ -63,7 +63,8 @@ footer {
   position: relative;
 }
 
-#loginForm>* {
+
+#loginForm * {
   width: 150px;
   box-sizing: border-box;
 }
@@ -77,7 +78,7 @@ footer {
   position: relative;
 }
 
-#registerForm>* {
+#registerForm * {
   width: 150px;
   box-sizing: border-box;
 }
@@ -121,4 +122,206 @@ header {
 
 #profile a:hover {
     color: #000000;
+}
+
+/* NOTIFICATIONS */
+#notifications {
+  float: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: center;
+  margin: 1em;
+}
+
+.notification {
+  font-size: 1.5em;
+  color: #ffffff;
+  text-align: right;
+}
+
+.notification>span {
+  display: inline-block;
+  padding:  0.5em 2em 0.5em 2em;
+  border-radius: 10px;
+}
+
+#loadingBox>span {
+  background: #7CB3E9;
+}
+#infoBox>span {
+  background: #393;
+}
+#errorBox>span {
+  background: #F50;
+}
+
+/* NAVIGATION */
+
+#menu {
+  display: inline-block;
+  float: right;
+  border: 1px solid black;
+  margin: 15px;
+  width: 200px;
+}
+
+#menu .title {
+  background: #ddf9c0;
+  font-size: 1.25em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.nav {
+  font-size: 1.25em;
+  display: block;
+  text-decoration: none;
+  padding: 5px 10px;
+  margin: 10px;
+}
+
+.nav:hover {
+  background: #ddf9c0;
+}
+
+.nav:visited {
+}
+
+.nav.active {
+  background: #ffffff;
+}
+
+/* POSTS */
+.post {
+  overflow: auto;
+  background: #ddf9c0;
+  margin: 15px;
+  position: relative;
+}
+
+.clear {
+  clear: both;
+}
+
+.col {
+  float: left;
+  display: inline-block;
+  vertical-align: top;
+  min-height: 100px;
+  padding: 10px;
+}
+
+.thumbnail img {
+  margin-top: auto;
+  margin-bottom: auto;
+  height: auto;
+  width: auto;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.rank {
+  width: 30px;
+  text-align: center;
+  color: #999999;
+  font-weight: bold;
+}
+
+.rank>span {
+  position: relative;
+  top: 1.5em;
+}
+
+.voting {
+  width: 50px;
+  text-align: center;
+  color: #999999;
+  font-weight: bold;
+}
+
+.thumbnail {
+  width: 100px;
+  text-align: center;
+}
+
+.post-content {
+  display: block;
+  vertical-align: top;
+  padding: 10px;
+}
+
+.title a {
+  font-size: 1.25em;
+  text-decoration: none;
+}
+
+.details {
+  margin-top: 10px;
+}
+
+.info {
+  color: #999999;
+}
+
+.controls {
+  overflow: auto;
+}
+
+.controls .action {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.controls .action a {
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.controls .action a:hover {
+  color: #000000;
+}
+
+.arrow {
+  font-size: 2em;
+  line-height: 0.75em;
+  cursor: pointer;
+}
+
+.arrow:hover {
+  color: #000000;
+}
+
+.arrow.clicked {
+  color: #ffffff;
+}
+
+
+/* SUBMIT */
+
+.submitArea {
+  background: #ddf9c0;
+  margin: 20px;
+  padding: 20px;
+  overflow: auto;
+}
+
+.submitForm>* {
+  display: block;
+  width: 400px;
+  box-sizing: border-box;
+}
+
+.submitForm>label {
+  margin-top: 10px;
+}
+
+.submitForm>textarea {
+  resize: none;
+  height: 9em;
+}
+
+.submitForm>input[type="submit"] {
+  margin-top: 10px;
+  width: 100px;
 }
