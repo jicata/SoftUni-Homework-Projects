@@ -18,7 +18,7 @@ let Post = (props) => {
                             {props.title}
                         </a>
                     </div>
-                    <div class="details">
+                    <div className="details">
                         <div class="info">
                             submitted 1 day ago by {props.author}
                         </div>
