@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Furniture System</title>
+    <link rel="stylesheet" href="style/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="style/site.css" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-primary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <a class="navbar-brand" href="#">FS</a>
+                        <a class="nav-link" href="/">Home</a>
+                        <a class="nav-link" href="create.html">Create Furniture</a>
+                        <a class="nav-link" href="profile.html">My Furniture</a>
+                        <a class="nav-link" href="#">Logout</a>
+                        <a class="nav-link" href="login.html">Login</a>
+                        <a class="nav-link active" href="#">Register</a>
+                        <span>72 items in catalog</span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row space-top">
+                <div class="col-md-12">
+                    <h1>Register</h1>
+                    <p>Please fill all fields.</p>
+                </div>
+            </div>
+            <form>
+                <div class="row space-top">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label class="form-control-label" for="new-username">Username</label>
+                            <input class="form-control" id="new-username" type="text">
+                        </div>
+                        <div class="form-group has-success">
+                            <label class="form-control-label" for="new-email">E-mail</label>
+                            <input class="form-control is-valid" id="new-email" type="text">
+                            <div class="form-control-feedback">This input value is valid</div>
+                        </div>
+                        <div class="form-group has-danger">
+                            <label class="form-control-label" for="new-password">Password</label>
+                            <input class="form-control is-invalid" id="new-password" type="password">
+                            <div class="form-control-feedback">This input value is invalid</div>
+                        </div>
+						<div class="form-group has-danger">
+                            <label class="form-control-label" for="new-repeat-password">Repeat password</label>
+                            <input class="form-control is-invalid" id="new-repeat-password" type="password">
+                            <div class="form-control-feedback">This input value is invalid</div>
+                        </div>
+						<input type="submit" class="btn btn-primary" value="Register" />
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="container modal-footer">
+            <p>Furniture System &copy; SoftUni 2017</p>
+        </div>
+    </footer>
+</body>
+
+</html>
