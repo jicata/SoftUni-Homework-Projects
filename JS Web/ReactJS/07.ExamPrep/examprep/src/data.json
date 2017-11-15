@@ -1,0 +1,66 @@
+{
+    "users": [
+        {
+            "name": "pesho",
+            "email": "pesho@mail.com",
+            "password": "pppp"
+        }
+    ],
+    "stats": {
+        "furniture": 72,
+        "users": 164
+    },
+    "furniture": [
+        {
+            "id": 1,
+            "make": "Ikea",
+            "model": "Sofa",
+            "year": 2005,
+            "description": "It is very good sofa",
+            "price": 790,
+            "image": "http://www.ikea.com/us/en/images/products/knislinge-sofa-white__0119786_PE276232_S4.JPG",
+            "createdOn": "2017-11-14T08:37:36.871Z",
+            "createdBy": "pesho@mail.com",
+            "likes": [
+                "pesho@mail.com"
+            ],
+            "reviews": [
+                {
+                    "rating": 4,
+                    "comment": "I liked the sofa, it is good for sitting",
+                    "user": "pesho",
+                    "createdOn": "2017-11-14T08:50:31.202Z"
+                }
+            ],
+            "material": "Soft but sturdy"
+        },
+        {
+            "id": 2,
+            "make": "Ikea",
+            "model": "Chair",
+            "year": 2007,
+            "description": "Comfy chair",
+            "price": 98,
+            "image": "https://sits-pod37.demandware.net/dw/image/v2/BBBV_PRD/on/demandware.static/-/Sites-master-catalog/default/dw53511772/images/530000/533705.jpg?sw=1200",
+            "createdOn": "2017-11-14T08:37:36.871Z",
+            "createdBy": "pesho@mail.com",
+            "likes": [],
+            "reviews": [],
+            "material": "Pleasant"
+        },
+        {
+            "id": 3,
+            "make": "Ikea",
+            "model": "Table",
+            "year": 2006,
+            "description": "Dining table",
+            "price": 249,
+            "image": "http://www.ikea.com/us/en/images/products/knislinge-sofa-white__0119786_PE276232_S4.JPG",
+            "createdOn": "2017-11-14T08:37:36.871Z",
+            "createdBy": "pesho@mail.com",
+            "likes": [],
+            "reviews": [],
+            "material": "Wood"
+        }
+    ]
+}
