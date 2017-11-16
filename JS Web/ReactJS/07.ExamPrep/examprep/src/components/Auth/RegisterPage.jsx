@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Input from './Input';
-import { registerAction } from '../../actions/authActions'
-import { Redirect } from 'react-router-dom'
+import { registerAction, loginAction, redirectAction } from '../../actions/authActions'
+import { withRouter } from 'react-router-dom'
 import { connect } from 'react-redux';
 
 class RegisterPage extends Component {
@@ -13,7 +13,6 @@ class RegisterPage extends Component {
             email: '',
             password: '',
             repeat: '',
-            redirect: false
         }
         this.onChangeHandler = this.onChangeHandler.bind(this);
         this.onSubmitHandler = this.onSubmitHandler.bind(this);
@@ -25,20 +24,22 @@ class RegisterPage extends Component {
 
     onSubmitHandler(e) {
         e.preventDefault();
-        const promise = this.props.register(
+        this.props.register(
             this.state.name,
             this.state.email,
             this.state.password);
-        console.log(promise);
-        promise.then(kur => console.log(kur));
     }
 
-    render() {
-        if (this.state.redirect) {
-            return (
-                <Redirect to="/" />
-            );
+    componentWillReceiveProps(newProps) {
+        if (newProps.registerSuccess) {
+            this.props.login(this.state.email, this.state.password)
+        } else if (newProps.loginSuccess) {
+            this.props.redirect();
+            this.props.history.push('/');
         }
+    }
+    
+    render() {
         return (
             <div>
                 <div className="row space-top">
@@ -83,14 +84,17 @@ class RegisterPage extends Component {
 
 function mapDispatchToProps(dispatch) {
     return {
-        register: (name, email, password) => dispatch(registerAction(name, email, password))
+        register: (name, email, password) => dispatch(registerAction(name, email, password)),
+        login: (email, password) => dispatch(loginAction(email, password)),
+        redirect: () => dispatch(redirectAction())
     }
 }
 
-function mapStateToProps(state){
+function mapStateToProps(state) {
     return {
-        registerSuccess: state.register.success;
+        registerSuccess: state.register.success,
+        loginSuccess: state.login.success,
     }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(RegisterPage)
+export default connect(mapStateToProps, mapDispatchToProps)(withRouter(RegisterPage));

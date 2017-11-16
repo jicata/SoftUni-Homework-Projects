@@ -1,6 +1,6 @@
 import {loginReducer, registerReducer} from './authReducer'
 
-export  default {
+export default {
     register: registerReducer,
     login: loginReducer
 }
