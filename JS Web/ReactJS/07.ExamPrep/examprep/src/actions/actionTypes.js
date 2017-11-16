@@ -1,0 +1,3 @@
+export const REGISTER_SUCCESS = "REGISTER_SUCCESS";
+export const LOGIN_SUCESS = "LOGIN_SUCCESS";
+export const REDIRECTED = "REDIRECTED";

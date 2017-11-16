@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import Input from './Input';
-import { register } from '../../api/remote'
+import { registerAction } from '../../actions/authActions'
+import { Redirect } from 'react-router-dom'
+import { connect } from 'react-redux';
 
-export default class RegisterPage extends Component {
+class RegisterPage extends Component {
     constructor(props) {
         super(props)
 
@@ -10,7 +12,8 @@ export default class RegisterPage extends Component {
             name: '',
             email: '',
             password: '',
-            repeat: ''
+            repeat: '',
+            redirect: false
         }
         this.onChangeHandler = this.onChangeHandler.bind(this);
         this.onSubmitHandler = this.onSubmitHandler.bind(this);
@@ -20,18 +23,22 @@ export default class RegisterPage extends Component {
         this.setState({ [e.target.name]: e.target.value });
     }
 
-    async onSubmitHandler(e) {
+    onSubmitHandler(e) {
         e.preventDefault();
-        console.log(this.state)
-        let response = await register(
+        const promise = this.props.register(
             this.state.name,
             this.state.email,
             this.state.password);
-        let json = await response.json();
-        console.log(json);
+        console.log(promise);
+        promise.then(kur => console.log(kur));
     }
 
     render() {
+        if (this.state.redirect) {
+            return (
+                <Redirect to="/" />
+            );
+        }
         return (
             <div>
                 <div className="row space-top">
@@ -69,7 +76,21 @@ export default class RegisterPage extends Component {
                         </div>
                     </div>
                 </form>
-            </div >
+            </div>
         )
     }
 }
+
+function mapDispatchToProps(dispatch) {
+    return {
+        register: (name, email, password) => dispatch(registerAction(name, email, password))
+    }
+}
+
+function mapStateToProps(state){
+    return {
+        registerSuccess: state.register.success;
+    }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(RegisterPage)
