@@ -1,8 +1,15 @@
 import React, { Component } from 'react';
 import FurtnitureList from '../Common/Furniture/FurnitureList'
 import Paginator from '../Common/Paginator';
+import { fetchPageAction, fetchSearchAction } from '../../actions/furnitureActions';
+import { connect } from 'react-redux';
 
-export default class HomePage extends Component {
+class HomePage extends Component {
+
+    componentWillMount(){
+        this.props.fetchPage(1);
+    }
+
     render() {
         const { furniture } = this.props;
         return (
@@ -24,3 +31,17 @@ export default class HomePage extends Component {
         )
     }
 }
+
+function mapDispatchToProps(dispatch){
+    return {
+        fetchPage: (page) => dispatch(fetchPageAction(page))
+    }
+}
+
+function mapStateToProps(state){
+    return {
+        furniture: state.furniture
+    }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(HomePage);

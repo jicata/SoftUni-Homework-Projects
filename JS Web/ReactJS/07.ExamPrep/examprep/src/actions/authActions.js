@@ -43,5 +43,11 @@ function loginAction(email, password) {
     }
 }
 
+function logoutAction() {
+    return async (dispatch) => {
+        sessionStorage.clear();
+    }
+}
 
-export { registerAction, loginAction, redirectAction}
+
+export { registerAction, loginAction, redirectAction, logoutAction }

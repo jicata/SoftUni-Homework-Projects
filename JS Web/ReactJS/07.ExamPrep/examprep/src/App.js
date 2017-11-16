@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route, withRouter } from 'react-router-dom';
+import { connect } from 'react-redux';
+import { logoutAction } from './actions/authActions';
+import { fetchStatsAction } from './actions/statsActions';
+
 
 import Header from './components/Common/Header';
 import Footer from './components/Common/Footer';
@@ -15,13 +19,50 @@ import NotFound from './components/Common/NotFound';
 import { furniture } from './data.json'
 
 class App extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      loggedIn: false
+    }
+    this.onLogout = this.onLogout.bind(this);
+  }
+
+  onLogout() {
+    this.props.logout();
+    this.props.history.push("/");
+    this.setState({ loggedIn: false })
+  }
+
+  componentDidMount() {
+    if (sessionStorage.getItem("authToken")) {
+      this.setState({ loggedIn: true })
+    }
+  }
+
+  componentWillReceiveProps(nextProps) {
+    if (nextProps.loginSuccess) {
+      this.setState({ loggedIn: true })
+    }
+  }
+
+  componentWillMount() {
+    this.props.getStats();
+    if (sessionStorage.getItem("authToken")) {
+      this.setState({ loggedIn: true })
+    }
+  }
+
   render() {
     return (
       <div className="App">
-        <Header />
+        <Header
+          items={this.props.stats.furniture}
+          users={this.props.stats.users}
+          loggedIn={this.state.loggedIn}
+          logout={this.onLogout} />
         <main>
           <Switch>
-            <Route exact path="/" render={() => <HomePage furniture={furniture} />} />
+            <Route exact path="/" component={HomePage} />
             <Route path="/create" component={CreatePage} />
             <Route path="/profile" component={ProfilePage} />
             <Route path="/details/:id" component={DetailsPage} />
@@ -36,4 +77,19 @@ class App extends Component {
   }
 }
 
-export default App;
+function mapDispatchToProps(dispatch) {
+  return {
+    logout: () => dispatch(logoutAction()),
+    getStats: () => dispatch(fetchStatsAction())
+
+  }
+}
+
+function mapStateToProps(state) {
+  return {
+    loginSuccess: state.login.success,
+    stats: state.stats
+  }
+}
+
+export default withRouter(connect(mapStateToProps, mapDispatchToProps)(App));

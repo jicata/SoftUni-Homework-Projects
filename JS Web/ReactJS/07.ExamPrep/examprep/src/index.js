@@ -10,7 +10,6 @@ import { createStore, combineReducers, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
 import { Provider } from 'react-redux';
 
-console.log(reducers);
 const store = createStore(combineReducers(reducers), applyMiddleware(thunk));
 
 
