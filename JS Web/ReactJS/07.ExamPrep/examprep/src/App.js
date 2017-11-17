@@ -63,7 +63,7 @@ class App extends Component {
         <main>
           <Switch>
             <Route exact path="/" component={HomePage} />
-            <Route path="/:page" component={HomePage} />
+            <Route path="/view/:page" component={HomePage} />
             <Route path="/create" component={CreatePage} />
             <Route path="/profile" component={ProfilePage} />
             <Route path="/details/:id" component={DetailsPage} />

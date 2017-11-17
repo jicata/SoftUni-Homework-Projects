@@ -29,7 +29,13 @@ async function fetchPage(pageNumber) {
 }
 
 async function fetchDetails(furnitureId) {
-    const response = await fetch(hostUrl + "furniture/details/" + furnitureId)
+    const response = await fetch(hostUrl + "furniture/details/" + furnitureId, {
+        method: 'GET',
+        headers: {
+            'Content-Type': 'application/json',
+            'Authorization': `bearer ${sessionStorage.authToken}`
+        }
+    })
     return response.json();
 }
 
@@ -43,4 +49,16 @@ async function fetchStats() {
     return response.json();
 }
 
-export { register, login, fetchPage, fetchDetails, fetchSearchPage, fetchStats }
+async function createFurniture(payload) {
+    const response = await fetch(hostUrl + 'furniture/create/', {
+        method: 'POST',
+        headers: {
+            Authorization: `bearer ${sessionStorage.authToken}`,
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(payload)
+    })
+    return response.json();
+}
+
+export { register, login, fetchPage, fetchDetails, fetchSearchPage, fetchStats, createFurniture }
