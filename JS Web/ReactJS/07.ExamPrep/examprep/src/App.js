@@ -46,10 +46,10 @@ class App extends Component {
   }
 
   componentWillMount() {
-    this.props.getStats();
     if (sessionStorage.getItem("authToken")) {
       this.setState({ loggedIn: true })
     }
+    this.props.getStats();
   }
 
   render() {
@@ -63,6 +63,7 @@ class App extends Component {
         <main>
           <Switch>
             <Route exact path="/" component={HomePage} />
+            <Route path="/:page" component={HomePage} />
             <Route path="/create" component={CreatePage} />
             <Route path="/profile" component={ProfilePage} />
             <Route path="/details/:id" component={DetailsPage} />
