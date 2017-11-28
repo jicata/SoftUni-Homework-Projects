@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Budget Planner</title>
+    <link rel="stylesheet" href="style/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="style/site.css" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar bg-secondary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <a class="nav-link" href="monthly.html">Monthly Balance</a>
+                        <a class="nav-link" href="yearly.html">Yearly Balance</a>
+                        <a class="nav-link" href="#">Logout</a>
+                        <a class="nav-link" href="login.html">Login</a>
+                        <a class="nav-link" href="register.html">Register</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row space-top">
+                <div class="col-md-12">
+                    <h1>Add Expenses</h1>
+                    <h3>November 2017</h3>
+                </div>
+            </div>
+            <div class="row space-top">
+                <div class="col-md-10">
+                    <form>
+                        <legend>Add a new expense</legend>
+                        <div class="form-group">
+                            <label class="col-md-2" for="name">Name:</label>
+                            <input class="col-md-2" name="name" type="text" />
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-2" for="category">Category:</label>
+                            <select class="col-md-2 pl-2" name="category">
+                                <option>Non-essential</option>
+                                <option>Fixed</option>
+                                <option>Variable</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-2" for="cost">Cost:</label>
+                            <input class="col-md-2" name="cost" type="number" />
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-2" for="paymentDate">Payment Date:</label>
+                            <input class="col-md-2" name="paymentDate" type="text" />
+                        </div>
+                        <input type="submit" class="btn btn-secondary" value="Add" />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container modal-footer">
+            <p>Budget Planner &copy; SoftUni 2017</p>
+        </div>
+    </footer>
+</body>
+
+</html>

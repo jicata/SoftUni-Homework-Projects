@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Budget Planner</title>
+    <link rel="stylesheet" href="style/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="style/site.css" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-secondary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <a class="nav-link active" href="monthly.html">Monthly Balance</a>
+                        <a class="nav-link" href="yearly.html">Yearly Balance</a>
+                        <a class="nav-link" href="#">Logout</a>
+                        <a class="nav-link" href="login.html">Login</a>
+                        <a class="nav-link" href="register.html">Register</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row space-top">
+                <div class="col-md-12">
+                    <h1>Welcome to Budget Planner</h1>
+                </div>
+            </div>
+            <div class="row space-top ">
+                <div class="col-md-12 ">
+                    <div class="card bg-secondary">
+                        <div class="card-body">
+                            <blockquote class="card-blockquote">
+                                <h2 id="month">November 2017</h2>
+                                <div class="row">
+                                    <div class="col-md-3 space-top">
+                                        <h4>Planner</h4>
+                                        <form>
+                                            <div class="form-group">
+                                                <label class="form-control-label" for="income">Income:</label>
+                                                <input class="form-control" name="income" type="number">
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="form-control-label" for="budget">Budget:</label>
+                                                <input class="form-control" name="budget" type="number">
+                                            </div>
+                                            <input type="submit" class="btn btn-secondary" value="Save" />
+                                        </form>
+                                    </div>
+                                    <div class="col-md-8 space-top">
+                                        <div class="row">
+                                            <h4 class="col-md-9">Expenses</h4>
+                                            <a href="expenses.html" class="btn btn-secondary ml-2 mb-2">Add expenses</a>
+                                        </div>
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th>Name</th>
+                                                    <th>Category</th>
+                                                    <th>Cost</th>
+                                                    <th>Payment Date</th>
+                                                    <th></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Snacks</td>
+                                                    <td>Non-essential</td>
+                                                    <td>15.00</td>
+                                                    <td>30-11-2017</td>
+                                                    <td>
+                                                        <a href="#" class="btn btn-secondary">Delete</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Rent</td>
+                                                    <td>Fixed</td>
+                                                    <td>330.00</td>
+                                                    <td>15-11-2017</td>
+                                                    <td>
+                                                        <a href="#" class="btn btn-secondary">Delete</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Gasoline</td>
+                                                    <td>Variable</td>
+                                                    <td>50.00</td>
+                                                    <td>-</td>
+                                                    <td>
+                                                        <a href="#" class="btn btn-secondary">Delete</a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container modal-footer">
+            <p>Budget Planner &copy; SoftUni 2017</p>
+        </div>
+    </footer>
+</body>
+
+</html>
