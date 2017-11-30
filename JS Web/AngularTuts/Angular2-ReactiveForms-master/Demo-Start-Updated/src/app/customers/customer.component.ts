@@ -13,16 +13,16 @@ function ratingRange(min: number, max: number): ValidatorFn {
     }
 }
 
-function emailMatcher(c:AbstractControl){
+function emailMatcher(c: AbstractControl) {
     let emailControl = c.get('email');
     let emailConfirmControl = c.get('confirmEmail');
-    if(emailControl.pristine || emailConfirmControl.pristine){
+    if (emailControl.pristine || emailConfirmControl.pristine) {
         return null;
     }
-    if(emailControl.value === emailConfirmControl.value){
+    if (emailControl.value === emailConfirmControl.value) {
         return null;
     }
-    return {'match': true};
+    return { 'match': true };
 }
 
 
@@ -33,9 +33,15 @@ function emailMatcher(c:AbstractControl){
 export class CustomerComponent implements OnInit {
     customerForm: FormGroup;
     customer: Customer = new Customer();
+    errorMessages: {};
+
+    private validationMessages = {
+        required: 'This field is required',
+        pattern: 'Please enter valid input'
+    }
 
     constructor(private fb: FormBuilder) {
-
+        this.errorMessages = {};
     }
 
     ngOnInit(): void {
@@ -45,15 +51,42 @@ export class CustomerComponent implements OnInit {
             emailGroup: this.fb.group({
                 email: ['', [Validators.required, Validators.pattern("[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+")]],
                 confirmEmail: ['', Validators.required],
-            },{validator:emailMatcher}),  
+            }, { validator: emailMatcher }),
             phone: '',
             notification: 'email',
-            rating: ['', ratingRange(1,5)],
+            rating: ['', ratingRange(1, 5)],
             sendCatalog: (true)
         });
 
         this.customerForm.get('notification').valueChanges
-            .subscribe(value=>this.setNotification(value));
+            .subscribe(value => this.setNotification(value));
+
+        this.subscribeAllFormControlsToErrorMessage(this.customerForm);
+
+        // const emailControl = this.customerForm.get('emailGroup.email');
+        // emailControl.valueChanges.subscribe(value =>
+        //     this.setMessage(emailControl, 'email'))
+    }
+
+    subscribeAllFormControlsToErrorMessage(form: FormGroup): void {
+        for (let item in form.controls) {
+            let control = form.controls[item];
+           // console.log(control);
+            if((control as FormGroup).controls){
+                this.subscribeAllFormControlsToErrorMessage((control as FormGroup));
+            }
+            control.valueChanges.subscribe(value =>
+                this.setMessage(control, item));
+        }
+    }
+
+    setMessage(c: AbstractControl, name: string): void {
+
+        this.errorMessages[name] = ''
+        if ((c.touched || c.dirty) && c.errors) {
+            this.errorMessages[name] = Object.keys(c.errors).map(key =>
+                this.validationMessages[key]).join(' ');
+        }
     }
 
     populateTestData(): void {
