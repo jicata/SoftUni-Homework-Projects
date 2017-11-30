@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { FormGroup, FormBuilder, Validators, AbstractControl, ValidatorFn } from '@angular/forms';
+import { FormGroup, FormBuilder, Validators, AbstractControl, ValidatorFn, FormArray } from '@angular/forms';
 
 import { Customer } from './customer';
-
+import 'rxjs/add/operator/debounceTime';
 
 function ratingRange(min: number, max: number): ValidatorFn {
     return (c: AbstractControl): { [key: string]: boolean } | null => {
@@ -35,9 +35,15 @@ export class CustomerComponent implements OnInit {
     customer: Customer = new Customer();
     errorMessages: {};
 
+    get addresses(): FormArray{
+        return <FormArray>this.customerForm.get('addresses');
+    }
+
     private validationMessages = {
         required: 'This field is required',
-        pattern: 'Please enter valid input'
+        pattern: 'Please enter valid input',
+        match: 'The provided inputs don\'t match',
+        range: 'The provided input is outside the required range'
     }
 
     constructor(private fb: FormBuilder) {
@@ -55,7 +61,8 @@ export class CustomerComponent implements OnInit {
             phone: '',
             notification: 'email',
             rating: ['', ratingRange(1, 5)],
-            sendCatalog: (true)
+            sendCatalog: (true),
+            addresses: this.fb.array([this.buildAddress()])
         });
 
         this.customerForm.get('notification').valueChanges
@@ -63,25 +70,36 @@ export class CustomerComponent implements OnInit {
 
         this.subscribeAllFormControlsToErrorMessage(this.customerForm);
 
-        // const emailControl = this.customerForm.get('emailGroup.email');
-        // emailControl.valueChanges.subscribe(value =>
-        //     this.setMessage(emailControl, 'email'))
+    }
+
+    buildAddress(): FormGroup {
+        return this.fb.group({
+            addressType: 'home',
+            street1: '',
+            street2: '',
+            city: '',
+            district: '',
+            zip: ''
+        });
+    }
+
+    addAddress(): void {
+        this.addresses.push(this.buildAddress());
     }
 
     subscribeAllFormControlsToErrorMessage(form: FormGroup): void {
         for (let item in form.controls) {
             let control = form.controls[item];
-           // console.log(control);
-            if((control as FormGroup).controls){
+            if ((control as FormGroup).controls) {
                 this.subscribeAllFormControlsToErrorMessage((control as FormGroup));
             }
-            control.valueChanges.subscribe(value =>
+            control.valueChanges.debounceTime(1001).subscribe(value =>
                 this.setMessage(control, item));
         }
     }
 
     setMessage(c: AbstractControl, name: string): void {
-
+        console.log(this.errorMessages);
         this.errorMessages[name] = ''
         if ((c.touched || c.dirty) && c.errors) {
             this.errorMessages[name] = Object.keys(c.errors).map(key =>
