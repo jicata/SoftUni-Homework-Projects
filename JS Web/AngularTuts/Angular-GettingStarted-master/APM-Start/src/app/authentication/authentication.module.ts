@@ -4,6 +4,8 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { LoginComponent } from './login.component';
 import { SharedModule } from '../shared/shared.module';
 import { AuthenticationRoutingModule } from './authentication-router.module';
+import { RegisterComponent } from './register.component';
+import { AuthenticationService } from './authentication.service';
 
 @NgModule({
     imports: [
@@ -12,8 +14,9 @@ import { AuthenticationRoutingModule } from './authentication-router.module';
         ReactiveFormsModule
     ],
     declarations: [
-        LoginComponent
+        LoginComponent,
+        RegisterComponent
     ],
-    providers: [],
+    providers: [AuthenticationService],
 })
 export class AuthenticationModule { }

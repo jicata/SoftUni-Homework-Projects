@@ -7,7 +7,8 @@ import { AppComponent } from './app.component';
 import { WelcomeComponent } from './home/welcome.component';
 import { ProductModule } from './products/product.module';
 import { AppRoutingModule } from './app-routing.module';
-import { AuthenticationModule} from './authentication/authenticaion.module';
+import { AuthenticationModule} from './authentication/authentication.module';
+import { HttpModule } from '@angular/http';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { AuthenticationModule} from './authentication/authenticaion.module';
   ],
   imports: [
     BrowserModule,
+    HttpModule,
     HttpClientModule,
     ProductModule,
     AuthenticationModule,
