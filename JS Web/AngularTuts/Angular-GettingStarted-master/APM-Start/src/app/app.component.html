@@ -15,9 +15,12 @@
         <li *ngIf="!userIsLoggedIn()">
           <a [routerLink]="['/register']">Register</a>
         </li>
+        <li *ngIf="userIsLoggedIn() && userIsAdmin()">
+          <a [routerLink]="['/administration']">Administration</a>
+        </li>
         <li *ngIf="userIsLoggedIn()">
           <a (click)="logout($event)" href="#">Logout</a>
-        </li>
+        </li>    
       </ul>
     </div>
   </nav>

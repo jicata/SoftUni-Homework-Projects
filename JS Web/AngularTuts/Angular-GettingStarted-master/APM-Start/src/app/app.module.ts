@@ -9,6 +9,7 @@ import { ProductModule } from './products/product.module';
 import { AppRoutingModule } from './app-routing.module';
 import { AuthenticationModule} from './authentication/authentication.module';
 import { HttpModule } from '@angular/http';
+import { AdministrationModule } from './administration/administration.module';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { HttpModule } from '@angular/http';
     HttpClientModule,
     ProductModule,
     AuthenticationModule,
-    AppRoutingModule
+    AdministrationModule,
+    AppRoutingModule,
   ],
   bootstrap: [AppComponent]
 })

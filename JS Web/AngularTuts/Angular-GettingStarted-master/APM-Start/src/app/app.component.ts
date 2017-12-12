@@ -17,12 +17,12 @@ constructor(private router: Router){
     return window.localStorage.authtoken !== undefined;
   }
 
-  logout(e){
-    debugger;
-    window.localStorage.clear();
-    this.router.navigate(['/welcome'])
-    
+  userIsAdmin(): boolean{
+    return window.localStorage.isAdmin !== undefined;
   }
 
- 
+  logout(e){
+    window.localStorage.clear();
+    this.router.navigate(['/welcome']) 
+  }
 }

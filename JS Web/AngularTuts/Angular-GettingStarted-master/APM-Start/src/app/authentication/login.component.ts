@@ -65,8 +65,8 @@ export class LoginComponent implements OnInit {
   }
 
   saveCredentials(response: any): void{
-    console.log(response);
     window.localStorage.setItem('authtoken', response._kmd.authtoken);
+    this.authService.setRole(response);
     this.router.navigate(['/welcome'])  
   }
 

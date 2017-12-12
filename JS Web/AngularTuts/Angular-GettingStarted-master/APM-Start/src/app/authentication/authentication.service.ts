@@ -9,6 +9,11 @@ import 'rxjs/add/operator/map';
 import 'rxjs/add/observable/of';
 
 import { Login } from './login';
+import { Router } from '@angular/router';
+
+let roles = {
+    "a9601694-01dc-47d4-a0d4-cd4df746c4f4": "administrator"
+}
 
 @Injectable()
 export class AuthenticationService {
@@ -17,7 +22,7 @@ export class AuthenticationService {
     private appSecret: string = "5752edceab124720ba0b10909d875b63"
     private basicAuthCredentials = `${this.appKey}:${this.appSecret}`;
 
-    constructor(private http: Http) { }
+    constructor(private http: Http, private router: Router) { }
 
     registerUser(newUser: {}): Observable<Response> {
         console.log(newUser);
@@ -45,6 +50,24 @@ export class AuthenticationService {
             .catch(this.handleError);
     }
 
+    isAuthenticated(){
+        if(window.localStorage.authtoken){
+            return true;
+        }
+        this.router.navigate(['/login']);
+
+    }
+
+    setRole(userInfo: any){
+        let userRole = userInfo._kmd.roles 
+            ? userInfo._kmd.roles[0].roleId
+            : undefined;
+        if(roles[userRole]){
+            window.localStorage.setItem("isAdmin", "true");
+        }
+        
+    }
+
     private handleError(error: Response): Observable<any> {
         console.error(error);
         return Observable.throw(error.json().error || 'Server error');
@@ -54,4 +77,6 @@ export class AuthenticationService {
         let body = response.json();
         return body.data || {};
     }
+
+
 }
