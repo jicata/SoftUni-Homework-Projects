@@ -6,6 +6,7 @@ import { SharedModule } from '../shared/shared.module';
 import { AuthenticationRoutingModule } from './authentication-router.module';
 import { RegisterComponent } from './register.component';
 import { AuthenticationService } from './authentication.service';
+import { AdministrationGuardService } from './administration-guard.service';
 
 @NgModule({
     imports: [
@@ -17,6 +18,8 @@ import { AuthenticationService } from './authentication.service';
         LoginComponent,
         RegisterComponent
     ],
-    providers: [AuthenticationService],
+    providers: [
+        AuthenticationService, 
+        AdministrationGuardService],
 })
 export class AuthenticationModule { }

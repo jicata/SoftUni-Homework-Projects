@@ -37,7 +37,7 @@ export class AuthenticationService {
             .catch(this.handleError);
     }
 
-    loginUser(user: Login): Observable<Response>{
+    loginUser(user: Login): Observable<Response> {
 
         let url = `${this.baseUrl}/user/${this.appKey}/login`;
         let headers = new Headers({
@@ -45,29 +45,64 @@ export class AuthenticationService {
             'Authorization': `Basic ${btoa(this.basicAuthCredentials)}`
         });
         let options = new RequestOptions({ headers: headers });
-        return this.http.post(url,user, options)
+        return this.http.post(url, user, options)
             .map((response: Response) => response.json())
             .catch(this.handleError);
     }
 
-    isAuthenticated(){
-        if(window.localStorage.authtoken){
+    isAuthenticated() {
+        if (window.localStorage.authtoken) {
             return true;
         }
         this.router.navigate(['/login']);
 
     }
 
-    setRole(userInfo: any){
-        let userRole = userInfo._kmd.roles 
+    setIdAndRole(userInfo: any) {
+        let userRole = userInfo._kmd.roles
             ? userInfo._kmd.roles[0].roleId
             : undefined;
-        if(roles[userRole]){
+        if (roles[userRole]) {
             window.localStorage.setItem("isAdmin", "true");
         }
-        
+        let userId = userInfo._id;
+        window.localStorage.setItem("userId", userId);
     }
 
+    isUserInRole(userId: string, role: string) {
+        let roleId = '';
+        for (let item in roles) {
+            if (roles[item] == role) {
+                roleId = item;
+            }
+        }
+        let url = `${this.baseUrl}/user/${this.appKey}/${userId}`;
+        let headers = new Headers({
+            'Content-Type': 'application/json',
+            'Authorization': `Kinvey ${window.localStorage.authtoken}`
+        });
+        let options = new RequestOptions({ headers: headers });
+        let k = this.http.get(url, options)
+            .map((response: Response) => response.json())
+            .catch(this.handleError)
+        return this.userInRole(k, roleId);
+
+    }
+
+    private userInRole(userInfo: any, roleId: string): boolean {
+        debugger;
+        let userRole = userInfo._kmd.roles
+            ? userInfo._kmd.roles[0].roleId
+            : undefined;
+        if (!userRole) {
+            return false;
+        }
+        if (roles[roleId]) {
+            console.log("yahhhhh")
+            return true;
+        }
+        return false;
+    }
     private handleError(error: Response): Observable<any> {
         console.error(error);
         return Observable.throw(error.json().error || 'Server error');

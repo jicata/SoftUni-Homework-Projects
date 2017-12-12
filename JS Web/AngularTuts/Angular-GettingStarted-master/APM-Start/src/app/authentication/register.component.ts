@@ -91,7 +91,7 @@ export class RegisterComponent implements OnInit {
 
   handleResponse(response: any): void {
     window.localStorage.setItem('authtoken', response._kmd.authtoken);
-    this.authenticationService.setRole(response);
+    this.authenticationService.setIdAndRole(response);
     this.router.navigate(['/welcome'])
   }
 }
