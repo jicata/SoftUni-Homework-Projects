@@ -69,6 +69,18 @@ export class AuthenticationService {
         window.localStorage.setItem("userId", userId);
     }
 
+    getAllUsers(){
+        let url = `${this.baseUrl}/user/${this.appKey}`;
+        let headers = new Headers({
+            'Content-Type': 'application/json',
+            'Authorization': `Kinvey ${window.localStorage.authtoken}`
+        });
+        let options = new RequestOptions({ headers: headers });
+        return this.http.get(url, options)
+            .map((response: Response) => response.json())
+            .catch(this.handleError)
+    }
+
     isUserInRole(userId: string, role: string) {
         let roleId = '';
         for (let item in roles) {
