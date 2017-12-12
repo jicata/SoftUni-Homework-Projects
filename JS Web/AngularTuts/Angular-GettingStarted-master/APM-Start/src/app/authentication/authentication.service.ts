@@ -82,15 +82,14 @@ export class AuthenticationService {
             'Authorization': `Kinvey ${window.localStorage.authtoken}`
         });
         let options = new RequestOptions({ headers: headers });
-        let k = this.http.get(url, options)
-            .map((response: Response) => response.json())
+        return this.http.get(url, options)
+            .map((response: Response) => this.userInRole(response.json(), roleId))
             .catch(this.handleError)
-        return this.userInRole(k, roleId);
 
     }
 
     private userInRole(userInfo: any, roleId: string): boolean {
-        debugger;
+        console.log("yahhhhh")
         let userRole = userInfo._kmd.roles
             ? userInfo._kmd.roles[0].roleId
             : undefined;
@@ -98,7 +97,7 @@ export class AuthenticationService {
             return false;
         }
         if (roles[roleId]) {
-            console.log("yahhhhh")
+         
             return true;
         }
         return false;
