@@ -1,27 +1,35 @@
 import { Injectable } from "@angular/core";
-import { HttpClient } from "@angular/common/http";
+import { Http, Response, Headers, RequestOptions } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/catch';
 import 'rxjs/add/operator/do';
 
 import { IProduct } from "./product";
 import { HttpErrorResponse } from "@angular/common/http/src/response";
+import { Credentials } from "../../api/credentials";
 
 @Injectable()
 export class ProductService {
-    private productUrl = './api/products/products.json';
 
-    constructor(private http: HttpClient) {
+    constructor(private http: Http) {
 
     }
 
     getProducts(): Observable<IProduct[]> {
-        return this.http.get<IProduct[]>(this.productUrl)
-                    .do(data=>data)
-                    .catch(this.handleError);
+        ///appdata/kid_rJkenbhZf/products
+        let url = `${Credentials.baseUrl}/appdata/${Credentials.appKey}/products`;
+        let headers = new Headers({
+            'Content-Type': 'application/json',
+            'Authorization': `Basic ${btoa(Credentials.masterCredentials)}`
+        });
+        let options = new RequestOptions({ headers: headers });
+    
+        return this.http.get(url,options)
+            .map((response: Response) => response.json())
+            .catch(this.handleError);
     }
 
-    private handleError(err: HttpErrorResponse){
+    private handleError(err: HttpErrorResponse) {
         console.log(err.message);
         return Observable.throw(err.message);
     }

@@ -5,6 +5,8 @@ import { RouterModule } from '@angular/router';
 import { ProductGuardService } from './product-guard.service';
 import { ProductDetailComponent } from './product-detail.component';
 import { ProductListComponent } from './product-list.component';
+import { ProductEditComponent } from './product-edit.component';
+import { AdministrationGuardService } from '../authentication/administration-guard.service';
 
 
 @NgModule({
@@ -16,6 +18,11 @@ import { ProductListComponent } from './product-list.component';
         path: 'products/:id',
         canActivate: [ProductGuardService],
         component: ProductDetailComponent
+      },
+      {
+        path: 'edit/:id',
+        canActivate: [AdministrationGuardService],
+        component: ProductEditComponent
       }
     ])
   ],

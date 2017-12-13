@@ -50,6 +50,7 @@
                         <td>{{product.price | currency:'EUR':true:'1.2-2'}}</td>
                         <td><pm-stars [rating]='product.starRating'
                             (ratingClicked)='onRatingClicked($event)'></pm-stars></td>
+                        <td><a class="btn btn-primary" [routerLink]="['/edit', product._id]">Edit</a></td>
                     </tr>
                 </tbody>
             </table>
