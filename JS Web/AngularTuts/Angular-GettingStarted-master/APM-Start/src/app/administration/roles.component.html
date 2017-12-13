@@ -1,0 +1,23 @@
+<div class="panel-body">
+    <form class="form-horizontal" novalidate (ngSubmit)="addUserToRole()" [formGroup]="userInRoleForm">
+      <fieldset>
+        <div class="form-group">
+          <label class="col-md-2 control-label" for="userId">Username</label>
+          <div class="col-md-8">
+            <select class="form-control" id="userId" type="select" formControlName="userId">            
+              <option *ngFor='let user of users' [value]="user._id">{{user.username}}</option>         
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-md-2 control-label" for="usernameId">Role</label>
+          <div class="col-md-8">
+            <select class="form-control" id="role" type="select" formControlName="role">
+              <option *ngFor='let role of roles' [value]="role._id">{{role.name}}</option>
+            </select>
+          </div>
+        </div>
+        <input type="submit" value="Assign Role" />
+      </fieldset>
+    </form>
+  </div>

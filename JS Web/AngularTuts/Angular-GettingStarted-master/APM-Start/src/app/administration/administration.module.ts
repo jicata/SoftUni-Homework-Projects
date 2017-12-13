@@ -5,6 +5,8 @@ import { AdministrationRoutingModule } from './administration-routing.module';
 import { AdministrationComponent } from './administration.component';
 import { AdministrationGuardService } from '../authentication/administration-guard.service';
 import { ReactiveFormsModule } from '@angular/forms';
+import { AdministrationService } from './administration-service';
+import { RolesComponent } from './roles.component';
 
 @NgModule({
   imports: [
@@ -12,8 +14,10 @@ import { ReactiveFormsModule } from '@angular/forms';
     AdministrationRoutingModule,
     ReactiveFormsModule 
   ],
-  declarations: [AdministrationComponent],
-  providers: [AdministrationGuardService]
+  declarations: [AdministrationComponent, RolesComponent],
+  providers: [
+    AdministrationGuardService,
+    AdministrationService]
 
 })
 export class AdministrationModule { }
