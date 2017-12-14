@@ -3,6 +3,7 @@ import { FormBuilder, FormGroup, Validators, AbstractControl, ValidatorFn } from
 import { ActivatedRoute, Router } from '@angular/router';
 import { IProduct } from './product';
 import { ProductService } from './product.service';
+import { forEach } from '@angular/router/src/utils/collection';
 
 function rangeValidator(min: number, max: number): ValidatorFn {
   return (c: AbstractControl): { [key: string]: boolean } | null => {
@@ -19,7 +20,7 @@ function rangeValidator(min: number, max: number): ValidatorFn {
   styleUrls: ['./product-edit.component.css']
 })
 export class ProductEditComponent implements OnInit {
-  pageTitle: string = "Create Product"
+  pageTitle: string;
   productForm: FormGroup
   productId: string;
   errorMessages: {}
@@ -35,17 +36,22 @@ export class ProductEditComponent implements OnInit {
   constructor(private fb: FormBuilder,
     private route: ActivatedRoute,
     private router: Router,
-    private productService: ProductService ) {
+    private productService: ProductService) {
     this.errorMessages = {};
   }
 
   ngOnInit() {
     this.route.params.subscribe(
       params => {
-        console.log(params['id']);
+        let productId = params['id'];
+        if (productId) {
+          this.pageTitle = 'Edit Product'
+          this.getProduct(productId);
+        } else {
+          this.pageTitle = "Create Product";
+        }
       }
     )
-    this.productId ='kur';
     this.productForm = this.fb.group({
       productName: ['', [Validators.required]],
       productCode: ['', [Validators.required]],
@@ -57,6 +63,26 @@ export class ProductEditComponent implements OnInit {
     })
 
     this.subscribeAllFormControlsToErrorMessage(this.productForm);
+  }
+
+  getProduct(id: string) {
+    this.productService.getProduct(id)
+      .subscribe(
+      (product: IProduct) => this.onProductRetrieved(product),
+    )
+  }
+
+  onProductRetrieved(product: IProduct) {
+    this.product = product;
+    this.productForm.patchValue({
+      productId: this.product._id,
+      productName: this.product.productName,
+      productCode: this.product.productCode,
+      starRating: this.product.starRating,
+      description: this.product.description,
+      price: this.product.price,
+      imageUrl: this.product.imageUrl
+    });
   }
 
   subscribeAllFormControlsToErrorMessage(form: FormGroup): void {
@@ -78,16 +104,42 @@ export class ProductEditComponent implements OnInit {
     }
   }
 
-  productSubmit(){
+  productSubmit() {
     //console.log(this.productForm.value);
     let formValues = this.productForm.value;
     let product = Object.assign({}, this.product, formValues);
-    product.releaseDate = Date.now();
-    if(product.productId){
-      
-    }else{
-      this.productService.createProduct(product);
+    let valid = this.validateProduct(product);
+    if (!valid) {
+      alert("One or more fields were invalid")
+      this.router.navigate(['/products'])
+      return;
     }
-
+    product.releaseDate = Date.now();
+    if (product._id) {
+      console.log(product._id)
+      this.productService.updateProduct(product)
+        .subscribe(data => {
+          this.router.navigate(['/products'])
+        })
+    } else {
+      this.productService.createProduct(product)
+        .subscribe(data => {
+          this.router.navigate(['/products'])
+        })
+    }
+  }
+  validateProduct(product: IProduct): boolean {
+    for (let property in product) {
+      if (property !== 'description' && !product[property]) {
+        return false;
+      }
+      if(property == 'price' && (product[property] > 10000 || product[property] < 0)){
+        return false;
+      }
+      if(property == 'starRating' && (product[property] < 0 || product[property] > 5)){
+        return false;
+      }
+    }
+    return true;
   }
 }

@@ -16,7 +16,6 @@ import { AdministrationGuardService } from '../authentication/administration-gua
       { path: 'products', component: ProductListComponent },
       {
         path: 'products/:id',
-        canActivate: [ProductGuardService],
         component: ProductDetailComponent
       },
       {

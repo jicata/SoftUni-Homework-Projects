@@ -18,7 +18,7 @@
         <div class="form-group" [ngClass]="{'has-error': errorMessages.productCode }">
           <label class="col-md-2 control-label" for="productCode">Product productCode</label>
           <div class="col-md-8">
-            <input class="form-control" id="productCode" type="text" placeholder="Product productCode" formControlName="productCode" />
+            <input class="form-control" id="productCode" type="text" placeholder="Product code" formControlName="productCode" />
             <span class="help-block" *ngIf="errorMessages.productCode">
               {{errorMessages.productCode}}
             </span>

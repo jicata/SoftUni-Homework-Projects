@@ -9,9 +9,9 @@ import 'rxjs/add/operator/debounceTime';
 import { AuthenticationService } from './authentication.service';
 import { Register } from './register';
 
-function passwordMatcher(c: AbstractControl): { [key: string]: boolean } | null {
-  let passwordControl = c.get('password');
-  let confirmPasswordControl = c.get('confirmPassword');
+function emailMatcher(c: AbstractControl): { [key: string]: boolean } | null {
+  let passwordControl = c.get('email');
+  let confirmPasswordControl = c.get('confirmEmail');
   if (passwordControl.pristine || confirmPasswordControl.pristine) {
     return null;
   }
@@ -47,10 +47,11 @@ export class RegisterComponent implements OnInit {
 
     this.registerForm = this.formBuilder.group({
       username: ['', Validators.required],
-      passwordGroup: this.formBuilder.group({
-        password: ['', Validators.required],
-        confirmPassword: ['', Validators.required]
-      }, { validator: passwordMatcher })
+      emailGroup: this.formBuilder.group({
+        email: ['', [Validators.required,Validators.pattern('[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+')]],
+        confirmEmail: ['', Validators.required]
+      }, { validator: emailMatcher }),
+      password: ['', Validators.required],
     })
 
     this.subscribeAllFormControlsToErrorMessage(this.registerForm);
@@ -77,9 +78,17 @@ export class RegisterComponent implements OnInit {
 
   registerUser(): void {
     var postData = this.registerForm.value;
+    let isUserValid = this.validateRegistration(postData);
+    if (!isUserValid) {
+      alert("One or more invalid fields");
+      this.registerForm.reset();
+      this.router.navigate(['/register']);
+      return;
+    }
     var newUser = {
       username: postData.username,
-      password: postData.passwordGroup.password
+      password: postData.password,
+      email: postData.emailGroup.email,
     };
 
     this.authenticationService.registerUser(newUser)
@@ -93,5 +102,27 @@ export class RegisterComponent implements OnInit {
     window.localStorage.setItem('authtoken', response._kmd.authtoken);
     this.authenticationService.setIdAndRole(response);
     this.router.navigate(['/welcome'])
+  }
+
+  validateRegistration(postData: any): boolean {
+    
+    if (!postData.emailGroup.email
+      || !postData.emailGroup.confirmEmail
+      || !postData.username
+      || !postData.password) {
+      return false;
+    }
+    if (postData.emailGroup.email.length == 0
+      || postData.emailGroup.confirmEmail.length == 0
+      || (postData.emailGroup.confirmEmail !== postData.emailGroup.email)) {
+      return false;
+    }
+    if(!postData.emailGroup.email.match(/[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+/)){
+      return false;
+    }
+    if (postData.username.length == 0 || postData.password == 0) {
+      return false;
+    }
+    return true;
   }
 }

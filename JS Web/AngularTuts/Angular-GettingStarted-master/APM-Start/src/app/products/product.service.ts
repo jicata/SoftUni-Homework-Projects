@@ -15,8 +15,33 @@ export class ProductService {
 
     }
 
+    updateProduct(product: IProduct){
+        let url = `${Credentials.baseUrl}/appdata/${Credentials.appKey}/products/${product._id}`;
+        let headers = new Headers({
+            'Content-Type': 'application/json',
+            'Authorization': `Kinvey ${window.localStorage.getItem('authtoken')}`
+        });
+        let options = new RequestOptions({ headers: headers });
+    
+        return this.http.put(url,product, options)
+            .map((response: Response) => response.json())
+            .catch(this.handleError);
+    }
+
+    getProduct(id:string): Observable<IProduct>{
+        let url = `${Credentials.baseUrl}/appdata/${Credentials.appKey}/products/${id}`;
+        let headers = new Headers({
+            'Content-Type': 'application/json',
+            'Authorization': `Kinvey ${window.localStorage.getItem('authtoken')}`
+        });
+        let options = new RequestOptions({ headers: headers });
+    
+        return this.http.get(url,options)
+            .map((response: Response) => response.json())
+            .catch(this.handleError);
+    }
+
     getProducts(): Observable<IProduct[]> {
-        ///appdata/kid_rJkenbhZf/products
         let url = `${Credentials.baseUrl}/appdata/${Credentials.appKey}/products`;
         let headers = new Headers({
             'Content-Type': 'application/json',

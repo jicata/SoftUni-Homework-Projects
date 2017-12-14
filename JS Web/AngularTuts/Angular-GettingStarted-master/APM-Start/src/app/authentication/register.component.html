@@ -24,37 +24,55 @@
             </span>
           </div>
         </div>
-      <div formGroupName="passwordGroup"
-      [ngClass]="{'has-error': registerForm.get('passwordGroup').errors}">
+      <div formGroupName="emailGroup"
+      [ngClass]="{'has-error': registerForm.get('emailGroup').errors}">
         <div class="form-group" 
-        [ngClass]="{'has-error': errorMessages.password }">
+        [ngClass]="{'has-error': errorMessages.email }">
           <label class="col-md-2 control-label" 
-          for="passwordId">Password</label>
+          for="emailId">Email</label>
           <div class="col-md-8">
             <input class="form-control" 
-            id="passwordId" 
-            type="password" 
-            placeholder="Password" 
-            formControlName="password" />
-            <span class="help-block" *ngIf="errorMessages.password">
-              {{errorMessages.password}}
+            id="emailId" 
+            type="text" 
+            placeholder="Email" 
+            formControlName="email" />
+            <span class="help-block" *ngIf="errorMessages.email">
+              {{errorMessages.email}}
             </span>
           </div>
         </div>
         <div class="form-group" 
-        [ngClass]="{'has-error': errorMessages.confirmPassword }">
+        [ngClass]="{'has-error': errorMessages.confirmEmail }">
           <label class="col-md-2 control-label" 
-          for="confirmPasswordId">Confirm Password</label>
+          for="confirmEmailId">Confirm Email</label>
           <div class="col-md-8">
             <input class="form-control" 
-            id="confirmPasswordId" 
-            type="password" 
-            placeholder="Confirm Password" 
-            formControlName="confirmPassword" />
-            <span class="help-block" *ngIf="errorMessages.confirmPassword">
-              {{errorMessages.confirmPassword}}
+            id="confirmEmailId" 
+            type="text" 
+            placeholder="Confirm Email" 
+            formControlName="confirmEmail" />
+            <span class="help-block" *ngIf="errorMessages.confirmEmail">
+              {{errorMessages.confirmEmail}}
             </span>
+            <span *ngIf="errorMessages.emailGroup">
+               {{errorMessages.emailGroup}}
+            </span> 
           </div>
+        </div>
+      </div>
+      <div class="form-group" 
+      [ngClass]="{'has-error': errorMessages.password }">
+        <label class="col-md-2 control-label" 
+        for="passwordId">Password</label>
+        <div class="col-md-8">
+          <input class="form-control" 
+          id="passwordId" 
+          type="password" 
+          placeholder="Password" 
+          formControlName="password" />
+          <span class="help-block" *ngIf="errorMessages.password">
+            {{errorMessages.password}}
+          </span>
         </div>
       </div>
       </fieldset>

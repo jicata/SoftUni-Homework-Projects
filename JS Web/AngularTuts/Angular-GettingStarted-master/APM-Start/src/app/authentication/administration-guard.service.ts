@@ -25,6 +25,8 @@ export class AdministrationGuardService implements CanActivate {
         if(result){
           return true;
         }
+        this.router.navigate(['/login']);
+        return false;
       });
   }
 }
