@@ -111,7 +111,8 @@ export class ProductEditComponent implements OnInit {
     let valid = this.validateProduct(product);
     if (!valid) {
       alert("One or more fields were invalid")
-      this.router.navigate(['/products'])
+      this.productForm.reset();
+      this.router.navigate(['/create'])
       return;
     }
     product.releaseDate = Date.now();
