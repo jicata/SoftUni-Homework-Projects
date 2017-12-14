@@ -1,3 +1,64 @@
-<p>
-  product-edit works!
-</p>
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    {{pageTitle}}
+  </div>
+
+  <div class="panel-body">
+    <form class="form-horizontal" novalidate (ngSubmit)="productSubmit()" [formGroup]="productForm">
+      <fieldset>
+        <div class="form-group" [ngClass]="{'has-error': errorMessages.productName }">
+          <label class="col-md-2 control-label" for="productName">Product name</label>
+          <div class="col-md-8">
+            <input class="form-control" id="productName" type="text" placeholder="Product name" formControlName="productName" />
+            <span class="help-block" *ngIf="errorMessages.productName">
+              {{errorMessages.productName}}
+            </span>
+          </div>
+        </div>
+        <div class="form-group" [ngClass]="{'has-error': errorMessages.productCode }">
+          <label class="col-md-2 control-label" for="productCode">Product productCode</label>
+          <div class="col-md-8">
+            <input class="form-control" id="productCode" type="text" placeholder="Product productCode" formControlName="productCode" />
+            <span class="help-block" *ngIf="errorMessages.productCode">
+              {{errorMessages.productCode}}
+            </span>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-md-2 control-label" for="description">Product description</label>
+          <div class="col-md-8">
+            <input class="form-control" id="description" type="text" placeholder="Product description" formControlName="description" />
+          </div>
+        </div>
+        <div class="form-group" [ngClass]="{'has-error': errorMessages.price }">
+          <label class="col-md-2 control-label" for="price">Produc price</label>
+          <div class="col-md-8">
+            <input class="form-control" id="price" type="text" placeholder="Product price" formControlName="price" />
+            <span class="help-block" *ngIf="errorMessages.price">
+              {{errorMessages.price}}
+            </span>
+          </div>
+        </div>
+        <div class="form-group" [ngClass]="{'has-error': errorMessages.starRating }">
+          <label class="col-md-2 control-label" for="starRating">Rating</label>
+          <div class="col-md-8">
+            <input class="form-control" id="starRating" type="text" placeholder="Product rating" formControlName="starRating" />
+            <span class="help-block" *ngIf="errorMessages.starRating">
+              {{errorMessages.starRating}}
+            </span>
+          </div>
+        </div>
+        <div class="form-group" [ngClass]="{'has-error': errorMessages.imageUrl }">
+            <label class="col-md-2 control-label" for="imageUrl">Image URL</label>
+            <div class="col-md-8">
+              <input class="form-control" id="imageUrl" type="text" placeholder="Product image" formControlName="imageUrl" />
+              <span class="help-block" *ngIf="errorMessages.imageUrl">
+                {{errorMessages.imageUrl}}
+              </span>
+            </div>
+          </div>
+        <input type="hidden" formControlName="productId"/>
+      </fieldset>
+      <input type="submit" class="btn btn-primary" value="{{pageTitle}}" />
+    </form>
+  </div>

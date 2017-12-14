@@ -9,6 +9,9 @@
         <li>
           <a [routerLink]="['/products']">Product List</a>
         </li>
+        <li *ngIf="userIsLoggedIn() && userIsAdmin()">
+            <a [routerLink]="['/create']">Create Product</a>
+          </li>
         <li *ngIf="!userIsLoggedIn()">
           <a [routerLink]="['/login']">Login</a>
         </li>

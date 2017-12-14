@@ -1,52 +1,47 @@
 [
     {
-        "productId": 1,
-        "productName": "Leaf Rake",
+        "productName": "Belo Belissimo",
         "productCode": "GDN-0011",
         "releaseDate": "March 19, 2016",
-        "description": "Leaf rake with 48-inch wooden handle.",
+        "description": "Two years ago I smoked one nintendo.",
         "price": 19.95,
         "starRating": 3.2,
-        "imageUrl": "http://openclipart.org/image/300px/svg_to_png/26215/Anonymous_Leaf_Rake.png"
+        "imageUrl": "https://i.ytimg.com/vi/2gIMOPO047M/hqdefault.jpg"
     },
     {
-        "productId": 2,
-        "productName": "Garden Cart",
+        "productName": "Kilata Mother",
         "productCode": "GDN-0023",
         "releaseDate": "March 18, 2016",
-        "description": "15 gallon capacity rolling garden cart",
+        "description": "Hear this rhytm bassov",
         "price": 32.99,
         "starRating": 4.2,
-        "imageUrl": "http://openclipart.org/image/300px/svg_to_png/58471/garden_cart.png"
+        "imageUrl": "https://i.ytimg.com/vi/vBi-w06eyDw/maxresdefault.jpg"
     },
     {
-        "productId": 5,
-        "productName": "Hammer",
+        "productName": "Hazarta",
         "productCode": "TBX-0048",
         "releaseDate": "May 21, 2016",
-        "description": "Curved claw steel hammer",
+        "description": "My hip-hop is much better than your hip-hop",
         "price": 8.9,
         "starRating": 4.8,
-        "imageUrl": "http://openclipart.org/image/300px/svg_to_png/73/rejon_Hammer.png"
+        "imageUrl": "https://i1.sndcdn.com/artworks-000085247147-g13fv9-t500x500.jpg"
     },
     {
-        "productId": 8,
-        "productName": "Saw",
+        "productName": "Spens",
         "productCode": "TBX-0022",
         "releaseDate": "May 15, 2016",
-        "description": "15-inch steel blade hand saw",
+        "description": "1 2 3 the joint roll you",
         "price": 11.55,
         "starRating": 3.7,
-        "imageUrl": "http://openclipart.org/image/300px/svg_to_png/27070/egore911_saw.png"
+        "imageUrl": "https://i.ytimg.com/vi/M5MpShVGvm8/maxresdefault.jpg"
     },
     {
-        "productId": 10,
-        "productName": "Video Game Controller",
+        "productName": "Slatkaristika",
         "productCode": "GMG-0042",
         "releaseDate": "October 15, 2015",
-        "description": "Standard two-button video game controller",
+        "description": "Stop se deri ma",
         "price": 35.95,
         "starRating": 4.6,
-        "imageUrl": "http://openclipart.org/image/300px/svg_to_png/120337/xbox-controller_01.png"
+        "imageUrl": "https://popnable.com/images/singers/temp/SLATKARISTIKA_144.jpeg"
     }
 ]

@@ -23,6 +23,11 @@ import { AdministrationGuardService } from '../authentication/administration-gua
         path: 'edit/:id',
         canActivate: [AdministrationGuardService],
         component: ProductEditComponent
+      },
+      {
+        path: 'create',
+        canActivate: [AdministrationGuardService],
+        component: ProductEditComponent
       }
     ])
   ],

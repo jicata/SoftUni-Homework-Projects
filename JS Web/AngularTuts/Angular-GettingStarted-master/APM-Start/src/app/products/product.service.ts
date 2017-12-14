@@ -29,6 +29,19 @@ export class ProductService {
             .catch(this.handleError);
     }
 
+    createProduct(product: IProduct): Observable<Response>{
+        let url = `${Credentials.baseUrl}/appdata/${Credentials.appKey}/products`;
+        let headers = new Headers({
+            'Content-Type': 'application/json',
+            'Authorization': `Basic ${btoa(Credentials.masterCredentials)}`
+        });
+        let options = new RequestOptions({ headers: headers });
+    
+        return this.http.post(url,product, options)
+            .map((response: Response) => response.json())
+            .catch(this.handleError);
+    }
+
     private handleError(err: HttpErrorResponse) {
         console.log(err.message);
         return Observable.throw(err.message);

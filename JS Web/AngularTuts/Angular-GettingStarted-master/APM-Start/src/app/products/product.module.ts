@@ -8,11 +8,13 @@ import { ProductService } from './product.service';
 import { SharedModule } from './../shared/shared.module';
 import { ProductRoutingModule } from './product-routing.module';
 import { ProductEditComponent } from './product-edit.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   imports: [
     SharedModule,
-    ProductRoutingModule
+    ProductRoutingModule, 
+    ReactiveFormsModule
   ],
   declarations: [
     ProductListComponent,
